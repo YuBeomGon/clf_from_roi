@@ -1,0 +1,10 @@
+#!/bin/bash
+
+FROM beomgon/pl_deepspeed:base
+ENV PYTHONUNBUFFERED 1
+ENV SHELL /bin/bash
+WORKDIR /opt
+
+COPY *.py /opt/
+
+ENTRYPOINT ["python3", "train.py"]
