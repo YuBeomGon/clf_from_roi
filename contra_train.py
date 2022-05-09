@@ -94,15 +94,15 @@ class PapsClsModel(LightningModule) :
         # self.is_contra = is_contra
         
         if args.arch not in models.__dict__.keys() : 
-            # self.models = EfficientNet.from_name(args.arch)  
-            self.models = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
+            # self.model = EfficientNet.from_name(args.arch)  
+            self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
         else :
             print('only resnet is supported') 
-            self.models = models.__dict__[self.arch](pretrained=self.pretrained) 
+            self.model = models.__dict__[self.arch](pretrained=self.pretrained) 
         
-        shape = self.models.fc.weight.shape
+        shape = self.model.fc.weight.shape
         self.contra_layer = 128
-        self.models.fc = nn.Linear(shape[1], self.contra_layer)
+        self.model.fc = nn.Linear(shape[1], self.contra_layer)
         self.criterion = SupConLoss()
             
         print("=> creating model '{}'".format(args.arch))
@@ -111,7 +111,7 @@ class PapsClsModel(LightningModule) :
 
         
     def forward(self, x) :
-        return self.models(x)
+        return self.model(x)
     
     def contra_forward(self, batch) :
         images1, images2, targets = batch

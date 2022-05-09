@@ -36,7 +36,7 @@ parser.add_argument('--data_path', metavar='DIR', default='./lbp_data/',
                     help='path to dataset (default: ./lbp_data/)')
 parser.add_argument('-a', '--arch', metavar='ARCH', default='resnet18',
                     help='model architecture: (default: resnet18)')
-parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
+parser.add_argument('-j', '--workers', default=12, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
 parser.add_argument('--epochs', default=90, type=int, metavar='N',
                     help='number of total epochs to run')
@@ -46,7 +46,7 @@ parser.add_argument('-b', '--batch-size', default=32, type=int,
                          'batch size of all GPUs on the current node when '
                          'using Data Parallel or Distributed Data Parallel')
 
-parser.add_argument('--lr', '--learning-rate', default=0.01, type=float,
+parser.add_argument('--lr', '--learning-rate', default=0.05, type=float,
                     metavar='LR', help='initial learning rate', dest='lr')
 
 parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
@@ -62,6 +62,7 @@ parser.add_argument('--devices', '--devices', default=4, type=int, help='number 
 parser.add_argument('--img_size', default=400, type=int, help='input image resolution in swin models')
 parser.add_argument('--num_classes', default=5, type=int, help='number of classes')
 parser.add_argument('--saved_dir', default='./saved_models/tunning', type=str, help='directory for model checkpoint')
+parser.add_argument('--resume', default='./saved_models/contra/model_last.ckpt', type=str, help='directory for model checkpoint')
 # parser.add_argument('--is_contra', default=False, type=bool, help='supervised contrastive learning or not')
 
 
@@ -77,6 +78,7 @@ class PapsClsModel(LightningModule) :
         batch_size: int =256,
         workers: int = 16,
         num_classes: int = 5,
+        resume : str = './saved_models/contra',
         # is_contra: bool = False,
     ):
         
@@ -90,17 +92,22 @@ class PapsClsModel(LightningModule) :
         self.batch_size = batch_size
         self.workers = workers
         self.num_classes = num_classes
+        self.resume = resume
         # self.is_contra = is_contra
         
         if args.arch not in models.__dict__.keys() : 
-            # self.models = EfficientNet.from_name(args.arch)  
-            self.models = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
+            # self.model = EfficientNet.from_name(args.arch)  
+            self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
         else :
             print('only resnet is supported') 
-            self.models = models.__dict__[self.arch](pretrained=self.pretrained) 
+            self.model = models.__dict__[self.arch](pretrained=self.pretrained) 
+            
+        if self.resume :
+            print('checkpoint is loaded from ', self.resume)
+            self.model = model.load_from_checkpoint(self.resume)
         
-        shape = self.models.fc.weight.shape
-        self.models.fc = nn.Linear(shape[1], self.num_classes)
+        shape = self.model.fc.weight.shape
+        self.model.fc = nn.Linear(shape[1], self.num_classes)
         self.criterion = nn.CrossEntropyLoss()
             
         print("=> creating model '{}'".format(args.arch))
@@ -112,7 +119,7 @@ class PapsClsModel(LightningModule) :
         self.specificity = Specificity(average='macro', num_classes=self.num_classes)
         
     def forward(self, x) :
-        return self.models(x)
+        return self.model(x)
 
     
     def training_step(self, batch, batch_idx) :
@@ -227,7 +234,8 @@ if __name__ == "__main__":
         lr = args.lr,
         batch_size=args.batch_size,
         weight_decay=args.weight_decay,
-        num_classes=args.num_classes)
+        num_classes=args.num_classes,
+        resume=args.resume)
     
     trainer = Trainer(**trainer_defaults)
     trainer.fit(model)            
