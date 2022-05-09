@@ -18,7 +18,7 @@ import torchvision.datasets as datasets
 import torchvision.models as models
 import torchvision.transforms as transforms
 from torch.utils.data import Dataset
-from torchmetrics import Accuracy, F1Score
+from torchmetrics import Accuracy, F1Score, Specificity
 
 from pytorch_lightning import LightningModule
 from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar
@@ -40,13 +40,13 @@ parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
 parser.add_argument('--epochs', default=90, type=int, metavar='N',
                     help='number of total epochs to run')
-parser.add_argument('-b', '--batch-size', default=16, type=int,
+parser.add_argument('-b', '--batch-size', default=32, type=int,
                     metavar='N',
                     help='mini-batch size (default: 256), this is the total '
                          'batch size of all GPUs on the current node when '
                          'using Data Parallel or Distributed Data Parallel')
 
-parser.add_argument('--lr', '--learning-rate', default=0.001, type=float,
+parser.add_argument('--lr', '--learning-rate', default=0.01, type=float,
                     metavar='LR', help='initial learning rate', dest='lr')
 
 parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
@@ -108,7 +108,8 @@ class PapsClsModel(LightningModule) :
         self.eval_dataset: Optional[Dataset] = None
         self.train_acc1 = Accuracy(top_k=1)
         self.eval_acc1 = Accuracy(top_k=1)
-        self.f1 = F1Score(num_classes=self.num_classes)
+        self.f1 = F1Score(average='macro', num_classes=self.num_classes)
+        self.specificity = Specificity(average='macro', num_classes=self.num_classes)
         
     def forward(self, x) :
         return self.models(x)
@@ -131,11 +132,13 @@ class PapsClsModel(LightningModule) :
         outputs = self(images)
         loss = self.criterion(outputs, targets)
         self.log(f'{prefix}_loss', loss)
-        self.f1(outputs, targets)
+        
         self.eval_acc1(outputs, targets)
         self.log(f'{prefix}_acc1', self.eval_acc1, prog_bar=True)
+        self.f1(outputs, targets)
         self.log(f'{prefix}_f1_score', self.f1, prog_bar=True)
-        
+        self.specificity(outputs, targets)
+        self.log(f'{prefix}_specificity', self.specificity, prog_bar=True)        
         return loss
             
         
