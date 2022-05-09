@@ -95,22 +95,23 @@ class PapsClsModel(LightningModule) :
         self.resume = resume
         # self.is_contra = is_contra
         
-        if args.arch not in models.__dict__.keys() : 
-            # self.model = EfficientNet.from_name(args.arch)  
-            self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
+        if self.arch not in models.__dict__.keys() : 
+            # self.model = EfficientNet.from_name(self.arch)  
+            # self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
+            self.model = custom_models.__dict__[self.arch](pretrained=False)
         else :
             print('only resnet is supported') 
             self.model = models.__dict__[self.arch](pretrained=self.pretrained) 
             
-        if self.resume :
-            print('checkpoint is loaded from ', self.resume)
-            self.model = model.load_from_checkpoint(self.resume)
+        # if self.resume :
+        #     print('checkpoint is loaded from ', self.resume)
+        #     self.model = self.model.load_from_checkpoint(self.resume)
         
         shape = self.model.fc.weight.shape
         self.model.fc = nn.Linear(shape[1], self.num_classes)
         self.criterion = nn.CrossEntropyLoss()
             
-        print("=> creating model '{}'".format(args.arch))
+        print("=> creating model '{}'".format(self.arch))
         self.train_dataset: Optional[Dataset] = None
         self.eval_dataset: Optional[Dataset] = None
         self.train_acc1 = Accuracy(top_k=1)
@@ -152,7 +153,7 @@ class PapsClsModel(LightningModule) :
     def validation_step(self, batch, batch_idx) :
         return self.eval_step(batch, batch_idx, 'val')
     
-    def test_setup(self, batch, batch_idx) :
+    def test_step(self, batch, batch_idx) :
         return self.eval_step(batch, batch_idx, 'test')
     
     def configure_optimizers(self) :
@@ -171,8 +172,8 @@ class PapsClsModel(LightningModule) :
             
         if stage in (None, 'fit') :
             train_df = pd.read_csv(self.data_path + '/train.csv') 
+            self.train_dataset = PapsDataset(train_df, defaultpath=self.data_path, transform=train_transforms)
         test_df = pd.read_csv(self.data_path + '/test.csv')
-        self.train_dataset = PapsDataset(train_df, defaultpath=self.data_path, transform=train_transforms)  
         self.eval_dataset = PapsDataset(test_df, defaultpath=self.data_path, transform=test_transforms)              
 
         
@@ -193,8 +194,8 @@ class PapsClsModel(LightningModule) :
             pin_memory=True
         )
     
-    def test_loader(self) :
-        return val_dataloader()
+    def test_dataloader(self) :
+        return self.val_dataloader()
             
             
 if __name__ == "__main__":
@@ -236,8 +237,10 @@ if __name__ == "__main__":
         weight_decay=args.weight_decay,
         num_classes=args.num_classes,
         resume=args.resume)
-    
+     
     trainer = Trainer(**trainer_defaults)
-    trainer.fit(model)            
+    trainer.fit(model)  
+    
+    trainer.test(model)
         
         
