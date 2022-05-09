@@ -119,6 +119,8 @@ class PapsClsModel(LightningModule) :
         self.f1 = F1Score(average='macro', num_classes=self.num_classes)
         self.specificity = Specificity(average='macro', num_classes=self.num_classes)
         
+        self.save_hyperparameters()
+        
     def forward(self, x) :
         return self.model(x)
 
@@ -162,7 +164,6 @@ class PapsClsModel(LightningModule) :
         return [optimizer], [scheduler]
     
     def setup(self, stage: Optional[str] = None) :
-        # if isinstance(self.trainer.strategy, ParallelStrategy) :
         if isinstance(self.trainer.strategy, ParallelStrategy) :
             # When using a single GPU per process and per `DistributedDataParallel`, we need to divide the batch size
             # ourselves based on the total number of GPUs we have
@@ -215,7 +216,10 @@ if __name__ == "__main__":
             # ModelCheckpoint(monitor="val_acc1", mode="max"),
             ModelCheckpoint(monitor="val_acc1", mode="max",
                             dirpath=args.saved_dir,
-                            filename='paps_tunning_{epoch:02d}_{val_acc1:.2f}'),            
+                            filename='paps_tunning_{epoch}_{val_acc1:.2f}'),  
+            ModelCheckpoint(monitor="val_acc1", mode="max",
+                            dirpath=args.saved_dir,
+                            filename='paps_tunning_best'),             
         ],    
         # plugins = "deepspeed_stage_2_offload",
         precision = 16,
