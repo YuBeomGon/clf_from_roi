@@ -25,6 +25,7 @@ from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar
 from pytorch_lightning.strategies import ParallelStrategy
 from pytorch_lightning.utilities.cli import LightningCLI
 from pytorch_lightning import Trainer
+from pytorch_lightning import loggers as pl_loggers
 
 from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_transforms, test_transforms, contra_transforms, IMAGE_SIZE
 from utils.losses import SupConLoss, FocalLoss
@@ -61,7 +62,7 @@ parser.add_argument('--accelerator', '--accelerator', default='gpu', type=str, h
 parser.add_argument('--devices', '--devices', default=4, type=int, help='number of gpus, default 2')
 parser.add_argument('--img_size', default=400, type=int, help='input image resolution in swin models')
 parser.add_argument('--num_classes', default=5, type=int, help='number of classes')
-parser.add_argument('--saved_dir', default='./saved_models/tunning', type=str, help='directory for model checkpoint')
+parser.add_argument('--saved_dir', default='./saved_models/contra', type=str, help='directory for model checkpoint')
 # parser.add_argument('--is_contra', default=False, type=bool, help='supervised contrastive learning or not')
 
 
@@ -100,44 +101,42 @@ class PapsClsModel(LightningModule) :
             self.models = models.__dict__[self.arch](pretrained=self.pretrained) 
         
         shape = self.models.fc.weight.shape
-        self.models.fc = nn.Linear(shape[1], self.num_classes)
-        self.criterion = nn.CrossEntropyLoss()
+        self.contra_layer = 128
+        self.models.fc = nn.Linear(shape[1], self.contra_layer)
+        self.criterion = SupConLoss()
             
         print("=> creating model '{}'".format(args.arch))
         self.train_dataset: Optional[Dataset] = None
         self.eval_dataset: Optional[Dataset] = None
-        self.train_acc1 = Accuracy(top_k=1)
-        self.eval_acc1 = Accuracy(top_k=1)
-        self.f1 = F1Score(num_classes=self.num_classes)
+
         
     def forward(self, x) :
         return self.models(x)
-
+    
+    def contra_forward(self, batch) :
+        images1, images2, targets = batch
+        batch_size = targets.shape[0]
+        images = torch.cat([images1, images2], dim=0)
+        outputs = self(images)
+        o1, o2 = torch.split(outputs, [batch_size, batch_size], dim=0)
+        outputs = torch.cat([o1.unsqueeze(1), o2.unsqueeze(1)], dim=1)
+        loss = self.criterion(outputs, targets)
+        
+        
+        return loss
     
     def training_step(self, batch, batch_idx) :
-        images, targets = batch
-        outputs = self(images)
-        loss = self.criterion(outputs, targets)
-        self.log('train_loss', loss)
+        loss = self.contra_forward(batch)
+        self.log('train_loss', loss)  
 
-        #update metric
-        self.train_acc1(outputs, targets)
-        self.log('train_acc', self.train_acc1, prog_bar=True)
-        
         return loss
     
     def eval_step(self, batch, batch_idx, prefix: str) :
-        images, targets = batch
-        outputs = self(images)
-        loss = self.criterion(outputs, targets)
-        self.log(f'{prefix}_loss', loss)
-        self.f1(outputs, targets)
-        self.eval_acc1(outputs, targets)
-        self.log(f'{prefix}_acc1', self.eval_acc1, prog_bar=True)
-        self.log(f'{prefix}_f1_score', self.f1, prog_bar=True)
         
+        loss = self.contra_forward(batch)
+        self.log('val_loss', loss)  
+
         return loss
-            
         
     def validation_step(self, batch, batch_idx) :
         return self.eval_step(batch, batch_idx, 'val')
@@ -146,8 +145,9 @@ class PapsClsModel(LightningModule) :
         return self.eval_step(batch, batch_idx, 'test')
     
     def configure_optimizers(self) :
-        optimizer = optim.SGD(self.parameters(), lr=self.lr, momentum=self.momentum, weight_decay=self.weight_decay)
-        scheduler = lr_scheduler.LambdaLR(optimizer, lambda epoch : 0.1 **(epoch //30))
+        # optimizer = optim.SGD(self.parameters(), lr=self.lr, momentum=self.momentum, weight_decay=self.weight_decay)
+        optimizer = optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        scheduler = lr_scheduler.LambdaLR(optimizer, lambda epoch : 0.2 **(epoch //30))
         return [optimizer], [scheduler]
     
     def setup(self, stage: Optional[str] = None) :
@@ -162,8 +162,9 @@ class PapsClsModel(LightningModule) :
         if stage in (None, 'fit') :
             train_df = pd.read_csv(self.data_path + '/train.csv') 
         test_df = pd.read_csv(self.data_path + '/test.csv')
-        self.train_dataset = PapsDataset(train_df, defaultpath=self.data_path, transform=train_transforms)  
-        self.eval_dataset = PapsDataset(test_df, defaultpath=self.data_path, transform=test_transforms)              
+        
+        self.train_dataset = ContraPapsDataset(train_df, defaultpath=self.data_path, transform=contra_transforms)  
+        self.eval_dataset = ContraPapsDataset(test_df, defaultpath=self.data_path, transform=contra_transforms)            
 
         
     def train_dataloader(self) :
@@ -195,23 +196,24 @@ if __name__ == "__main__":
         args.devices = torch.cuda.device_count()
         
     args.img_size = IMAGE_SIZE
+    tb_logger = pl_loggers.TensorBoardLogger(save_dir="logs/")
     
     trainer_defaults = dict(
         callbacks = [
             # the PyTorch example refreshes every 10 batches
             TQDMProgressBar(refresh_rate=10),
             # save when the validation top1 accuracy improves
-            # ModelCheckpoint(monitor="val_acc1", mode="max"),
-            ModelCheckpoint(monitor="val_acc1", mode="max",
+            ModelCheckpoint(monitor="val_loss", mode="min",
                             dirpath=args.saved_dir,
-                            filename='paps_tunning_{epoch:02d}_{val_acc1:.2f}'),            
+                            filename='paps-contra_{epoch:02d}_{val_loss:.2f}'),
         ],    
         # plugins = "deepspeed_stage_2_offload",
         precision = 16,
         max_epochs = args.epochs,
         accelerator = args.accelerator, # auto, or select device, "gpu"
         devices = args.devices, # number of gpus
-        logger = True,
+        # logger = True,
+        logger = tb_logger,
         benchmark = True,
         strategy = "ddp",
         )
@@ -227,6 +229,8 @@ if __name__ == "__main__":
         num_classes=args.num_classes)
     
     trainer = Trainer(**trainer_defaults)
-    trainer.fit(model)            
+    trainer.fit(model)    
+    
+    trainer.save_checkpoint(args.saved_dir+'./model_last.ckpt')
         
         
