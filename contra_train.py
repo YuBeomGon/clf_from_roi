@@ -30,6 +30,7 @@ from pytorch_lightning import loggers as pl_loggers
 from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_transforms, test_transforms, contra_transforms, IMAGE_SIZE
 from utils.losses import SupConLoss, FocalLoss
 import custom_models
+from train import PapsClsModel
 # from models.efficientnet import EfficientNet, VALID_MODELS
 
 parser = argparse.ArgumentParser(description='PyTorch Lightning ImageNet Training')
@@ -66,7 +67,7 @@ parser.add_argument('--saved_dir', default='./saved_models/contra', type=str, he
 # parser.add_argument('--is_contra', default=False, type=bool, help='supervised contrastive learning or not')
 
 
-class PapsClsModel(LightningModule) :
+class PapsContraModel(PapsClsModel) :
     def __init__(
         self,
         data_path : str,
@@ -81,24 +82,16 @@ class PapsClsModel(LightningModule) :
         # is_contra: bool = False,
     ):
         
-        super().__init__()
-        self.arch = arch
-        self.pretrained = pretrained
-        self.lr = lr
-        self.momentum = momentum
-        self.weight_decay = weight_decay
-        self.data_path = data_path
-        self.batch_size = batch_size
-        self.workers = workers
-        self.num_classes = num_classes
-        # self.is_contra = is_contra
+        super(PapsContraModel, self).__init__(data_path=data_path, arch=arch, pretrained=pretrained,
+                         lr=lr, momentum=momentum, weight_decay=weight_decay,
+                         batch_size=batch_size, workers=workers, num_classes=num_classes)
         
-        if args.arch not in models.__dict__.keys() : 
-            # self.model = EfficientNet.from_name(args.arch)  
-            self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
-        else :
-            print('only resnet is supported') 
-            self.model = models.__dict__[self.arch](pretrained=self.pretrained) 
+        # if args.arch not in models.__dict__.keys() : 
+        #     # self.model = EfficientNet.from_name(args.arch)  
+        #     self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
+        # else :
+        #     print('only resnet is supported') 
+        #     self.model = models.__dict__[self.arch](pretrained=self.pretrained) 
         
         shape = self.model.fc.weight.shape
         self.contra_layer = 128
@@ -122,7 +115,6 @@ class PapsClsModel(LightningModule) :
         outputs = torch.cat([o1.unsqueeze(1), o2.unsqueeze(1)], dim=1)
         loss = self.criterion(outputs, targets)
         
-        
         return loss
     
     def training_step(self, batch, batch_idx) :
@@ -132,17 +124,10 @@ class PapsClsModel(LightningModule) :
         return loss
     
     def eval_step(self, batch, batch_idx, prefix: str) :
-        
         loss = self.contra_forward(batch)
         self.log('val_loss', loss)  
 
         return loss
-        
-    def validation_step(self, batch, batch_idx) :
-        return self.eval_step(batch, batch_idx, 'val')
-    
-    def test_setup(self, batch, batch_idx) :
-        return self.eval_step(batch, batch_idx, 'test')
     
     def configure_optimizers(self) :
         # optimizer = optim.SGD(self.parameters(), lr=self.lr, momentum=self.momentum, weight_decay=self.weight_decay)
@@ -161,31 +146,10 @@ class PapsClsModel(LightningModule) :
             
         if stage in (None, 'fit') :
             train_df = pd.read_csv(self.data_path + '/train.csv') 
+            self.train_dataset = ContraPapsDataset(train_df, defaultpath=self.data_path, transform=contra_transforms)  
+            
         test_df = pd.read_csv(self.data_path + '/test.csv')
-        
-        self.train_dataset = ContraPapsDataset(train_df, defaultpath=self.data_path, transform=contra_transforms)  
-        self.eval_dataset = ContraPapsDataset(test_df, defaultpath=self.data_path, transform=contra_transforms)            
-
-        
-    def train_dataloader(self) :
-        return torch.utils.data.DataLoader(
-            dataset=self.train_dataset,
-            batch_size=self.batch_size,
-            shuffle=True,
-            num_workers=self.workers,
-            pin_memory=True
-        )
-    
-    def val_dataloader(self) :
-        return torch.utils.data.DataLoader(
-            dataset=self.eval_dataset,
-            batch_size=self.batch_size,
-            num_workers=self.workers,
-            pin_memory=True
-        )
-    
-    def test_loader(self) :
-        return val_dataloader()
+        self.eval_dataset = ContraPapsDataset(test_df, defaultpath=self.data_path, transform=contra_transforms)
             
             
 if __name__ == "__main__":
@@ -196,7 +160,7 @@ if __name__ == "__main__":
         args.devices = torch.cuda.device_count()
         
     args.img_size = IMAGE_SIZE
-    tb_logger = pl_loggers.TensorBoardLogger(save_dir="logs/")
+    tb_logger = pl_loggers.TensorBoardLogger(save_dir="contra_logs/")
     
     trainer_defaults = dict(
         callbacks = [
@@ -206,6 +170,9 @@ if __name__ == "__main__":
             ModelCheckpoint(monitor="val_loss", mode="min",
                             dirpath=args.saved_dir,
                             filename='paps-contra_{epoch:02d}_{val_loss:.2f}'),
+            ModelCheckpoint(monitor="val_loss", mode="min",
+                            dirpath=args.saved_dir,
+                            filename='paps-contra_best'),            
         ],    
         # plugins = "deepspeed_stage_2_offload",
         precision = 16,
@@ -218,7 +185,7 @@ if __name__ == "__main__":
         strategy = "ddp",
         )
     
-    model = PapsClsModel(
+    model = PapsContraModel(
         data_path=args.data_path,
         arch=args.arch,
         pretrained=False,
@@ -229,8 +196,6 @@ if __name__ == "__main__":
         num_classes=args.num_classes)
     
     trainer = Trainer(**trainer_defaults)
-    trainer.fit(model)    
-    
-    trainer.save_checkpoint(args.saved_dir+'./model_last.ckpt')
+    trainer.fit(model)
         
         

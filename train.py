@@ -5,6 +5,7 @@ import argparse
 import os
 from typing import Optional
 import pandas as pd
+import logging
 
 import torch
 import torch.nn as nn
@@ -62,7 +63,7 @@ parser.add_argument('--devices', '--devices', default=4, type=int, help='number 
 parser.add_argument('--img_size', default=400, type=int, help='input image resolution in swin models')
 parser.add_argument('--num_classes', default=5, type=int, help='number of classes')
 parser.add_argument('--saved_dir', default='./saved_models/tunning', type=str, help='directory for model checkpoint')
-parser.add_argument('--resume', default='./saved_models/contra/model_last.ckpt', type=str, help='directory for model checkpoint')
+parser.add_argument('--from_contra', default='./saved_models/contra', type=str, help='directory for model checkpoint')
 # parser.add_argument('--is_contra', default=False, type=bool, help='supervised contrastive learning or not')
 
 
@@ -78,21 +79,21 @@ class PapsClsModel(LightningModule) :
         batch_size: int =256,
         workers: int = 16,
         num_classes: int = 5,
-        resume : str = './saved_models/contra',
+        from_contra : str = './saved_models/contra/',
         # is_contra: bool = False,
     ):
         
         super().__init__()
+        self.data_path = data_path
         self.arch = arch
         self.pretrained = pretrained
         self.lr = lr
         self.momentum = momentum
         self.weight_decay = weight_decay
-        self.data_path = data_path
         self.batch_size = batch_size
         self.workers = workers
         self.num_classes = num_classes
-        self.resume = resume
+        self.from_contra = from_contra
         # self.is_contra = is_contra
         
         if self.arch not in models.__dict__.keys() : 
@@ -102,10 +103,6 @@ class PapsClsModel(LightningModule) :
         else :
             print('only resnet is supported') 
             self.model = models.__dict__[self.arch](pretrained=self.pretrained) 
-            
-        # if self.resume :
-        #     print('checkpoint is loaded from ', self.resume)
-        #     self.model = self.model.load_from_checkpoint(self.resume)
         
         shape = self.model.fc.weight.shape
         self.model.fc = nn.Linear(shape[1], self.num_classes)
@@ -197,6 +194,23 @@ class PapsClsModel(LightningModule) :
     
     def test_dataloader(self) :
         return self.val_dataloader()
+    
+#     load contra checkpoint in fine tuning
+    def load_contra_checkpoint(self, path):
+        state_dict = torch.load(path)['state_dict']
+        model_state_dict = self.state_dict()
+        for k in state_dict:
+            if k in model_state_dict:
+                if state_dict[k].shape != model_state_dict[k].shape:
+                    print(f"Skip loading parameter: {k}, "
+                                f"required shape: {model_state_dict[k].shape}, "
+                                f"loaded shape: {state_dict[k].shape}")
+                    state_dict[k] = model_state_dict[k]
+
+            else:
+                print(f"Dropping parameter {k}")
+
+        self.load_state_dict(state_dict)
             
             
 if __name__ == "__main__":
@@ -240,7 +254,11 @@ if __name__ == "__main__":
         batch_size=args.batch_size,
         weight_decay=args.weight_decay,
         num_classes=args.num_classes,
-        resume=args.resume)
+        from_contra=args.from_contra)
+    
+    if 'paps-contra_best.ckpt' in os.listdir(args.from_contra ) :
+        print('checkpoint is loaded from ', args.from_contra)
+        model.load_contra_checkpoint(args.from_contra + '/paps-contra_best.ckpt')    
      
     trainer = Trainer(**trainer_defaults)
     trainer.fit(model)  

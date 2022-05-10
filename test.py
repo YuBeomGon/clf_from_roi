@@ -65,8 +65,7 @@ if __name__ == "__main__":
         lr = args.lr,
         batch_size=args.batch_size,
         weight_decay=args.weight_decay,
-        num_classes=args.num_classes,
-        resume=args.resume)
+        num_classes=args.num_classes)
     
     trainer = Trainer(**trainer_defaults)
     model = model.load_from_checkpoint(checkpoint_path=args.saved_dir + '/paps_tunning_best.ckpt', strict=False)
