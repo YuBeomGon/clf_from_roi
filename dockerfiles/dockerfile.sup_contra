@@ -7,4 +7,4 @@ WORKDIR /opt
 
 COPY *.py /opt/
 
-ENTRYPOINT ["python3", "conra_train.py"]
+ENTRYPOINT ["python3", "contra_train.py"]
