@@ -150,9 +150,9 @@ class PapsClsModel(LightningModule) :
         return batch_dictionary
     
     def training_epoch_end(self, outputs):
-        if(self.current_epoch==1):
-            sampleImg=torch.rand((1,3,IMAGE_SIZE,IMAGE_SIZE))
-            self.logger.experiment.add_graph(self.model(), sampleImg)
+        # if(self.current_epoch==1):
+        #     sampleImg=torch.rand((1,3,IMAGE_SIZE,IMAGE_SIZE))
+        #     self.logger.experiment.add_graph(self.model(), sampleImg)
 
         avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
         

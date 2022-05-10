@@ -25,7 +25,7 @@ from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar
 from pytorch_lightning.strategies import ParallelStrategy
 from pytorch_lightning.utilities.cli import LightningCLI
 from pytorch_lightning import Trainer
-from pytorch_lightning import loggers as pl_loggers
+from pytorch_lightning.loggers import TensorBoardLogger, WandbLogger
 
 from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_transforms, test_transforms, contra_transforms, IMAGE_SIZE
 from utils.losses import SupConLoss, FocalLoss
@@ -162,7 +162,7 @@ class PapsContraModel(PapsClsModel) :
             
             
 if __name__ == "__main__":
-    
+    now = datetime.now().strftime('%Y%m%d_%H%M%S')
     args = parser.parse_args()
     if torch.cuda.is_available() :
         args.accelerator = 'gpu'
@@ -174,7 +174,9 @@ if __name__ == "__main__":
     args.saved_dir = './saved_models/contra'        
         
     args.img_size = IMAGE_SIZE
-    tb_logger = pl_loggers.TensorBoardLogger(save_dir="contra_logs/" + args.arch)
+    # tb_logger = pl_loggers.TensorBoardLogger(save_dir="contra_logs/" + args.arch)
+    logger_tb = TensorBoardLogger('./tuning_logs' +'/' + args.arch, name=now)
+    logger_wandb = WandbLogger(project='Paps_clf_contra', name=now, mode='online') # online or disabled        
     
     trainer_defaults = dict(
         callbacks = [
@@ -194,7 +196,7 @@ if __name__ == "__main__":
         accelerator = args.accelerator, # auto, or select device, "gpu"
         devices = args.devices, # number of gpus
         # logger = True,
-        logger = tb_logger,
+        logger = [logger_tb, logger_wandb],
         benchmark = True,
         strategy = "ddp",
         )
