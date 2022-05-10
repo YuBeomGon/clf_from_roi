@@ -79,14 +79,65 @@ class PapsContraModel(PapsClsModel) :
     def training_step(self, batch, batch_idx) :
         loss = self.contra_forward(batch)
         self.log('train_loss', loss)  
+        
+        #for tensorboard
+        logs={"train_loss": loss}
+        batch_dictionary={
+            'loss':loss,
+            'log':logs,
+        }             
 
-        return loss
+        return batch_dictionary
+    
+    def training_epoch_end(self, outputs):
+
+        avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
+        
+        # logging histograms
+        # self.custom_histogram_adder()
+        
+        # creating log dictionary
+        # self.logger.experiment.add_scalar('loss/train', avg_loss, self.current_epoch)
+        tensorboard_logs = {'loss': avg_loss}
+        
+        epoch_dictionary={
+            # required
+            'loss': avg_loss,
+            # for logging purposes
+            'log': tensorboard_logs
+        }
     
     def eval_step(self, batch, batch_idx, prefix: str) :
         loss = self.contra_forward(batch)
-        self.log('val_loss', loss)  
+        self.log('val_loss', loss) 
+        
+        if prefix == 'val' :
+            logs={"val_loss": loss}
+            batch_dictionary={
+                'loss':loss,
+                'log':logs,
+                # info to be used at epoch end
+                "correct": correct,
+                "total": total
+            }  
+            return batch_dictionary            
 
         return loss
+    
+    def validation_step(self, batch, batch_idx) :
+        return self.eval_step(batch, batch_idx, 'val')  
+    
+    def validation_epoch_end(self, outputs):
+        avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
+        
+        tensorboard_logs = {'loss': avg_loss}
+        
+        epoch_dictionary={
+            # required
+            'loss': avg_loss,
+            # for logging purposes
+            'log': tensorboard_logs
+        }    
     
     def configure_optimizers(self) :
         # optimizer = optim.SGD(self.parameters(), lr=self.lr, momentum=self.momentum, weight_decay=self.weight_decay)

@@ -6,6 +6,7 @@ import os
 from typing import Optional
 import pandas as pd
 import logging
+from datetime import datetime
 
 import torch
 import torch.nn as nn
@@ -26,7 +27,10 @@ from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar
 from pytorch_lightning.strategies import ParallelStrategy
 from pytorch_lightning.utilities.cli import LightningCLI
 from pytorch_lightning import Trainer
-from pytorch_lightning import loggers as pl_loggers
+# from pytorch_lightning import loggers as pl_loggers
+from pytorch_lightning.loggers import TensorBoardLogger, WandbLogger
+from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping, LearningRateMonitor
+from pytorch_lightning.plugins import DDPPlugin
 
 from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_transforms, test_transforms, contra_transforms, IMAGE_SIZE
 from utils.losses import SupConLoss, FocalLoss
@@ -125,32 +129,112 @@ class PapsClsModel(LightningModule) :
         images, targets = batch
         outputs = self(images)
         loss = self.criterion(outputs, targets)
-        self.log('train_loss', loss)
-
+        correct=outputs.argmax(dim=1).eq(targets).sum().item()
+        total=len(targets)
+        
         #update metric
+        self.log('train_loss', loss)
         self.train_acc1(outputs, targets)
         self.log('train_acc', self.train_acc1, prog_bar=True)
         
-        return loss
+        #for tensorboard
+        logs={"train_loss": loss}
+        batch_dictionary={
+            'loss':loss,
+            'log':logs,
+            # info to be used at epoch end
+            "correct": correct,
+            "total": total
+        }        
+        
+        return batch_dictionary
+    
+    def training_epoch_end(self, outputs):
+        if(self.current_epoch==1):
+            sampleImg=torch.rand((1,3,IMAGE_SIZE,IMAGE_SIZE))
+            self.logger.experiment.add_graph(self.model(), sampleImg)
+
+        avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
+        
+        # logging histograms
+        # self.custom_histogram_adder()
+        
+        # calculating correect and total predictions
+        correct=sum([x["correct"] for  x in outputs])
+        total=sum([x["total"] for  x in outputs])
+        
+        # creating log dictionary
+        # self.logger.experiment.add_scalar('loss/train', avg_loss, self.current_epoch)
+        # self.logger.experiment.add_scalar('acc/train', correct/total, self.current_epoch)
+        tensorboard_logs = {'loss': avg_loss, "Accuracy": correct/total}
+        
+        epoch_dictionary={
+            # required
+            'loss': avg_loss,
+            # for logging purposes
+            'log': tensorboard_logs
+        }
+ 
+        # wandb expect None
+        # return epoch_dictionary  
+
+    def custom_histogram_adder(self):
+        for name, params in self.named_parameters():
+            self.logger.experiment.add_histogram(name, params, self.current_epoch)
     
     def eval_step(self, batch, batch_idx, prefix: str) :
         images, targets = batch
         outputs = self(images)
         loss = self.criterion(outputs, targets)
-        self.log(f'{prefix}_loss', loss)
         
+        self.log(f'{prefix}_loss', loss)
         self.eval_acc1(outputs, targets)
         self.log(f'{prefix}_acc1', self.eval_acc1, prog_bar=True)
         self.f1(outputs, targets)
         self.log(f'{prefix}_f1_score', self.f1, prog_bar=True)
         self.specificity(outputs, targets)
-        self.log(f'{prefix}_specificity', self.specificity, prog_bar=True)        
-        return loss
+        self.log(f'{prefix}_specificity', self.specificity, prog_bar=True)    
+        
+        if prefix == 'val' :
+            correct=outputs.argmax(dim=1).eq(targets).sum().item()
+            total=len(targets) 
             
+            #for tensorboard
+            logs={"val_loss": loss}
+            batch_dictionary={
+                'loss':loss,
+                'log':logs,
+                # info to be used at epoch end
+                "correct": correct,
+                "total": total
+            }  
+            
+            return batch_dictionary
+
+        return loss            
         
     def validation_step(self, batch, batch_idx) :
         return self.eval_step(batch, batch_idx, 'val')
     
+    def validation_epoch_end(self, outputs):
+        avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
+        
+        # calculating correect and total predictions
+        correct=sum([x["correct"] for  x in outputs])
+        total=sum([x["total"] for  x in outputs])
+        
+        tensorboard_logs = {'loss': avg_loss, "Accuracy": correct/total}
+        
+        epoch_dictionary={
+            # required
+            'loss': avg_loss,
+            # for logging purposes
+            'log': tensorboard_logs
+        }
+        
+        # wandb expect None
+        # return epoch_dictionary    
+
     def test_step(self, batch, batch_idx) :
         return self.eval_step(batch, batch_idx, 'test')
     
@@ -223,14 +307,16 @@ class PapsClsModel(LightningModule) :
             
             
 if __name__ == "__main__":
-    
+    now = datetime.now().strftime('%Y%m%d_%H%M%S')
     args = parser.parse_args()
     if torch.cuda.is_available() :
         args.accelerator = 'gpu'
         args.devices = torch.cuda.device_count()
         
     args.img_size = IMAGE_SIZE
-    tb_logger = pl_loggers.TensorBoardLogger(save_dir="tuning_logs/" + args.arch)
+    # tb_logger = TensorBoardLogger(save_dir="tuning_logs/" + args.arch, name=args.arch + "_my_model")
+    logger_tb = TensorBoardLogger('./tuning_logs' +'/' + args.arch, name=now)
+    logger_wandb = WandbLogger(project='Paps_clf', name=now, mode='online') # online or disabled    
     
     trainer_defaults = dict(
         callbacks = [
@@ -249,7 +335,7 @@ if __name__ == "__main__":
         max_epochs = args.epochs,
         accelerator = args.accelerator, # auto, or select device, "gpu"
         devices = args.devices, # number of gpus
-        logger = tb_logger,
+        logger = [logger_tb, logger_wandb],
         benchmark = True,
         strategy = "ddp",
         )

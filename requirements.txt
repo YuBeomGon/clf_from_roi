@@ -2,3 +2,4 @@ deepspeed
 timm
 pandas
 albumentations
+wandb
