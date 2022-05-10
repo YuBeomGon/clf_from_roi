@@ -265,9 +265,10 @@ if __name__ == "__main__":
         num_classes=args.num_classes,
         from_contra=args.from_contra)
     
-    if 'paps-contra_best.ckpt' in os.listdir(args.from_contra + '/' + args.arch) :
-        print('checkpoint is loaded from ', args.from_contra + '/' + args.arch)
-        model.load_contra_checkpoint(args.from_contra + '/' + args.arch + '/paps-contra_best.ckpt')   
+    path = args.from_contra + '/' + args.arch
+    if os.path.isdir(path) and 'paps-contra_best.ckpt' in os.listdir(path) :
+        print('checkpoint is loaded from ', path)
+        model.load_contra_checkpoint(path + '/paps-contra_best.ckpt')   
 #         model freeze except last fcn layer
         print('model freeze except last fc layer')
         model.model_freeze()
