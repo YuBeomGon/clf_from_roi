@@ -116,9 +116,6 @@ class PapsContraModel(PapsClsModel) :
             batch_dictionary={
                 'loss':loss,
                 'log':logs,
-                # info to be used at epoch end
-                "correct": correct,
-                "total": total
             }  
             return batch_dictionary            
 
