@@ -1,5 +1,7 @@
 #!/bin/bash
+# arch='swin_t'
+arch='resnet18'
 
-python contra_train.py --arch 'resnet18'
-python train.py --arch 'resnet18'
-python test.py --arch 'resnet18'
+python contra_train.py --arch $arch
+python train.py --arch $arch
+python test.py --arch $arch

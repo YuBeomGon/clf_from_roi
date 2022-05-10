@@ -26,6 +26,7 @@ from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar
 from pytorch_lightning.strategies import ParallelStrategy
 from pytorch_lightning.utilities.cli import LightningCLI
 from pytorch_lightning import Trainer
+from pytorch_lightning import loggers as pl_loggers
 
 from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_transforms, test_transforms, contra_transforms, IMAGE_SIZE
 from utils.losses import SupConLoss, FocalLoss
@@ -94,10 +95,8 @@ class PapsClsModel(LightningModule) :
         self.workers = workers
         self.num_classes = num_classes
         self.from_contra = from_contra
-        # self.is_contra = is_contra
         
         if self.arch not in models.__dict__.keys() : 
-            # self.model = EfficientNet.from_name(self.arch)  
             # self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
             self.model = custom_models.__dict__[self.arch](pretrained=False)
         else :
@@ -156,7 +155,9 @@ class PapsClsModel(LightningModule) :
         return self.eval_step(batch, batch_idx, 'test')
     
     def configure_optimizers(self) :
-        optimizer = optim.SGD(self.parameters(), lr=self.lr, momentum=self.momentum, weight_decay=self.weight_decay)
+        optimizer = optim.SGD(filter(lambda p: p.requires_grad, self.parameters()), 
+                              lr=self.lr, momentum=self.momentum, weight_decay=self.weight_decay)
+        
         scheduler = lr_scheduler.LambdaLR(optimizer, lambda epoch : 0.1 **(epoch //30))
         return [optimizer], [scheduler]
     
@@ -211,6 +212,14 @@ class PapsClsModel(LightningModule) :
                 print(f"Dropping parameter {k}")
 
         self.load_state_dict(state_dict)
+        
+#     model freezing when fine tuning( linear evaluation protocol)
+    def model_freeze(self) :
+        for param in self.parameters( ) :
+            param.requires_grad = False
+        
+        self.model.fc.weight.requires_grad = True
+        self.model.fc.bias.requires_grad = True
             
             
 if __name__ == "__main__":
@@ -221,18 +230,18 @@ if __name__ == "__main__":
         args.devices = torch.cuda.device_count()
         
     args.img_size = IMAGE_SIZE
+    tb_logger = pl_loggers.TensorBoardLogger(save_dir="tuning_logs/" + args.arch)
     
     trainer_defaults = dict(
         callbacks = [
             # the PyTorch example refreshes every 10 batches
-            TQDMProgressBar(refresh_rate=10),
+            TQDMProgressBar(refresh_rate=50),
             # save when the validation top1 accuracy improves
-            # ModelCheckpoint(monitor="val_acc1", mode="max"),
             ModelCheckpoint(monitor="val_acc1", mode="max",
-                            dirpath=args.saved_dir,
+                            dirpath=args.saved_dir + '/' + args.arch,
                             filename='paps_tunning_{epoch}_{val_acc1:.2f}'),  
             ModelCheckpoint(monitor="val_acc1", mode="max",
-                            dirpath=args.saved_dir,
+                            dirpath=args.saved_dir + '/' + args.arch,
                             filename='paps_tunning_best'),             
         ],    
         # plugins = "deepspeed_stage_2_offload",
@@ -240,7 +249,7 @@ if __name__ == "__main__":
         max_epochs = args.epochs,
         accelerator = args.accelerator, # auto, or select device, "gpu"
         devices = args.devices, # number of gpus
-        logger = True,
+        logger = tb_logger,
         benchmark = True,
         strategy = "ddp",
         )
@@ -256,9 +265,12 @@ if __name__ == "__main__":
         num_classes=args.num_classes,
         from_contra=args.from_contra)
     
-    if 'paps-contra_best.ckpt' in os.listdir(args.from_contra ) :
-        print('checkpoint is loaded from ', args.from_contra)
-        model.load_contra_checkpoint(args.from_contra + '/paps-contra_best.ckpt')    
+    if 'paps-contra_best.ckpt' in os.listdir(args.from_contra + '/' + args.arch) :
+        print('checkpoint is loaded from ', args.from_contra + '/' + args.arch)
+        model.load_contra_checkpoint(args.from_contra + '/' + args.arch + '/paps-contra_best.ckpt')   
+#         model freeze except last fcn layer
+        print('model freeze except last fc layer')
+        model.model_freeze()
      
     trainer = Trainer(**trainer_defaults)
     trainer.fit(model)  

@@ -68,7 +68,11 @@ if __name__ == "__main__":
         num_classes=args.num_classes)
     
     trainer = Trainer(**trainer_defaults)
-    model = model.load_from_checkpoint(checkpoint_path=args.saved_dir + '/paps_tunning_best.ckpt', strict=False)
+    
+    if 'paps_tunning_best.ckpt' in os.listdir(args.saved_dir + '/' + args.arch) :
+        print('checkpoint is loaded from ', args.saved_dir + '/' + args.arch)
+        model = model.load_from_checkpoint(checkpoint_path=args.saved_dir + '/' + args.arch + '/paps_tunning_best.ckpt',
+                                           strict=False)
     trainer.test(model)
         
         
