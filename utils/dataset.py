@@ -147,7 +147,7 @@ class PapsDataset(Dataset):
         image = image[s_x:IMAGE_SIZE+s_x, s_y:IMAGE_SIZE+s_y,:]
     
         image = image/255.
-        image = (image - self.image_mean[None, None, :]) / self.image_std[None, None:, ]
+        image = (image - self.image_mean[None, None, :]) / self.image_std[None, None, :]
         
 #         pad image to IMAGE_SIZE
         image = np.pad(image, ((pl_x,pr_x), (pl_y,pr_y), (0,0)), 'constant', constant_values=0)

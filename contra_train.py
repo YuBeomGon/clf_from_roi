@@ -21,7 +21,7 @@ from torch.utils.data import Dataset
 from torchmetrics import Accuracy, F1Score
 
 from pytorch_lightning import LightningModule
-from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar
+from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar, LearningRateMonitor
 from pytorch_lightning.strategies import ParallelStrategy
 from pytorch_lightning.utilities.cli import LightningCLI
 from pytorch_lightning import Trainer
@@ -139,8 +139,36 @@ class PapsContraModel(PapsClsModel) :
     def configure_optimizers(self) :
         # optimizer = optim.SGD(self.parameters(), lr=self.lr, momentum=self.momentum, weight_decay=self.weight_decay)
         optimizer = optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
-        scheduler = lr_scheduler.LambdaLR(optimizer, lambda epoch : 0.1 **(epoch //30))
+        scheduler = lr_scheduler.LambdaLR(optimizer, lambda epoch : 0.2 **(epoch //30))
         return [optimizer], [scheduler]
+        
+#     # learning rate warm-up
+#     def optimizer_step(
+#         self,
+#         epoch,
+#         batch_idx,
+#         optimizer,
+#         optimizer_idx,
+#         optimizer_closure,
+#         on_tpu,
+#         using_native_amp,
+#         using_lbfgs,
+#     ):
+#         # update params
+#         optimizer.step(closure=optimizer_closure)
+        
+#         # manually warm up lr without a scheduler
+#         if self.trainer.global_step < 500:
+#             lr_scale = min(1.0, (float(self.trainer.global_step + 1) / 500.0)**2)
+#             for pg in optimizer.param_groups:
+#                 pg["lr"] = lr_scale * self.lr        
+                
+#         # lr = optimizer.param_groups[0]['lr']
+#         # self.log('lr', lr) 
+                
+#         # optimizer.step()
+#         # optimizer.zero_grad()
+        
     
     def setup(self, stage: Optional[str] = None) :
         if isinstance(self.trainer.strategy, ParallelStrategy) :
@@ -185,10 +213,12 @@ if __name__ == "__main__":
                             filename='paps-contra_{epoch:02d}_{val_loss:.2f}'),
             ModelCheckpoint(monitor="val_loss", mode="min",
                             dirpath=args.saved_dir + '/' + args.arch,
-                            filename='paps-contra_best'),            
-        ],    
+                            filename='paps-contra_best'),     
+            LearningRateMonitor(logging_interval='step')
+        ],
+        
         # plugins = "deepspeed_stage_2_offload",
-        precision = 16,
+        precision = 32,
         max_epochs = args.epochs,
         accelerator = args.accelerator, # auto, or select device, "gpu"
         devices = args.devices, # number of gpus
@@ -196,6 +226,7 @@ if __name__ == "__main__":
         logger = [logger_tb, logger_wandb],
         benchmark = True,
         strategy = "ddp",
+        auto_lr_find=True,
         )
     
     
