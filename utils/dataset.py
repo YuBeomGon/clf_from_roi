@@ -22,6 +22,7 @@ import torch.nn.functional as F
 # IMAGE_SIZE = 448
 IMAGE_SIZE = 224
 
+
 train_transforms = A.Compose([
     A.OneOf([
         A.HorizontalFlip(p=.8),
@@ -104,8 +105,8 @@ class PapsDataset(Dataset):
         self.num_classes = len(self.df.label.unique()) - 1
         self.df = self.df[self.df['label'] != self.num_classes]
         self.image_mean = np.array([0.485, 0.456, 0.406])
-        self.image_std = np.array([0.229, 0.224, 0.225])              
-        # self.num_classes = 5
+        self.image_std = np.array([0.229, 0.224, 0.225])
+        self.df.reset_index(inplace=True, drop=False)
         print(self.df.shape)
         
         self.transform = transform
@@ -116,14 +117,17 @@ class PapsDataset(Dataset):
         return len(self.df)   
     
     def get_roi(self, idx):
-        path = self.df.iloc[idx, 1]
+        path = self.df.loc[idx]['file_name']
         image = cv2.imread(self.dir + path)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        xmin = self.df.iloc[idx, 4]
-        ymin = self.df.iloc[idx, 5]
-        xmax = xmin + self.df.iloc[idx, 6]
-        ymax = ymin + self.df.iloc[idx, 7]
-        
+        # xmin = self.df.iloc[idx, 4]
+        # ymin = self.df.iloc[idx, 5]
+        # xmax = xmin + self.df.iloc[idx, 6]
+        # ymax = ymin + self.df.iloc[idx, 7]
+        xmin, ymin, w, h = self.df.loc[idx][['xmin', 'ymin', 'w', 'h']]
+        xmax = xmin + w
+        ymax = ymin + h
+
         image = image[ymin:ymax,xmin:xmax,:]
         return image
     
@@ -157,7 +161,8 @@ class PapsDataset(Dataset):
         return image
     
     def get_label(self, idx):
-        return self.df.iloc[idx, 8]
+        # return self.df.iloc[idx, 8]
+        return self.df.loc[idx]['label']
 
     def __getitem__(self, idx):
         image = self.get_roi(idx)
@@ -191,47 +196,54 @@ class ContraPapsDataset(PapsDataset):
             
 #         crop or pad for fixed size (IMAGE_SIZE*IMAGE_SIZE*3) based on center
         # return image1, image2, label #, path 
-
         image1 = self.get_croppad(image1)
         image2 = self.get_croppad(image2)
         
         return image1, image2, label #, path 
     
 
-class PapsDataModule(LightningDataModule):
-    def __init__(self, data_dir: str = '../lbp_data/'):
-        super().__init__()
-        self.data_dir = data_dir
-        self.train_transform = train_transforms
-        self.test_transform = test_transforms
+# class PapsDataModule(LightningDataModule):
+#     def __init__(self, data_dir: str = '../lbp_data/'):
+#         super().__init__()
+#         self.data_dir = data_dir
+#         self.train_transform = train_transforms
+#         self.test_transform = test_transforms
+#         self.workers = workers
 
-        # self.dims is returned when you call dm.size()
-        # Setting default dims here because we know them.
-        # Could optionally be assigned dynamically in dm.setup()
-        self.dims = (1, 28, 28)
-        # self.num_classes = 5
+#         # self.dims is returned when you call dm.size()
+#         # Setting default dims here because we know them.
+#         # Could optionally be assigned dynamically in dm.setup()
+#         self.dims = (1, 28, 28)
+#         # self.num_classes = 5
 
-    def prepare_data(self):
-        # download
-        pass
+#     def prepare_data(self):
+#         # download
+#         pass
 
-    def setup(self, stage=None):
+#     def setup(self, stage=None):
 
-        # Assign train/val datasets for use in dataloaders
-        if stage == "fit" or stage is None:
-            train_df = pd.read_csv(self.data_dir + 'train.csv')
-            self.train_dataset = PapsDataset(train_df, defaultpath=self.data_dir, transform=self.train_transforms)
+#         # Assign train/val datasets for use in dataloaders
+#         if stage == "fit" or stage is None:
+#             train_df = pd.read_csv(self.data_dir + 'train.csv')
+#             self.train_dataset = PapsDataset(train_df, defaultpath=self.data_dir, transform=self.train_transforms)
+            
+#         test_df = pd.read_csv(self.data_dir + 'test.csv')
+#         self.test_dataset = PapsDataset(test_df, defaultpath=self.data_dir, transform=self.test_transforms)     
 
-        # Assign test dataset for use in dataloader(s)
-        if stage == "test" or stage is None:
-            test_df = pd.read_csv(self.data_dir + 'test.csv')
-            self.test_dataset = PapsDataset(test_df, defaultpath=self.data_dir, transform=self.test_transforms)
+#     def train_dataloader(self):
+#         return DataLoader(
+#             self.train_dataset, batch_size=BATCH_SIZE,
+#             shuffle=True, num_workers=self.workers
+#         )
 
-    def train_dataloader(self):
-        return DataLoader(self.train_dataset, batch_size=BATCH_SIZE)
+#     def val_dataloader(self):
+#         return DataLoader(
+#             self.test_dataset, batch_size=BATCH_SIZE,
+#             shuffle=False, num_workers=self.workers
+#         )
 
-    def val_dataloader(self):
-        return DataLoader(self.test_dataset, batch_size=BATCH_SIZE)
-
-    def test_dataloader(self):
-        return DataLoader(self.test_dataset, batch_size=BATCH_SIZE)    
+#     def test_dataloader(self):
+#         return DataLoader(
+#             self.test_dataset, batch_size=BATCH_SIZE,
+#             shuffle=False, num_workers=self.workers
+#         )   

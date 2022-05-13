@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>734</id>
+      <name>Negative</name>
+      <size>831</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-03-16 07:26:02.727729+00:00</created>
+      <updated>2022-03-31 06:35:25.196581+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>830</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Negative</name>
+          <color>#d0c6e4</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>596</id>
+          <start>0</start>
+          <stop>830</stop>
+          <url>http://cvat.doai.ai/?id=596</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>django</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2022-04-21 00:49:15.394189+00:00</dumped>
+  </meta>
+  <image id="830" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_999.png" width="2048" height="2048">
+  </image>
+  <image id="829" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_997.png" width="2048" height="2048">
+  </image>
+  <image id="828" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_991.png" width="2048" height="2048">
+  </image>
+  <image id="827" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_988.png" width="2048" height="2048">
+  </image>
+  <image id="826" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_986.png" width="2048" height="2048">
+  </image>
+  <image id="825" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_985.png" width="2048" height="2048">
+  </image>
+  <image id="824" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_984.png" width="2048" height="2048">
+  </image>
+  <image id="823" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_983.png" width="2048" height="2048">
+  </image>
+  <image id="822" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_978.png" width="2048" height="2048">
+  </image>
+  <image id="821" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_977.png" width="2048" height="2048">
+  </image>
+  <image id="820" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_976.png" width="2048" height="2048">
+  </image>
+  <image id="819" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_975.png" width="2048" height="2048">
+  </image>
+  <image id="818" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_974.png" width="2048" height="2048">
+  </image>
+  <image id="817" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_973.png" width="2048" height="2048">
+  </image>
+  <image id="816" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_972.png" width="2048" height="2048">
+  </image>
+  <image id="815" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_966.png" width="2048" height="2048">
+  </image>
+  <image id="814" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_960.png" width="2048" height="2048">
+  </image>
+  <image id="813" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_958.png" width="2048" height="2048">
+  </image>
+  <image id="812" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_957.png" width="2048" height="2048">
+  </image>
+  <image id="811" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_956.png" width="2048" height="2048">
+  </image>
+  <image id="810" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_952.png" width="2048" height="2048">
+  </image>
+  <image id="809" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_951.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1129.08" ytl="1045.76" xbr="1203.95" ybr="1106.14" z_order="0">
+    </box>
+  </image>
+  <image id="808" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_950.png" width="2048" height="2048">
+  </image>
+  <image id="807" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_949.png" width="2048" height="2048">
+  </image>
+  <image id="806" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_948.png" width="2048" height="2048">
+  </image>
+  <image id="805" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_947.png" width="2048" height="2048">
+  </image>
+  <image id="804" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_944.png" width="2048" height="2048">
+  </image>
+  <image id="803" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_940.png" width="2048" height="2048">
+  </image>
+  <image id="802" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_939.png" width="2048" height="2048">
+  </image>
+  <image id="801" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_938.png" width="2048" height="2048">
+  </image>
+  <image id="800" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_937.png" width="2048" height="2048">
+  </image>
+  <image id="799" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_936.png" width="2048" height="2048">
+  </image>
+  <image id="798" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_935.png" width="2048" height="2048">
+  </image>
+  <image id="797" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_934.png" width="2048" height="2048">
+  </image>
+  <image id="796" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_929.png" width="2048" height="2048">
+  </image>
+  <image id="795" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_927.png" width="2048" height="2048">
+  </image>
+  <image id="794" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_926.png" width="2048" height="2048">
+  </image>
+  <image id="793" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_925.png" width="2048" height="2048">
+  </image>
+  <image id="792" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_924.png" width="2048" height="2048">
+  </image>
+  <image id="791" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_921.png" width="2048" height="2048">
+  </image>
+  <image id="790" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_919.png" width="2048" height="2048">
+  </image>
+  <image id="789" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_915.png" width="2048" height="2048">
+  </image>
+  <image id="788" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_912.png" width="2048" height="2048">
+  </image>
+  <image id="787" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_910.png" width="2048" height="2048">
+  </image>
+  <image id="786" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_909.png" width="2048" height="2048">
+  </image>
+  <image id="785" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_908.png" width="2048" height="2048">
+  </image>
+  <image id="784" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_903.png" width="2048" height="2048">
+  </image>
+  <image id="783" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_902.png" width="2048" height="2048">
+  </image>
+  <image id="782" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_898.png" width="2048" height="2048">
+  </image>
+  <image id="781" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_889.png" width="2048" height="2048">
+  </image>
+  <image id="780" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_888.png" width="2048" height="2048">
+  </image>
+  <image id="779" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_886.png" width="2048" height="2048">
+  </image>
+  <image id="778" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_885.png" width="2048" height="2048">
+  </image>
+  <image id="777" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_880.png" width="2048" height="2048">
+  </image>
+  <image id="776" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_878.png" width="2048" height="2048">
+  </image>
+  <image id="775" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_877.png" width="2048" height="2048">
+  </image>
+  <image id="774" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_876.png" width="2048" height="2048">
+  </image>
+  <image id="773" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_875.png" width="2048" height="2048">
+  </image>
+  <image id="772" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_874.png" width="2048" height="2048">
+  </image>
+  <image id="771" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_873.png" width="2048" height="2048">
+  </image>
+  <image id="770" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_872.png" width="2048" height="2048">
+  </image>
+  <image id="769" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_871.png" width="2048" height="2048">
+  </image>
+  <image id="768" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_870.png" width="2048" height="2048">
+  </image>
+  <image id="767" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_869.png" width="2048" height="2048">
+  </image>
+  <image id="766" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_868.png" width="2048" height="2048">
+  </image>
+  <image id="765" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_867.png" width="2048" height="2048">
+  </image>
+  <image id="764" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_865.png" width="2048" height="2048">
+  </image>
+  <image id="763" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_864.png" width="2048" height="2048">
+  </image>
+  <image id="762" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_863.png" width="2048" height="2048">
+  </image>
+  <image id="761" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_860.png" width="2048" height="2048">
+  </image>
+  <image id="760" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_859.png" width="2048" height="2048">
+  </image>
+  <image id="759" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_855.png" width="2048" height="2048">
+  </image>
+  <image id="758" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_854.png" width="2048" height="2048">
+  </image>
+  <image id="757" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_853.png" width="2048" height="2048">
+  </image>
+  <image id="756" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_852.png" width="2048" height="2048">
+  </image>
+  <image id="755" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_850.png" width="2048" height="2048">
+  </image>
+  <image id="754" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_849.png" width="2048" height="2048">
+  </image>
+  <image id="753" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_848.png" width="2048" height="2048">
+  </image>
+  <image id="752" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_842.png" width="2048" height="2048">
+  </image>
+  <image id="751" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_841.png" width="2048" height="2048">
+  </image>
+  <image id="750" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_839.png" width="2048" height="2048">
+  </image>
+  <image id="749" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_837.png" width="2048" height="2048">
+  </image>
+  <image id="748" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_836.png" width="2048" height="2048">
+  </image>
+  <image id="747" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_831.png" width="2048" height="2048">
+  </image>
+  <image id="746" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_827.png" width="2048" height="2048">
+  </image>
+  <image id="745" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_826.png" width="2048" height="2048">
+  </image>
+  <image id="744" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_825.png" width="2048" height="2048">
+  </image>
+  <image id="743" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_824.png" width="2048" height="2048">
+  </image>
+  <image id="742" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_823.png" width="2048" height="2048">
+  </image>
+  <image id="741" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_822.png" width="2048" height="2048">
+  </image>
+  <image id="740" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_821.png" width="2048" height="2048">
+  </image>
+  <image id="739" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_820.png" width="2048" height="2048">
+  </image>
+  <image id="738" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_819.png" width="2048" height="2048">
+  </image>
+  <image id="737" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_818.png" width="2048" height="2048">
+  </image>
+  <image id="736" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_817.png" width="2048" height="2048">
+  </image>
+  <image id="735" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_816.png" width="2048" height="2048">
+  </image>
+  <image id="734" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_815.png" width="2048" height="2048">
+  </image>
+  <image id="733" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_813.png" width="2048" height="2048">
+  </image>
+  <image id="732" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_811.png" width="2048" height="2048">
+  </image>
+  <image id="731" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_810.png" width="2048" height="2048">
+  </image>
+  <image id="730" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_806.png" width="2048" height="2048">
+  </image>
+  <image id="729" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_805.png" width="2048" height="2048">
+  </image>
+  <image id="728" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_804.png" width="2048" height="2048">
+  </image>
+  <image id="727" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_803.png" width="2048" height="2048">
+  </image>
+  <image id="726" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_802.png" width="2048" height="2048">
+  </image>
+  <image id="630" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_665.png" width="2048" height="2048">
+  </image>
+  <image id="629" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_660.png" width="2048" height="2048">
+  </image>
+  <image id="628" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_657.png" width="2048" height="2048">
+  </image>
+  <image id="627" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_651.png" width="2048" height="2048">
+  </image>
+  <image id="626" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_647.png" width="2048" height="2048">
+  </image>
+  <image id="625" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_644.png" width="2048" height="2048">
+  </image>
+  <image id="624" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_641.png" width="2048" height="2048">
+  </image>
+  <image id="623" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_635.png" width="2048" height="2048">
+  </image>
+  <image id="622" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_633.png" width="2048" height="2048">
+  </image>
+  <image id="621" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_632.png" width="2048" height="2048">
+  </image>
+  <image id="620" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_631.png" width="2048" height="2048">
+  </image>
+  <image id="619" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_630.png" width="2048" height="2048">
+  </image>
+  <image id="618" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_629.png" width="2048" height="2048">
+  </image>
+  <image id="617" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_628.png" width="2048" height="2048">
+  </image>
+  <image id="616" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_627.png" width="2048" height="2048">
+  </image>
+  <image id="615" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_626.png" width="2048" height="2048">
+  </image>
+  <image id="614" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_625.png" width="2048" height="2048">
+  </image>
+  <image id="613" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_624.png" width="2048" height="2048">
+  </image>
+  <image id="612" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_623.png" width="2048" height="2048">
+  </image>
+  <image id="611" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_622.png" width="2048" height="2048">
+  </image>
+  <image id="610" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_621.png" width="2048" height="2048">
+  </image>
+  <image id="609" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_620.png" width="2048" height="2048">
+  </image>
+  <image id="608" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_62.png" width="2048" height="2048">
+  </image>
+  <image id="607" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_619.png" width="2048" height="2048">
+  </image>
+  <image id="606" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_618.png" width="2048" height="2048">
+  </image>
+  <image id="605" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_617.png" width="2048" height="2048">
+  </image>
+  <image id="604" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_616.png" width="2048" height="2048">
+  </image>
+  <image id="603" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_611.png" width="2048" height="2048">
+  </image>
+  <image id="602" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_610.png" width="2048" height="2048">
+  </image>
+  <image id="601" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_608.png" width="2048" height="2048">
+  </image>
+  <image id="600" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_607.png" width="2048" height="2048">
+  </image>
+  <image id="599" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_606.png" width="2048" height="2048">
+  </image>
+  <image id="598" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_605.png" width="2048" height="2048">
+  </image>
+  <image id="597" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_604.png" width="2048" height="2048">
+  </image>
+  <image id="596" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_603.png" width="2048" height="2048">
+  </image>
+  <image id="595" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_601.png" width="2048" height="2048">
+  </image>
+  <image id="594" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_599.png" width="2048" height="2048">
+  </image>
+  <image id="593" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_598.png" width="2048" height="2048">
+  </image>
+  <image id="592" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_596.png" width="2048" height="2048">
+  </image>
+  <image id="591" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_592.png" width="2048" height="2048">
+  </image>
+  <image id="590" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_586.png" width="2048" height="2048">
+  </image>
+  <image id="589" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_585.png" width="2048" height="2048">
+  </image>
+  <image id="588" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_583.png" width="2048" height="2048">
+  </image>
+  <image id="587" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_582.png" width="2048" height="2048">
+  </image>
+  <image id="586" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_581.png" width="2048" height="2048">
+  </image>
+  <image id="585" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_580.png" width="2048" height="2048">
+  </image>
+  <image id="584" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_579.png" width="2048" height="2048">
+  </image>
+  <image id="583" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_578.png" width="2048" height="2048">
+  </image>
+  <image id="582" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_577.png" width="2048" height="2048">
+  </image>
+  <image id="581" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_576.png" width="2048" height="2048">
+  </image>
+  <image id="580" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_575.png" width="2048" height="2048">
+  </image>
+  <image id="579" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_574.png" width="2048" height="2048">
+  </image>
+  <image id="578" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_573.png" width="2048" height="2048">
+  </image>
+  <image id="577" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_572.png" width="2048" height="2048">
+  </image>
+  <image id="576" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_571.png" width="2048" height="2048">
+  </image>
+  <image id="575" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_570.png" width="2048" height="2048">
+  </image>
+  <image id="574" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_569.png" width="2048" height="2048">
+  </image>
+  <image id="573" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_568.png" width="2048" height="2048">
+  </image>
+  <image id="572" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_567.png" width="2048" height="2048">
+  </image>
+  <image id="571" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_566.png" width="2048" height="2048">
+  </image>
+  <image id="570" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_563.png" width="2048" height="2048">
+  </image>
+  <image id="569" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_562.png" width="2048" height="2048">
+  </image>
+  <image id="568" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_561.png" width="2048" height="2048">
+  </image>
+  <image id="567" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_560.png" width="2048" height="2048">
+  </image>
+  <image id="566" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_559.png" width="2048" height="2048">
+  </image>
+  <image id="565" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_558.png" width="2048" height="2048">
+  </image>
+  <image id="564" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_557.png" width="2048" height="2048">
+  </image>
+  <image id="563" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_556.png" width="2048" height="2048">
+  </image>
+  <image id="562" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_555.png" width="2048" height="2048">
+  </image>
+  <image id="561" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_553.png" width="2048" height="2048">
+  </image>
+  <image id="560" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_547.png" width="2048" height="2048">
+  </image>
+  <image id="559" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_543.png" width="2048" height="2048">
+  </image>
+  <image id="558" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_542.png" width="2048" height="2048">
+  </image>
+  <image id="557" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_537.png" width="2048" height="2048">
+  </image>
+  <image id="556" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_536.png" width="2048" height="2048">
+  </image>
+  <image id="555" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_533.png" width="2048" height="2048">
+  </image>
+  <image id="554" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_532.png" width="2048" height="2048">
+  </image>
+  <image id="553" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_531.png" width="2048" height="2048">
+  </image>
+  <image id="552" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_530.png" width="2048" height="2048">
+  </image>
+  <image id="551" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_529.png" width="2048" height="2048">
+  </image>
+  <image id="550" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_528.png" width="2048" height="2048">
+  </image>
+  <image id="549" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_527.png" width="2048" height="2048">
+  </image>
+  <image id="548" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_526.png" width="2048" height="2048">
+  </image>
+  <image id="547" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_525.png" width="2048" height="2048">
+  </image>
+  <image id="546" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_524.png" width="2048" height="2048">
+  </image>
+  <image id="545" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_523.png" width="2048" height="2048">
+  </image>
+  <image id="544" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_521.png" width="2048" height="2048">
+  </image>
+  <image id="543" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_520.png" width="2048" height="2048">
+  </image>
+  <image id="542" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_52.png" width="2048" height="2048">
+  </image>
+  <image id="541" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_519.png" width="2048" height="2048">
+  </image>
+  <image id="540" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_517.png" width="2048" height="2048">
+  </image>
+  <image id="539" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_514.png" width="2048" height="2048">
+  </image>
+  <image id="538" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_513.png" width="2048" height="2048">
+  </image>
+  <image id="537" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_512.png" width="2048" height="2048">
+  </image>
+  <image id="536" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_511.png" width="2048" height="2048">
+  </image>
+  <image id="535" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_510.png" width="2048" height="2048">
+  </image>
+  <image id="534" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_509.png" width="2048" height="2048">
+  </image>
+  <image id="533" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_508.png" width="2048" height="2048">
+  </image>
+  <image id="532" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_507.png" width="2048" height="2048">
+  </image>
+  <image id="531" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_506.png" width="2048" height="2048">
+  </image>
+  <image id="530" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_505.png" width="2048" height="2048">
+  </image>
+  <image id="529" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_504.png" width="2048" height="2048">
+  </image>
+  <image id="528" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_503.png" width="2048" height="2048">
+  </image>
+  <image id="527" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_502.png" width="2048" height="2048">
+  </image>
+  <image id="526" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_499.png" width="2048" height="2048">
+  </image>
+  <image id="525" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_494.png" width="2048" height="2048">
+  </image>
+  <image id="524" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_493.png" width="2048" height="2048">
+  </image>
+  <image id="523" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_488.png" width="2048" height="2048">
+  </image>
+  <image id="522" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_487.png" width="2048" height="2048">
+  </image>
+  <image id="521" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_483.png" width="2048" height="2048">
+  </image>
+  <image id="520" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_482.png" width="2048" height="2048">
+  </image>
+  <image id="519" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_481.png" width="2048" height="2048">
+  </image>
+  <image id="518" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_480.png" width="2048" height="2048">
+  </image>
+  <image id="517" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_479.png" width="2048" height="2048">
+  </image>
+  <image id="516" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_478.png" width="2048" height="2048">
+  </image>
+  <image id="515" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_477.png" width="2048" height="2048">
+  </image>
+  <image id="514" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_476.png" width="2048" height="2048">
+  </image>
+  <image id="513" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_475.png" width="2048" height="2048">
+  </image>
+  <image id="512" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_474.png" width="2048" height="2048">
+  </image>
+  <image id="511" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_472.png" width="2048" height="2048">
+  </image>
+  <image id="510" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_471.png" width="2048" height="2048">
+  </image>
+  <image id="509" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_470.png" width="2048" height="2048">
+  </image>
+  <image id="508" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_47.png" width="2048" height="2048">
+  </image>
+  <image id="507" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_465.png" width="2048" height="2048">
+  </image>
+  <image id="506" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_464.png" width="2048" height="2048">
+  </image>
+  <image id="505" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_463.png" width="2048" height="2048">
+  </image>
+  <image id="504" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_462.png" width="2048" height="2048">
+  </image>
+  <image id="503" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_461.png" width="2048" height="2048">
+  </image>
+  <image id="502" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_460.png" width="2048" height="2048">
+  </image>
+  <image id="501" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_459.png" width="2048" height="2048">
+  </image>
+  <image id="500" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_458.png" width="2048" height="2048">
+  </image>
+  <image id="499" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_457.png" width="2048" height="2048">
+  </image>
+  <image id="498" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_456.png" width="2048" height="2048">
+  </image>
+  <image id="497" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_455.png" width="2048" height="2048">
+  </image>
+  <image id="496" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_454.png" width="2048" height="2048">
+  </image>
+  <image id="495" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_451.png" width="2048" height="2048">
+  </image>
+  <image id="494" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_445.png" width="2048" height="2048">
+  </image>
+  <image id="493" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_444.png" width="2048" height="2048">
+  </image>
+  <image id="492" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_439.png" width="2048" height="2048">
+  </image>
+  <image id="491" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_438.png" width="2048" height="2048">
+  </image>
+  <image id="490" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_433.png" width="2048" height="2048">
+  </image>
+  <image id="489" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_432.png" width="2048" height="2048">
+  </image>
+  <image id="488" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_431.png" width="2048" height="2048">
+  </image>
+  <image id="487" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_430.png" width="2048" height="2048">
+  </image>
+  <image id="486" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_428.png" width="2048" height="2048">
+  </image>
+  <image id="485" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_427.png" width="2048" height="2048">
+  </image>
+  <image id="484" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_426.png" width="2048" height="2048">
+  </image>
+  <image id="483" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_425.png" width="2048" height="2048">
+  </image>
+  <image id="482" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_423.png" width="2048" height="2048">
+  </image>
+  <image id="481" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_422.png" width="2048" height="2048">
+  </image>
+  <image id="480" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_421.png" width="2048" height="2048">
+  </image>
+  <image id="479" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_416.png" width="2048" height="2048">
+  </image>
+  <image id="478" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_415.png" width="2048" height="2048">
+  </image>
+  <image id="477" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_414.png" width="2048" height="2048">
+  </image>
+  <image id="476" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_413.png" width="2048" height="2048">
+  </image>
+  <image id="475" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_412.png" width="2048" height="2048">
+  </image>
+  <image id="474" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_411.png" width="2048" height="2048">
+  </image>
+  <image id="473" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_410.png" width="2048" height="2048">
+  </image>
+  <image id="472" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_407.png" width="2048" height="2048">
+  </image>
+  <image id="471" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_406.png" width="2048" height="2048">
+  </image>
+  <image id="470" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_405.png" width="2048" height="2048">
+  </image>
+  <image id="469" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_403.png" width="2048" height="2048">
+  </image>
+  <image id="468" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_402.png" width="2048" height="2048">
+  </image>
+  <image id="467" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_395.png" width="2048" height="2048">
+  </image>
+  <image id="466" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_390.png" width="2048" height="2048">
+  </image>
+  <image id="465" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_389.png" width="2048" height="2048">
+  </image>
+  <image id="464" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_383.png" width="2048" height="2048">
+  </image>
+  <image id="463" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_382.png" width="2048" height="2048">
+  </image>
+  <image id="462" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_380.png" width="2048" height="2048">
+  </image>
+  <image id="461" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_377.png" width="2048" height="2048">
+  </image>
+  <image id="460" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_376.png" width="2048" height="2048">
+  </image>
+  <image id="459" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_374.png" width="2048" height="2048">
+  </image>
+  <image id="458" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_373.png" width="2048" height="2048">
+  </image>
+  <image id="457" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_372.png" width="2048" height="2048">
+  </image>
+  <image id="456" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_365.png" width="2048" height="2048">
+  </image>
+  <image id="455" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_364.png" width="2048" height="2048">
+  </image>
+  <image id="454" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_363.png" width="2048" height="2048">
+  </image>
+  <image id="453" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_362.png" width="2048" height="2048">
+  </image>
+  <image id="452" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_358.png" width="2048" height="2048">
+  </image>
+  <image id="451" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_356.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1619.34" ytl="642.44" xbr="1703.87" ybr="734.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1742.51" ytl="784.93" xbr="1819.80" ybr="852.55" z_order="0">
+    </box>
+  </image>
+  <image id="450" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_355.png" width="2048" height="2048">
+  </image>
+  <image id="449" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_354.png" width="2048" height="2048">
+  </image>
+  <image id="448" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_346.png" width="2048" height="2048">
+  </image>
+  <image id="447" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_341.png" width="2048" height="2048">
+  </image>
+  <image id="446" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_340.png" width="2048" height="2048">
+  </image>
+  <image id="445" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_333.png" width="2048" height="2048">
+  </image>
+  <image id="444" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_332.png" width="2048" height="2048">
+  </image>
+  <image id="443" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_330.png" width="2048" height="2048">
+  </image>
+  <image id="442" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_328.png" width="2048" height="2048">
+  </image>
+  <image id="441" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_327.png" width="2048" height="2048">
+  </image>
+  <image id="440" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_326.png" width="2048" height="2048">
+  </image>
+  <image id="439" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_325.png" width="2048" height="2048">
+  </image>
+  <image id="438" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_324.png" width="2048" height="2048">
+  </image>
+  <image id="437" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_323.png" width="2048" height="2048">
+  </image>
+  <image id="436" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_318.png" width="2048" height="2048">
+  </image>
+  <image id="435" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_316.png" width="2048" height="2048">
+  </image>
+  <image id="434" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_315.png" width="2048" height="2048">
+  </image>
+  <image id="433" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_314.png" width="2048" height="2048">
+  </image>
+  <image id="432" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_313.png" width="2048" height="2048">
+  </image>
+  <image id="431" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_307.png" width="2048" height="2048">
+  </image>
+  <image id="430" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_306.png" width="2048" height="2048">
+  </image>
+  <image id="429" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_3.png" width="2048" height="2048">
+  </image>
+  <image id="428" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_297.png" width="2048" height="2048">
+  </image>
+  <image id="427" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_292.png" width="2048" height="2048">
+  </image>
+  <image id="426" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_291.png" width="2048" height="2048">
+  </image>
+  <image id="425" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_283.png" width="2048" height="2048">
+  </image>
+  <image id="424" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_282.png" width="2048" height="2048">
+  </image>
+  <image id="423" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_281.png" width="2048" height="2048">
+  </image>
+  <image id="422" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_280.png" width="2048" height="2048">
+  </image>
+  <image id="421" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_279.png" width="2048" height="2048">
+  </image>
+  <image id="420" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_278.png" width="2048" height="2048">
+  </image>
+  <image id="419" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_277.png" width="2048" height="2048">
+  </image>
+  <image id="418" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_275.png" width="2048" height="2048">
+  </image>
+  <image id="417" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_269.png" width="2048" height="2048">
+  </image>
+  <image id="416" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_266.png" width="2048" height="2048">
+  </image>
+  <image id="415" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_265.png" width="2048" height="2048">
+  </image>
+  <image id="414" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_264.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="819.95" ytl="234.29" xbr="969.68" ybr="330.89" z_order="0">
+    </box>
+  </image>
+  <image id="413" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_263.png" width="2048" height="2048">
+  </image>
+  <image id="412" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_260.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="667.80" ytl="1656.78" xbr="841.68" ybr="1750.97" z_order="0">
+    </box>
+  </image>
+  <image id="411" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_259.png" width="2048" height="2048">
+  </image>
+  <image id="410" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_248.png" width="2048" height="2048">
+  </image>
+  <image id="409" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_243.png" width="2048" height="2048">
+  </image>
+  <image id="408" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_242.png" width="2048" height="2048">
+  </image>
+  <image id="407" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_232.png" width="2048" height="2048">
+  </image>
+  <image id="406" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_231.png" width="2048" height="2048">
+  </image>
+  <image id="405" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_230.png" width="2048" height="2048">
+  </image>
+  <image id="404" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_228.png" width="2048" height="2048">
+  </image>
+  <image id="403" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_225.png" width="2048" height="2048">
+  </image>
+  <image id="402" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_223.png" width="2048" height="2048">
+  </image>
+  <image id="401" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2212.png" width="2048" height="2048">
+  </image>
+  <image id="400" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2210.png" width="2048" height="2048">
+  </image>
+  <image id="399" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2209.png" width="2048" height="2048">
+  </image>
+  <image id="398" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_218.png" width="2048" height="2048">
+  </image>
+  <image id="397" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_217.png" width="2048" height="2048">
+  </image>
+  <image id="396" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2161.png" width="2048" height="2048">
+  </image>
+  <image id="395" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2160.png" width="2048" height="2048">
+  </image>
+  <image id="394" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2143.png" width="2048" height="2048">
+  </image>
+  <image id="393" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2136.png" width="2048" height="2048">
+  </image>
+  <image id="392" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2135.png" width="2048" height="2048">
+  </image>
+  <image id="391" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2134.png" width="2048" height="2048">
+  </image>
+  <image id="390" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2133.png" width="2048" height="2048">
+  </image>
+  <image id="389" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2132.png" width="2048" height="2048">
+  </image>
+  <image id="388" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2131.png" width="2048" height="2048">
+  </image>
+  <image id="387" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2130.png" width="2048" height="2048">
+  </image>
+  <image id="386" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_213.png" width="2048" height="2048">
+  </image>
+  <image id="385" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_212.png" width="2048" height="2048">
+  </image>
+  <image id="384" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2112.png" width="2048" height="2048">
+  </image>
+  <image id="383" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2111.png" width="2048" height="2048">
+  </image>
+  <image id="382" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_211.png" width="2048" height="2048">
+  </image>
+  <image id="381" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2090.png" width="2048" height="2048">
+  </image>
+  <image id="380" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2089.png" width="2048" height="2048">
+  </image>
+  <image id="379" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2088.png" width="2048" height="2048">
+  </image>
+  <image id="378" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2087.png" width="2048" height="2048">
+  </image>
+  <image id="377" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2086.png" width="2048" height="2048">
+  </image>
+  <image id="376" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2084.png" width="2048" height="2048">
+  </image>
+  <image id="375" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2083.png" width="2048" height="2048">
+  </image>
+  <image id="374" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2081.png" width="2048" height="2048">
+  </image>
+  <image id="373" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2080.png" width="2048" height="2048">
+  </image>
+  <image id="372" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2079.png" width="2048" height="2048">
+  </image>
+  <image id="371" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2078.png" width="2048" height="2048">
+  </image>
+  <image id="370" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2077.png" width="2048" height="2048">
+  </image>
+  <image id="369" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2062.png" width="2048" height="2048">
+  </image>
+  <image id="368" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2044.png" width="2048" height="2048">
+  </image>
+  <image id="367" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2043.png" width="2048" height="2048">
+  </image>
+  <image id="366" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2042.png" width="2048" height="2048">
+  </image>
+  <image id="365" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2041.png" width="2048" height="2048">
+  </image>
+  <image id="364" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2040.png" width="2048" height="2048">
+  </image>
+  <image id="363" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2039.png" width="2048" height="2048">
+  </image>
+  <image id="362" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2038.png" width="2048" height="2048">
+  </image>
+  <image id="361" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2036.png" width="2048" height="2048">
+  </image>
+  <image id="360" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2035.png" width="2048" height="2048">
+  </image>
+  <image id="359" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2033.png" width="2048" height="2048">
+  </image>
+  <image id="358" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2028.png" width="2048" height="2048">
+  </image>
+  <image id="357" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2027.png" width="2048" height="2048">
+  </image>
+  <image id="356" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2026.png" width="2048" height="2048">
+  </image>
+  <image id="355" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_2013.png" width="2048" height="2048">
+  </image>
+  <image id="354" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1997.png" width="2048" height="2048">
+  </image>
+  <image id="353" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1996.png" width="2048" height="2048">
+  </image>
+  <image id="352" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1995.png" width="2048" height="2048">
+  </image>
+  <image id="351" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1994.png" width="2048" height="2048">
+  </image>
+  <image id="350" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1992.png" width="2048" height="2048">
+  </image>
+  <image id="349" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1991.png" width="2048" height="2048">
+  </image>
+  <image id="348" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1990.png" width="2048" height="2048">
+  </image>
+  <image id="347" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_199.png" width="2048" height="2048">
+  </image>
+  <image id="346" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1989.png" width="2048" height="2048">
+  </image>
+  <image id="345" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1988.png" width="2048" height="2048">
+  </image>
+  <image id="344" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1987.png" width="2048" height="2048">
+  </image>
+  <image id="343" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1986.png" width="2048" height="2048">
+  </image>
+  <image id="342" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1983.png" width="2048" height="2048">
+  </image>
+  <image id="341" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1982.png" width="2048" height="2048">
+  </image>
+  <image id="340" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1980.png" width="2048" height="2048">
+  </image>
+  <image id="339" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1979.png" width="2048" height="2048">
+  </image>
+  <image id="338" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1976.png" width="2048" height="2048">
+  </image>
+  <image id="337" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1975.png" width="2048" height="2048">
+  </image>
+  <image id="336" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1965.png" width="2048" height="2048">
+  </image>
+  <image id="335" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1964.png" width="2048" height="2048">
+  </image>
+  <image id="334" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1949.png" width="2048" height="2048">
+  </image>
+  <image id="333" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1948.png" width="2048" height="2048">
+  </image>
+  <image id="332" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1947.png" width="2048" height="2048">
+  </image>
+  <image id="331" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1945.png" width="2048" height="2048">
+  </image>
+  <image id="330" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1944.png" width="2048" height="2048">
+  </image>
+  <image id="329" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1943.png" width="2048" height="2048">
+  </image>
+  <image id="328" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1942.png" width="2048" height="2048">
+  </image>
+  <image id="327" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_194.png" width="2048" height="2048">
+  </image>
+  <image id="326" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1938.png" width="2048" height="2048">
+  </image>
+  <image id="325" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1936.png" width="2048" height="2048">
+  </image>
+  <image id="324" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1935.png" width="2048" height="2048">
+  </image>
+  <image id="323" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1932.png" width="2048" height="2048">
+  </image>
+  <image id="322" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1931.png" width="2048" height="2048">
+  </image>
+  <image id="321" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1930.png" width="2048" height="2048">
+  </image>
+  <image id="320" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_193.png" width="2048" height="2048">
+  </image>
+  <image id="319" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1929.png" width="2048" height="2048">
+  </image>
+  <image id="318" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1928.png" width="2048" height="2048">
+  </image>
+  <image id="317" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1927.png" width="2048" height="2048">
+  </image>
+  <image id="316" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1925.png" width="2048" height="2048">
+  </image>
+  <image id="315" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1924.png" width="2048" height="2048">
+  </image>
+  <image id="314" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1916.png" width="2048" height="2048">
+  </image>
+  <image id="313" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1915.png" width="2048" height="2048">
+  </image>
+  <image id="312" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1901.png" width="2048" height="2048">
+  </image>
+  <image id="311" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1897.png" width="2048" height="2048">
+  </image>
+  <image id="310" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1896.png" width="2048" height="2048">
+  </image>
+  <image id="309" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1895.png" width="2048" height="2048">
+  </image>
+  <image id="308" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1893.png" width="2048" height="2048">
+  </image>
+  <image id="307" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1881.png" width="2048" height="2048">
+  </image>
+  <image id="306" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1879.png" width="2048" height="2048">
+  </image>
+  <image id="305" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1878.png" width="2048" height="2048">
+  </image>
+  <image id="304" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1877.png" width="2048" height="2048">
+  </image>
+  <image id="303" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1876.png" width="2048" height="2048">
+  </image>
+  <image id="302" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1875.png" width="2048" height="2048">
+  </image>
+  <image id="301" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1874.png" width="2048" height="2048">
+  </image>
+  <image id="300" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1867.png" width="2048" height="2048">
+  </image>
+  <image id="299" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1866.png" width="2048" height="2048">
+  </image>
+  <image id="298" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1853.png" width="2048" height="2048">
+  </image>
+  <image id="297" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1851.png" width="2048" height="2048">
+  </image>
+  <image id="296" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1850.png" width="2048" height="2048">
+  </image>
+  <image id="295" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1849.png" width="2048" height="2048">
+  </image>
+  <image id="294" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1848.png" width="2048" height="2048">
+  </image>
+  <image id="293" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1846.png" width="2048" height="2048">
+  </image>
+  <image id="292" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1845.png" width="2048" height="2048">
+  </image>
+  <image id="291" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1830.png" width="2048" height="2048">
+  </image>
+  <image id="290" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1829.png" width="2048" height="2048">
+  </image>
+  <image id="289" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1828.png" width="2048" height="2048">
+  </image>
+  <image id="288" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1827.png" width="2048" height="2048">
+  </image>
+  <image id="287" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1825.png" width="2048" height="2048">
+  </image>
+  <image id="286" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1824.png" width="2048" height="2048">
+  </image>
+  <image id="285" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_182.png" width="2048" height="2048">
+  </image>
+  <image id="284" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1818.png" width="2048" height="2048">
+  </image>
+  <image id="283" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1817.png" width="2048" height="2048">
+  </image>
+  <image id="282" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1811.png" width="2048" height="2048">
+  </image>
+  <image id="281" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_181.png" width="2048" height="2048">
+  </image>
+  <image id="280" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1805.png" width="2048" height="2048">
+  </image>
+  <image id="279" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1804.png" width="2048" height="2048">
+  </image>
+  <image id="278" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1803.png" width="2048" height="2048">
+  </image>
+  <image id="277" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1802.png" width="2048" height="2048">
+  </image>
+  <image id="276" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1801.png" width="2048" height="2048">
+  </image>
+  <image id="275" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_180.png" width="2048" height="2048">
+  </image>
+  <image id="274" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1798.png" width="2048" height="2048">
+  </image>
+  <image id="273" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1790.png" width="2048" height="2048">
+  </image>
+  <image id="272" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_179.png" width="2048" height="2048">
+  </image>
+  <image id="271" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1783.png" width="2048" height="2048">
+  </image>
+  <image id="270" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1779.png" width="2048" height="2048">
+  </image>
+  <image id="269" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1778.png" width="2048" height="2048">
+  </image>
+  <image id="268" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1777.png" width="2048" height="2048">
+  </image>
+  <image id="267" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1776.png" width="2048" height="2048">
+  </image>
+  <image id="266" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1775.png" width="2048" height="2048">
+  </image>
+  <image id="265" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1774.png" width="2048" height="2048">
+  </image>
+  <image id="264" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1769.png" width="2048" height="2048">
+  </image>
+  <image id="263" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1768.png" width="2048" height="2048">
+  </image>
+  <image id="262" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1762.png" width="2048" height="2048">
+  </image>
+  <image id="261" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1757.png" width="2048" height="2048">
+  </image>
+  <image id="260" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1756.png" width="2048" height="2048">
+  </image>
+  <image id="259" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1755.png" width="2048" height="2048">
+  </image>
+  <image id="258" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1754.png" width="2048" height="2048">
+  </image>
+  <image id="725" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_796.png" width="2048" height="2048">
+  </image>
+  <image id="724" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_795.png" width="2048" height="2048">
+  </image>
+  <image id="723" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_794.png" width="2048" height="2048">
+  </image>
+  <image id="722" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_790.png" width="2048" height="2048">
+  </image>
+  <image id="721" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_79.png" width="2048" height="2048">
+  </image>
+  <image id="720" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_788.png" width="2048" height="2048">
+  </image>
+  <image id="719" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_787.png" width="2048" height="2048">
+  </image>
+  <image id="718" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_782.png" width="2048" height="2048">
+  </image>
+  <image id="717" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_780.png" width="2048" height="2048">
+  </image>
+  <image id="716" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_78.png" width="2048" height="2048">
+  </image>
+  <image id="715" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_779.png" width="2048" height="2048">
+  </image>
+  <image id="714" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_778.png" width="2048" height="2048">
+  </image>
+  <image id="713" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_777.png" width="2048" height="2048">
+  </image>
+  <image id="712" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_776.png" width="2048" height="2048">
+  </image>
+  <image id="711" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_775.png" width="2048" height="2048">
+  </image>
+  <image id="710" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_774.png" width="2048" height="2048">
+  </image>
+  <image id="709" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_773.png" width="2048" height="2048">
+  </image>
+  <image id="708" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_772.png" width="2048" height="2048">
+  </image>
+  <image id="707" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_771.png" width="2048" height="2048">
+  </image>
+  <image id="706" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_770.png" width="2048" height="2048">
+  </image>
+  <image id="705" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_77.png" width="2048" height="2048">
+  </image>
+  <image id="704" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_769.png" width="2048" height="2048">
+  </image>
+  <image id="703" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_768.png" width="2048" height="2048">
+  </image>
+  <image id="702" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_767.png" width="2048" height="2048">
+  </image>
+  <image id="701" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_766.png" width="2048" height="2048">
+  </image>
+  <image id="700" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_765.png" width="2048" height="2048">
+  </image>
+  <image id="699" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_763.png" width="2048" height="2048">
+  </image>
+  <image id="698" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_762.png" width="2048" height="2048">
+  </image>
+  <image id="697" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_761.png" width="2048" height="2048">
+  </image>
+  <image id="696" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_76.png" width="2048" height="2048">
+  </image>
+  <image id="695" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_758.png" width="2048" height="2048">
+  </image>
+  <image id="694" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_757.png" width="2048" height="2048">
+  </image>
+  <image id="693" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_756.png" width="2048" height="2048">
+  </image>
+  <image id="692" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_755.png" width="2048" height="2048">
+  </image>
+  <image id="691" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_754.png" width="2048" height="2048">
+  </image>
+  <image id="690" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_751.png" width="2048" height="2048">
+  </image>
+  <image id="689" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_75.png" width="2048" height="2048">
+  </image>
+  <image id="688" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_749.png" width="2048" height="2048">
+  </image>
+  <image id="687" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_748.png" width="2048" height="2048">
+  </image>
+  <image id="686" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_745.png" width="2048" height="2048">
+  </image>
+  <image id="685" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_744.png" width="2048" height="2048">
+  </image>
+  <image id="684" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_741.png" width="2048" height="2048">
+  </image>
+  <image id="683" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_74.png" width="2048" height="2048">
+  </image>
+  <image id="682" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_739.png" width="2048" height="2048">
+  </image>
+  <image id="681" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_738.png" width="2048" height="2048">
+  </image>
+  <image id="680" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_733.png" width="2048" height="2048">
+  </image>
+  <image id="679" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_730.png" width="2048" height="2048">
+  </image>
+  <image id="678" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_73.png" width="2048" height="2048">
+  </image>
+  <image id="677" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_729.png" width="2048" height="2048">
+  </image>
+  <image id="676" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_728.png" width="2048" height="2048">
+  </image>
+  <image id="675" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_727.png" width="2048" height="2048">
+  </image>
+  <image id="674" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_726.png" width="2048" height="2048">
+  </image>
+  <image id="673" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_725.png" width="2048" height="2048">
+  </image>
+  <image id="672" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_724.png" width="2048" height="2048">
+  </image>
+  <image id="671" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_723.png" width="2048" height="2048">
+  </image>
+  <image id="670" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_722.png" width="2048" height="2048">
+  </image>
+  <image id="669" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_721.png" width="2048" height="2048">
+  </image>
+  <image id="668" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_720.png" width="2048" height="2048">
+  </image>
+  <image id="667" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_72.png" width="2048" height="2048">
+  </image>
+  <image id="666" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_717.png" width="2048" height="2048">
+  </image>
+  <image id="665" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_716.png" width="2048" height="2048">
+  </image>
+  <image id="664" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_715.png" width="2048" height="2048">
+  </image>
+  <image id="663" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_714.png" width="2048" height="2048">
+  </image>
+  <image id="662" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_713.png" width="2048" height="2048">
+  </image>
+  <image id="661" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_71.png" width="2048" height="2048">
+  </image>
+  <image id="660" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_709.png" width="2048" height="2048">
+  </image>
+  <image id="659" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_708.png" width="2048" height="2048">
+  </image>
+  <image id="658" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_707.png" width="2048" height="2048">
+  </image>
+  <image id="657" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_706.png" width="2048" height="2048">
+  </image>
+  <image id="656" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_704.png" width="2048" height="2048">
+  </image>
+  <image id="655" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_702.png" width="2048" height="2048">
+  </image>
+  <image id="654" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_701.png" width="2048" height="2048">
+  </image>
+  <image id="653" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_700.png" width="2048" height="2048">
+  </image>
+  <image id="652" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_699.png" width="2048" height="2048">
+  </image>
+  <image id="651" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_695.png" width="2048" height="2048">
+  </image>
+  <image id="650" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_693.png" width="2048" height="2048">
+  </image>
+  <image id="649" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_690.png" width="2048" height="2048">
+  </image>
+  <image id="648" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_689.png" width="2048" height="2048">
+  </image>
+  <image id="647" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_684.png" width="2048" height="2048">
+  </image>
+  <image id="646" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_682.png" width="2048" height="2048">
+  </image>
+  <image id="645" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_681.png" width="2048" height="2048">
+  </image>
+  <image id="644" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_680.png" width="2048" height="2048">
+  </image>
+  <image id="643" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_679.png" width="2048" height="2048">
+  </image>
+  <image id="642" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_678.png" width="2048" height="2048">
+  </image>
+  <image id="641" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_677.png" width="2048" height="2048">
+  </image>
+  <image id="640" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_676.png" width="2048" height="2048">
+  </image>
+  <image id="639" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_675.png" width="2048" height="2048">
+  </image>
+  <image id="638" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_674.png" width="2048" height="2048">
+  </image>
+  <image id="637" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_673.png" width="2048" height="2048">
+  </image>
+  <image id="636" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_672.png" width="2048" height="2048">
+  </image>
+  <image id="635" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_671.png" width="2048" height="2048">
+  </image>
+  <image id="634" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_670.png" width="2048" height="2048">
+  </image>
+  <image id="633" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_669.png" width="2048" height="2048">
+  </image>
+  <image id="632" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_668.png" width="2048" height="2048">
+  </image>
+  <image id="631" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_667.png" width="2048" height="2048">
+  </image>
+  <image id="257" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1753.png" width="2048" height="2048">
+  </image>
+  <image id="256" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_175.png" width="2048" height="2048">
+  </image>
+  <image id="255" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1748.png" width="2048" height="2048">
+  </image>
+  <image id="254" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1730.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1368.42" ytl="564.19" xbr="1465.02" ybr="706.68" z_order="0">
+    </box>
+  </image>
+  <image id="253" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1729.png" width="2048" height="2048">
+  </image>
+  <image id="252" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1728.png" width="2048" height="2048">
+  </image>
+  <image id="251" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1727.png" width="2048" height="2048">
+  </image>
+  <image id="250" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1725.png" width="2048" height="2048">
+  </image>
+  <image id="249" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1720.png" width="2048" height="2048">
+  </image>
+  <image id="248" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1719.png" width="2048" height="2048">
+  </image>
+  <image id="247" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1718.png" width="2048" height="2048">
+  </image>
+  <image id="246" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1713.png" width="2048" height="2048">
+  </image>
+  <image id="245" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_171.png" width="2048" height="2048">
+  </image>
+  <image id="244" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1709.png" width="2048" height="2048">
+  </image>
+  <image id="243" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1708.png" width="2048" height="2048">
+  </image>
+  <image id="242" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1707.png" width="2048" height="2048">
+  </image>
+  <image id="241" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1706.png" width="2048" height="2048">
+  </image>
+  <image id="240" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1705.png" width="2048" height="2048">
+  </image>
+  <image id="239" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1702.png" width="2048" height="2048">
+  </image>
+  <image id="238" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1700.png" width="2048" height="2048">
+  </image>
+  <image id="237" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_170.png" width="2048" height="2048">
+  </image>
+  <image id="236" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1694.png" width="2048" height="2048">
+  </image>
+  <image id="235" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1681.png" width="2048" height="2048">
+  </image>
+  <image id="234" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1680.png" width="2048" height="2048">
+  </image>
+  <image id="233" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_168.png" width="2048" height="2048">
+  </image>
+  <image id="232" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1679.png" width="2048" height="2048">
+  </image>
+  <image id="231" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1678.png" width="2048" height="2048">
+  </image>
+  <image id="230" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1677.png" width="2048" height="2048">
+  </image>
+  <image id="229" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1676.png" width="2048" height="2048">
+  </image>
+  <image id="228" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1675.png" width="2048" height="2048">
+  </image>
+  <image id="227" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1671.png" width="2048" height="2048">
+  </image>
+  <image id="226" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1670.png" width="2048" height="2048">
+  </image>
+  <image id="225" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_167.png" width="2048" height="2048">
+  </image>
+  <image id="224" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1669.png" width="2048" height="2048">
+  </image>
+  <image id="223" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1664.png" width="2048" height="2048">
+  </image>
+  <image id="222" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1660.png" width="2048" height="2048">
+  </image>
+  <image id="221" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_166.png" width="2048" height="2048">
+  </image>
+  <image id="220" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1659.png" width="2048" height="2048">
+  </image>
+  <image id="219" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1658.png" width="2048" height="2048">
+  </image>
+  <image id="218" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_165.png" width="2048" height="2048">
+  </image>
+  <image id="217" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_164.png" width="2048" height="2048">
+  </image>
+  <image id="216" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1632.png" width="2048" height="2048">
+  </image>
+  <image id="215" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1631.png" width="2048" height="2048">
+  </image>
+  <image id="214" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_163.png" width="2048" height="2048">
+  </image>
+  <image id="213" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1629.png" width="2048" height="2048">
+  </image>
+  <image id="212" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1628.png" width="2048" height="2048">
+  </image>
+  <image id="211" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1627.png" width="2048" height="2048">
+  </image>
+  <image id="210" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1626.png" width="2048" height="2048">
+  </image>
+  <image id="209" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1625.png" width="2048" height="2048">
+  </image>
+  <image id="208" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1622.png" width="2048" height="2048">
+  </image>
+  <image id="207" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1621.png" width="2048" height="2048">
+  </image>
+  <image id="206" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1620.png" width="2048" height="2048">
+  </image>
+  <image id="205" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1615.png" width="2048" height="2048">
+  </image>
+  <image id="204" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1612.png" width="2048" height="2048">
+  </image>
+  <image id="203" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1610.png" width="2048" height="2048">
+  </image>
+  <image id="202" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1609.png" width="2048" height="2048">
+  </image>
+  <image id="201" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1605.png" width="2048" height="2048">
+  </image>
+  <image id="200" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1590.png" width="2048" height="2048">
+  </image>
+  <image id="199" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1583.png" width="2048" height="2048">
+  </image>
+  <image id="198" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1579.png" width="2048" height="2048">
+  </image>
+  <image id="197" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1577.png" width="2048" height="2048">
+  </image>
+  <image id="196" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1576.png" width="2048" height="2048">
+  </image>
+  <image id="195" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1572.png" width="2048" height="2048">
+  </image>
+  <image id="194" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1571.png" width="2048" height="2048">
+  </image>
+  <image id="193" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1566.png" width="2048" height="2048">
+  </image>
+  <image id="192" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1563.png" width="2048" height="2048">
+  </image>
+  <image id="191" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1562.png" width="2048" height="2048">
+  </image>
+  <image id="190" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1561.png" width="2048" height="2048">
+  </image>
+  <image id="189" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1560.png" width="2048" height="2048">
+  </image>
+  <image id="188" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1558.png" width="2048" height="2048">
+  </image>
+  <image id="187" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1552.png" width="2048" height="2048">
+  </image>
+  <image id="186" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1536.png" width="2048" height="2048">
+  </image>
+  <image id="185" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1529.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="781.31" ytl="939.49" xbr="882.74" ybr="1014.36" z_order="0">
+    </box>
+  </image>
+  <image id="184" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1528.png" width="2048" height="2048">
+  </image>
+  <image id="183" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1527.png" width="2048" height="2048">
+  </image>
+  <image id="182" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1526.png" width="2048" height="2048">
+  </image>
+  <image id="181" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1523.png" width="2048" height="2048">
+  </image>
+  <image id="180" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1522.png" width="2048" height="2048">
+  </image>
+  <image id="179" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1517.png" width="2048" height="2048">
+  </image>
+  <image id="178" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1515.png" width="2048" height="2048">
+  </image>
+  <image id="177" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1514.png" width="2048" height="2048">
+  </image>
+  <image id="176" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1513.png" width="2048" height="2048">
+  </image>
+  <image id="175" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1512.png" width="2048" height="2048">
+  </image>
+  <image id="174" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1510.png" width="2048" height="2048">
+  </image>
+  <image id="173" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1509.png" width="2048" height="2048">
+  </image>
+  <image id="172" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_150.png" width="2048" height="2048">
+  </image>
+  <image id="171" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1487.png" width="2048" height="2048">
+  </image>
+  <image id="170" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1481.png" width="2048" height="2048">
+  </image>
+  <image id="169" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1480.png" width="2048" height="2048">
+  </image>
+  <image id="168" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1479.png" width="2048" height="2048">
+  </image>
+  <image id="167" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1478.png" width="2048" height="2048">
+  </image>
+  <image id="166" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1477.png" width="2048" height="2048">
+  </image>
+  <image id="165" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1474.png" width="2048" height="2048">
+  </image>
+  <image id="164" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1473.png" width="2048" height="2048">
+  </image>
+  <image id="163" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1468.png" width="2048" height="2048">
+  </image>
+  <image id="162" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1466.png" width="2048" height="2048">
+  </image>
+  <image id="161" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1465.png" width="2048" height="2048">
+  </image>
+  <image id="160" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1463.png" width="2048" height="2048">
+  </image>
+  <image id="159" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1447.png" width="2048" height="2048">
+  </image>
+  <image id="158" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1431.png" width="2048" height="2048">
+  </image>
+  <image id="157" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1430.png" width="2048" height="2048">
+  </image>
+  <image id="156" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1429.png" width="2048" height="2048">
+  </image>
+  <image id="155" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1428.png" width="2048" height="2048">
+  </image>
+  <image id="154" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1427.png" width="2048" height="2048">
+  </image>
+  <image id="153" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1425.png" width="2048" height="2048">
+  </image>
+  <image id="152" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1424.png" width="2048" height="2048">
+  </image>
+  <image id="151" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1419.png" width="2048" height="2048">
+  </image>
+  <image id="150" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1417.png" width="2048" height="2048">
+  </image>
+  <image id="149" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1390.png" width="2048" height="2048">
+  </image>
+  <image id="148" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1381.png" width="2048" height="2048">
+  </image>
+  <image id="147" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1380.png" width="2048" height="2048">
+  </image>
+  <image id="146" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1379.png" width="2048" height="2048">
+  </image>
+  <image id="145" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1378.png" width="2048" height="2048">
+  </image>
+  <image id="144" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1376.png" width="2048" height="2048">
+  </image>
+  <image id="143" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1375.png" width="2048" height="2048">
+  </image>
+  <image id="142" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1370.png" width="2048" height="2048">
+  </image>
+  <image id="141" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1367.png" width="2048" height="2048">
+  </image>
+  <image id="140" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1363.png" width="2048" height="2048">
+  </image>
+  <image id="139" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1336.png" width="2048" height="2048">
+  </image>
+  <image id="138" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1333.png" width="2048" height="2048">
+  </image>
+  <image id="137" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1331.png" width="2048" height="2048">
+  </image>
+  <image id="136" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1330.png" width="2048" height="2048">
+  </image>
+  <image id="135" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1329.png" width="2048" height="2048">
+  </image>
+  <image id="134" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1327.png" width="2048" height="2048">
+  </image>
+  <image id="133" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1326.png" width="2048" height="2048">
+  </image>
+  <image id="132" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1321.png" width="2048" height="2048">
+  </image>
+  <image id="131" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1319.png" width="2048" height="2048">
+  </image>
+  <image id="130" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1318.png" width="2048" height="2048">
+  </image>
+  <image id="129" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1310.png" width="2048" height="2048">
+  </image>
+  <image id="128" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_131.png" width="2048" height="2048">
+  </image>
+  <image id="127" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1300.png" width="2048" height="2048">
+  </image>
+  <image id="126" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_130.png" width="2048" height="2048">
+  </image>
+  <image id="125" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1294.png" width="2048" height="2048">
+  </image>
+  <image id="124" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1293.png" width="2048" height="2048">
+  </image>
+  <image id="123" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1291.png" width="2048" height="2048">
+  </image>
+  <image id="122" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_129.png" width="2048" height="2048">
+  </image>
+  <image id="121" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1287.png" width="2048" height="2048">
+  </image>
+  <image id="120" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1282.png" width="2048" height="2048">
+  </image>
+  <image id="119" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1281.png" width="2048" height="2048">
+  </image>
+  <image id="118" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1280.png" width="2048" height="2048">
+  </image>
+  <image id="117" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_128.png" width="2048" height="2048">
+  </image>
+  <image id="116" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1279.png" width="2048" height="2048">
+  </image>
+  <image id="115" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1278.png" width="2048" height="2048">
+  </image>
+  <image id="114" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1277.png" width="2048" height="2048">
+  </image>
+  <image id="113" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1272.png" width="2048" height="2048">
+  </image>
+  <image id="112" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1271.png" width="2048" height="2048">
+  </image>
+  <image id="111" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1270.png" width="2048" height="2048">
+  </image>
+  <image id="110" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_127.png" width="2048" height="2048">
+  </image>
+  <image id="109" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1269.png" width="2048" height="2048">
+  </image>
+  <image id="108" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1268.png" width="2048" height="2048">
+  </image>
+  <image id="107" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1266.png" width="2048" height="2048">
+  </image>
+  <image id="106" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1265.png" width="2048" height="2048">
+  </image>
+  <image id="105" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_126.png" width="2048" height="2048">
+  </image>
+  <image id="104" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1257.png" width="2048" height="2048">
+  </image>
+  <image id="103" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_125.png" width="2048" height="2048">
+  </image>
+  <image id="102" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1246.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="206.51" ytl="1362.14" xbr="310.36" ybr="1463.57" z_order="0">
+    </box>
+  </image>
+  <image id="101" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1245.png" width="2048" height="2048">
+  </image>
+  <image id="100" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_124.png" width="2048" height="2048">
+  </image>
+  <image id="99" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1235.png" width="2048" height="2048">
+  </image>
+  <image id="98" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1232.png" width="2048" height="2048">
+  </image>
+  <image id="97" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1231.png" width="2048" height="2048">
+  </image>
+  <image id="96" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1230.png" width="2048" height="2048">
+  </image>
+  <image id="95" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_123.png" width="2048" height="2048">
+  </image>
+  <image id="94" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1229.png" width="2048" height="2048">
+  </image>
+  <image id="93" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1228.png" width="2048" height="2048">
+  </image>
+  <image id="92" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1223.png" width="2048" height="2048">
+  </image>
+  <image id="91" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1221.png" width="2048" height="2048">
+  </image>
+  <image id="90" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1220.png" width="2048" height="2048">
+  </image>
+  <image id="89" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_122.png" width="2048" height="2048">
+  </image>
+  <image id="88" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1219.png" width="2048" height="2048">
+  </image>
+  <image id="87" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1218.png" width="2048" height="2048">
+  </image>
+  <image id="86" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1217.png" width="2048" height="2048">
+  </image>
+  <image id="85" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1212.png" width="2048" height="2048">
+  </image>
+  <image id="84" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_121.png" width="2048" height="2048">
+  </image>
+  <image id="83" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1204.png" width="2048" height="2048">
+  </image>
+  <image id="82" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1203.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1121.83" ytl="821.15" xbr="1213.61" ybr="932.25" z_order="0">
+    </box>
+  </image>
+  <image id="81" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_120.png" width="2048" height="2048">
+  </image>
+  <image id="80" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1197.png" width="2048" height="2048">
+  </image>
+  <image id="79" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1196.png" width="2048" height="2048">
+  </image>
+  <image id="78" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_119.png" width="2048" height="2048">
+  </image>
+  <image id="77" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1182.png" width="2048" height="2048">
+  </image>
+  <image id="76" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1180.png" width="2048" height="2048">
+  </image>
+  <image id="75" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_118.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1083.43" ytl="1018.23" xbr="1175.21" ybr="1172.79" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1179.png" width="2048" height="2048">
+  </image>
+  <image id="73" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1174.png" width="2048" height="2048">
+  </image>
+  <image id="72" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1173.png" width="2048" height="2048">
+  </image>
+  <image id="71" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1172.png" width="2048" height="2048">
+  </image>
+  <image id="70" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1171.png" width="2048" height="2048">
+  </image>
+  <image id="69" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_117.png" width="2048" height="2048">
+  </image>
+  <image id="68" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1169.png" width="2048" height="2048">
+  </image>
+  <image id="67" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1168.png" width="2048" height="2048">
+  </image>
+  <image id="66" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1167.png" width="2048" height="2048">
+  </image>
+  <image id="65" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1166.png" width="2048" height="2048">
+  </image>
+  <image id="64" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1160.png" width="2048" height="2048">
+  </image>
+  <image id="63" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1156.png" width="2048" height="2048">
+  </image>
+  <image id="62" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1154.png" width="2048" height="2048">
+  </image>
+  <image id="61" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1153.png" width="2048" height="2048">
+  </image>
+  <image id="60" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1148.png" width="2048" height="2048">
+  </image>
+  <image id="59" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1147.png" width="2048" height="2048">
+  </image>
+  <image id="58" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1146.png" width="2048" height="2048">
+  </image>
+  <image id="57" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1136.png" width="2048" height="2048">
+  </image>
+  <image id="56" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1134.png" width="2048" height="2048">
+  </image>
+  <image id="55" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1133.png" width="2048" height="2048">
+  </image>
+  <image id="54" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1132.png" width="2048" height="2048">
+  </image>
+  <image id="53" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1131.png" width="2048" height="2048">
+  </image>
+  <image id="52" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1130.png" width="2048" height="2048">
+  </image>
+  <image id="51" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1125.png" width="2048" height="2048">
+  </image>
+  <image id="50" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1124.png" width="2048" height="2048">
+  </image>
+  <image id="49" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1123.png" width="2048" height="2048">
+  </image>
+  <image id="48" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1120.png" width="2048" height="2048">
+  </image>
+  <image id="47" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1119.png" width="2048" height="2048">
+  </image>
+  <image id="46" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1118.png" width="2048" height="2048">
+  </image>
+  <image id="45" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1117.png" width="2048" height="2048">
+  </image>
+  <image id="44" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1115.png" width="2048" height="2048">
+  </image>
+  <image id="43" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1113.png" width="2048" height="2048">
+  </image>
+  <image id="42" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1106.png" width="2048" height="2048">
+  </image>
+  <image id="41" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1103.png" width="2048" height="2048">
+  </image>
+  <image id="40" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1098.png" width="2048" height="2048">
+  </image>
+  <image id="39" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1096.png" width="2048" height="2048">
+  </image>
+  <image id="38" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1088.png" width="2048" height="2048">
+  </image>
+  <image id="37" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1084.png" width="2048" height="2048">
+  </image>
+  <image id="36" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1083.png" width="2048" height="2048">
+  </image>
+  <image id="35" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1082.png" width="2048" height="2048">
+  </image>
+  <image id="34" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1081.png" width="2048" height="2048">
+  </image>
+  <image id="33" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1076.png" width="2048" height="2048">
+  </image>
+  <image id="32" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1075.png" width="2048" height="2048">
+  </image>
+  <image id="31" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1074.png" width="2048" height="2048">
+  </image>
+  <image id="30" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1073.png" width="2048" height="2048">
+  </image>
+  <image id="29" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1072.png" width="2048" height="2048">
+  </image>
+  <image id="28" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1071.png" width="2048" height="2048">
+  </image>
+  <image id="27" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1070.png" width="2048" height="2048">
+  </image>
+  <image id="26" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1066.png" width="2048" height="2048">
+  </image>
+  <image id="25" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1059.png" width="2048" height="2048">
+  </image>
+  <image id="24" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1056.png" width="2048" height="2048">
+  </image>
+  <image id="23" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1054.png" width="2048" height="2048">
+  </image>
+  <image id="22" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1049.png" width="2048" height="2048">
+  </image>
+  <image id="21" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1039.png" width="2048" height="2048">
+  </image>
+  <image id="20" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1037.png" width="2048" height="2048">
+  </image>
+  <image id="19" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1035.png" width="2048" height="2048">
+  </image>
+  <image id="18" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1034.png" width="2048" height="2048">
+  </image>
+  <image id="17" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1033.png" width="2048" height="2048">
+  </image>
+  <image id="16" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1032.png" width="2048" height="2048">
+  </image>
+  <image id="15" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1027.png" width="2048" height="2048">
+  </image>
+  <image id="14" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1026.png" width="2048" height="2048">
+  </image>
+  <image id="13" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1025.png" width="2048" height="2048">
+  </image>
+  <image id="12" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1024.png" width="2048" height="2048">
+  </image>
+  <image id="11" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1023.png" width="2048" height="2048">
+  </image>
+  <image id="10" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1022.png" width="2048" height="2048">
+  </image>
+  <image id="9" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1021.png" width="2048" height="2048">
+  </image>
+  <image id="8" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1020.png" width="2048" height="2048">
+  </image>
+  <image id="7" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1019.png" width="2048" height="2048">
+  </image>
+  <image id="6" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1016.png" width="2048" height="2048">
+  </image>
+  <image id="5" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1011.png" width="2048" height="2048">
+  </image>
+  <image id="4" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_101.png" width="2048" height="2048">
+  </image>
+  <image id="3" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1007.png" width="2048" height="2048">
+  </image>
+  <image id="2" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1006.png" width="2048" height="2048">
+  </image>
+  <image id="1" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1005.png" width="2048" height="2048">
+  </image>
+  <image id="0" name="negative/LBC962-20210120(1)/LBC962-20210120(1)_1000.png" width="2048" height="2048">
+  </image>
+</annotations>

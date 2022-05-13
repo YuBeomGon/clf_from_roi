@@ -1,0 +1,3016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>432</id>
+      <name>[AS6] LBC390-20210111</name>
+      <size>1359</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-07-26 06:26:15.095995+00:00</created>
+      <updated>2021-11-01 00:54:00.674686+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>1358</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>AS</name>
+          <color>#fff600</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>ASC-US</default_value>
+              <values>ASC-US</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AH</name>
+          <color>#ffba00</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>ASC-H</default_value>
+              <values>ASC-H</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>LS</name>
+          <color>#ff8d00</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>LSIL</default_value>
+              <values>LSIL</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>HS</name>
+          <color>#ff5000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>High-grade squamous intraepithelial lesion</default_value>
+              <values>High-grade squamous intraepithelial lesion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>HN</name>
+          <color>#ff3200</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>HSIL with features suspicious for invasion</default_value>
+              <values>HSIL with features suspicious for invasion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>SM</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Suspicious for malignancy</default_value>
+              <values>Suspicious for malignancy</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>SC</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Invasive squamous cell carcinoma</default_value>
+              <values>Invasive squamous cell carcinoma</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>C</name>
+          <color>#87c76b</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Candida albicans</default_value>
+              <values>Candida albicans</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>T</name>
+          <color>#5aa72c</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Trichomonas vaginalis</default_value>
+              <values>Trichomonas vaginalis</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>H</name>
+          <color>#5ed80c</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Herpes simplex virus</default_value>
+              <values>Herpes simplex virus</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AC</name>
+          <color>#0dc424</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Actinomyces species</default_value>
+              <values>Actinomyces species</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Others</name>
+          <color>#0e1de8</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>판독불가</name>
+          <color>#ff6037</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>300</id>
+          <start>0</start>
+          <stop>1358</stop>
+          <url>http://cvat.doai.ai/?id=300</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>jhjang</username>
+        <email>junhwanjang@doai.ai</email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2021-11-23 01:27:50.018461+00:00</dumped>
+  </meta>
+  <image id="1358" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_999.png" width="2048" height="2048">
+  </image>
+  <image id="1357" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_998.png" width="2048" height="2048">
+  </image>
+  <image id="1356" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_997.png" width="2048" height="2048">
+  </image>
+  <image id="1355" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_996.png" width="2048" height="2048">
+  </image>
+  <image id="1354" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_995.png" width="2048" height="2048">
+  </image>
+  <image id="1353" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_994.png" width="2048" height="2048">
+  </image>
+  <image id="1352" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_993.png" width="2048" height="2048">
+  </image>
+  <image id="1351" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_992.png" width="2048" height="2048">
+  </image>
+  <image id="1350" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_991.png" width="2048" height="2048">
+  </image>
+  <image id="1349" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_990.png" width="2048" height="2048">
+  </image>
+  <image id="1348" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_989.png" width="2048" height="2048">
+  </image>
+  <image id="1347" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_988.png" width="2048" height="2048">
+  </image>
+  <image id="1346" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_987.png" width="2048" height="2048">
+  </image>
+  <image id="1345" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_986.png" width="2048" height="2048">
+  </image>
+  <image id="1344" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_977.png" width="2048" height="2048">
+  </image>
+  <image id="1343" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_976.png" width="2048" height="2048">
+  </image>
+  <image id="1342" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_975.png" width="2048" height="2048">
+  </image>
+  <image id="1341" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_974.png" width="2048" height="2048">
+  </image>
+  <image id="1340" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_973.png" width="2048" height="2048">
+  </image>
+  <image id="1339" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_972.png" width="2048" height="2048">
+  </image>
+  <image id="1338" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_971.png" width="2048" height="2048">
+  </image>
+  <image id="1337" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_970.png" width="2048" height="2048">
+  </image>
+  <image id="1336" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_969.png" width="2048" height="2048">
+  </image>
+  <image id="1335" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_968.png" width="2048" height="2048">
+  </image>
+  <image id="1334" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_967.png" width="2048" height="2048">
+  </image>
+  <image id="1333" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_966.png" width="2048" height="2048">
+  </image>
+  <image id="1332" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_965.png" width="2048" height="2048">
+  </image>
+  <image id="1331" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_964.png" width="2048" height="2048">
+  </image>
+  <image id="1330" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_963.png" width="2048" height="2048">
+  </image>
+  <image id="1329" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_962.png" width="2048" height="2048">
+  </image>
+  <image id="1328" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_961.png" width="2048" height="2048">
+  </image>
+  <image id="1327" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_960.png" width="2048" height="2048">
+  </image>
+  <image id="1326" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_959.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="142.19" ytl="1659.51" xbr="713.72" ybr="1782.34" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="1325" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_958.png" width="2048" height="2048">
+  </image>
+  <image id="1324" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_957.png" width="2048" height="2048">
+  </image>
+  <image id="1323" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_956.png" width="2048" height="2048">
+  </image>
+  <image id="1322" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_955.png" width="2048" height="2048">
+  </image>
+  <image id="1321" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_954.png" width="2048" height="2048">
+  </image>
+  <image id="1320" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_953.png" width="2048" height="2048">
+  </image>
+  <image id="1319" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_952.png" width="2048" height="2048">
+  </image>
+  <image id="1318" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_951.png" width="2048" height="2048">
+  </image>
+  <image id="1317" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_950.png" width="2048" height="2048">
+  </image>
+  <image id="1316" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_949.png" width="2048" height="2048">
+  </image>
+  <image id="1315" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_948.png" width="2048" height="2048">
+  </image>
+  <image id="1314" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_947.png" width="2048" height="2048">
+  </image>
+  <image id="1313" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_946.png" width="2048" height="2048">
+  </image>
+  <image id="1312" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_945.png" width="2048" height="2048">
+  </image>
+  <image id="1311" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_944.png" width="2048" height="2048">
+  </image>
+  <image id="1310" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_943.png" width="2048" height="2048">
+  </image>
+  <image id="1309" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_942.png" width="2048" height="2048">
+  </image>
+  <image id="1308" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_941.png" width="2048" height="2048">
+  </image>
+  <image id="1307" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_940.png" width="2048" height="2048">
+  </image>
+  <image id="1306" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_939.png" width="2048" height="2048">
+  </image>
+  <image id="1305" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_938.png" width="2048" height="2048">
+  </image>
+  <image id="1304" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_937.png" width="2048" height="2048">
+  </image>
+  <image id="1303" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_928.png" width="2048" height="2048">
+  </image>
+  <image id="1302" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_927.png" width="2048" height="2048">
+  </image>
+  <image id="1301" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_926.png" width="2048" height="2048">
+  </image>
+  <image id="1300" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_925.png" width="2048" height="2048">
+  </image>
+  <image id="1299" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_924.png" width="2048" height="2048">
+  </image>
+  <image id="1298" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_923.png" width="2048" height="2048">
+  </image>
+  <image id="1297" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_922.png" width="2048" height="2048">
+  </image>
+  <image id="1296" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_921.png" width="2048" height="2048">
+  </image>
+  <image id="1295" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_920.png" width="2048" height="2048">
+  </image>
+  <image id="1294" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_919.png" width="2048" height="2048">
+  </image>
+  <image id="1293" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_918.png" width="2048" height="2048">
+  </image>
+  <image id="1292" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_917.png" width="2048" height="2048">
+  </image>
+  <image id="1291" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_916.png" width="2048" height="2048">
+  </image>
+  <image id="1290" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_915.png" width="2048" height="2048">
+  </image>
+  <image id="1289" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_914.png" width="2048" height="2048">
+  </image>
+  <image id="1288" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_913.png" width="2048" height="2048">
+  </image>
+  <image id="1287" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_912.png" width="2048" height="2048">
+  </image>
+  <image id="1286" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_911.png" width="2048" height="2048">
+  </image>
+  <image id="1285" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_910.png" width="2048" height="2048">
+  </image>
+  <image id="1284" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_909.png" width="2048" height="2048">
+  </image>
+  <image id="1283" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_908.png" width="2048" height="2048">
+  </image>
+  <image id="1282" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_907.png" width="2048" height="2048">
+  </image>
+  <image id="1281" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_906.png" width="2048" height="2048">
+  </image>
+  <image id="1280" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_905.png" width="2048" height="2048">
+  </image>
+  <image id="1279" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_904.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1532.92" ytl="356.01" xbr="1690.85" ybr="521.46" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="1278" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_903.png" width="2048" height="2048">
+  </image>
+  <image id="1277" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_902.png" width="2048" height="2048">
+  </image>
+  <image id="1276" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_901.png" width="2048" height="2048">
+  </image>
+  <image id="1275" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_900.png" width="2048" height="2048">
+  </image>
+  <image id="1274" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_899.png" width="2048" height="2048">
+  </image>
+  <image id="1273" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_898.png" width="2048" height="2048">
+  </image>
+  <image id="1272" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_897.png" width="2048" height="2048">
+  </image>
+  <image id="1271" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_896.png" width="2048" height="2048">
+  </image>
+  <image id="1241" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_857.png" width="2048" height="2048">
+  </image>
+  <image id="1240" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_856.png" width="2048" height="2048">
+  </image>
+  <image id="1239" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_855.png" width="2048" height="2048">
+  </image>
+  <image id="1238" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_854.png" width="2048" height="2048">
+  </image>
+  <image id="1237" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_853.png" width="2048" height="2048">
+  </image>
+  <image id="1236" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_852.png" width="2048" height="2048">
+  </image>
+  <image id="1235" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_851.png" width="2048" height="2048">
+  </image>
+  <image id="1234" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_850.png" width="2048" height="2048">
+  </image>
+  <image id="1233" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_849.png" width="2048" height="2048">
+  </image>
+  <image id="1232" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_848.png" width="2048" height="2048">
+  </image>
+  <image id="1231" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_847.png" width="2048" height="2048">
+  </image>
+  <image id="1230" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_846.png" width="2048" height="2048">
+  </image>
+  <image id="1229" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_845.png" width="2048" height="2048">
+  </image>
+  <image id="1228" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_844.png" width="2048" height="2048">
+  </image>
+  <image id="1227" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_843.png" width="2048" height="2048">
+  </image>
+  <image id="1226" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_842.png" width="2048" height="2048">
+  </image>
+  <image id="1225" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_841.png" width="2048" height="2048">
+  </image>
+  <image id="1224" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_840.png" width="2048" height="2048">
+  </image>
+  <image id="1223" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_839.png" width="2048" height="2048">
+  </image>
+  <image id="1222" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_829.png" width="2048" height="2048">
+  </image>
+  <image id="1221" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_828.png" width="2048" height="2048">
+  </image>
+  <image id="1220" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_827.png" width="2048" height="2048">
+  </image>
+  <image id="1219" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_826.png" width="2048" height="2048">
+  </image>
+  <image id="1218" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_825.png" width="2048" height="2048">
+  </image>
+  <image id="1217" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_824.png" width="2048" height="2048">
+  </image>
+  <image id="1216" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_823.png" width="2048" height="2048">
+  </image>
+  <image id="1215" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_822.png" width="2048" height="2048">
+  </image>
+  <image id="1214" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_821.png" width="2048" height="2048">
+  </image>
+  <image id="1213" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_820.png" width="2048" height="2048">
+  </image>
+  <image id="1212" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_819.png" width="2048" height="2048">
+  </image>
+  <image id="1211" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_818.png" width="2048" height="2048">
+  </image>
+  <image id="1210" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_817.png" width="2048" height="2048">
+  </image>
+  <image id="1209" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_816.png" width="2048" height="2048">
+  </image>
+  <image id="1208" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_815.png" width="2048" height="2048">
+  </image>
+  <image id="1207" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_814.png" width="2048" height="2048">
+  </image>
+  <image id="1206" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_813.png" width="2048" height="2048">
+  </image>
+  <image id="1205" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_812.png" width="2048" height="2048">
+  </image>
+  <image id="1204" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_811.png" width="2048" height="2048">
+  </image>
+  <image id="1203" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_810.png" width="2048" height="2048">
+  </image>
+  <image id="1202" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_809.png" width="2048" height="2048">
+  </image>
+  <image id="1201" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_808.png" width="2048" height="2048">
+  </image>
+  <image id="1200" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_807.png" width="2048" height="2048">
+  </image>
+  <image id="1199" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_806.png" width="2048" height="2048">
+  </image>
+  <image id="1198" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_805.png" width="2048" height="2048">
+  </image>
+  <image id="1197" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_804.png" width="2048" height="2048">
+  </image>
+  <image id="1196" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_803.png" width="2048" height="2048">
+  </image>
+  <image id="1195" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_802.png" width="2048" height="2048">
+  </image>
+  <image id="1194" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_801.png" width="2048" height="2048">
+  </image>
+  <image id="1193" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_800.png" width="2048" height="2048">
+  </image>
+  <image id="1192" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_799.png" width="2048" height="2048">
+  </image>
+  <image id="1191" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_798.png" width="2048" height="2048">
+  </image>
+  <image id="1190" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_797.png" width="2048" height="2048">
+  </image>
+  <image id="1189" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_796.png" width="2048" height="2048">
+  </image>
+  <image id="1188" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_795.png" width="2048" height="2048">
+  </image>
+  <image id="1187" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_794.png" width="2048" height="2048">
+  </image>
+  <image id="1186" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_793.png" width="2048" height="2048">
+  </image>
+  <image id="1185" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_792.png" width="2048" height="2048">
+  </image>
+  <image id="1184" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_791.png" width="2048" height="2048">
+  </image>
+  <image id="1183" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_790.png" width="2048" height="2048">
+  </image>
+  <image id="1182" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_79.png" width="2048" height="2048">
+  </image>
+  <image id="1181" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_780.png" width="2048" height="2048">
+  </image>
+  <image id="1180" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_78.png" width="2048" height="2048">
+  </image>
+  <image id="1179" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_779.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1584.58" ytl="623.43" xbr="1762.67" ybr="869.61" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="1178" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_778.png" width="2048" height="2048">
+  </image>
+  <image id="1177" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_777.png" width="2048" height="2048">
+  </image>
+  <image id="1176" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_776.png" width="2048" height="2048">
+  </image>
+  <image id="1175" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_775.png" width="2048" height="2048">
+  </image>
+  <image id="1174" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_774.png" width="2048" height="2048">
+  </image>
+  <image id="1173" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_773.png" width="2048" height="2048">
+  </image>
+  <image id="1172" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_772.png" width="2048" height="2048">
+  </image>
+  <image id="1171" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_771.png" width="2048" height="2048">
+  </image>
+  <image id="1170" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_770.png" width="2048" height="2048">
+  </image>
+  <image id="1169" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_77.png" width="2048" height="2048">
+  </image>
+  <image id="1168" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_769.png" width="2048" height="2048">
+  </image>
+  <image id="1167" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_768.png" width="2048" height="2048">
+  </image>
+  <image id="1166" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_767.png" width="2048" height="2048">
+  </image>
+  <image id="1165" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_765.png" width="2048" height="2048">
+  </image>
+  <image id="1164" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_763.png" width="2048" height="2048">
+  </image>
+  <image id="1163" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_762.png" width="2048" height="2048">
+  </image>
+  <image id="1162" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_761.png" width="2048" height="2048">
+  </image>
+  <image id="1161" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_760.png" width="2048" height="2048">
+  </image>
+  <image id="1160" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_76.png" width="2048" height="2048">
+  </image>
+  <image id="1159" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_759.png" width="2048" height="2048">
+  </image>
+  <image id="1158" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_758.png" width="2048" height="2048">
+  </image>
+  <image id="1157" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_757.png" width="2048" height="2048">
+  </image>
+  <image id="1156" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_756.png" width="2048" height="2048">
+  </image>
+  <image id="1155" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_755.png" width="2048" height="2048">
+  </image>
+  <image id="1154" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_754.png" width="2048" height="2048">
+  </image>
+  <image id="1153" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_753.png" width="2048" height="2048">
+  </image>
+  <image id="1152" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_752.png" width="2048" height="2048">
+  </image>
+  <image id="1151" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_751.png" width="2048" height="2048">
+  </image>
+  <image id="1150" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_750.png" width="2048" height="2048">
+  </image>
+  <image id="1149" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_75.png" width="2048" height="2048">
+  </image>
+  <image id="1148" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_749.png" width="2048" height="2048">
+  </image>
+  <image id="1147" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_748.png" width="2048" height="2048">
+  </image>
+  <image id="1146" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_747.png" width="2048" height="2048">
+  </image>
+  <image id="1145" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_746.png" width="2048" height="2048">
+  </image>
+  <image id="1144" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_745.png" width="2048" height="2048">
+  </image>
+  <image id="1143" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_744.png" width="2048" height="2048">
+  </image>
+  <image id="1142" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_743.png" width="2048" height="2048">
+  </image>
+  <image id="1141" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_742.png" width="2048" height="2048">
+  </image>
+  <image id="1140" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_741.png" width="2048" height="2048">
+  </image>
+  <image id="1139" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_74.png" width="2048" height="2048">
+  </image>
+  <image id="1138" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_731.png" width="2048" height="2048">
+  </image>
+  <image id="1137" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_730.png" width="2048" height="2048">
+  </image>
+  <image id="1136" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_73.png" width="2048" height="2048">
+  </image>
+  <image id="1135" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_729.png" width="2048" height="2048">
+  </image>
+  <image id="1134" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_728.png" width="2048" height="2048">
+  </image>
+  <image id="1133" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_727.png" width="2048" height="2048">
+  </image>
+  <image id="1132" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_726.png" width="2048" height="2048">
+  </image>
+  <image id="1131" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_725.png" width="2048" height="2048">
+  </image>
+  <image id="1130" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_724.png" width="2048" height="2048">
+  </image>
+  <image id="1129" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_723.png" width="2048" height="2048">
+  </image>
+  <image id="1128" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_722.png" width="2048" height="2048">
+  </image>
+  <image id="1127" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_721.png" width="2048" height="2048">
+  </image>
+  <image id="1126" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_720.png" width="2048" height="2048">
+  </image>
+  <image id="1125" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_72.png" width="2048" height="2048">
+  </image>
+  <image id="1124" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_719.png" width="2048" height="2048">
+  </image>
+  <image id="1123" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_718.png" width="2048" height="2048">
+  </image>
+  <image id="1122" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_717.png" width="2048" height="2048">
+  </image>
+  <image id="1121" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_716.png" width="2048" height="2048">
+  </image>
+  <image id="1120" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_715.png" width="2048" height="2048">
+  </image>
+  <image id="1119" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_714.png" width="2048" height="2048">
+  </image>
+  <image id="1118" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_713.png" width="2048" height="2048">
+  </image>
+  <image id="1117" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_712.png" width="2048" height="2048">
+  </image>
+  <image id="1116" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_711.png" width="2048" height="2048">
+  </image>
+  <image id="1115" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_710.png" width="2048" height="2048">
+  </image>
+  <image id="1114" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_709.png" width="2048" height="2048">
+  </image>
+  <image id="1113" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_708.png" width="2048" height="2048">
+  </image>
+  <image id="1112" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_707.png" width="2048" height="2048">
+  </image>
+  <image id="1111" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_706.png" width="2048" height="2048">
+  </image>
+  <image id="1110" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_705.png" width="2048" height="2048">
+  </image>
+  <image id="1109" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_704.png" width="2048" height="2048">
+  </image>
+  <image id="1108" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_703.png" width="2048" height="2048">
+  </image>
+  <image id="1107" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_702.png" width="2048" height="2048">
+  </image>
+  <image id="1106" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_701.png" width="2048" height="2048">
+  </image>
+  <image id="1105" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_700.png" width="2048" height="2048">
+  </image>
+  <image id="1104" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_7.png" width="2048" height="2048">
+  </image>
+  <image id="1103" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_699.png" width="2048" height="2048">
+  </image>
+  <image id="1102" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_698.png" width="2048" height="2048">
+  </image>
+  <image id="1101" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_697.png" width="2048" height="2048">
+  </image>
+  <image id="1100" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_696.png" width="2048" height="2048">
+  </image>
+  <image id="1099" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_695.png" width="2048" height="2048">
+  </image>
+  <image id="1098" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_694.png" width="2048" height="2048">
+  </image>
+  <image id="1097" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_693.png" width="2048" height="2048">
+  </image>
+  <image id="1096" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_692.png" width="2048" height="2048">
+  </image>
+  <image id="1095" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_681.png" width="2048" height="2048">
+  </image>
+  <image id="1094" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_680.png" width="2048" height="2048">
+  </image>
+  <image id="1093" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_679.png" width="2048" height="2048">
+  </image>
+  <image id="1092" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_678.png" width="2048" height="2048">
+  </image>
+  <image id="1091" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_677.png" width="2048" height="2048">
+  </image>
+  <image id="1090" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_676.png" width="2048" height="2048">
+  </image>
+  <image id="1089" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_675.png" width="2048" height="2048">
+  </image>
+  <image id="1088" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_674.png" width="2048" height="2048">
+  </image>
+  <image id="1087" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_673.png" width="2048" height="2048">
+  </image>
+  <image id="1086" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_672.png" width="2048" height="2048">
+  </image>
+  <image id="1085" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_671.png" width="2048" height="2048">
+  </image>
+  <image id="1084" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_670.png" width="2048" height="2048">
+  </image>
+  <image id="1083" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_669.png" width="2048" height="2048">
+  </image>
+  <image id="1082" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_668.png" width="2048" height="2048">
+  </image>
+  <image id="1081" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_667.png" width="2048" height="2048">
+  </image>
+  <image id="1080" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_666.png" width="2048" height="2048">
+  </image>
+  <image id="1079" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_665.png" width="2048" height="2048">
+  </image>
+  <image id="1078" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_664.png" width="2048" height="2048">
+  </image>
+  <image id="1077" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_663.png" width="2048" height="2048">
+  </image>
+  <image id="1076" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_662.png" width="2048" height="2048">
+  </image>
+  <image id="1075" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_661.png" width="2048" height="2048">
+  </image>
+  <image id="1074" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_660.png" width="2048" height="2048">
+  </image>
+  <image id="1073" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_659.png" width="2048" height="2048">
+  </image>
+  <image id="1072" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_658.png" width="2048" height="2048">
+  </image>
+  <image id="1071" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_657.png" width="2048" height="2048">
+  </image>
+  <image id="1070" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_656.png" width="2048" height="2048">
+  </image>
+  <image id="1069" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_655.png" width="2048" height="2048">
+  </image>
+  <image id="1068" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_654.png" width="2048" height="2048">
+  </image>
+  <image id="1067" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_653.png" width="2048" height="2048">
+  </image>
+  <image id="1066" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_652.png" width="2048" height="2048">
+  </image>
+  <image id="1065" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_651.png" width="2048" height="2048">
+  </image>
+  <image id="1064" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_650.png" width="2048" height="2048">
+  </image>
+  <image id="1063" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_649.png" width="2048" height="2048">
+  </image>
+  <image id="1062" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_648.png" width="2048" height="2048">
+  </image>
+  <image id="1061" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_647.png" width="2048" height="2048">
+  </image>
+  <image id="1060" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_646.png" width="2048" height="2048">
+  </image>
+  <image id="1059" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_645.png" width="2048" height="2048">
+  </image>
+  <image id="1058" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_644.png" width="2048" height="2048">
+  </image>
+  <image id="1057" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_643.png" width="2048" height="2048">
+  </image>
+  <image id="1056" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_632.png" width="2048" height="2048">
+  </image>
+  <image id="1055" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_631.png" width="2048" height="2048">
+  </image>
+  <image id="1054" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_630.png" width="2048" height="2048">
+  </image>
+  <image id="1053" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_629.png" width="2048" height="2048">
+  </image>
+  <image id="1052" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_628.png" width="2048" height="2048">
+  </image>
+  <image id="1051" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_627.png" width="2048" height="2048">
+  </image>
+  <image id="1050" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_626.png" width="2048" height="2048">
+  </image>
+  <image id="1049" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_625.png" width="2048" height="2048">
+  </image>
+  <image id="1048" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_624.png" width="2048" height="2048">
+  </image>
+  <image id="1047" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_623.png" width="2048" height="2048">
+  </image>
+  <image id="1046" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_622.png" width="2048" height="2048">
+  </image>
+  <image id="1045" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_621.png" width="2048" height="2048">
+  </image>
+  <image id="1044" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_620.png" width="2048" height="2048">
+  </image>
+  <image id="1043" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_619.png" width="2048" height="2048">
+  </image>
+  <image id="1042" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_618.png" width="2048" height="2048">
+  </image>
+  <image id="1041" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_617.png" width="2048" height="2048">
+  </image>
+  <image id="1040" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_616.png" width="2048" height="2048">
+  </image>
+  <image id="1039" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_615.png" width="2048" height="2048">
+  </image>
+  <image id="1038" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_614.png" width="2048" height="2048">
+  </image>
+  <image id="1037" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_613.png" width="2048" height="2048">
+  </image>
+  <image id="1036" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_612.png" width="2048" height="2048">
+  </image>
+  <image id="1035" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_611.png" width="2048" height="2048">
+  </image>
+  <image id="1034" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_610.png" width="2048" height="2048">
+  </image>
+  <image id="1033" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_609.png" width="2048" height="2048">
+  </image>
+  <image id="1032" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_608.png" width="2048" height="2048">
+  </image>
+  <image id="1031" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_607.png" width="2048" height="2048">
+  </image>
+  <image id="1030" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_606.png" width="2048" height="2048">
+  </image>
+  <image id="1029" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_605.png" width="2048" height="2048">
+  </image>
+  <image id="1028" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_604.png" width="2048" height="2048">
+  </image>
+  <image id="1027" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_603.png" width="2048" height="2048">
+  </image>
+  <image id="1026" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_602.png" width="2048" height="2048">
+  </image>
+  <image id="937" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_475.png" width="2048" height="2048">
+  </image>
+  <image id="936" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_474.png" width="2048" height="2048">
+  </image>
+  <image id="935" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_473.png" width="2048" height="2048">
+  </image>
+  <image id="934" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_472.png" width="2048" height="2048">
+  </image>
+  <image id="933" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_471.png" width="2048" height="2048">
+  </image>
+  <image id="932" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_470.png" width="2048" height="2048">
+  </image>
+  <image id="931" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_469.png" width="2048" height="2048">
+  </image>
+  <image id="930" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_468.png" width="2048" height="2048">
+  </image>
+  <image id="929" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_467.png" width="2048" height="2048">
+  </image>
+  <image id="928" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_466.png" width="2048" height="2048">
+  </image>
+  <image id="927" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_465.png" width="2048" height="2048">
+  </image>
+  <image id="926" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_464.png" width="2048" height="2048">
+  </image>
+  <image id="925" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_463.png" width="2048" height="2048">
+  </image>
+  <image id="924" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_462.png" width="2048" height="2048">
+  </image>
+  <image id="923" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_461.png" width="2048" height="2048">
+  </image>
+  <image id="922" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_460.png" width="2048" height="2048">
+  </image>
+  <image id="921" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_459.png" width="2048" height="2048">
+  </image>
+  <image id="920" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_458.png" width="2048" height="2048">
+  </image>
+  <image id="919" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_457.png" width="2048" height="2048">
+  </image>
+  <image id="918" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_456.png" width="2048" height="2048">
+  </image>
+  <image id="917" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_455.png" width="2048" height="2048">
+  </image>
+  <image id="916" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_454.png" width="2048" height="2048">
+  </image>
+  <image id="915" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_453.png" width="2048" height="2048">
+  </image>
+  <image id="914" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_452.png" width="2048" height="2048">
+  </image>
+  <image id="913" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_448.png" width="2048" height="2048">
+  </image>
+  <image id="912" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_433.png" width="2048" height="2048">
+  </image>
+  <image id="911" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_432.png" width="2048" height="2048">
+  </image>
+  <image id="910" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_431.png" width="2048" height="2048">
+  </image>
+  <image id="909" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_430.png" width="2048" height="2048">
+  </image>
+  <image id="908" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_429.png" width="2048" height="2048">
+  </image>
+  <image id="907" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_428.png" width="2048" height="2048">
+  </image>
+  <image id="906" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_427.png" width="2048" height="2048">
+  </image>
+  <image id="905" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_426.png" width="2048" height="2048">
+  </image>
+  <image id="904" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_425.png" width="2048" height="2048">
+  </image>
+  <image id="903" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_424.png" width="2048" height="2048">
+  </image>
+  <image id="902" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_423.png" width="2048" height="2048">
+  </image>
+  <image id="901" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_422.png" width="2048" height="2048">
+  </image>
+  <image id="900" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_421.png" width="2048" height="2048">
+  </image>
+  <image id="899" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_420.png" width="2048" height="2048">
+  </image>
+  <image id="898" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_419.png" width="2048" height="2048">
+  </image>
+  <image id="897" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_418.png" width="2048" height="2048">
+  </image>
+  <image id="896" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_417.png" width="2048" height="2048">
+  </image>
+  <image id="895" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_416.png" width="2048" height="2048">
+  </image>
+  <image id="894" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_415.png" width="2048" height="2048">
+  </image>
+  <image id="893" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_414.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1634.34" ytl="976.99" xbr="1828.14" ybr="1155.08" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="892" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_413.png" width="2048" height="2048">
+  </image>
+  <image id="891" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_412.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="402.39" ytl="611.80" xbr="610.45" ybr="957.63" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="890" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_411.png" width="2048" height="2048">
+  </image>
+  <image id="889" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_410.png" width="2048" height="2048">
+  </image>
+  <image id="888" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_409.png" width="2048" height="2048">
+  </image>
+  <image id="887" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_408.png" width="2048" height="2048">
+  </image>
+  <image id="886" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_407.png" width="2048" height="2048">
+  </image>
+  <image id="885" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_405.png" width="2048" height="2048">
+  </image>
+  <image id="884" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_404.png" width="2048" height="2048">
+  </image>
+  <image id="883" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_403.png" width="2048" height="2048">
+  </image>
+  <image id="882" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_399.png" width="2048" height="2048">
+  </image>
+  <image id="881" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_398.png" width="2048" height="2048">
+  </image>
+  <image id="880" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_383.png" width="2048" height="2048">
+  </image>
+  <image id="879" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_382.png" width="2048" height="2048">
+  </image>
+  <image id="878" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_381.png" width="2048" height="2048">
+  </image>
+  <image id="877" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_380.png" width="2048" height="2048">
+  </image>
+  <image id="876" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_379.png" width="2048" height="2048">
+  </image>
+  <image id="875" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_378.png" width="2048" height="2048">
+  </image>
+  <image id="874" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_377.png" width="2048" height="2048">
+  </image>
+  <image id="873" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_376.png" width="2048" height="2048">
+  </image>
+  <image id="872" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_375.png" width="2048" height="2048">
+  </image>
+  <image id="871" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_374.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1052.94" ytl="133.69" xbr="1212.69" ybr="330.11" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="870" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_373.png" width="2048" height="2048">
+  </image>
+  <image id="869" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_372.png" width="2048" height="2048">
+  </image>
+  <image id="868" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_371.png" width="2048" height="2048">
+  </image>
+  <image id="867" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_370.png" width="2048" height="2048">
+  </image>
+  <image id="866" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_369.png" width="2048" height="2048">
+  </image>
+  <image id="865" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_368.png" width="2048" height="2048">
+  </image>
+  <image id="864" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_367.png" width="2048" height="2048">
+  </image>
+  <image id="863" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_366.png" width="2048" height="2048">
+  </image>
+  <image id="862" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_365.png" width="2048" height="2048">
+  </image>
+  <image id="861" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_364.png" width="2048" height="2048">
+  </image>
+  <image id="860" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_363.png" width="2048" height="2048">
+  </image>
+  <image id="859" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_362.png" width="2048" height="2048">
+  </image>
+  <image id="858" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_361.png" width="2048" height="2048">
+  </image>
+  <image id="857" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_360.png" width="2048" height="2048">
+  </image>
+  <image id="856" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_359.png" width="2048" height="2048">
+  </image>
+  <image id="855" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_358.png" width="2048" height="2048">
+  </image>
+  <image id="854" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_357.png" width="2048" height="2048">
+  </image>
+  <image id="853" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_356.png" width="2048" height="2048">
+  </image>
+  <image id="852" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_355.png" width="2048" height="2048">
+  </image>
+  <image id="851" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_350.png" width="2048" height="2048">
+  </image>
+  <image id="850" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_333.png" width="2048" height="2048">
+  </image>
+  <image id="849" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_332.png" width="2048" height="2048">
+  </image>
+  <image id="848" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_331.png" width="2048" height="2048">
+  </image>
+  <image id="847" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_330.png" width="2048" height="2048">
+  </image>
+  <image id="846" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_329.png" width="2048" height="2048">
+  </image>
+  <image id="845" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_328.png" width="2048" height="2048">
+  </image>
+  <image id="844" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_327.png" width="2048" height="2048">
+  </image>
+  <image id="843" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_326.png" width="2048" height="2048">
+  </image>
+  <image id="842" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_325.png" width="2048" height="2048">
+  </image>
+  <image id="841" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_324.png" width="2048" height="2048">
+  </image>
+  <image id="840" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_323.png" width="2048" height="2048">
+  </image>
+  <image id="839" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_322.png" width="2048" height="2048">
+  </image>
+  <image id="838" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_321.png" width="2048" height="2048">
+  </image>
+  <image id="837" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_320.png" width="2048" height="2048">
+  </image>
+  <image id="836" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_319.png" width="2048" height="2048">
+  </image>
+  <image id="835" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_318.png" width="2048" height="2048">
+  </image>
+  <image id="834" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_317.png" width="2048" height="2048">
+  </image>
+  <image id="833" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_316.png" width="2048" height="2048">
+  </image>
+  <image id="832" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_315.png" width="2048" height="2048">
+  </image>
+  <image id="831" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_314.png" width="2048" height="2048">
+  </image>
+  <image id="830" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_313.png" width="2048" height="2048">
+  </image>
+  <image id="829" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_312.png" width="2048" height="2048">
+  </image>
+  <image id="828" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_311.png" width="2048" height="2048">
+  </image>
+  <image id="827" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_310.png" width="2048" height="2048">
+  </image>
+  <image id="826" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_309.png" width="2048" height="2048">
+  </image>
+  <image id="825" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_308.png" width="2048" height="2048">
+  </image>
+  <image id="824" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_307.png" width="2048" height="2048">
+  </image>
+  <image id="823" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_301.png" width="2048" height="2048">
+  </image>
+  <image id="822" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_283.png" width="2048" height="2048">
+  </image>
+  <image id="821" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_282.png" width="2048" height="2048">
+  </image>
+  <image id="820" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_281.png" width="2048" height="2048">
+  </image>
+  <image id="819" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_280.png" width="2048" height="2048">
+  </image>
+  <image id="818" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_279.png" width="2048" height="2048">
+  </image>
+  <image id="817" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_278.png" width="2048" height="2048">
+  </image>
+  <image id="816" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_277.png" width="2048" height="2048">
+  </image>
+  <image id="815" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_276.png" width="2048" height="2048">
+  </image>
+  <image id="814" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_275.png" width="2048" height="2048">
+  </image>
+  <image id="813" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_274.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1791.12" ytl="170.51" xbr="1901.41" ybr="396.12" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+    <box label="AS" occluded="0" source="manual" xtl="1638.21" ytl="178.03" xbr="1791.12" ybr="378.57" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="812" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_273.png" width="2048" height="2048">
+  </image>
+  <image id="811" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_272.png" width="2048" height="2048">
+  </image>
+  <image id="810" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_271.png" width="2048" height="2048">
+  </image>
+  <image id="809" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_270.png" width="2048" height="2048">
+  </image>
+  <image id="808" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_269.png" width="2048" height="2048">
+  </image>
+  <image id="807" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_268.png" width="2048" height="2048">
+  </image>
+  <image id="806" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_267.png" width="2048" height="2048">
+  </image>
+  <image id="805" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_266.png" width="2048" height="2048">
+  </image>
+  <image id="804" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_265.png" width="2048" height="2048">
+  </image>
+  <image id="803" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_264.png" width="2048" height="2048">
+  </image>
+  <image id="802" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_263.png" width="2048" height="2048">
+  </image>
+  <image id="801" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_262.png" width="2048" height="2048">
+  </image>
+  <image id="800" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_261.png" width="2048" height="2048">
+  </image>
+  <image id="799" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_260.png" width="2048" height="2048">
+  </image>
+  <image id="798" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_259.png" width="2048" height="2048">
+  </image>
+  <image id="797" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_252.png" width="2048" height="2048">
+  </image>
+  <image id="796" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_233.png" width="2048" height="2048">
+  </image>
+  <image id="795" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_232.png" width="2048" height="2048">
+  </image>
+  <image id="794" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_231.png" width="2048" height="2048">
+  </image>
+  <image id="793" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_230.png" width="2048" height="2048">
+  </image>
+  <image id="792" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_229.png" width="2048" height="2048">
+  </image>
+  <image id="791" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_228.png" width="2048" height="2048">
+  </image>
+  <image id="790" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_227.png" width="2048" height="2048">
+  </image>
+  <image id="789" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_226.png" width="2048" height="2048">
+  </image>
+  <image id="788" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_225.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="854.95" ytl="671.62" xbr="957.09" ybr="857.56" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="787" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_224.png" width="2048" height="2048">
+  </image>
+  <image id="786" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_223.png" width="2048" height="2048">
+  </image>
+  <image id="785" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_222.png" width="2048" height="2048">
+  </image>
+  <image id="784" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_221.png" width="2048" height="2048">
+  </image>
+  <image id="783" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_220.png" width="2048" height="2048">
+  </image>
+  <image id="782" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_219.png" width="2048" height="2048">
+  </image>
+  <image id="781" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_218.png" width="2048" height="2048">
+  </image>
+  <image id="780" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_217.png" width="2048" height="2048">
+  </image>
+  <image id="779" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_216.png" width="2048" height="2048">
+  </image>
+  <image id="778" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_215.png" width="2048" height="2048">
+  </image>
+  <image id="777" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_214.png" width="2048" height="2048">
+  </image>
+  <image id="776" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_213.png" width="2048" height="2048">
+  </image>
+  <image id="775" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_212.png" width="2048" height="2048">
+  </image>
+  <image id="774" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2085.png" width="2048" height="2048">
+  </image>
+  <image id="773" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2084.png" width="2048" height="2048">
+  </image>
+  <image id="772" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2063.png" width="2048" height="2048">
+  </image>
+  <image id="771" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2041.png" width="2048" height="2048">
+  </image>
+  <image id="770" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2040.png" width="2048" height="2048">
+  </image>
+  <image id="769" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2039.png" width="2048" height="2048">
+  </image>
+  <image id="768" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2038.png" width="2048" height="2048">
+  </image>
+  <image id="767" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2037.png" width="2048" height="2048">
+  </image>
+  <image id="766" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2036.png" width="2048" height="2048">
+  </image>
+  <image id="765" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2035.png" width="2048" height="2048">
+  </image>
+  <image id="764" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2034.png" width="2048" height="2048">
+  </image>
+  <image id="763" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2033.png" width="2048" height="2048">
+  </image>
+  <image id="762" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2032.png" width="2048" height="2048">
+  </image>
+  <image id="761" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2031.png" width="2048" height="2048">
+  </image>
+  <image id="1270" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_895.png" width="2048" height="2048">
+  </image>
+  <image id="1269" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_894.png" width="2048" height="2048">
+  </image>
+  <image id="1268" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_893.png" width="2048" height="2048">
+  </image>
+  <image id="1267" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_892.png" width="2048" height="2048">
+  </image>
+  <image id="1266" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_891.png" width="2048" height="2048">
+  </image>
+  <image id="1265" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_890.png" width="2048" height="2048">
+  </image>
+  <image id="1264" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_889.png" width="2048" height="2048">
+  </image>
+  <image id="1263" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_888.png" width="2048" height="2048">
+  </image>
+  <image id="1262" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_878.png" width="2048" height="2048">
+  </image>
+  <image id="1261" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_877.png" width="2048" height="2048">
+  </image>
+  <image id="1260" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_876.png" width="2048" height="2048">
+  </image>
+  <image id="1259" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_875.png" width="2048" height="2048">
+  </image>
+  <image id="1258" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_874.png" width="2048" height="2048">
+  </image>
+  <image id="1257" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_873.png" width="2048" height="2048">
+  </image>
+  <image id="1256" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_872.png" width="2048" height="2048">
+  </image>
+  <image id="1255" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_871.png" width="2048" height="2048">
+  </image>
+  <image id="1254" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_870.png" width="2048" height="2048">
+  </image>
+  <image id="1253" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_869.png" width="2048" height="2048">
+  </image>
+  <image id="1252" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_868.png" width="2048" height="2048">
+  </image>
+  <image id="1251" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_867.png" width="2048" height="2048">
+  </image>
+  <image id="1250" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_866.png" width="2048" height="2048">
+  </image>
+  <image id="1249" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_865.png" width="2048" height="2048">
+  </image>
+  <image id="1248" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_864.png" width="2048" height="2048">
+  </image>
+  <image id="1247" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_863.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1045.08" ytl="275.12" xbr="1422.21" ybr="487.25" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="1246" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_862.png" width="2048" height="2048">
+  </image>
+  <image id="1245" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_861.png" width="2048" height="2048">
+  </image>
+  <image id="1244" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_860.png" width="2048" height="2048">
+  </image>
+  <image id="1243" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_859.png" width="2048" height="2048">
+  </image>
+  <image id="1242" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_858.png" width="2048" height="2048">
+  </image>
+  <image id="760" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2030.png" width="2048" height="2048">
+  </image>
+  <image id="759" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_203.png" width="2048" height="2048">
+  </image>
+  <image id="758" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2015.png" width="2048" height="2048">
+  </image>
+  <image id="757" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_2014.png" width="2048" height="2048">
+  </image>
+  <image id="756" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1994.png" width="2048" height="2048">
+  </image>
+  <image id="755" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1993.png" width="2048" height="2048">
+  </image>
+  <image id="754" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1992.png" width="2048" height="2048">
+  </image>
+  <image id="753" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1991.png" width="2048" height="2048">
+  </image>
+  <image id="752" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1990.png" width="2048" height="2048">
+  </image>
+  <image id="751" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1989.png" width="2048" height="2048">
+  </image>
+  <image id="750" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1988.png" width="2048" height="2048">
+  </image>
+  <image id="749" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1987.png" width="2048" height="2048">
+  </image>
+  <image id="748" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1986.png" width="2048" height="2048">
+  </image>
+  <image id="747" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1985.png" width="2048" height="2048">
+  </image>
+  <image id="746" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1984.png" width="2048" height="2048">
+  </image>
+  <image id="745" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1983.png" width="2048" height="2048">
+  </image>
+  <image id="744" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1982.png" width="2048" height="2048">
+  </image>
+  <image id="743" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1981.png" width="2048" height="2048">
+  </image>
+  <image id="742" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1980.png" width="2048" height="2048">
+  </image>
+  <image id="741" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1979.png" width="2048" height="2048">
+  </image>
+  <image id="740" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1978.png" width="2048" height="2048">
+  </image>
+  <image id="739" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1966.png" width="2048" height="2048">
+  </image>
+  <image id="738" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1965.png" width="2048" height="2048">
+  </image>
+  <image id="737" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1948.png" width="2048" height="2048">
+  </image>
+  <image id="736" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1947.png" width="2048" height="2048">
+  </image>
+  <image id="735" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1946.png" width="2048" height="2048">
+  </image>
+  <image id="734" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1945.png" width="2048" height="2048">
+  </image>
+  <image id="733" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1944.png" width="2048" height="2048">
+  </image>
+  <image id="732" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1943.png" width="2048" height="2048">
+  </image>
+  <image id="731" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1942.png" width="2048" height="2048">
+  </image>
+  <image id="730" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1941.png" width="2048" height="2048">
+  </image>
+  <image id="729" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1940.png" width="2048" height="2048">
+  </image>
+  <image id="728" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1939.png" width="2048" height="2048">
+  </image>
+  <image id="727" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1938.png" width="2048" height="2048">
+  </image>
+  <image id="726" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1937.png" width="2048" height="2048">
+  </image>
+  <image id="725" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1936.png" width="2048" height="2048">
+  </image>
+  <image id="724" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1935.png" width="2048" height="2048">
+  </image>
+  <image id="723" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1934.png" width="2048" height="2048">
+  </image>
+  <image id="722" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1933.png" width="2048" height="2048">
+  </image>
+  <image id="704" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1889.png" width="2048" height="2048">
+  </image>
+  <image id="703" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1888.png" width="2048" height="2048">
+  </image>
+  <image id="702" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1886.png" width="2048" height="2048">
+  </image>
+  <image id="701" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1885.png" width="2048" height="2048">
+  </image>
+  <image id="700" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1884.png" width="2048" height="2048">
+  </image>
+  <image id="699" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1883.png" width="2048" height="2048">
+  </image>
+  <image id="698" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1882.png" width="2048" height="2048">
+  </image>
+  <image id="697" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1881.png" width="2048" height="2048">
+  </image>
+  <image id="696" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1880.png" width="2048" height="2048">
+  </image>
+  <image id="695" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1879.png" width="2048" height="2048">
+  </image>
+  <image id="694" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1878.png" width="2048" height="2048">
+  </image>
+  <image id="693" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1877.png" width="2048" height="2048">
+  </image>
+  <image id="692" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1868.png" width="2048" height="2048">
+  </image>
+  <image id="691" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1852.png" width="2048" height="2048">
+  </image>
+  <image id="690" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1851.png" width="2048" height="2048">
+  </image>
+  <image id="689" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1850.png" width="2048" height="2048">
+  </image>
+  <image id="688" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1849.png" width="2048" height="2048">
+  </image>
+  <image id="687" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1848.png" width="2048" height="2048">
+  </image>
+  <image id="686" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1847.png" width="2048" height="2048">
+  </image>
+  <image id="685" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1846.png" width="2048" height="2048">
+  </image>
+  <image id="684" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1845.png" width="2048" height="2048">
+  </image>
+  <image id="683" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1844.png" width="2048" height="2048">
+  </image>
+  <image id="682" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1843.png" width="2048" height="2048">
+  </image>
+  <image id="681" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1842.png" width="2048" height="2048">
+  </image>
+  <image id="680" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1841.png" width="2048" height="2048">
+  </image>
+  <image id="679" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1840.png" width="2048" height="2048">
+  </image>
+  <image id="678" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1839.png" width="2048" height="2048">
+  </image>
+  <image id="677" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1838.png" width="2048" height="2048">
+  </image>
+  <image id="676" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1837.png" width="2048" height="2048">
+  </image>
+  <image id="675" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1836.png" width="2048" height="2048">
+  </image>
+  <image id="674" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1835.png" width="2048" height="2048">
+  </image>
+  <image id="673" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1834.png" width="2048" height="2048">
+  </image>
+  <image id="672" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1833.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1016.27" ytl="479.39" xbr="1155.07" ybr="620.81" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="671" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1832.png" width="2048" height="2048">
+  </image>
+  <image id="670" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1831.png" width="2048" height="2048">
+  </image>
+  <image id="669" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1830.png" width="2048" height="2048">
+  </image>
+  <image id="668" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1829.png" width="2048" height="2048">
+  </image>
+  <image id="667" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1828.png" width="2048" height="2048">
+  </image>
+  <image id="666" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1827.png" width="2048" height="2048">
+  </image>
+  <image id="665" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_182.png" width="2048" height="2048">
+  </image>
+  <image id="664" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1819.png" width="2048" height="2048">
+  </image>
+  <image id="663" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_181.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1820.28" ytl="990.08" xbr="1977.42" ybr="1162.93" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="662" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1804.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1073.89" ytl="7.99" xbr="1220.55" ybr="141.55" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="661" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1803.png" width="2048" height="2048">
+  </image>
+  <image id="660" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1801.png" width="2048" height="2048">
+  </image>
+  <image id="659" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1800.png" width="2048" height="2048">
+  </image>
+  <image id="658" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_180.png" width="2048" height="2048">
+  </image>
+  <image id="657" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1799.png" width="2048" height="2048">
+  </image>
+  <image id="656" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1798.png" width="2048" height="2048">
+  </image>
+  <image id="655" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1797.png" width="2048" height="2048">
+  </image>
+  <image id="654" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1796.png" width="2048" height="2048">
+  </image>
+  <image id="653" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1795.png" width="2048" height="2048">
+  </image>
+  <image id="652" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1794.png" width="2048" height="2048">
+  </image>
+  <image id="651" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1793.png" width="2048" height="2048">
+  </image>
+  <image id="650" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1792.png" width="2048" height="2048">
+  </image>
+  <image id="649" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1791.png" width="2048" height="2048">
+  </image>
+  <image id="648" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1790.png" width="2048" height="2048">
+  </image>
+  <image id="647" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_179.png" width="2048" height="2048">
+  </image>
+  <image id="646" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1789.png" width="2048" height="2048">
+  </image>
+  <image id="645" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1788.png" width="2048" height="2048">
+  </image>
+  <image id="644" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1787.png" width="2048" height="2048">
+  </image>
+  <image id="643" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1786.png" width="2048" height="2048">
+  </image>
+  <image id="642" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1785.png" width="2048" height="2048">
+  </image>
+  <image id="641" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1784.png" width="2048" height="2048">
+  </image>
+  <image id="640" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1783.png" width="2048" height="2048">
+  </image>
+  <image id="639" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1782.png" width="2048" height="2048">
+  </image>
+  <image id="638" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1781.png" width="2048" height="2048">
+  </image>
+  <image id="637" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1780.png" width="2048" height="2048">
+  </image>
+  <image id="636" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_178.png" width="2048" height="2048">
+  </image>
+  <image id="635" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1779.png" width="2048" height="2048">
+  </image>
+  <image id="634" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1778.png" width="2048" height="2048">
+  </image>
+  <image id="633" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1777.png" width="2048" height="2048">
+  </image>
+  <image id="632" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1776.png" width="2048" height="2048">
+  </image>
+  <image id="631" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1770.png" width="2048" height="2048">
+  </image>
+  <image id="630" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_177.png" width="2048" height="2048">
+  </image>
+  <image id="629" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_176.png" width="2048" height="2048">
+  </image>
+  <image id="628" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1756.png" width="2048" height="2048">
+  </image>
+  <image id="627" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1755.png" width="2048" height="2048">
+  </image>
+  <image id="626" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1754.png" width="2048" height="2048">
+  </image>
+  <image id="625" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1753.png" width="2048" height="2048">
+  </image>
+  <image id="624" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1752.png" width="2048" height="2048">
+  </image>
+  <image id="623" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1751.png" width="2048" height="2048">
+  </image>
+  <image id="622" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1750.png" width="2048" height="2048">
+  </image>
+  <image id="621" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_175.png" width="2048" height="2048">
+  </image>
+  <image id="620" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1749.png" width="2048" height="2048">
+  </image>
+  <image id="619" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1748.png" width="2048" height="2048">
+  </image>
+  <image id="618" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1747.png" width="2048" height="2048">
+  </image>
+  <image id="617" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1746.png" width="2048" height="2048">
+  </image>
+  <image id="616" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1745.png" width="2048" height="2048">
+  </image>
+  <image id="615" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1744.png" width="2048" height="2048">
+  </image>
+  <image id="614" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1743.png" width="2048" height="2048">
+  </image>
+  <image id="613" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1742.png" width="2048" height="2048">
+  </image>
+  <image id="612" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1741.png" width="2048" height="2048">
+  </image>
+  <image id="611" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1740.png" width="2048" height="2048">
+  </image>
+  <image id="610" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_174.png" width="2048" height="2048">
+  </image>
+  <image id="609" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1739.png" width="2048" height="2048">
+  </image>
+  <image id="608" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1738.png" width="2048" height="2048">
+  </image>
+  <image id="607" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1737.png" width="2048" height="2048">
+  </image>
+  <image id="606" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1736.png" width="2048" height="2048">
+  </image>
+  <image id="605" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1735.png" width="2048" height="2048">
+  </image>
+  <image id="604" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1734.png" width="2048" height="2048">
+  </image>
+  <image id="603" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1733.png" width="2048" height="2048">
+  </image>
+  <image id="602" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1732.png" width="2048" height="2048">
+  </image>
+  <image id="601" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1731.png" width="2048" height="2048">
+  </image>
+  <image id="600" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1730.png" width="2048" height="2048">
+  </image>
+  <image id="599" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_173.png" width="2048" height="2048">
+  </image>
+  <image id="598" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1729.png" width="2048" height="2048">
+  </image>
+  <image id="597" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1728.png" width="2048" height="2048">
+  </image>
+  <image id="596" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1727.png" width="2048" height="2048">
+  </image>
+  <image id="595" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1726.png" width="2048" height="2048">
+  </image>
+  <image id="594" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1721.png" width="2048" height="2048">
+  </image>
+  <image id="593" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_172.png" width="2048" height="2048">
+  </image>
+  <image id="592" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_171.png" width="2048" height="2048">
+  </image>
+  <image id="591" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1708.png" width="2048" height="2048">
+  </image>
+  <image id="590" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1707.png" width="2048" height="2048">
+  </image>
+  <image id="589" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1706.png" width="2048" height="2048">
+  </image>
+  <image id="588" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1705.png" width="2048" height="2048">
+  </image>
+  <image id="587" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1704.png" width="2048" height="2048">
+  </image>
+  <image id="586" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1703.png" width="2048" height="2048">
+  </image>
+  <image id="585" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1702.png" width="2048" height="2048">
+  </image>
+  <image id="584" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1701.png" width="2048" height="2048">
+  </image>
+  <image id="583" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1700.png" width="2048" height="2048">
+  </image>
+  <image id="582" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_170.png" width="2048" height="2048">
+  </image>
+  <image id="581" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1699.png" width="2048" height="2048">
+  </image>
+  <image id="580" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1698.png" width="2048" height="2048">
+  </image>
+  <image id="579" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1697.png" width="2048" height="2048">
+  </image>
+  <image id="578" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1696.png" width="2048" height="2048">
+  </image>
+  <image id="577" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1695.png" width="2048" height="2048">
+  </image>
+  <image id="576" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1694.png" width="2048" height="2048">
+  </image>
+  <image id="575" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1693.png" width="2048" height="2048">
+  </image>
+  <image id="574" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1692.png" width="2048" height="2048">
+  </image>
+  <image id="573" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1691.png" width="2048" height="2048">
+  </image>
+  <image id="572" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1690.png" width="2048" height="2048">
+  </image>
+  <image id="571" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_169.png" width="2048" height="2048">
+  </image>
+  <image id="570" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1689.png" width="2048" height="2048">
+  </image>
+  <image id="569" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1688.png" width="2048" height="2048">
+  </image>
+  <image id="568" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1687.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1440.17" ytl="794.69" xbr="1600.60" ybr="1060.40" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="567" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1686.png" width="2048" height="2048">
+  </image>
+  <image id="566" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1685.png" width="2048" height="2048">
+  </image>
+  <image id="565" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1684.png" width="2048" height="2048">
+  </image>
+  <image id="564" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1683.png" width="2048" height="2048">
+  </image>
+  <image id="563" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1682.png" width="2048" height="2048">
+  </image>
+  <image id="562" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1681.png" width="2048" height="2048">
+  </image>
+  <image id="561" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1680.png" width="2048" height="2048">
+  </image>
+  <image id="560" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_168.png" width="2048" height="2048">
+  </image>
+  <image id="559" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1679.png" width="2048" height="2048">
+  </image>
+  <image id="558" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1678.png" width="2048" height="2048">
+  </image>
+  <image id="557" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1677.png" width="2048" height="2048">
+  </image>
+  <image id="556" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1672.png" width="2048" height="2048">
+  </image>
+  <image id="555" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_167.png" width="2048" height="2048">
+  </image>
+  <image id="554" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_166.png" width="2048" height="2048">
+  </image>
+  <image id="553" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1659.png" width="2048" height="2048">
+  </image>
+  <image id="552" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1658.png" width="2048" height="2048">
+  </image>
+  <image id="551" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1657.png" width="2048" height="2048">
+  </image>
+  <image id="550" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1656.png" width="2048" height="2048">
+  </image>
+  <image id="549" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1655.png" width="2048" height="2048">
+  </image>
+  <image id="548" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1654.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1359.35" ytl="568.44" xbr="1574.10" ybr="780.57" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="547" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1653.png" width="2048" height="2048">
+  </image>
+  <image id="546" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1652.png" width="2048" height="2048">
+  </image>
+  <image id="545" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1651.png" width="2048" height="2048">
+  </image>
+  <image id="544" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1650.png" width="2048" height="2048">
+  </image>
+  <image id="543" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_165.png" width="2048" height="2048">
+  </image>
+  <image id="542" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1649.png" width="2048" height="2048">
+  </image>
+  <image id="541" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1648.png" width="2048" height="2048">
+  </image>
+  <image id="540" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1647.png" width="2048" height="2048">
+  </image>
+  <image id="539" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1646.png" width="2048" height="2048">
+  </image>
+  <image id="538" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1645.png" width="2048" height="2048">
+  </image>
+  <image id="537" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1644.png" width="2048" height="2048">
+  </image>
+  <image id="536" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1643.png" width="2048" height="2048">
+  </image>
+  <image id="535" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1642.png" width="2048" height="2048">
+  </image>
+  <image id="534" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1641.png" width="2048" height="2048">
+  </image>
+  <image id="533" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1640.png" width="2048" height="2048">
+  </image>
+  <image id="532" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_164.png" width="2048" height="2048">
+  </image>
+  <image id="531" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1639.png" width="2048" height="2048">
+  </image>
+  <image id="530" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1638.png" width="2048" height="2048">
+  </image>
+  <image id="529" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1637.png" width="2048" height="2048">
+  </image>
+  <image id="528" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1636.png" width="2048" height="2048">
+  </image>
+  <image id="1025" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_601.png" width="2048" height="2048">
+  </image>
+  <image id="1024" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_600.png" width="2048" height="2048">
+  </image>
+  <image id="1023" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_599.png" width="2048" height="2048">
+  </image>
+  <image id="1022" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_598.png" width="2048" height="2048">
+  </image>
+  <image id="1021" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_597.png" width="2048" height="2048">
+  </image>
+  <image id="1020" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_595.png" width="2048" height="2048">
+  </image>
+  <image id="1019" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_594.png" width="2048" height="2048">
+  </image>
+  <image id="1018" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_582.png" width="2048" height="2048">
+  </image>
+  <image id="1017" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_581.png" width="2048" height="2048">
+  </image>
+  <image id="1016" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_580.png" width="2048" height="2048">
+  </image>
+  <image id="1015" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_579.png" width="2048" height="2048">
+  </image>
+  <image id="1014" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_578.png" width="2048" height="2048">
+  </image>
+  <image id="1013" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_577.png" width="2048" height="2048">
+  </image>
+  <image id="1012" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_576.png" width="2048" height="2048">
+  </image>
+  <image id="1011" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_575.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="717.71" ytl="1456.25" xbr="848.66" ybr="1587.20" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="1010" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_574.png" width="2048" height="2048">
+  </image>
+  <image id="1009" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_573.png" width="2048" height="2048">
+  </image>
+  <image id="1008" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_572.png" width="2048" height="2048">
+  </image>
+  <image id="1007" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_571.png" width="2048" height="2048">
+  </image>
+  <image id="1006" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_570.png" width="2048" height="2048">
+  </image>
+  <image id="1005" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_569.png" width="2048" height="2048">
+  </image>
+  <image id="1004" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_568.png" width="2048" height="2048">
+  </image>
+  <image id="1003" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_567.png" width="2048" height="2048">
+  </image>
+  <image id="1002" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_566.png" width="2048" height="2048">
+  </image>
+  <image id="1001" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_565.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1199.60" ytl="654.86" xbr="1396.02" ybr="777.95" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+    <box label="AS" occluded="0" source="manual" xtl="1830.76" ytl="191.31" xbr="1990.51" ybr="322.26" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="1000" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_564.png" width="2048" height="2048">
+  </image>
+  <image id="999" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_563.png" width="2048" height="2048">
+  </image>
+  <image id="998" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_562.png" width="2048" height="2048">
+  </image>
+  <image id="997" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_561.png" width="2048" height="2048">
+  </image>
+  <image id="996" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_560.png" width="2048" height="2048">
+  </image>
+  <image id="995" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_56.png" width="2048" height="2048">
+  </image>
+  <image id="994" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_559.png" width="2048" height="2048">
+  </image>
+  <image id="993" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_558.png" width="2048" height="2048">
+  </image>
+  <image id="992" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_557.png" width="2048" height="2048">
+  </image>
+  <image id="991" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_556.png" width="2048" height="2048">
+  </image>
+  <image id="990" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_555.png" width="2048" height="2048">
+  </image>
+  <image id="989" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_553.png" width="2048" height="2048">
+  </image>
+  <image id="988" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_552.png" width="2048" height="2048">
+  </image>
+  <image id="987" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_551.png" width="2048" height="2048">
+  </image>
+  <image id="986" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_550.png" width="2048" height="2048">
+  </image>
+  <image id="985" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_55.png" width="2048" height="2048">
+  </image>
+  <image id="984" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_549.png" width="2048" height="2048">
+  </image>
+  <image id="983" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_548.png" width="2048" height="2048">
+  </image>
+  <image id="982" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_546.png" width="2048" height="2048">
+  </image>
+  <image id="981" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_545.png" width="2048" height="2048">
+  </image>
+  <image id="980" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_533.png" width="2048" height="2048">
+  </image>
+  <image id="979" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_532.png" width="2048" height="2048">
+  </image>
+  <image id="978" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_531.png" width="2048" height="2048">
+  </image>
+  <image id="977" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_530.png" width="2048" height="2048">
+  </image>
+  <image id="976" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_529.png" width="2048" height="2048">
+  </image>
+  <image id="975" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_528.png" width="2048" height="2048">
+  </image>
+  <image id="974" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_527.png" width="2048" height="2048">
+  </image>
+  <image id="973" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_526.png" width="2048" height="2048">
+  </image>
+  <image id="972" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_525.png" width="2048" height="2048">
+  </image>
+  <image id="971" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_524.png" width="2048" height="2048">
+  </image>
+  <image id="970" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_523.png" width="2048" height="2048">
+  </image>
+  <image id="969" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_522.png" width="2048" height="2048">
+  </image>
+  <image id="968" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_521.png" width="2048" height="2048">
+  </image>
+  <image id="967" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_520.png" width="2048" height="2048">
+  </image>
+  <image id="966" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_519.png" width="2048" height="2048">
+  </image>
+  <image id="965" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_518.png" width="2048" height="2048">
+  </image>
+  <image id="964" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_517.png" width="2048" height="2048">
+  </image>
+  <image id="963" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_516.png" width="2048" height="2048">
+  </image>
+  <image id="962" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_515.png" width="2048" height="2048">
+  </image>
+  <image id="961" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_514.png" width="2048" height="2048">
+  </image>
+  <image id="960" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_513.png" width="2048" height="2048">
+  </image>
+  <image id="959" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_512.png" width="2048" height="2048">
+  </image>
+  <image id="958" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_511.png" width="2048" height="2048">
+  </image>
+  <image id="957" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_510.png" width="2048" height="2048">
+  </image>
+  <image id="956" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_509.png" width="2048" height="2048">
+  </image>
+  <image id="955" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_508.png" width="2048" height="2048">
+  </image>
+  <image id="954" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_507.png" width="2048" height="2048">
+  </image>
+  <image id="953" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_505.png" width="2048" height="2048">
+  </image>
+  <image id="952" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_504.png" width="2048" height="2048">
+  </image>
+  <image id="951" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_503.png" width="2048" height="2048">
+  </image>
+  <image id="950" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_502.png" width="2048" height="2048">
+  </image>
+  <image id="949" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_501.png" width="2048" height="2048">
+  </image>
+  <image id="948" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_500.png" width="2048" height="2048">
+  </image>
+  <image id="947" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_497.png" width="2048" height="2048">
+  </image>
+  <image id="946" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_496.png" width="2048" height="2048">
+  </image>
+  <image id="945" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_483.png" width="2048" height="2048">
+  </image>
+  <image id="944" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_482.png" width="2048" height="2048">
+  </image>
+  <image id="943" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_481.png" width="2048" height="2048">
+  </image>
+  <image id="942" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_480.png" width="2048" height="2048">
+  </image>
+  <image id="941" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_479.png" width="2048" height="2048">
+  </image>
+  <image id="940" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_478.png" width="2048" height="2048">
+  </image>
+  <image id="939" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_477.png" width="2048" height="2048">
+  </image>
+  <image id="938" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_476.png" width="2048" height="2048">
+  </image>
+  <image id="527" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1635.png" width="2048" height="2048">
+  </image>
+  <image id="526" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1634.png" width="2048" height="2048">
+  </image>
+  <image id="525" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1633.png" width="2048" height="2048">
+  </image>
+  <image id="524" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1632.png" width="2048" height="2048">
+  </image>
+  <image id="523" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1631.png" width="2048" height="2048">
+  </image>
+  <image id="522" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1630.png" width="2048" height="2048">
+  </image>
+  <image id="521" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1629.png" width="2048" height="2048">
+  </image>
+  <image id="520" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1628.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1283.40" ytl="670.57" xbr="1380.30" ybr="777.95" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="519" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1627.png" width="2048" height="2048">
+  </image>
+  <image id="518" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1623.png" width="2048" height="2048">
+  </image>
+  <image id="517" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1611.png" width="2048" height="2048">
+  </image>
+  <image id="516" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1610.png" width="2048" height="2048">
+  </image>
+  <image id="515" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1609.png" width="2048" height="2048">
+  </image>
+  <image id="514" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1608.png" width="2048" height="2048">
+  </image>
+  <image id="513" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1607.png" width="2048" height="2048">
+  </image>
+  <image id="512" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1606.png" width="2048" height="2048">
+  </image>
+  <image id="511" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1605.png" width="2048" height="2048">
+  </image>
+  <image id="510" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1604.png" width="2048" height="2048">
+  </image>
+  <image id="509" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1603.png" width="2048" height="2048">
+  </image>
+  <image id="508" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1602.png" width="2048" height="2048">
+  </image>
+  <image id="507" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1601.png" width="2048" height="2048">
+  </image>
+  <image id="506" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1600.png" width="2048" height="2048">
+  </image>
+  <image id="505" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1599.png" width="2048" height="2048">
+  </image>
+  <image id="504" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1598.png" width="2048" height="2048">
+  </image>
+  <image id="503" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1597.png" width="2048" height="2048">
+  </image>
+  <image id="502" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1596.png" width="2048" height="2048">
+  </image>
+  <image id="501" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1595.png" width="2048" height="2048">
+  </image>
+  <image id="500" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1594.png" width="2048" height="2048">
+  </image>
+  <image id="499" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1593.png" width="2048" height="2048">
+  </image>
+  <image id="498" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1592.png" width="2048" height="2048">
+  </image>
+  <image id="497" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1591.png" width="2048" height="2048">
+  </image>
+  <image id="496" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1590.png" width="2048" height="2048">
+  </image>
+  <image id="495" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1589.png" width="2048" height="2048">
+  </image>
+  <image id="494" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1588.png" width="2048" height="2048">
+  </image>
+  <image id="493" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1587.png" width="2048" height="2048">
+  </image>
+  <image id="492" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1586.png" width="2048" height="2048">
+  </image>
+  <image id="491" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1585.png" width="2048" height="2048">
+  </image>
+  <image id="490" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1584.png" width="2048" height="2048">
+  </image>
+  <image id="489" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1583.png" width="2048" height="2048">
+  </image>
+  <image id="470" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1551.png" width="2048" height="2048">
+  </image>
+  <image id="469" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1550.png" width="2048" height="2048">
+  </image>
+  <image id="468" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1549.png" width="2048" height="2048">
+  </image>
+  <image id="467" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1548.png" width="2048" height="2048">
+  </image>
+  <image id="466" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1547.png" width="2048" height="2048">
+  </image>
+  <image id="465" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1546.png" width="2048" height="2048">
+  </image>
+  <image id="464" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1545.png" width="2048" height="2048">
+  </image>
+  <image id="463" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1544.png" width="2048" height="2048">
+  </image>
+  <image id="462" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1543.png" width="2048" height="2048">
+  </image>
+  <image id="461" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1542.png" width="2048" height="2048">
+  </image>
+  <image id="460" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1541.png" width="2048" height="2048">
+  </image>
+  <image id="459" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1540.png" width="2048" height="2048">
+  </image>
+  <image id="458" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_154.png" width="2048" height="2048">
+  </image>
+  <image id="457" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1539.png" width="2048" height="2048">
+  </image>
+  <image id="456" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1538.png" width="2048" height="2048">
+  </image>
+  <image id="455" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1537.png" width="2048" height="2048">
+  </image>
+  <image id="454" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1536.png" width="2048" height="2048">
+  </image>
+  <image id="453" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1535.png" width="2048" height="2048">
+  </image>
+  <image id="452" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1534.png" width="2048" height="2048">
+  </image>
+  <image id="451" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1533.png" width="2048" height="2048">
+  </image>
+  <image id="450" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1532.png" width="2048" height="2048">
+  </image>
+  <image id="449" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1531.png" width="2048" height="2048">
+  </image>
+  <image id="448" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1530.png" width="2048" height="2048">
+  </image>
+  <image id="447" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1529.png" width="2048" height="2048">
+  </image>
+  <image id="446" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1528.png" width="2048" height="2048">
+  </image>
+  <image id="445" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1525.png" width="2048" height="2048">
+  </image>
+  <image id="444" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_152.png" width="2048" height="2048">
+  </image>
+  <image id="443" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1514.png" width="2048" height="2048">
+  </image>
+  <image id="442" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1513.png" width="2048" height="2048">
+  </image>
+  <image id="441" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1512.png" width="2048" height="2048">
+  </image>
+  <image id="440" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1511.png" width="2048" height="2048">
+  </image>
+  <image id="439" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1510.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1684.10" ytl="1343.64" xbr="1830.76" ybr="1482.44" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="438" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1509.png" width="2048" height="2048">
+  </image>
+  <image id="437" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1508.png" width="2048" height="2048">
+  </image>
+  <image id="436" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1507.png" width="2048" height="2048">
+  </image>
+  <image id="435" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1506.png" width="2048" height="2048">
+  </image>
+  <image id="434" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1505.png" width="2048" height="2048">
+  </image>
+  <image id="433" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1504.png" width="2048" height="2048">
+  </image>
+  <image id="432" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1503.png" width="2048" height="2048">
+  </image>
+  <image id="431" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1502.png" width="2048" height="2048">
+  </image>
+  <image id="430" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1501.png" width="2048" height="2048">
+  </image>
+  <image id="429" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1500.png" width="2048" height="2048">
+  </image>
+  <image id="428" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1499.png" width="2048" height="2048">
+  </image>
+  <image id="427" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1498.png" width="2048" height="2048">
+  </image>
+  <image id="426" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1497.png" width="2048" height="2048">
+  </image>
+  <image id="425" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1496.png" width="2048" height="2048">
+  </image>
+  <image id="424" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1495.png" width="2048" height="2048">
+  </image>
+  <image id="423" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1494.png" width="2048" height="2048">
+  </image>
+  <image id="422" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1493.png" width="2048" height="2048">
+  </image>
+  <image id="421" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1492.png" width="2048" height="2048">
+  </image>
+  <image id="420" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1491.png" width="2048" height="2048">
+  </image>
+  <image id="419" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1490.png" width="2048" height="2048">
+  </image>
+  <image id="418" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1489.png" width="2048" height="2048">
+  </image>
+  <image id="417" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1488.png" width="2048" height="2048">
+  </image>
+  <image id="416" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1487.png" width="2048" height="2048">
+  </image>
+  <image id="415" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1486.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1707.67" ytl="1616.01" xbr="1812.43" ybr="1697.19" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+    <box label="AS" occluded="0" source="manual" xtl="1684.10" ytl="921.99" xbr="1815.04" ybr="1037.22" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="414" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1485.png" width="2048" height="2048">
+  </image>
+  <image id="413" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1484.png" width="2048" height="2048">
+  </image>
+  <image id="412" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1483.png" width="2048" height="2048">
+  </image>
+  <image id="411" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1482.png" width="2048" height="2048">
+  </image>
+  <image id="410" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1481.png" width="2048" height="2048">
+  </image>
+  <image id="409" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1480.png" width="2048" height="2048">
+  </image>
+  <image id="408" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1479.png" width="2048" height="2048">
+  </image>
+  <image id="407" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1478.png" width="2048" height="2048">
+  </image>
+  <image id="406" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1476.png" width="2048" height="2048">
+  </image>
+  <image id="405" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1465.png" width="2048" height="2048">
+  </image>
+  <image id="404" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1464.png" width="2048" height="2048">
+  </image>
+  <image id="403" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1463.png" width="2048" height="2048">
+  </image>
+  <image id="402" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1462.png" width="2048" height="2048">
+  </image>
+  <image id="401" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1461.png" width="2048" height="2048">
+  </image>
+  <image id="400" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1460.png" width="2048" height="2048">
+  </image>
+  <image id="399" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1459.png" width="2048" height="2048">
+  </image>
+  <image id="398" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1458.png" width="2048" height="2048">
+  </image>
+  <image id="397" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1457.png" width="2048" height="2048">
+  </image>
+  <image id="396" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1456.png" width="2048" height="2048">
+  </image>
+  <image id="395" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1455.png" width="2048" height="2048">
+  </image>
+  <image id="394" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1454.png" width="2048" height="2048">
+  </image>
+  <image id="393" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1453.png" width="2048" height="2048">
+  </image>
+  <image id="392" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1452.png" width="2048" height="2048">
+  </image>
+  <image id="391" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1451.png" width="2048" height="2048">
+  </image>
+  <image id="390" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1450.png" width="2048" height="2048">
+  </image>
+  <image id="389" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1449.png" width="2048" height="2048">
+  </image>
+  <image id="388" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1448.png" width="2048" height="2048">
+  </image>
+  <image id="387" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1447.png" width="2048" height="2048">
+  </image>
+  <image id="386" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1446.png" width="2048" height="2048">
+  </image>
+  <image id="385" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1445.png" width="2048" height="2048">
+  </image>
+  <image id="384" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1444.png" width="2048" height="2048">
+  </image>
+  <image id="383" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1443.png" width="2048" height="2048">
+  </image>
+  <image id="382" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1442.png" width="2048" height="2048">
+  </image>
+  <image id="381" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1441.png" width="2048" height="2048">
+  </image>
+  <image id="380" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1440.png" width="2048" height="2048">
+  </image>
+  <image id="379" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1439.png" width="2048" height="2048">
+  </image>
+  <image id="378" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1438.png" width="2048" height="2048">
+  </image>
+  <image id="377" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1437.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1045.08" ytl="830.33" xbr="1183.88" ybr="974.37" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="376" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1436.png" width="2048" height="2048">
+  </image>
+  <image id="375" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1435.png" width="2048" height="2048">
+  </image>
+  <image id="374" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1434.png" width="2048" height="2048">
+  </image>
+  <image id="373" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1433.png" width="2048" height="2048">
+  </image>
+  <image id="372" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1432.png" width="2048" height="2048">
+  </image>
+  <image id="371" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1431.png" width="2048" height="2048">
+  </image>
+  <image id="370" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1430.png" width="2048" height="2048">
+  </image>
+  <image id="369" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1429.png" width="2048" height="2048">
+  </image>
+  <image id="368" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1427.png" width="2048" height="2048">
+  </image>
+  <image id="367" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1419.png" width="2048" height="2048">
+  </image>
+  <image id="366" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1418.png" width="2048" height="2048">
+  </image>
+  <image id="365" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1417.png" width="2048" height="2048">
+  </image>
+  <image id="364" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1416.png" width="2048" height="2048">
+  </image>
+  <image id="363" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1415.png" width="2048" height="2048">
+  </image>
+  <image id="362" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1414.png" width="2048" height="2048">
+  </image>
+  <image id="361" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1413.png" width="2048" height="2048">
+  </image>
+  <image id="360" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1412.png" width="2048" height="2048">
+  </image>
+  <image id="359" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1411.png" width="2048" height="2048">
+  </image>
+  <image id="358" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1410.png" width="2048" height="2048">
+  </image>
+  <image id="357" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1409.png" width="2048" height="2048">
+  </image>
+  <image id="356" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1408.png" width="2048" height="2048">
+  </image>
+  <image id="355" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1407.png" width="2048" height="2048">
+  </image>
+  <image id="354" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1406.png" width="2048" height="2048">
+  </image>
+  <image id="353" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1405.png" width="2048" height="2048">
+  </image>
+  <image id="352" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1404.png" width="2048" height="2048">
+  </image>
+  <image id="351" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1403.png" width="2048" height="2048">
+  </image>
+  <image id="350" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1402.png" width="2048" height="2048">
+  </image>
+  <image id="349" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1401.png" width="2048" height="2048">
+  </image>
+  <image id="348" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1400.png" width="2048" height="2048">
+  </image>
+  <image id="347" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1399.png" width="2048" height="2048">
+  </image>
+  <image id="346" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1398.png" width="2048" height="2048">
+  </image>
+  <image id="345" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1397.png" width="2048" height="2048">
+  </image>
+  <image id="344" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1396.png" width="2048" height="2048">
+  </image>
+  <image id="343" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1395.png" width="2048" height="2048">
+  </image>
+  <image id="342" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1394.png" width="2048" height="2048">
+  </image>
+  <image id="341" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1393.png" width="2048" height="2048">
+  </image>
+  <image id="340" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1392.png" width="2048" height="2048">
+  </image>
+  <image id="339" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1391.png" width="2048" height="2048">
+  </image>
+  <image id="338" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1390.png" width="2048" height="2048">
+  </image>
+  <image id="337" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1389.png" width="2048" height="2048">
+  </image>
+  <image id="336" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1388.png" width="2048" height="2048">
+  </image>
+  <image id="335" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1387.png" width="2048" height="2048">
+  </image>
+  <image id="334" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1386.png" width="2048" height="2048">
+  </image>
+  <image id="333" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1385.png" width="2048" height="2048">
+  </image>
+  <image id="332" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1384.png" width="2048" height="2048">
+  </image>
+  <image id="331" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1383.png" width="2048" height="2048">
+  </image>
+  <image id="330" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1382.png" width="2048" height="2048">
+  </image>
+  <image id="329" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1381.png" width="2048" height="2048">
+  </image>
+  <image id="328" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1380.png" width="2048" height="2048">
+  </image>
+  <image id="327" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1378.png" width="2048" height="2048">
+  </image>
+  <image id="326" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1370.png" width="2048" height="2048">
+  </image>
+  <image id="325" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1369.png" width="2048" height="2048">
+  </image>
+  <image id="324" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1368.png" width="2048" height="2048">
+  </image>
+  <image id="323" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1366.png" width="2048" height="2048">
+  </image>
+  <image id="322" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1365.png" width="2048" height="2048">
+  </image>
+  <image id="321" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1364.png" width="2048" height="2048">
+  </image>
+  <image id="320" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1363.png" width="2048" height="2048">
+  </image>
+  <image id="319" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1362.png" width="2048" height="2048">
+  </image>
+  <image id="318" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1361.png" width="2048" height="2048">
+  </image>
+  <image id="317" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1360.png" width="2048" height="2048">
+  </image>
+  <image id="316" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1359.png" width="2048" height="2048">
+  </image>
+  <image id="315" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1358.png" width="2048" height="2048">
+  </image>
+  <image id="314" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1357.png" width="2048" height="2048">
+  </image>
+  <image id="313" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1356.png" width="2048" height="2048">
+  </image>
+  <image id="312" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1355.png" width="2048" height="2048">
+  </image>
+  <image id="311" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1354.png" width="2048" height="2048">
+  </image>
+  <image id="310" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1353.png" width="2048" height="2048">
+  </image>
+  <image id="309" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1352.png" width="2048" height="2048">
+  </image>
+  <image id="308" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1351.png" width="2048" height="2048">
+  </image>
+  <image id="307" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1350.png" width="2048" height="2048">
+  </image>
+  <image id="306" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1349.png" width="2048" height="2048">
+  </image>
+  <image id="305" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1348.png" width="2048" height="2048">
+  </image>
+  <image id="304" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1347.png" width="2048" height="2048">
+  </image>
+  <image id="303" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1346.png" width="2048" height="2048">
+  </image>
+  <image id="302" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1345.png" width="2048" height="2048">
+  </image>
+  <image id="301" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1344.png" width="2048" height="2048">
+  </image>
+  <image id="300" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1343.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="819.85" ytl="450.58" xbr="932.47" ybr="568.44" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="299" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1342.png" width="2048" height="2048">
+  </image>
+  <image id="298" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1341.png" width="2048" height="2048">
+  </image>
+  <image id="297" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1340.png" width="2048" height="2048">
+  </image>
+  <image id="296" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1339.png" width="2048" height="2048">
+  </image>
+  <image id="295" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1338.png" width="2048" height="2048">
+  </image>
+  <image id="294" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1337.png" width="2048" height="2048">
+  </image>
+  <image id="721" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1932.png" width="2048" height="2048">
+  </image>
+  <image id="720" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1931.png" width="2048" height="2048">
+  </image>
+  <image id="719" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1930.png" width="2048" height="2048">
+  </image>
+  <image id="718" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1929.png" width="2048" height="2048">
+  </image>
+  <image id="717" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1928.png" width="2048" height="2048">
+  </image>
+  <image id="716" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1927.png" width="2048" height="2048">
+  </image>
+  <image id="715" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1917.png" width="2048" height="2048">
+  </image>
+  <image id="714" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1900.png" width="2048" height="2048">
+  </image>
+  <image id="713" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1898.png" width="2048" height="2048">
+  </image>
+  <image id="712" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1897.png" width="2048" height="2048">
+  </image>
+  <image id="711" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1896.png" width="2048" height="2048">
+  </image>
+  <image id="710" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1895.png" width="2048" height="2048">
+  </image>
+  <image id="709" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1894.png" width="2048" height="2048">
+  </image>
+  <image id="708" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1893.png" width="2048" height="2048">
+  </image>
+  <image id="707" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1892.png" width="2048" height="2048">
+  </image>
+  <image id="706" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1891.png" width="2048" height="2048">
+  </image>
+  <image id="705" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1890.png" width="2048" height="2048">
+  </image>
+  <image id="293" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1336.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="592.90" ytl="658.20" xbr="745.81" ybr="922.53" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="292" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1335.png" width="2048" height="2048">
+  </image>
+  <image id="291" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1334.png" width="2048" height="2048">
+  </image>
+  <image id="290" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1333.png" width="2048" height="2048">
+  </image>
+  <image id="289" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1332.png" width="2048" height="2048">
+  </image>
+  <image id="288" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1331.png" width="2048" height="2048">
+  </image>
+  <image id="287" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1330.png" width="2048" height="2048">
+  </image>
+  <image id="286" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1329.png" width="2048" height="2048">
+  </image>
+  <image id="285" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1319.png" width="2048" height="2048">
+  </image>
+  <image id="284" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1318.png" width="2048" height="2048">
+  </image>
+  <image id="283" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1317.png" width="2048" height="2048">
+  </image>
+  <image id="282" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1316.png" width="2048" height="2048">
+  </image>
+  <image id="281" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1315.png" width="2048" height="2048">
+  </image>
+  <image id="280" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1314.png" width="2048" height="2048">
+  </image>
+  <image id="243" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1280.png" width="2048" height="2048">
+  </image>
+  <image id="242" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_128.png" width="2048" height="2048">
+  </image>
+  <image id="241" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1271.png" width="2048" height="2048">
+  </image>
+  <image id="240" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1270.png" width="2048" height="2048">
+  </image>
+  <image id="239" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_127.png" width="2048" height="2048">
+  </image>
+  <image id="238" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1269.png" width="2048" height="2048">
+  </image>
+  <image id="237" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1268.png" width="2048" height="2048">
+  </image>
+  <image id="236" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1267.png" width="2048" height="2048">
+  </image>
+  <image id="235" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1266.png" width="2048" height="2048">
+  </image>
+  <image id="234" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1265.png" width="2048" height="2048">
+  </image>
+  <image id="233" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1264.png" width="2048" height="2048">
+  </image>
+  <image id="232" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1263.png" width="2048" height="2048">
+  </image>
+  <image id="231" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1262.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1259.83" ytl="709.86" xbr="1393.40" ybr="927.23" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="230" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1261.png" width="2048" height="2048">
+  </image>
+  <image id="229" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1260.png" width="2048" height="2048">
+  </image>
+  <image id="228" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_126.png" width="2048" height="2048">
+  </image>
+  <image id="227" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1259.png" width="2048" height="2048">
+  </image>
+  <image id="226" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1258.png" width="2048" height="2048">
+  </image>
+  <image id="225" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1257.png" width="2048" height="2048">
+  </image>
+  <image id="224" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1256.png" width="2048" height="2048">
+  </image>
+  <image id="223" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1255.png" width="2048" height="2048">
+  </image>
+  <image id="222" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1254.png" width="2048" height="2048">
+  </image>
+  <image id="221" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1253.png" width="2048" height="2048">
+  </image>
+  <image id="220" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1252.png" width="2048" height="2048">
+  </image>
+  <image id="219" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1251.png" width="2048" height="2048">
+  </image>
+  <image id="218" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1250.png" width="2048" height="2048">
+  </image>
+  <image id="217" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_125.png" width="2048" height="2048">
+  </image>
+  <image id="216" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1249.png" width="2048" height="2048">
+  </image>
+  <image id="215" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1248.png" width="2048" height="2048">
+  </image>
+  <image id="214" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1247.png" width="2048" height="2048">
+  </image>
+  <image id="213" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1246.png" width="2048" height="2048">
+  </image>
+  <image id="212" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1245.png" width="2048" height="2048">
+  </image>
+  <image id="211" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1244.png" width="2048" height="2048">
+  </image>
+  <image id="210" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1243.png" width="2048" height="2048">
+  </image>
+  <image id="209" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1242.png" width="2048" height="2048">
+  </image>
+  <image id="208" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1241.png" width="2048" height="2048">
+  </image>
+  <image id="207" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1240.png" width="2048" height="2048">
+  </image>
+  <image id="206" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_124.png" width="2048" height="2048">
+  </image>
+  <image id="205" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1239.png" width="2048" height="2048">
+  </image>
+  <image id="204" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1238.png" width="2048" height="2048">
+  </image>
+  <image id="203" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1237.png" width="2048" height="2048">
+  </image>
+  <image id="202" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1236.png" width="2048" height="2048">
+  </image>
+  <image id="201" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1235.png" width="2048" height="2048">
+  </image>
+  <image id="200" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1234.png" width="2048" height="2048">
+  </image>
+  <image id="199" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1233.png" width="2048" height="2048">
+  </image>
+  <image id="198" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1232.png" width="2048" height="2048">
+  </image>
+  <image id="197" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1231.png" width="2048" height="2048">
+    <tag label="판독불가" source="manual">
+    </tag>
+  </image>
+  <image id="196" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_123.png" width="2048" height="2048">
+  </image>
+  <image id="195" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1222.png" width="2048" height="2048">
+  </image>
+  <image id="194" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1221.png" width="2048" height="2048">
+  </image>
+  <image id="193" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1220.png" width="2048" height="2048">
+  </image>
+  <image id="192" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_122.png" width="2048" height="2048">
+  </image>
+  <image id="191" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1219.png" width="2048" height="2048">
+  </image>
+  <image id="190" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1218.png" width="2048" height="2048">
+  </image>
+  <image id="189" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1217.png" width="2048" height="2048">
+  </image>
+  <image id="188" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1216.png" width="2048" height="2048">
+  </image>
+  <image id="187" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1215.png" width="2048" height="2048">
+  </image>
+  <image id="186" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1214.png" width="2048" height="2048">
+  </image>
+  <image id="185" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1213.png" width="2048" height="2048">
+  </image>
+  <image id="184" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1212.png" width="2048" height="2048">
+  </image>
+  <image id="183" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1211.png" width="2048" height="2048">
+  </image>
+  <image id="182" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1210.png" width="2048" height="2048">
+  </image>
+  <image id="181" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_121.png" width="2048" height="2048">
+  </image>
+  <image id="180" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1209.png" width="2048" height="2048">
+  </image>
+  <image id="179" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1208.png" width="2048" height="2048">
+  </image>
+  <image id="178" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1207.png" width="2048" height="2048">
+  </image>
+  <image id="177" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1206.png" width="2048" height="2048">
+  </image>
+  <image id="176" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1205.png" width="2048" height="2048">
+  </image>
+  <image id="175" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1204.png" width="2048" height="2048">
+  </image>
+  <image id="174" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1203.png" width="2048" height="2048">
+  </image>
+  <image id="173" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1202.png" width="2048" height="2048">
+  </image>
+  <image id="172" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1201.png" width="2048" height="2048">
+  </image>
+  <image id="171" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1200.png" width="2048" height="2048">
+  </image>
+  <image id="170" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_120.png" width="2048" height="2048">
+  </image>
+  <image id="169" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1199.png" width="2048" height="2048">
+  </image>
+  <image id="168" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1198.png" width="2048" height="2048">
+  </image>
+  <image id="167" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1197.png" width="2048" height="2048">
+  </image>
+  <image id="166" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1196.png" width="2048" height="2048">
+  </image>
+  <image id="165" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1195.png" width="2048" height="2048">
+  </image>
+  <image id="164" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1194.png" width="2048" height="2048">
+  </image>
+  <image id="163" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1193.png" width="2048" height="2048">
+  </image>
+  <image id="162" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1192.png" width="2048" height="2048">
+  </image>
+  <image id="161" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1191.png" width="2048" height="2048">
+  </image>
+  <image id="160" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1190.png" width="2048" height="2048">
+  </image>
+  <image id="159" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_119.png" width="2048" height="2048">
+  </image>
+  <image id="158" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1189.png" width="2048" height="2048">
+  </image>
+  <image id="157" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1188.png" width="2048" height="2048">
+  </image>
+  <image id="156" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1187.png" width="2048" height="2048">
+  </image>
+  <image id="155" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1186.png" width="2048" height="2048">
+  </image>
+  <image id="154" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1185.png" width="2048" height="2048">
+  </image>
+  <image id="153" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1184.png" width="2048" height="2048">
+  </image>
+  <image id="152" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1183.png" width="2048" height="2048">
+  </image>
+  <image id="151" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1182.png" width="2048" height="2048">
+    <tag label="판독불가" source="manual">
+    </tag>
+  </image>
+  <image id="150" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_118.png" width="2048" height="2048">
+  </image>
+  <image id="149" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1173.png" width="2048" height="2048">
+  </image>
+  <image id="148" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1172.png" width="2048" height="2048">
+  </image>
+  <image id="147" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1171.png" width="2048" height="2048">
+  </image>
+  <image id="146" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1170.png" width="2048" height="2048">
+  </image>
+  <image id="145" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_117.png" width="2048" height="2048">
+  </image>
+  <image id="144" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1169.png" width="2048" height="2048">
+  </image>
+  <image id="143" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1168.png" width="2048" height="2048">
+  </image>
+  <image id="142" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1167.png" width="2048" height="2048">
+  </image>
+  <image id="141" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1166.png" width="2048" height="2048">
+  </image>
+  <image id="140" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1165.png" width="2048" height="2048">
+  </image>
+  <image id="139" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1164.png" width="2048" height="2048">
+  </image>
+  <image id="138" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1163.png" width="2048" height="2048">
+  </image>
+  <image id="137" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1162.png" width="2048" height="2048">
+  </image>
+  <image id="136" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1161.png" width="2048" height="2048">
+  </image>
+  <image id="135" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1159.png" width="2048" height="2048">
+  </image>
+  <image id="134" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1158.png" width="2048" height="2048">
+  </image>
+  <image id="133" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1157.png" width="2048" height="2048">
+  </image>
+  <image id="132" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1156.png" width="2048" height="2048">
+  </image>
+  <image id="131" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1155.png" width="2048" height="2048">
+  </image>
+  <image id="130" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1154.png" width="2048" height="2048">
+  </image>
+  <image id="129" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1153.png" width="2048" height="2048">
+  </image>
+  <image id="128" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1152.png" width="2048" height="2048">
+  </image>
+  <image id="127" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1151.png" width="2048" height="2048">
+  </image>
+  <image id="126" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1150.png" width="2048" height="2048">
+  </image>
+  <image id="125" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1149.png" width="2048" height="2048">
+  </image>
+  <image id="124" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1148.png" width="2048" height="2048">
+  </image>
+  <image id="123" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1147.png" width="2048" height="2048">
+  </image>
+  <image id="122" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1146.png" width="2048" height="2048">
+  </image>
+  <image id="121" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1145.png" width="2048" height="2048">
+  </image>
+  <image id="120" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1144.png" width="2048" height="2048">
+  </image>
+  <image id="119" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1143.png" width="2048" height="2048">
+  </image>
+  <image id="118" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1142.png" width="2048" height="2048">
+  </image>
+  <image id="117" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1141.png" width="2048" height="2048">
+  </image>
+  <image id="116" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1140.png" width="2048" height="2048">
+  </image>
+  <image id="115" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1139.png" width="2048" height="2048">
+  </image>
+  <image id="114" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1138.png" width="2048" height="2048">
+  </image>
+  <image id="113" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1137.png" width="2048" height="2048">
+  </image>
+  <image id="112" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1136.png" width="2048" height="2048">
+  </image>
+  <image id="111" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1135.png" width="2048" height="2048">
+  </image>
+  <image id="110" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1134.png" width="2048" height="2048">
+  </image>
+  <image id="109" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1133.png" width="2048" height="2048">
+    <tag label="판독불가" source="manual">
+    </tag>
+  </image>
+  <image id="108" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1124.png" width="2048" height="2048">
+  </image>
+  <image id="107" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1123.png" width="2048" height="2048">
+  </image>
+  <image id="106" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1122.png" width="2048" height="2048">
+  </image>
+  <image id="105" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1121.png" width="2048" height="2048">
+  </image>
+  <image id="104" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1120.png" width="2048" height="2048">
+  </image>
+  <image id="103" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1119.png" width="2048" height="2048">
+  </image>
+  <image id="102" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1118.png" width="2048" height="2048">
+  </image>
+  <image id="101" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1117.png" width="2048" height="2048">
+  </image>
+  <image id="100" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1116.png" width="2048" height="2048">
+  </image>
+  <image id="99" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1115.png" width="2048" height="2048">
+  </image>
+  <image id="98" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1114.png" width="2048" height="2048">
+  </image>
+  <image id="97" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1113.png" width="2048" height="2048">
+  </image>
+  <image id="96" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1112.png" width="2048" height="2048">
+  </image>
+  <image id="95" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1111.png" width="2048" height="2048">
+  </image>
+  <image id="94" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1110.png" width="2048" height="2048">
+  </image>
+  <image id="93" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1109.png" width="2048" height="2048">
+  </image>
+  <image id="92" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1108.png" width="2048" height="2048">
+  </image>
+  <image id="91" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1107.png" width="2048" height="2048">
+  </image>
+  <image id="90" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1106.png" width="2048" height="2048">
+  </image>
+  <image id="89" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1105.png" width="2048" height="2048">
+  </image>
+  <image id="88" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1104.png" width="2048" height="2048">
+  </image>
+  <image id="87" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1103.png" width="2048" height="2048">
+  </image>
+  <image id="86" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1102.png" width="2048" height="2048">
+  </image>
+  <image id="85" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1101.png" width="2048" height="2048">
+  </image>
+  <image id="84" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1100.png" width="2048" height="2048">
+  </image>
+  <image id="83" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1099.png" width="2048" height="2048">
+  </image>
+  <image id="82" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1098.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="940.32" ytl="924.61" xbr="1060.79" ybr="1055.56" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="81" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1097.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="836.05" ytl="1689.59" xbr="1099.26" ybr="1990.40" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="80" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1096.png" width="2048" height="2048">
+  </image>
+  <image id="79" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1095.png" width="2048" height="2048">
+  </image>
+  <image id="78" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1094.png" width="2048" height="2048">
+  </image>
+  <image id="77" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1093.png" width="2048" height="2048">
+  </image>
+  <image id="76" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1092.png" width="2048" height="2048">
+  </image>
+  <image id="75" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1091.png" width="2048" height="2048">
+  </image>
+  <image id="74" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1090.png" width="2048" height="2048">
+  </image>
+  <image id="73" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1089.png" width="2048" height="2048">
+  </image>
+  <image id="72" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1088.png" width="2048" height="2048">
+  </image>
+  <image id="71" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1087.png" width="2048" height="2048">
+  </image>
+  <image id="70" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1086.png" width="2048" height="2048">
+  </image>
+  <image id="69" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1085.png" width="2048" height="2048">
+  </image>
+  <image id="68" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1084.png" width="2048" height="2048">
+  </image>
+  <image id="67" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1075.png" width="2048" height="2048">
+  </image>
+  <image id="66" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1074.png" width="2048" height="2048">
+  </image>
+  <image id="65" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1073.png" width="2048" height="2048">
+  </image>
+  <image id="64" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1072.png" width="2048" height="2048">
+  </image>
+  <image id="63" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1071.png" width="2048" height="2048">
+  </image>
+  <image id="62" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1070.png" width="2048" height="2048">
+  </image>
+  <image id="61" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1069.png" width="2048" height="2048">
+  </image>
+  <image id="60" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1068.png" width="2048" height="2048">
+  </image>
+  <image id="59" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1067.png" width="2048" height="2048">
+  </image>
+  <image id="58" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1066.png" width="2048" height="2048">
+  </image>
+  <image id="57" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1065.png" width="2048" height="2048">
+  </image>
+  <image id="56" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1064.png" width="2048" height="2048">
+  </image>
+  <image id="55" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1063.png" width="2048" height="2048">
+  </image>
+  <image id="54" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1062.png" width="2048" height="2048">
+  </image>
+  <image id="53" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1061.png" width="2048" height="2048">
+  </image>
+  <image id="52" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1060.png" width="2048" height="2048">
+  </image>
+  <image id="51" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1059.png" width="2048" height="2048">
+  </image>
+  <image id="50" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1058.png" width="2048" height="2048">
+  </image>
+  <image id="49" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1057.png" width="2048" height="2048">
+  </image>
+  <image id="48" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1056.png" width="2048" height="2048">
+  </image>
+  <image id="47" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1055.png" width="2048" height="2048">
+  </image>
+  <image id="46" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1054.png" width="2048" height="2048">
+  </image>
+  <image id="45" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1053.png" width="2048" height="2048">
+  </image>
+  <image id="44" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1052.png" width="2048" height="2048">
+  </image>
+  <image id="43" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1051.png" width="2048" height="2048">
+  </image>
+  <image id="42" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1050.png" width="2048" height="2048">
+  </image>
+  <image id="488" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1582.png" width="2048" height="2048">
+  </image>
+  <image id="487" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1581.png" width="2048" height="2048">
+  </image>
+  <image id="486" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1580.png" width="2048" height="2048">
+  </image>
+  <image id="485" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1579.png" width="2048" height="2048">
+  </image>
+  <image id="484" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1578.png" width="2048" height="2048">
+  </image>
+  <image id="483" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1574.png" width="2048" height="2048">
+  </image>
+  <image id="482" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1563.png" width="2048" height="2048">
+  </image>
+  <image id="481" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1562.png" width="2048" height="2048">
+  </image>
+  <image id="480" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1561.png" width="2048" height="2048">
+  </image>
+  <image id="479" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1560.png" width="2048" height="2048">
+  </image>
+  <image id="478" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1559.png" width="2048" height="2048">
+  </image>
+  <image id="477" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1558.png" width="2048" height="2048">
+  </image>
+  <image id="476" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1557.png" width="2048" height="2048">
+  </image>
+  <image id="475" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1556.png" width="2048" height="2048">
+  </image>
+  <image id="474" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1555.png" width="2048" height="2048">
+  </image>
+  <image id="473" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1554.png" width="2048" height="2048">
+  </image>
+  <image id="472" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1553.png" width="2048" height="2048">
+  </image>
+  <image id="471" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1552.png" width="2048" height="2048">
+  </image>
+  <image id="279" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1313.png" width="2048" height="2048">
+  </image>
+  <image id="278" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1312.png" width="2048" height="2048">
+  </image>
+  <image id="277" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1311.png" width="2048" height="2048">
+  </image>
+  <image id="276" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1310.png" width="2048" height="2048">
+  </image>
+  <image id="275" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_131.png" width="2048" height="2048">
+  </image>
+  <image id="274" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1309.png" width="2048" height="2048">
+  </image>
+  <image id="273" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1308.png" width="2048" height="2048">
+  </image>
+  <image id="272" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1307.png" width="2048" height="2048">
+  </image>
+  <image id="271" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1306.png" width="2048" height="2048">
+  </image>
+  <image id="270" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1305.png" width="2048" height="2048">
+  </image>
+  <image id="269" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1304.png" width="2048" height="2048">
+  </image>
+  <image id="268" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1303.png" width="2048" height="2048">
+  </image>
+  <image id="267" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1302.png" width="2048" height="2048">
+  </image>
+  <image id="266" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1301.png" width="2048" height="2048">
+  </image>
+  <image id="265" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1300.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="8.83" ytl="1388.79" xbr="134.17" ybr="1611.88" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="264" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_130.png" width="2048" height="2048">
+  </image>
+  <image id="263" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1299.png" width="2048" height="2048">
+  </image>
+  <image id="262" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1298.png" width="2048" height="2048">
+  </image>
+  <image id="261" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1297.png" width="2048" height="2048">
+  </image>
+  <image id="260" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1296.png" width="2048" height="2048">
+  </image>
+  <image id="259" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1295.png" width="2048" height="2048">
+  </image>
+  <image id="258" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1294.png" width="2048" height="2048">
+  </image>
+  <image id="257" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1293.png" width="2048" height="2048">
+  </image>
+  <image id="256" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1292.png" width="2048" height="2048">
+  </image>
+  <image id="255" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1291.png" width="2048" height="2048">
+  </image>
+  <image id="254" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1290.png" width="2048" height="2048">
+  </image>
+  <image id="253" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_129.png" width="2048" height="2048">
+  </image>
+  <image id="252" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1289.png" width="2048" height="2048">
+  </image>
+  <image id="251" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1288.png" width="2048" height="2048">
+  </image>
+  <image id="250" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1287.png" width="2048" height="2048">
+  </image>
+  <image id="249" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1286.png" width="2048" height="2048">
+  </image>
+  <image id="248" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1285.png" width="2048" height="2048">
+  </image>
+  <image id="247" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1284.png" width="2048" height="2048">
+  </image>
+  <image id="246" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1283.png" width="2048" height="2048">
+  </image>
+  <image id="245" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1282.png" width="2048" height="2048">
+  </image>
+  <image id="244" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1281.png" width="2048" height="2048">
+  </image>
+  <image id="41" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_105.png" width="2048" height="2048">
+    <tag label="판독불가" source="manual">
+    </tag>
+  </image>
+  <image id="40" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1049.png" width="2048" height="2048">
+  </image>
+  <image id="39" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1048.png" width="2048" height="2048">
+  </image>
+  <image id="38" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1047.png" width="2048" height="2048">
+  </image>
+  <image id="37" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1046.png" width="2048" height="2048">
+  </image>
+  <image id="36" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1045.png" width="2048" height="2048">
+  </image>
+  <image id="35" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1044.png" width="2048" height="2048">
+  </image>
+  <image id="34" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1043.png" width="2048" height="2048">
+  </image>
+  <image id="33" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1042.png" width="2048" height="2048">
+  </image>
+  <image id="32" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1041.png" width="2048" height="2048">
+  </image>
+  <image id="31" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1040.png" width="2048" height="2048">
+  </image>
+  <image id="30" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_104.png" width="2048" height="2048">
+    <tag label="판독불가" source="manual">
+    </tag>
+  </image>
+  <image id="29" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1039.png" width="2048" height="2048">
+  </image>
+  <image id="28" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1038.png" width="2048" height="2048">
+  </image>
+  <image id="27" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1037.png" width="2048" height="2048">
+  </image>
+  <image id="26" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1035.png" width="2048" height="2048">
+    <tag label="판독불가" source="manual">
+    </tag>
+  </image>
+  <image id="25" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_103.png" width="2048" height="2048">
+    <tag label="판독불가" source="manual">
+    </tag>
+  </image>
+  <image id="24" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1026.png" width="2048" height="2048">
+  </image>
+  <image id="23" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1025.png" width="2048" height="2048">
+  </image>
+  <image id="22" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1024.png" width="2048" height="2048">
+  </image>
+  <image id="21" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1023.png" width="2048" height="2048">
+  </image>
+  <image id="20" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1022.png" width="2048" height="2048">
+  </image>
+  <image id="19" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1021.png" width="2048" height="2048">
+  </image>
+  <image id="18" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1020.png" width="2048" height="2048">
+  </image>
+  <image id="17" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1019.png" width="2048" height="2048">
+  </image>
+  <image id="16" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1018.png" width="2048" height="2048">
+  </image>
+  <image id="15" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1017.png" width="2048" height="2048">
+  </image>
+  <image id="14" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1016.png" width="2048" height="2048">
+  </image>
+  <image id="13" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1015.png" width="2048" height="2048">
+  </image>
+  <image id="12" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1014.png" width="2048" height="2048">
+  </image>
+  <image id="11" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1011.png" width="2048" height="2048">
+  </image>
+  <image id="10" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1010.png" width="2048" height="2048">
+  </image>
+  <image id="9" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1009.png" width="2048" height="2048">
+  </image>
+  <image id="8" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1008.png" width="2048" height="2048">
+  </image>
+  <image id="7" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1007.png" width="2048" height="2048">
+  </image>
+  <image id="6" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1006.png" width="2048" height="2048">
+  </image>
+  <image id="5" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1005.png" width="2048" height="2048">
+  </image>
+  <image id="4" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1004.png" width="2048" height="2048">
+  </image>
+  <image id="3" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1003.png" width="2048" height="2048">
+  </image>
+  <image id="2" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1002.png" width="2048" height="2048">
+  </image>
+  <image id="1" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1001.png" width="2048" height="2048">
+  </image>
+  <image id="0" name="patch_images/2021.01.14/LBC390-20210111(1)/LBC390-20210111(1)_1000.png" width="2048" height="2048">
+  </image>
+</annotations>

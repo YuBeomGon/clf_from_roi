@@ -1,0 +1,2827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>717</id>
+      <name>Negative</name>
+      <size>566</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-03-04 02:33:54.769944+00:00</created>
+      <updated>2022-03-10 01:33:41.252727+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>565</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Negative</name>
+          <color>#d0c6e4</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>579</id>
+          <start>0</start>
+          <stop>565</stop>
+          <url>http://cvat.doai.ai/?id=579</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>django</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2022-04-21 00:47:45.290295+00:00</dumped>
+  </meta>
+  <image id="565" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_999.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1079.85" ytl="358.20" xbr="1224.18" ybr="522.44" z_order="0">
+    </box>
+  </image>
+  <image id="564" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_986.png" width="2048" height="2048">
+  </image>
+  <image id="563" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_985.png" width="2048" height="2048">
+  </image>
+  <image id="562" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_984.png" width="2048" height="2048">
+  </image>
+  <image id="561" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_978.png" width="2048" height="2048">
+  </image>
+  <image id="560" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_976.png" width="2048" height="2048">
+  </image>
+  <image id="559" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_975.png" width="2048" height="2048">
+  </image>
+  <image id="558" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_972.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1608.89" ytl="1249.31" xbr="1795.53" ybr="1383.69" z_order="0">
+    </box>
+  </image>
+  <image id="557" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_969.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="506.51" ytl="82.23" xbr="705.59" ybr="281.30" z_order="0">
+    </box>
+  </image>
+  <image id="556" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_966.png" width="2048" height="2048">
+  </image>
+  <image id="555" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_963.png" width="2048" height="2048">
+  </image>
+  <image id="554" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_943.png" width="2048" height="2048">
+  </image>
+  <image id="553" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_940.png" width="2048" height="2048">
+  </image>
+  <image id="552" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_937.png" width="2048" height="2048">
+  </image>
+  <image id="551" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_936.png" width="2048" height="2048">
+  </image>
+  <image id="550" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_935.png" width="2048" height="2048">
+  </image>
+  <image id="549" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_929.png" width="2048" height="2048">
+  </image>
+  <image id="548" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_926.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="265.13" ytl="1346.36" xbr="372.13" ybr="1450.88" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1586.50" ytl="418.17" xbr="1902.53" ybr="649.60" z_order="0">
+    </box>
+  </image>
+  <image id="547" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_925.png" width="2048" height="2048">
+  </image>
+  <image id="546" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_923.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="100.89" ytl="1017.89" xbr="280.06" ybr="1137.33" z_order="0">
+    </box>
+  </image>
+  <image id="545" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_922.png" width="2048" height="2048">
+  </image>
+  <image id="544" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_921.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1193.32" ytl="515.22" xbr="1285.40" ybr="647.11" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1467.05" ytl="1592.72" xbr="1556.64" ybr="1729.59" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="80.98" ytl="224.07" xbr="235.27" ybr="398.26" z_order="0">
+    </box>
+  </image>
+  <image id="543" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_915.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1850.28" ytl="726.74" xbr="1967.23" ybr="925.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1758.20" ytl="808.86" xbr="1857.74" ybr="898.44" z_order="0">
+    </box>
+  </image>
+  <image id="542" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_914.png" width="2048" height="2048">
+  </image>
+  <image id="541" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_906.png" width="2048" height="2048">
+  </image>
+  <image id="540" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_905.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="262.64" ytl="1363.78" xbr="387.06" ybr="1500.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="616.00" ytl="1030.33" xbr="725.49" ybr="1144.80" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="469.18" ytl="94.67" xbr="680.70" ybr="313.65" z_order="0">
+    </box>
+  </image>
+  <image id="539" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_902.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1524.29" ytl="801.39" xbr="1793.04" ybr="1147.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="387.06" ytl="69.79" xbr="543.84" ybr="201.67" z_order="0">
+    </box>
+  </image>
+  <image id="538" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_900.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="270.11" ytl="550.06" xbr="394.53" ybr="667.01" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="981.80" ytl="522.68" xbr="1086.32" ybr="676.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1143.55" ytl="861.11" xbr="1258.02" ybr="985.54" z_order="0">
+    </box>
+  </image>
+  <image id="537" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_888.png" width="2048" height="2048">
+  </image>
+  <image id="536" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_886.png" width="2048" height="2048">
+  </image>
+  <image id="535" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_880.png" width="2048" height="2048">
+  </image>
+  <image id="534" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_875.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="275.08" ytl="1515.58" xbr="419.41" ybr="1617.60" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1633.78" ytl="487.85" xbr="1735.81" ybr="619.73" z_order="0">
+    </box>
+  </image>
+  <image id="533" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_868.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1531.75" ytl="1102.49" xbr="1725.85" ybr="1336.41" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1422.26" ytl="1030.33" xbr="1506.87" ybr="1157.24" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="553.79" ytl="1167.19" xbr="772.77" ybr="1378.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="464.21" ytl="841.21" xbr="578.67" ybr="955.68" z_order="0">
+    </box>
+  </image>
+  <image id="532" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_867.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1676.08" ytl="224.07" xbr="1765.67" ybr="346.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="586.14" ytl="652.08" xbr="700.61" ybr="781.48" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1444.66" ytl="465.45" xbr="1561.61" ybr="721.76" z_order="0">
+    </box>
+  </image>
+  <image id="531" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_853.png" width="2048" height="2048">
+  </image>
+  <image id="530" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_843.png" width="2048" height="2048">
+  </image>
+  <image id="529" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_839.png" width="2048" height="2048">
+  </image>
+  <image id="528" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_837.png" width="2048" height="2048">
+  </image>
+  <image id="527" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_831.png" width="2048" height="2048">
+  </image>
+  <image id="526" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_828.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="163.10" ytl="144.44" xbr="285.04" ybr="276.33" z_order="0">
+    </box>
+  </image>
+  <image id="525" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_827.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1148.53" ytl="288.77" xbr="1325.21" ybr="480.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="879.78" ytl="567.48" xbr="1093.78" ybr="761.58" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1616.36" ytl="664.53" xbr="1745.76" ybr="883.51" z_order="0">
+    </box>
+  </image>
+  <image id="524" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_826.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="397.02" ytl="1281.66" xbr="660.79" ybr="1682.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="247.71" ytl="691.90" xbr="399.50" ybr="841.21" z_order="0">
+    </box>
+  </image>
+  <image id="523" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_820.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="752.87" ytl="1495.67" xbr="869.82" ybr="1744.52" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1330.19" ytl="1154.75" xbr="1447.14" ybr="1301.57" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="750.38" ytl="950.70" xbr="837.47" ybr="1154.75" z_order="0">
+    </box>
+  </image>
+  <image id="522" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_819.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1574.06" ytl="132.00" xbr="1810.46" ybr="346.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="277.57" ytl="1540.46" xbr="571.21" ybr="1846.54" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1444.66" ytl="1055.21" xbr="1658.66" ybr="1234.38" z_order="0">
+    </box>
+  </image>
+  <image id="521" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_818.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1902.53" ytl="1229.41" xbr="2014.51" ybr="1351.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1927.42" ytl="1587.74" xbr="2039.40" ybr="1707.19" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1143.55" ytl="1906.27" xbr="1272.95" ybr="2008.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1295.35" ytl="696.88" xbr="1389.91" ybr="798.90" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="785.22" ytl="360.93" xbr="889.73" ybr="487.85" z_order="0">
+    </box>
+  </image>
+  <image id="520" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_817.png" width="2048" height="2048">
+  </image>
+  <image id="519" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_808.png" width="2048" height="2048">
+  </image>
+  <image id="518" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_807.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="250.20" ytl="577.43" xbr="379.60" ybr="736.69" z_order="0">
+    </box>
+  </image>
+  <image id="517" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_806.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1034.06" ytl="124.53" xbr="1153.51" ybr="219.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1481.98" ytl="32.46" xbr="1574.06" ybr="151.90" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1693.50" ytl="12.55" xbr="1783.09" ybr="92.18" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1504.38" ytl="380.84" xbr="1626.32" ybr="569.96" z_order="0">
+    </box>
+  </image>
+  <image id="516" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_805.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1350.10" ytl="1182.12" xbr="1447.15" ybr="1279.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1683.55" ytl="487.85" xbr="1892.58" ybr="637.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1541.71" ytl="1042.77" xbr="1715.90" ybr="1189.59" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1678.57" ytl="741.67" xbr="1872.67" ybr="933.28" z_order="0">
+    </box>
+  </image>
+  <image id="515" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_803.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="314.90" ytl="662.04" xbr="509.00" ybr="938.26" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1646.22" ytl="1037.79" xbr="1783.09" ybr="1157.24" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1046.50" ytl="10.06" xbr="1163.46" ybr="112.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1705.95" ytl="1542.95" xbr="1798.02" ybr="1635.02" z_order="0">
+    </box>
+  </image>
+  <image id="514" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_802.png" width="2048" height="2048">
+  </image>
+  <image id="513" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_794.png" width="2048" height="2048">
+  </image>
+  <image id="512" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_790.png" width="2048" height="2048">
+  </image>
+  <image id="511" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_788.png" width="2048" height="2048">
+  </image>
+  <image id="510" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_782.png" width="2048" height="2048">
+  </image>
+  <image id="509" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_778.png" width="2048" height="2048">
+  </image>
+  <image id="508" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_775.png" width="2048" height="2048">
+  </image>
+  <image id="507" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_772.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="262.64" ytl="495.31" xbr="528.90" ybr="667.01" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="715.54" ytl="1540.46" xbr="864.85" ybr="1739.54" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1725.85" ytl="915.86" xbr="1832.86" ybr="1010.42" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1009.18" ytl="1418.53" xbr="1173.41" ybr="1537.98" z_order="0">
+    </box>
+  </image>
+  <image id="506" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_771.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="334.81" ytl="1515.58" xbr="543.84" ybr="1712.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1113.69" ytl="973.09" xbr="1409.82" ybr="1194.57" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="43.66" ytl="801.39" xbr="255.18" ybr="933.28" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="100.89" ytl="1630.05" xbr="277.57" ybr="1744.52" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="399.50" ytl="99.65" xbr="551.30" ybr="308.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="556.28" ytl="597.34" xbr="688.17" ybr="741.67" z_order="0">
+    </box>
+  </image>
+  <image id="505" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_769.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="608.54" ytl="306.19" xbr="834.98" ybr="457.98" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1661.15" ytl="1092.54" xbr="1795.53" ybr="1246.83" z_order="0">
+    </box>
+  </image>
+  <image id="504" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_759.png" width="2048" height="2048">
+  </image>
+  <image id="503" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_757.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1631.29" ytl="1219.45" xbr="1755.71" ybr="1356.32" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="327.34" ytl="1047.75" xbr="441.81" ybr="1226.92" z_order="0">
+    </box>
+  </image>
+  <image id="502" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_756.png" width="2048" height="2048">
+  </image>
+  <image id="501" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_755.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1651.20" ytl="477.89" xbr="1760.69" ybr="642.13" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1394.89" ytl="462.96" xbr="1564.10" ybr="622.22" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1613.87" ytl="380.84" xbr="1715.90" ybr="487.85" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1096.27" ytl="1082.59" xbr="1218.21" ybr="1211.99" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1118.67" ytl="602.31" xbr="1200.79" ybr="724.25" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1160.97" ytl="472.92" xbr="1258.02" ybr="567.48" z_order="0">
+    </box>
+  </image>
+  <image id="500" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_752.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1362.54" ytl="1229.41" xbr="1616.36" ybr="1513.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1272.95" ytl="1152.26" xbr="1392.40" ybr="1289.13" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1880.14" ytl="614.76" xbr="2031.93" ybr="791.44" z_order="0">
+    </box>
+  </image>
+  <image id="499" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_751.png" width="2048" height="2048">
+  </image>
+  <image id="498" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_749.png" width="2048" height="2048">
+  </image>
+  <image id="497" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_739.png" width="2048" height="2048">
+  </image>
+  <image id="496" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_733.png" width="2048" height="2048">
+  </image>
+  <image id="495" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_730.png" width="2048" height="2048">
+  </image>
+  <image id="494" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_729.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="660.79" ytl="589.87" xbr="849.92" ybr="813.83" z_order="0">
+    </box>
+  </image>
+  <image id="493" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_725.png" width="2048" height="2048">
+  </image>
+  <image id="492" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_723.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="280.06" ytl="1246.82" xbr="446.79" ybr="1386.18" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="747.89" ytl="1276.69" xbr="909.64" ybr="1547.93" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="225.31" ytl="27.48" xbr="352.22" ybr="132.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="382.09" ytl="676.97" xbr="484.11" ybr="791.44" z_order="0">
+    </box>
+  </image>
+  <image id="491" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_722.png" width="2048" height="2048">
+  </image>
+  <image id="490" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_713.png" width="2048" height="2048">
+  </image>
+  <image id="489" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_712.png" width="2048" height="2048">
+  </image>
+  <image id="488" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_711.png" width="2048" height="2048">
+  </image>
+  <image id="487" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_709.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1865.21" ytl="1353.83" xbr="1947.33" ybr="1448.39" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="404.48" ytl="599.83" xbr="558.77" ybr="734.20" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="810.10" ytl="540.10" xbr="944.48" ybr="681.95" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1534.24" ytl="10.06" xbr="1840.32" ybr="258.91" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1795.53" ytl="1590.23" xbr="1885.11" ybr="1692.26" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="416.92" ytl="286.28" xbr="489.09" ybr="413.19" z_order="0">
+    </box>
+  </image>
+  <image id="486" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_708.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="685.68" ytl="1824.15" xbr="854.89" ybr="1998.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1700.97" ytl="1229.41" xbr="1790.55" ybr="1368.76" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="451.76" ytl="1239.36" xbr="588.63" ybr="1406.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="131.75" ytl="614.51" xbr="313.40" ybr="796.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1477.01" ytl="209.14" xbr="1586.50" ybr="318.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1165.95" ytl="1751.98" xbr="1365.03" ybr="1988.39" z_order="0">
+    </box>
+  </image>
+  <image id="485" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_707.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="892.22" ytl="530.15" xbr="1048.99" ybr="659.55" z_order="0">
+    </box>
+  </image>
+  <image id="484" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_705.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="290.01" ytl="1057.70" xbr="479.14" ybr="1244.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="984.29" ytl="774.02" xbr="1193.32" ybr="960.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="762.82" ytl="360.93" xbr="857.38" ybr="465.45" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="282.55" ytl="1241.85" xbr="367.16" ybr="1361.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1504.38" ytl="512.73" xbr="1608.90" ybr="676.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1564.10" ytl="97.16" xbr="1671.11" ybr="209.14" z_order="0">
+    </box>
+  </image>
+  <image id="483" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_703.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="28.73" ytl="1351.34" xbr="110.84" ybr="1445.90" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1267.98" ytl="380.84" xbr="1367.51" ybr="465.45" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1287.88" ytl="475.40" xbr="1387.42" ybr="564.99" z_order="0">
+    </box>
+  </image>
+  <image id="482" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_700.png" width="2048" height="2048">
+  </image>
+  <image id="481" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_696.png" width="2048" height="2048">
+  </image>
+  <image id="480" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_694.png" width="2048" height="2048">
+  </image>
+  <image id="479" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_693.png" width="2048" height="2048">
+  </image>
+  <image id="478" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_690.png" width="2048" height="2048">
+  </image>
+  <image id="477" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_684.png" width="2048" height="2048">
+  </image>
+  <image id="476" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_680.png" width="2048" height="2048">
+  </image>
+  <image id="475" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_674.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1663.64" ytl="1221.94" xbr="1783.09" ybr="1341.39" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1723.37" ytl="1107.47" xbr="1803.00" ybr="1211.99" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1491.94" ytl="1017.89" xbr="1708.43" ybr="1197.06" z_order="0">
+    </box>
+  </image>
+  <image id="474" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_673.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1193.32" ytl="104.62" xbr="1372.49" ybr="353.47" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1277.93" ytl="881.02" xbr="1452.12" ybr="1085.07" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1287.88" ytl="10.06" xbr="1374.98" ybr="97.16" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1235.63" ytl="1328.94" xbr="1342.63" ybr="1443.41" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="830.01" ytl="1908.75" xbr="1001.71" ybr="2035.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="653.33" ytl="1921.20" xbr="750.38" ybr="2013.27" z_order="0">
+    </box>
+  </image>
+  <image id="473" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_672.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1270.46" ytl="704.34" xbr="1414.80" ybr="871.07" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="404.48" ytl="241.49" xbr="506.51" ybr="415.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1272.95" ytl="1851.52" xbr="1399.86" ybr="1951.06" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1725.85" ytl="1114.94" xbr="2034.42" ybr="1485.72" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1700.97" ytl="881.02" xbr="1842.81" ybr="1017.89" z_order="0">
+    </box>
+  </image>
+  <image id="472" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_670.png" width="2048" height="2048">
+  </image>
+  <image id="471" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_662.png" width="2048" height="2048">
+  </image>
+  <image id="470" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_661.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="31.21" ytl="293.75" xbr="128.26" ybr="400.75" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="392.04" ytl="671.99" xbr="653.33" ybr="1000.47" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="665.77" ytl="497.80" xbr="780.24" ybr="652.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="822.54" ytl="1749.49" xbr="1024.11" ybr="1893.82" z_order="0">
+    </box>
+  </image>
+  <image id="469" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_660.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="770.29" ytl="505.26" xbr="892.22" ybr="652.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1006.69" ytl="219.09" xbr="1138.58" ybr="360.93" z_order="0">
+    </box>
+  </image>
+  <image id="468" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_659.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1509.36" ytl="1231.89" xbr="1683.55" ybr="1408.57" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="230.29" ytl="1520.55" xbr="377.11" ybr="1649.95" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1529.26" ytl="296.23" xbr="1663.64" ybr="378.35" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1024.11" ytl="783.97" xbr="1205.76" ybr="1017.89" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="404.48" ytl="1575.30" xbr="531.39" ybr="1702.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1486.96" ytl="609.78" xbr="1663.64" ybr="818.81" z_order="0">
+    </box>
+  </image>
+  <image id="467" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_658.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="879.78" ytl="1122.40" xbr="989.27" ybr="1299.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1740.78" ytl="1478.25" xbr="1979.68" ybr="1742.03" z_order="0">
+    </box>
+  </image>
+  <image id="466" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_657.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1755.71" ytl="1694.75" xbr="1855.25" ybr="1863.96" z_order="0">
+    </box>
+  </image>
+  <image id="465" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_656.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="932.04" ytl="711.81" xbr="1048.99" ybr="846.18" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1571.57" ytl="1072.63" xbr="1695.99" ybr="1182.12" z_order="0">
+    </box>
+  </image>
+  <image id="464" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_645.png" width="2048" height="2048">
+  </image>
+  <image id="463" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_641.png" width="2048" height="2048">
+  </image>
+  <image id="462" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_635.png" width="2048" height="2048">
+  </image>
+  <image id="461" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_631.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="974.34" ytl="1664.88" xbr="1148.53" ybr="1826.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="489.09" ytl="1430.97" xbr="578.67" ybr="1525.53" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="613.51" ytl="1408.57" xbr="698.12" ybr="1505.62" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="275.08" ytl="945.72" xbr="372.13" ybr="1030.33" z_order="0">
+    </box>
+  </image>
+  <image id="460" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_629.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1300.33" ytl="1747.00" xbr="1444.66" ybr="1883.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="143.19" ytl="1129.87" xbr="245.22" ybr="1254.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="135.73" ytl="1610.14" xbr="272.59" ybr="1747.00" z_order="0">
+    </box>
+  </image>
+  <image id="459" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_626.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1183.37" ytl="1214.47" xbr="1352.58" ybr="1463.32" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1683.55" ytl="579.92" xbr="1837.83" ybr="793.93" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1220.70" ytl="960.65" xbr="1332.68" ybr="1147.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="491.58" ytl="637.15" xbr="601.07" ybr="779.00" z_order="0">
+    </box>
+  </image>
+  <image id="458" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_625.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="251.19" ytl="1482.98" xbr="393.04" ybr="1652.19" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="596.09" ytl="1052.72" xbr="782.73" ybr="1239.36" z_order="0">
+    </box>
+  </image>
+  <image id="457" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_615.png" width="2048" height="2048">
+  </image>
+  <image id="456" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_614.png" width="2048" height="2048">
+  </image>
+  <image id="455" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_613.png" width="2048" height="2048">
+  </image>
+  <image id="454" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_612.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="93.42" ytl="1139.82" xbr="200.43" ybr="1231.89" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="954.43" ytl="1035.31" xbr="1048.99" ybr="1129.87" z_order="0">
+    </box>
+  </image>
+  <image id="453" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_611.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1763.18" ytl="1545.44" xbr="1880.14" ybr="1669.86" z_order="0">
+    </box>
+  </image>
+  <image id="452" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_609.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="817.57" ytl="1164.71" xbr="1078.85" ybr="1343.87" z_order="0">
+    </box>
+  </image>
+  <image id="451" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_604.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1195.81" ytl="1724.61" xbr="1302.81" ybr="1841.57" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1113.69" ytl="268.86" xbr="1250.56" ybr="418.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="98.40" ytl="49.88" xbr="379.60" ybr="318.63" z_order="0">
+    </box>
+  </image>
+  <image id="450" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_602.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="762.82" ytl="1107.47" xbr="847.43" ybr="1204.52" z_order="0">
+    </box>
+  </image>
+  <image id="449" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_596.png" width="2048" height="2048">
+  </image>
+  <image id="448" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_592.png" width="2048" height="2048">
+  </image>
+  <image id="447" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_586.png" width="2048" height="2048">
+  </image>
+  <image id="446" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_581.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1691.01" ytl="1906.27" xbr="1800.51" ybr="2008.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1074.87" ytl="1420.77" xbr="1268.97" ybr="1612.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1628.80" ytl="689.41" xbr="1812.95" ybr="868.58" z_order="0">
+    </box>
+  </image>
+  <image id="445" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_580.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1556.64" ytl="806.37" xbr="1651.20" ybr="925.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1026.60" ytl="1794.29" xbr="1163.46" ybr="1990.87" z_order="0">
+    </box>
+  </image>
+  <image id="444" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_578.png" width="2048" height="2048">
+  </image>
+  <image id="443" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_566.png" width="2048" height="2048">
+  </image>
+  <image id="442" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_565.png" width="2048" height="2048">
+  </image>
+  <image id="441" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_564.png" width="2048" height="2048">
+  </image>
+  <image id="440" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_563.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="454.25" ytl="321.12" xbr="551.30" ybr="457.98" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1121.16" ytl="99.65" xbr="1220.70" ybr="184.25" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1036.55" ytl="189.23" xbr="1238.12" ybr="462.96" z_order="0">
+    </box>
+  </image>
+  <image id="439" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_562.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1710.92" ytl="256.42" xbr="2007.05" ybr="505.26" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1534.24" ytl="179.28" xbr="1666.13" ybr="375.86" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="929.55" ytl="993.00" xbr="1009.18" ybr="1085.07" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1320.23" ytl="333.56" xbr="1462.08" ybr="465.45" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1148.53" ytl="1318.99" xbr="1248.07" ybr="1391.16" z_order="0">
+    </box>
+  </image>
+  <image id="438" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_543.png" width="2048" height="2048">
+  </image>
+  <image id="437" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_537.png" width="2048" height="2048">
+  </image>
+  <image id="436" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_532.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="8.82" ytl="1092.54" xbr="128.26" ybr="1229.41" z_order="0">
+    </box>
+  </image>
+  <image id="435" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_531.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="247.71" ytl="119.55" xbr="344.76" ybr="278.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1412.31" ytl="445.54" xbr="1521.80" ybr="552.55" z_order="0">
+    </box>
+  </image>
+  <image id="434" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_530.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1449.63" ytl="231.53" xbr="1576.55" ybr="326.10" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1616.36" ytl="741.67" xbr="1743.27" ybr="851.16" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1790.55" ytl="97.16" xbr="2026.96" ybr="341.03" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1250.56" ytl="669.50" xbr="1444.66" ybr="796.41" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1297.84" ytl="818.81" xbr="1566.59" ybr="1072.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1066.41" ytl="898.44" xbr="1297.84" ybr="1090.05" z_order="0">
+    </box>
+  </image>
+  <image id="351" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_260.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="894.71" ytl="1493.18" xbr="1053.97" ybr="1687.28" z_order="0">
+    </box>
+  </image>
+  <image id="350" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_249.png" width="2048" height="2048">
+  </image>
+  <image id="349" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_243.png" width="2048" height="2048">
+  </image>
+  <image id="348" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_231.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="464.21" ytl="1836.59" xbr="688.17" ybr="1990.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="88.45" ytl="1652.44" xbr="292.50" ybr="1873.92" z_order="0">
+    </box>
+  </image>
+  <image id="347" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2301.png" width="2048" height="2048">
+  </image>
+  <image id="346" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2300.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="800.15" ytl="778.99" xbr="959.41" ybr="943.23" z_order="0">
+    </box>
+  </image>
+  <image id="345" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_230.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="168.08" ytl="774.02" xbr="257.66" ybr="846.18" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="976.83" ytl="1211.99" xbr="1141.07" ybr="1356.32" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1352.58" ytl="1796.77" xbr="1481.98" ybr="1854.01" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1427.24" ytl="612.27" xbr="1611.38" ybr="858.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1539.22" ytl="1306.55" xbr="1613.87" ybr="1386.18" z_order="0">
+    </box>
+  </image>
+  <image id="344" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_229.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1489.45" ytl="253.93" xbr="1584.01" ybr="373.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1800.51" ytl="343.51" xbr="1959.77" ybr="480.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="93.42" ytl="776.51" xbr="180.52" ybr="876.04" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1745.76" ytl="579.92" xbr="1952.30" ybr="749.13" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1526.78" ytl="699.36" xbr="1616.36" ybr="796.41" z_order="0">
+    </box>
+  </image>
+  <image id="343" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_226.png" width="2048" height="2048">
+  </image>
+  <image id="342" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2258.png" width="2048" height="2048">
+  </image>
+  <image id="341" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2256.png" width="2048" height="2048">
+  </image>
+  <image id="340" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2252.png" width="2048" height="2048">
+  </image>
+  <image id="339" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2251.png" width="2048" height="2048">
+  </image>
+  <image id="338" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_223.png" width="2048" height="2048">
+  </image>
+  <image id="337" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2220.png" width="2048" height="2048">
+  </image>
+  <image id="336" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_222.png" width="2048" height="2048">
+  </image>
+  <image id="335" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2209.png" width="2048" height="2048">
+  </image>
+  <image id="334" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2207.png" width="2048" height="2048">
+  </image>
+  <image id="333" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2203.png" width="2048" height="2048">
+  </image>
+  <image id="332" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2199.png" width="2048" height="2048">
+  </image>
+  <image id="331" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2181.png" width="2048" height="2048">
+  </image>
+  <image id="330" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2160.png" width="2048" height="2048">
+  </image>
+  <image id="329" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2158.png" width="2048" height="2048">
+  </image>
+  <image id="328" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_215.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1086.32" ytl="251.44" xbr="1198.30" ybr="321.12" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="257.66" ytl="460.47" xbr="337.29" ybr="542.59" z_order="0">
+    </box>
+  </image>
+  <image id="327" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_214.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1036.55" ytl="1095.03" xbr="1128.62" ybr="1187.10" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1683.55" ytl="945.72" xbr="1835.34" ybr="1144.80" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1912.49" ytl="15.04" xbr="2009.54" ybr="134.48" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="548.81" ytl="107.11" xbr="785.22" ybr="303.70" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1459.59" ytl="1055.21" xbr="1591.48" ybr="1192.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1357.56" ytl="144.44" xbr="1648.71" ybr="395.77" z_order="0">
+    </box>
+  </image>
+  <image id="326" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2138.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1372.49" ytl="44.90" xbr="1551.66" ybr="273.84" z_order="0">
+    </box>
+  </image>
+  <image id="325" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2136.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1954.79" ytl="57.34" xbr="2031.93" ybr="174.30" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="133.24" ytl="582.41" xbr="285.04" ybr="699.36" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="334.81" ytl="358.45" xbr="538.86" ybr="589.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="603.56" ytl="465.45" xbr="817.57" ybr="691.90" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1332.68" ytl="990.51" xbr="1646.22" ybr="1129.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="561.25" ytl="1314.01" xbr="785.22" ybr="1585.26" z_order="0">
+    </box>
+  </image>
+  <image id="324" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2134.png" width="2048" height="2048">
+  </image>
+  <image id="323" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2130.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1601.43" ytl="614.76" xbr="1775.62" ybr="741.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1101.25" ytl="671.99" xbr="1228.16" ybr="861.11" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1780.60" ytl="1311.53" xbr="2004.56" ybr="1495.67" z_order="0">
+    </box>
+  </image>
+  <image id="322" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_213.png" width="2048" height="2048">
+  </image>
+  <image id="321" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2129.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="648.35" ytl="659.55" xbr="795.17" ybr="818.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="548.81" ytl="681.95" xbr="648.35" ybr="783.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1601.43" ytl="1301.57" xbr="1733.32" ybr="1483.23" z_order="0">
+    </box>
+  </image>
+  <image id="320" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2128.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="217.85" ytl="721.76" xbr="416.92" ybr="893.46" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="937.01" ytl="1002.96" xbr="1086.32" ybr="1182.12" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="260.15" ytl="584.90" xbr="426.88" ybr="721.76" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1342.63" ytl="77.25" xbr="1511.85" ybr="298.72" z_order="0">
+    </box>
+  </image>
+  <image id="319" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2127.png" width="2048" height="2048">
+  </image>
+  <image id="318" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_212.png" width="2048" height="2048">
+  </image>
+  <image id="317" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2111.png" width="2048" height="2048">
+  </image>
+  <image id="316" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2109.png" width="2048" height="2048">
+  </image>
+  <image id="315" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2092.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="573.70" ytl="836.23" xbr="695.63" ybr="940.74" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1021.62" ytl="20.02" xbr="1225.67" ybr="174.30" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="63.56" ytl="602.31" xbr="339.78" ybr="861.11" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1596.45" ytl="346.00" xbr="1765.67" ybr="465.45" z_order="0">
+    </box>
+  </image>
+  <image id="314" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2091.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="3.84" ytl="199.18" xbr="130.75" ybr="393.28" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1770.64" ytl="535.13" xbr="1974.70" ybr="776.51" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1442.17" ytl="221.58" xbr="1618.85" ybr="453.01" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="640.89" ytl="248.95" xbr="767.80" ybr="368.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="31.21" ytl="1090.05" xbr="275.08" ybr="1286.64" z_order="0">
+    </box>
+  </image>
+  <image id="313" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2080.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1330.19" ytl="1520.55" xbr="1427.24" ybr="1620.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1850.28" ytl="1057.70" xbr="1994.61" ybr="1211.99" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="512.48" ytl="430.36" xbr="679.21" ybr="524.92" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1233.14" ytl="258.91" xbr="1372.49" ybr="393.28" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1382.45" ytl="211.63" xbr="1506.87" ybr="328.58" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1088.81" ytl="1537.97" xbr="1307.79" ybr="1647.47" z_order="0">
+    </box>
+  </image>
+  <image id="312" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2077.png" width="2048" height="2048">
+  </image>
+  <image id="311" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2076.png" width="2048" height="2048">
+  </image>
+  <image id="310" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2062.png" width="2048" height="2048">
+  </image>
+  <image id="309" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2060.png" width="2048" height="2048">
+  </image>
+  <image id="308" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2056.png" width="2048" height="2048">
+  </image>
+  <image id="307" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2053.png" width="2048" height="2048">
+  </image>
+  <image id="306" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2041.png" width="2048" height="2048">
+  </image>
+  <image id="305" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2040.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="683.19" ytl="219.09" xbr="852.40" ybr="378.35" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1822.90" ytl="915.86" xbr="1979.68" ybr="1154.75" z_order="0">
+    </box>
+  </image>
+  <image id="304" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2039.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="528.91" ytl="940.74" xbr="638.40" ybr="1052.72" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="100.89" ytl="1771.89" xbr="185.50" ybr="1858.98" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="951.94" ytl="647.11" xbr="1063.92" ybr="746.64" z_order="0">
+    </box>
+  </image>
+  <image id="303" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2037.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="85.96" ytl="373.38" xbr="205.41" ybr="500.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="43.66" ytl="1704.70" xbr="170.57" ybr="1821.66" z_order="0">
+    </box>
+  </image>
+  <image id="302" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2036.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="252.69" ytl="1602.67" xbr="426.88" ybr="1771.89" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="660.79" ytl="744.16" xbr="772.77" ybr="853.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="0.00" ytl="714.29" xbr="135.73" ybr="843.69" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1658.66" ytl="1470.79" xbr="1798.02" ybr="1637.51" z_order="0">
+    </box>
+  </image>
+  <image id="301" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2035.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1044.02" ytl="186.74" xbr="1240.60" ybr="378.35" z_order="0">
+    </box>
+  </image>
+  <image id="300" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2034.png" width="2048" height="2048">
+  </image>
+  <image id="299" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2033.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="322.36" ytl="87.20" xbr="608.54" ybr="273.84" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1305.30" ytl="1005.45" xbr="1506.87" ybr="1177.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1539.22" ytl="311.17" xbr="1720.88" ybr="502.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1887.60" ytl="1769.40" xbr="1977.19" ybr="1883.87" z_order="0">
+    </box>
+  </image>
+  <image id="298" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2031.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1618.85" ytl="1739.54" xbr="1748.25" ybr="1866.45" z_order="0">
+    </box>
+  </image>
+  <image id="297" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2025.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1267.98" ytl="1216.96" xbr="1432.21" ybr="1356.32" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1855.25" ytl="1500.65" xbr="1952.30" ybr="1615.12" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="155.64" ytl="724.25" xbr="334.81" ybr="940.74" z_order="0">
+    </box>
+  </image>
+  <image id="296" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2013.png" width="2048" height="2048">
+  </image>
+  <image id="295" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2011.png" width="2048" height="2048">
+  </image>
+  <image id="294" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_2007.png" width="2048" height="2048">
+  </image>
+  <image id="293" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_200.png" width="2048" height="2048">
+  </image>
+  <image id="292" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1997.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="337.29" ytl="1314.01" xbr="521.44" ybr="1528.02" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="73.52" ytl="771.53" xbr="302.46" ybr="988.03" z_order="0">
+    </box>
+  </image>
+  <image id="291" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1991.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="329.83" ytl="455.50" xbr="409.46" ybr="547.57" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1225.67" ytl="1368.76" xbr="1404.84" ybr="1607.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="26.24" ytl="219.09" xbr="108.36" ybr="318.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1026.60" ytl="1801.75" xbr="1173.41" ybr="1901.29" z_order="0">
+    </box>
+  </image>
+  <image id="290" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1988.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1912.49" ytl="1440.92" xbr="1992.12" ybr="1550.42" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="551.30" ytl="1712.17" xbr="668.26" ybr="1809.22" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1250.56" ytl="1938.62" xbr="1357.56" ybr="2025.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1905.02" ytl="1353.83" xbr="1992.12" ybr="1435.95" z_order="0">
+    </box>
+  </image>
+  <image id="289" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1987.png" width="2048" height="2048">
+  </image>
+  <image id="288" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1984.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1330.19" ytl="1749.49" xbr="1464.56" ybr="1863.96" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="153.15" ytl="1346.36" xbr="272.59" ybr="1485.72" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="837.47" ytl="1393.64" xbr="959.41" ybr="1632.54" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1103.74" ytl="1065.17" xbr="1342.63" ybr="1269.22" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="275.08" ytl="1513.09" xbr="354.71" ybr="1637.51" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1616.36" ytl="1443.41" xbr="1730.83" ybr="1542.95" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="185.50" ytl="1557.88" xbr="272.59" ybr="1652.44" z_order="0">
+    </box>
+  </image>
+  <image id="287" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1983.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1564.10" ytl="1784.33" xbr="1758.20" ybr="1965.99" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="628.44" ytl="1878.89" xbr="852.40" ybr="2040.64" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1765.67" ytl="1811.71" xbr="1900.04" ybr="1946.08" z_order="0">
+    </box>
+  </image>
+  <image id="286" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1982.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1725.85" ytl="482.87" xbr="1850.28" ybr="612.27" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1004.20" ytl="898.44" xbr="1190.84" ybr="1100.01" z_order="0">
+    </box>
+  </image>
+  <image id="285" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1981.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1071.39" ytl="174.30" xbr="1295.35" ybr="360.93" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1063.92" ytl="507.75" xbr="1193.32" ybr="619.73" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="643.37" ytl="589.87" xbr="834.99" ybr="744.16" z_order="0">
+    </box>
+  </image>
+  <image id="284" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1980.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1715.90" ytl="209.14" xbr="1783.09" ybr="288.77" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1720.88" ytl="1378.71" xbr="1872.67" ybr="1600.19" z_order="0">
+    </box>
+  </image>
+  <image id="283" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1979.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1723.37" ytl="1460.83" xbr="1827.88" ybr="1570.32" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1673.60" ytl="7.57" xbr="1788.06" ybr="154.39" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1581.52" ytl="1455.86" xbr="1713.41" ybr="1595.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1822.90" ytl="1453.37" xbr="1939.86" ybr="1540.46" z_order="0">
+    </box>
+  </image>
+  <image id="282" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1976.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="670.75" ytl="614.76" xbr="775.26" ybr="761.58" z_order="0">
+    </box>
+  </image>
+  <image id="281" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1964.png" width="2048" height="2048">
+  </image>
+  <image id="280" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1962.png" width="2048" height="2048">
+  </image>
+  <image id="279" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1958.png" width="2048" height="2048">
+  </image>
+  <image id="278" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1950.png" width="2048" height="2048">
+  </image>
+  <image id="277" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1949.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1210.74" ytl="1858.98" xbr="1365.03" ybr="1998.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="53.61" ytl="72.27" xbr="601.07" ybr="542.59" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="802.63" ytl="1062.68" xbr="981.80" ybr="1174.66" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="354.71" ytl="1246.82" xbr="553.79" ybr="1495.67" z_order="0">
+    </box>
+  </image>
+  <image id="276" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1947.png" width="2048" height="2048">
+  </image>
+  <image id="275" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1944.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="205.41" ytl="360.93" xbr="479.14" ybr="614.76" z_order="0">
+    </box>
+  </image>
+  <image id="274" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1942.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="66.05" ytl="1398.62" xbr="240.24" ybr="1562.86" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="215.36" ytl="1284.15" xbr="327.34" ybr="1383.69" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1026.60" ytl="278.82" xbr="1116.18" ybr="398.26" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1559.13" ytl="258.91" xbr="1683.55" ybr="353.47" z_order="0">
+    </box>
+  </image>
+  <image id="273" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1941.png" width="2048" height="2048">
+  </image>
+  <image id="272" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1940.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1138.57" ytl="1863.96" xbr="1332.67" ybr="2013.27" z_order="0">
+    </box>
+  </image>
+  <image id="271" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_194.png" width="2048" height="2048">
+  </image>
+  <image id="270" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1939.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1066.41" ytl="1204.52" xbr="1200.79" ybr="1348.85" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="441.81" ytl="383.33" xbr="548.81" ybr="475.40" z_order="0">
+    </box>
+  </image>
+  <image id="269" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1937.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="290.01" ytl="1595.21" xbr="469.18" ybr="1754.47" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1168.44" ytl="701.85" xbr="1407.33" ybr="853.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1875.16" ytl="462.96" xbr="2034.42" ybr="657.06" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1394.89" ytl="913.37" xbr="1556.64" ybr="1075.12" z_order="0">
+    </box>
+  </image>
+  <image id="268" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1936.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1233.14" ytl="151.90" xbr="1290.37" ybr="229.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="543.84" ytl="873.56" xbr="742.91" ybr="1020.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="934.52" ytl="579.92" xbr="1046.50" ybr="681.94" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="904.66" ytl="1179.64" xbr="1001.71" ybr="1259.27" z_order="0">
+    </box>
+  </image>
+  <image id="267" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1929.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="929.55" ytl="1418.53" xbr="1051.48" ybr="1513.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="377.11" ytl="154.39" xbr="469.18" ybr="253.93" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1571.57" ytl="574.94" xbr="1705.95" ybr="729.23" z_order="0">
+    </box>
+  </image>
+  <image id="266" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1928.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1076.37" ytl="806.37" xbr="1245.58" ybr="968.12" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1335.17" ytl="0.00" xbr="1524.29" ybr="134.48" z_order="0">
+    </box>
+  </image>
+  <image id="265" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1927.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1827.88" ytl="973.09" xbr="1954.79" ybr="1134.84" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="822.54" ytl="1109.96" xbr="1006.69" ybr="1266.73" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1034.06" ytl="878.53" xbr="1190.84" ybr="1040.28" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="292.50" ytl="231.53" xbr="441.81" ybr="353.47" z_order="0">
+    </box>
+  </image>
+  <image id="264" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1925.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="618.49" ytl="1025.35" xbr="718.03" ybr="1134.84" z_order="0">
+    </box>
+  </image>
+  <image id="263" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1924.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="479.14" ytl="1465.81" xbr="630.93" ybr="1649.95" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="837.47" ytl="1261.76" xbr="1044.02" ybr="1498.16" z_order="0">
+    </box>
+  </image>
+  <image id="262" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1915.png" width="2048" height="2048">
+  </image>
+  <image id="261" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1913.png" width="2048" height="2048">
+  </image>
+  <image id="260" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1909.png" width="2048" height="2048">
+  </image>
+  <image id="259" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1901.png" width="2048" height="2048">
+  </image>
+  <image id="258" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1900.png" width="2048" height="2048">
+  </image>
+  <image id="257" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1899.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="568.72" ytl="1455.86" xbr="675.72" ybr="1572.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="322.36" ytl="1470.79" xbr="481.62" ybr="1635.02" z_order="0">
+    </box>
+  </image>
+  <image id="256" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1896.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="394.53" ytl="1528.02" xbr="499.04" ybr="1644.98" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="238.75" ytl="1594.96" xbr="318.38" ybr="1694.50" z_order="0">
+    </box>
+  </image>
+  <image id="255" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1891.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="90.94" ytl="477.89" xbr="173.06" ybr="589.87" z_order="0">
+    </box>
+  </image>
+  <image id="254" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1890.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1910.00" ytl="440.56" xbr="2014.51" ybr="550.06" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="419.41" ytl="1570.32" xbr="481.62" ybr="1712.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="538.86" ytl="1515.58" xbr="655.82" ybr="1732.07" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1608.89" ytl="1560.37" xbr="1785.57" ybr="1744.52" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1723.37" ytl="1144.80" xbr="1842.81" ybr="1256.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1683.55" ytl="831.25" xbr="1830.37" ybr="1030.33" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1417.28" ytl="555.03" xbr="1611.38" ybr="686.92" z_order="0">
+    </box>
+  </image>
+  <image id="253" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1886.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1730.83" ytl="425.63" xbr="1882.63" ybr="522.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="434.34" ytl="1913.73" xbr="611.02" ybr="2038.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="511.49" ytl="1781.84" xbr="653.33" ybr="1903.78" z_order="0">
+    </box>
+  </image>
+  <image id="252" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1884.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1800.51" ytl="818.81" xbr="2026.96" ybr="1015.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1579.03" ytl="741.67" xbr="1778.11" ybr="983.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="849.92" ytl="54.85" xbr="1163.46" ybr="368.40" z_order="0">
+    </box>
+  </image>
+  <image id="251" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1881.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1001.71" ytl="1109.96" xbr="1096.27" ybr="1204.52" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1758.20" ytl="1408.57" xbr="1887.60" ybr="1575.30" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1516.82" ytl="512.73" xbr="1623.83" ybr="619.73" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1636.27" ytl="1463.32" xbr="1735.81" ybr="1555.39" z_order="0">
+    </box>
+  </image>
+  <image id="250" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1880.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="347.25" ytl="1747.00" xbr="464.21" ybr="1876.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="128.26" ytl="1421.02" xbr="304.94" ybr="1597.70" z_order="0">
+    </box>
+  </image>
+  <image id="249" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1879.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="755.36" ytl="17.53" xbr="869.82" ybr="171.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1773.13" ytl="871.07" xbr="1910.00" ybr="1005.45" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1404.84" ytl="557.52" xbr="1531.75" ybr="699.36" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="444.30" ytl="1207.01" xbr="588.63" ybr="1348.85" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1113.69" ytl="1861.47" xbr="1240.60" ybr="1988.39" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1086.32" ytl="1667.37" xbr="1233.14" ybr="1826.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1263.00" ytl="1635.02" xbr="1370.00" ybr="1756.96" z_order="0">
+    </box>
+  </image>
+  <image id="248" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1878.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="392.04" ytl="186.74" xbr="566.23" ybr="358.45" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="294.99" ytl="1294.11" xbr="561.26" ybr="1533.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1253.05" ytl="1306.55" xbr="1394.89" ybr="1433.46" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="155.64" ytl="59.83" xbr="282.55" ybr="179.28" z_order="0">
+    </box>
+  </image>
+  <image id="247" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1877.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="551.30" ytl="1804.24" xbr="668.26" ybr="1970.96" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1126.13" ytl="375.87" xbr="1315.26" ybr="602.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1720.88" ytl="112.09" xbr="1822.90" ybr="268.86" z_order="0">
+    </box>
+  </image>
+  <image id="246" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1866.png" width="2048" height="2048">
+  </image>
+  <image id="245" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1864.png" width="2048" height="2048">
+  </image>
+  <image id="244" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1860.png" width="2048" height="2048">
+  </image>
+  <image id="243" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1853.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1661.15" ytl="226.56" xbr="1770.64" ybr="321.12" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="509.00" ytl="597.34" xbr="618.49" ybr="734.20" z_order="0">
+    </box>
+  </image>
+  <image id="242" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1851.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="48.63" ytl="288.77" xbr="118.31" ybr="370.89" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="593.60" ytl="1597.70" xbr="718.03" ybr="1754.47" z_order="0">
+    </box>
+  </image>
+  <image id="241" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1850.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1021.62" ytl="445.54" xbr="1422.26" ybr="689.41" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1198.30" ytl="1657.42" xbr="1494.43" ybr="1946.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1678.57" ytl="1022.86" xbr="1957.28" ybr="1311.52" z_order="0">
+    </box>
+  </image>
+  <image id="240" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1846.png" width="2048" height="2048">
+  </image>
+  <image id="239" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1837.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1882.62" ytl="186.74" xbr="1964.74" ybr="283.79" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1121.16" ytl="1182.12" xbr="1280.42" ybr="1304.06" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="8.82" ytl="54.85" xbr="95.91" ybr="154.39" z_order="0">
+    </box>
+  </image>
+  <image id="238" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1835.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1570.49" ytl="1703.21" xbr="1686.62" ybr="1806.89" z_order="0">
+    </box>
+  </image>
+  <image id="237" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1832.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="694.14" ytl="1107.22" xbr="918.10" ybr="1298.83" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="294.99" ytl="1575.30" xbr="374.62" ybr="1764.42" z_order="0">
+    </box>
+  </image>
+  <image id="236" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1831.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="247.71" ytl="425.63" xbr="352.22" ybr="587.38" z_order="0">
+    </box>
+  </image>
+  <image id="235" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1828.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1733.32" ytl="587.38" xbr="1979.68" ybr="975.58" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1827.88" ytl="1677.33" xbr="1977.19" ybr="1856.50" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1138.58" ytl="1965.99" xbr="1243.09" ybr="2043.13" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1218.21" ytl="709.32" xbr="1372.49" ybr="876.04" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="760.33" ytl="1856.50" xbr="887.24" ybr="1946.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="83.47" ytl="1005.45" xbr="178.03" ybr="1102.50" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1029.08" ytl="1742.03" xbr="1287.88" ybr="1871.43" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="31.21" ytl="258.91" xbr="123.29" ybr="343.51" z_order="0">
+    </box>
+  </image>
+  <image id="234" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1827.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1830.37" ytl="303.70" xbr="1942.35" ybr="403.24" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="277.57" ytl="1834.10" xbr="501.53" ybr="2035.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1798.02" ytl="629.69" xbr="1972.21" ybr="746.64" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1014.15" ytl="2.60" xbr="1163.46" ybr="139.46" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="372.13" ytl="1306.55" xbr="521.44" ybr="1508.11" z_order="0">
+    </box>
+  </image>
+  <image id="233" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1826.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1300.33" ytl="1229.41" xbr="1491.94" ybr="1423.51" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="762.82" ytl="69.79" xbr="959.41" ybr="246.47" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="703.10" ytl="898.44" xbr="787.70" ybr="960.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1750.74" ytl="1209.50" xbr="1927.42" ybr="1358.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="202.92" ytl="346.00" xbr="287.52" ybr="527.66" z_order="0">
+    </box>
+  </image>
+  <image id="232" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1824.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1424.75" ytl="1697.24" xbr="1698.48" ybr="2003.32" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="265.13" ytl="955.68" xbr="436.83" ybr="1082.59" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="451.76" ytl="798.90" xbr="663.28" ybr="898.44" z_order="0">
+    </box>
+  </image>
+  <image id="231" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1817.png" width="2048" height="2048">
+  </image>
+  <image id="230" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1815.png" width="2048" height="2048">
+  </image>
+  <image id="229" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1811.png" width="2048" height="2048">
+  </image>
+  <image id="228" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1805.png" width="2048" height="2048">
+  </image>
+  <image id="227" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1803.png" width="2048" height="2048">
+  </image>
+  <image id="226" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1801.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1374.98" ytl="1119.91" xbr="1521.80" ybr="1214.48" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1486.96" ytl="1040.28" xbr="1598.94" ybr="1142.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="919.59" ytl="1209.50" xbr="1113.69" ybr="1358.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1362.54" ytl="1236.87" xbr="1549.17" ybr="1348.85" z_order="0">
+    </box>
+  </image>
+  <image id="225" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_180.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="603.56" ytl="1488.21" xbr="760.33" ybr="1625.07" z_order="0">
+    </box>
+  </image>
+  <image id="224" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1799.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="924.57" ytl="1520.55" xbr="1081.34" ybr="1684.79" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="700.61" ytl="341.03" xbr="961.90" ybr="652.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="115.82" ytl="1525.53" xbr="217.85" ybr="1642.49" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1253.05" ytl="1204.52" xbr="1412.31" ybr="1376.23" z_order="0">
+    </box>
+  </image>
+  <image id="223" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1792.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="260.15" ytl="1042.77" xbr="347.25" ybr="1149.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="917.10" ytl="1326.46" xbr="1009.18" ybr="1423.50" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1317.75" ytl="1647.47" xbr="1830.37" ybr="1876.40" z_order="0">
+    </box>
+  </image>
+  <image id="222" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_179.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="414.44" ytl="1756.96" xbr="523.93" ybr="1896.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="404.48" ytl="1353.83" xbr="596.09" ybr="1533.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="175.54" ytl="1366.27" xbr="364.67" ybr="1597.70" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="523.93" ytl="1806.73" xbr="653.33" ybr="1931.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="387.06" ytl="1622.58" xbr="476.65" ybr="1717.14" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1350.10" ytl="1485.72" xbr="1489.45" ybr="1570.32" z_order="0">
+    </box>
+  </image>
+  <image id="221" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1784.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="170.57" ytl="609.78" xbr="297.48" ybr="791.44" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="464.21" ytl="1052.72" xbr="591.12" ybr="1169.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="419.41" ytl="1199.54" xbr="501.53" ybr="1304.06" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="304.94" ytl="1129.87" xbr="414.44" ybr="1271.71" z_order="0">
+    </box>
+  </image>
+  <image id="220" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1783.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1111.21" ytl="1440.93" xbr="1208.30" ybr="1567.84" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1613.87" ytl="774.02" xbr="1708.43" ybr="886.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="113.33" ytl="542.59" xbr="245.22" ybr="671.99" z_order="0">
+    </box>
+  </image>
+  <image id="219" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1780.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="406.97" ytl="1289.13" xbr="578.67" ybr="1443.41" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="297.48" ytl="1811.71" xbr="523.93" ybr="1916.22" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="202.92" ytl="1520.55" xbr="359.69" ybr="1719.63" z_order="0">
+    </box>
+  </image>
+  <image id="218" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_178.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1121.16" ytl="943.23" xbr="1258.02" ybr="1085.07" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1021.62" ytl="853.65" xbr="1108.72" ybr="1007.93" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1519.31" ytl="1244.34" xbr="1735.81" ybr="1495.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="63.56" ytl="1784.33" xbr="195.45" ybr="1898.80" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1902.53" ytl="1463.32" xbr="1999.58" ybr="1607.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="678.21" ytl="1119.91" xbr="770.28" ybr="1244.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="125.78" ytl="455.50" xbr="272.59" ybr="632.18" z_order="0">
+    </box>
+  </image>
+  <image id="217" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1779.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1870.18" ytl="179.28" xbr="1979.68" ybr="276.33" z_order="0">
+    </box>
+  </image>
+  <image id="216" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1776.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="907.15" ytl="564.99" xbr="1006.69" ybr="671.99" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="215.36" ytl="1311.52" xbr="354.71" ybr="1560.37" z_order="0">
+    </box>
+  </image>
+  <image id="215" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1774.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="800.15" ytl="209.14" xbr="882.27" ybr="311.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="989.27" ytl="1585.26" xbr="1096.27" ybr="1717.14" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1477.01" ytl="1896.31" xbr="1613.87" ybr="2013.27" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="986.78" ytl="535.13" xbr="1253.05" ybr="786.46" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1305.30" ytl="1353.83" xbr="1464.56" ybr="1533.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1653.69" ytl="350.98" xbr="1763.18" ybr="453.01" z_order="0">
+    </box>
+  </image>
+  <image id="214" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_177.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="496.55" ytl="291.26" xbr="613.51" ybr="400.75" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1825.39" ytl="1475.76" xbr="2021.98" ybr="1682.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="548.81" ytl="1229.41" xbr="655.82" ybr="1406.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="277.57" ytl="1129.87" xbr="409.46" ybr="1274.20" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1748.25" ytl="836.23" xbr="1932.39" ybr="995.49" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1287.88" ytl="1289.13" xbr="1432.22" ybr="1430.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="352.22" ytl="368.40" xbr="459.23" ybr="480.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1486.96" ytl="1080.10" xbr="1596.45" ybr="1256.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1021.62" ytl="209.14" xbr="1240.60" ybr="375.87" z_order="0">
+    </box>
+  </image>
+  <image id="213" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1768.png" width="2048" height="2048">
+  </image>
+  <image id="212" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1766.png" width="2048" height="2048">
+  </image>
+  <image id="211" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1762.png" width="2048" height="2048">
+  </image>
+  <image id="210" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_176.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1621.34" ytl="945.72" xbr="1703.46" ybr="1057.70" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="307.43" ytl="360.93" xbr="411.95" ybr="502.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="703.10" ytl="925.81" xbr="839.96" ybr="1027.84" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="623.47" ytl="764.06" xbr="787.70" ybr="913.37" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1932.39" ytl="360.93" xbr="2039.40" ybr="512.73" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1964.74" ytl="589.87" xbr="2031.93" ybr="706.83" z_order="0">
+    </box>
+  </image>
+  <image id="209" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1756.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1467.05" ytl="1627.56" xbr="1661.15" ybr="1876.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1136.09" ytl="134.48" xbr="1576.54" ybr="482.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="907.15" ytl="1276.69" xbr="1111.20" ybr="1473.27" z_order="0">
+    </box>
+  </image>
+  <image id="208" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1755.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1078.85" ytl="1433.46" xbr="1160.97" ybr="1523.04" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1210.74" ytl="955.68" xbr="1345.12" ybr="1077.61" z_order="0">
+    </box>
+  </image>
+  <image id="207" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1754.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1168.44" ytl="378.35" xbr="1307.79" ybr="497.80" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1412.31" ytl="316.14" xbr="1554.15" ybr="450.52" z_order="0">
+    </box>
+  </image>
+  <image id="206" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1743.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="752.87" ytl="383.33" xbr="869.82" ybr="492.82" z_order="0">
+    </box>
+  </image>
+  <image id="205" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1741.png" width="2048" height="2048">
+  </image>
+  <image id="204" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1739.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="153.15" ytl="1640.00" xbr="304.94" ybr="1786.82" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="367.16" ytl="1888.85" xbr="541.35" ybr="2035.66" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="28.73" ytl="719.27" xbr="138.22" ybr="890.98" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="230.29" ytl="1774.38" xbr="367.16" ybr="1908.75" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="252.69" ytl="1535.49" xbr="379.60" ybr="1667.37" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="379.60" ytl="1615.12" xbr="506.51" ybr="1759.45" z_order="0">
+    </box>
+  </image>
+  <image id="203" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1736.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="21.26" ytl="1430.97" xbr="135.73" ybr="1617.60" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="379.60" ytl="1846.54" xbr="496.56" ybr="1980.92" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="887.24" ytl="1104.98" xbr="1036.55" ybr="1301.57" z_order="0">
+    </box>
+  </image>
+  <image id="202" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1735.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1812.95" ytl="1080.10" xbr="1917.46" ybr="1199.54" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1708.43" ytl="1107.47" xbr="1807.97" ybr="1229.41" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1280.42" ytl="281.30" xbr="1382.45" ybr="398.26" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1340.14" ytl="1358.80" xbr="1628.80" ybr="1602.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1780.60" ytl="378.35" xbr="1957.28" ybr="535.13" z_order="0">
+    </box>
+  </image>
+  <image id="201" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1734.png" width="2048" height="2048">
+  </image>
+  <image id="200" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1733.png" width="2048" height="2048">
+  </image>
+  <image id="199" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1730.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="849.92" ytl="199.18" xbr="944.48" ybr="336.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1524.29" ytl="619.73" xbr="1780.60" ybr="783.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="205.41" ytl="1555.39" xbr="317.39" ybr="1684.79" z_order="0">
+    </box>
+  </image>
+  <image id="198" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1728.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1666.13" ytl="1776.87" xbr="1783.09" ybr="1876.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="367.16" ytl="1328.94" xbr="494.07" ybr="1525.53" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="509.00" ytl="1276.69" xbr="606.05" ybr="1363.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1063.92" ytl="62.32" xbr="1265.49" ybr="211.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1743.27" ytl="1918.71" xbr="1892.58" ybr="2045.62" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="521.44" ytl="1356.32" xbr="601.07" ybr="1433.46" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="362.18" ytl="1162.22" xbr="494.07" ybr="1294.11" z_order="0">
+    </box>
+  </image>
+  <image id="197" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1727.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="282.55" ytl="326.10" xbr="606.05" ybr="604.80" z_order="0">
+    </box>
+  </image>
+  <image id="196" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1724.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1170.93" ytl="1229.41" xbr="1367.52" ybr="1448.39" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="382.09" ytl="181.77" xbr="509.00" ybr="338.54" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="469.18" ytl="798.90" xbr="633.42" ybr="945.72" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1815.44" ytl="336.05" xbr="1979.68" ybr="490.33" z_order="0">
+    </box>
+  </image>
+  <image id="195" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1719.png" width="2048" height="2048">
+  </image>
+  <image id="194" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1717.png" width="2048" height="2048">
+  </image>
+  <image id="193" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1713.png" width="2048" height="2048">
+  </image>
+  <image id="192" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1707.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="399.50" ytl="313.65" xbr="536.37" ybr="532.64" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1683.55" ytl="1702.21" xbr="1820.41" ybr="1868.94" z_order="0">
+    </box>
+  </image>
+  <image id="191" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_170.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="934.52" ytl="52.37" xbr="1036.55" ybr="151.90" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1041.53" ytl="283.79" xbr="1429.73" ybr="550.06" z_order="0">
+    </box>
+  </image>
+  <image id="190" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1694.png" width="2048" height="2048">
+  </image>
+  <image id="189" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1684.png" width="2048" height="2048">
+  </image>
+  <image id="188" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1683.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1536.73" ytl="253.93" xbr="1683.55" ybr="400.75" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="118.31" ytl="194.21" xbr="227.80" ybr="281.30" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1280.42" ytl="201.67" xbr="1407.33" ybr="336.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1521.80" ytl="500.29" xbr="1631.29" ybr="671.99" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1404.84" ytl="241.49" xbr="1524.29" ybr="368.40" z_order="0">
+    </box>
+  </image>
+  <image id="187" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1682.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="165.59" ytl="97.16" xbr="387.06" ybr="283.79" z_order="0">
+    </box>
+  </image>
+  <image id="186" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1681.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="416.92" ytl="1704.70" xbr="543.84" ybr="1816.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1937.37" ytl="1784.33" xbr="2024.47" ybr="1888.85" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="212.87" ytl="219.09" xbr="294.99" ybr="298.72" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="262.64" ytl="1712.17" xbr="409.46" ybr="1849.03" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1606.41" ytl="308.68" xbr="1705.94" ybr="408.22" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="496.55" ytl="1630.05" xbr="586.14" ybr="1727.10" z_order="0">
+    </box>
+  </image>
+  <image id="185" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_168.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="342.27" ytl="1075.12" xbr="426.88" ybr="1142.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="118.31" ytl="584.90" xbr="242.73" ybr="746.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="884.75" ytl="953.19" xbr="1019.13" ybr="1075.12" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="247.71" ytl="1157.24" xbr="506.51" ybr="1279.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1178.39" ytl="358.45" xbr="1317.75" ybr="482.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="41.17" ytl="746.64" xbr="202.92" ybr="868.58" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1113.69" ytl="482.87" xbr="1208.25" ybr="609.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="625.96" ytl="1866.45" xbr="727.98" ybr="1965.99" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="0.00" ytl="861.11" xbr="245.22" ybr="1109.96" z_order="0">
+    </box>
+  </image>
+  <image id="184" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1677.png" width="2048" height="2048">
+  </image>
+  <image id="183" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1670.png" width="2048" height="2048">
+  </image>
+  <image id="182" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_167.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="484.11" ytl="1620.09" xbr="653.33" ybr="1779.35" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1185.86" ytl="1109.96" xbr="1287.88" ybr="1239.36" z_order="0">
+    </box>
+  </image>
+  <image id="181" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1668.png" width="2048" height="2048">
+  </image>
+  <image id="180" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1664.png" width="2048" height="2048">
+  </image>
+  <image id="179" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1660.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1203.28" ytl="938.26" xbr="1312.77" ybr="1119.91" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="222.83" ytl="1234.38" xbr="349.74" ybr="1421.02" z_order="0">
+    </box>
+  </image>
+  <image id="178" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_166.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1514.33" ytl="1582.77" xbr="1646.22" ybr="1689.77" z_order="0">
+    </box>
+  </image>
+  <image id="177" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1655.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="454.25" ytl="1567.84" xbr="543.84" ybr="1635.02" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="807.61" ytl="676.97" xbr="909.64" ybr="764.06" z_order="0">
+    </box>
+  </image>
+  <image id="176" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1650.png" width="2048" height="2048">
+  </image>
+  <image id="175" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_165.png" width="2048" height="2048">
+  </image>
+  <image id="174" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1636.png" width="2048" height="2048">
+  </image>
+  <image id="173" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1635.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1048.99" ytl="1498.16" xbr="1118.67" ybr="1592.72" z_order="0">
+    </box>
+  </image>
+  <image id="172" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1632.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1780.60" ytl="229.05" xbr="1944.84" ybr="425.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="444.30" ytl="1346.36" xbr="573.70" ybr="1565.35" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1238.12" ytl="1107.47" xbr="1424.75" ybr="1276.69" z_order="0">
+    </box>
+  </image>
+  <image id="171" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1627.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1228.16" ytl="1625.07" xbr="1449.63" ybr="1789.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="287.52" ytl="1769.40" xbr="454.25" ybr="1903.78" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="700.61" ytl="1702.21" xbr="894.71" ybr="1983.41" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="217.85" ytl="579.92" xbr="319.87" ybr="704.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1061.44" ytl="398.26" xbr="1307.79" ybr="649.59" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="834.98" ytl="798.90" xbr="974.34" ybr="920.84" z_order="0">
+    </box>
+  </image>
+  <image id="170" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1626.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="163.10" ytl="828.76" xbr="287.52" ybr="943.23" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="294.99" ytl="716.78" xbr="431.86" ybr="886.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="922.08" ytl="649.59" xbr="1096.27" ybr="764.06" z_order="0">
+    </box>
+  </image>
+  <image id="169" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1625.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1643.73" ytl="736.69" xbr="1827.88" ybr="1027.84" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1131.11" ytl="731.71" xbr="1302.81" ybr="905.91" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="509.00" ytl="848.67" xbr="745.40" ybr="1085.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="790.19" ytl="540.10" xbr="1019.13" ybr="764.06" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="782.73" ytl="1299.08" xbr="944.48" ybr="1483.23" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1300.33" ytl="746.64" xbr="1549.17" ybr="980.56" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="658.30" ytl="602.31" xbr="795.17" ybr="813.83" z_order="0">
+    </box>
+  </image>
+  <image id="168" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1621.png" width="2048" height="2048">
+  </image>
+  <image id="167" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1619.png" width="2048" height="2048">
+  </image>
+  <image id="166" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1615.png" width="2048" height="2048">
+  </image>
+  <image id="165" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1612.png" width="2048" height="2048">
+  </image>
+  <image id="164" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1608.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="839.96" ytl="291.26" xbr="961.90" ybr="378.35" z_order="0">
+    </box>
+  </image>
+  <image id="163" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1607.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1078.85" ytl="1199.54" xbr="1175.90" ybr="1304.06" z_order="0">
+    </box>
+  </image>
+  <image id="162" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1604.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1900.04" ytl="1799.26" xbr="2034.42" ybr="1948.57" z_order="0">
+    </box>
+  </image>
+  <image id="161" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1586.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="133.24" ytl="589.87" xbr="277.57" ybr="741.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="80.98" ytl="741.67" xbr="205.41" ybr="871.07" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="367.16" ytl="1199.54" xbr="571.21" ybr="1391.16" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="115.82" ytl="1321.48" xbr="290.01" ybr="1500.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="658.30" ytl="1189.59" xbr="807.61" ybr="1376.22" z_order="0">
+    </box>
+  </image>
+  <image id="96" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1318.png" width="2048" height="2048">
+  </image>
+  <image id="95" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1317.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="143.19" ytl="156.88" xbr="235.27" ybr="271.35" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1511.85" ytl="360.93" xbr="1728.34" ybr="582.41" z_order="0">
+    </box>
+  </image>
+  <image id="94" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1316.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1611.38" ytl="1134.84" xbr="1842.81" ybr="1361.29" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="956.92" ytl="1311.53" xbr="1083.83" ybr="1458.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="327.34" ytl="599.83" xbr="421.90" ybr="729.23" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1048.99" ytl="209.14" xbr="1165.95" ybr="365.91" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1668.62" ytl="17.53" xbr="1812.95" ybr="169.32" z_order="0">
+    </box>
+  </image>
+  <image id="93" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1315.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1073.88" ytl="649.59" xbr="1175.90" ybr="756.60" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1180.88" ytl="617.25" xbr="1282.91" ybr="736.69" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="6.33" ytl="413.19" xbr="130.75" ybr="540.10" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1750.74" ytl="221.58" xbr="1872.67" ybr="328.58" z_order="0">
+    </box>
+  </image>
+  <image id="92" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1313.png" width="2048" height="2048">
+  </image>
+  <image id="91" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1312.png" width="2048" height="2048">
+  </image>
+  <image id="90" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1308.png" width="2048" height="2048">
+  </image>
+  <image id="89" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1307.png" width="2048" height="2048">
+  </image>
+  <image id="88" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1305.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="909.64" ytl="1893.82" xbr="1019.13" ybr="1973.45" z_order="0">
+    </box>
+  </image>
+  <image id="87" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1303.png" width="2048" height="2048">
+  </image>
+  <image id="86" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1302.png" width="2048" height="2048">
+  </image>
+  <image id="85" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1294.png" width="2048" height="2048">
+  </image>
+  <image id="84" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1281.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="364.67" ytl="164.35" xbr="481.62" ybr="278.81" z_order="0">
+    </box>
+  </image>
+  <image id="83" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1280.png" width="2048" height="2048">
+  </image>
+  <image id="82" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_128.png" width="2048" height="2048">
+  </image>
+  <image id="81" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1279.png" width="2048" height="2048">
+  </image>
+  <image id="80" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1278.png" width="2048" height="2048">
+  </image>
+  <image id="79" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1276.png" width="2048" height="2048">
+  </image>
+  <image id="78" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1272.png" width="2048" height="2048">
+  </image>
+  <image id="77" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_127.png" width="2048" height="2048">
+  </image>
+  <image id="76" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1269.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1096.27" ytl="1607.65" xbr="1195.81" ybr="1717.14" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1223.18" ytl="445.54" xbr="1315.26" ybr="532.64" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1268.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="825.03" ytl="1607.65" xbr="939.50" ybr="1717.14" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="705.58" ytl="1418.53" xbr="817.57" ybr="1582.77" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1267.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1305.31" ytl="1475.76" xbr="1432.22" ybr="1610.14" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="205.41" ytl="443.05" xbr="299.97" ybr="557.52" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="354.71" ytl="664.53" xbr="523.93" ybr="893.46" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="725.49" ytl="709.32" xbr="859.87" ybr="831.25" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1078.85" ytl="540.10" xbr="1213.23" ybr="662.04" z_order="0">
+    </box>
+  </image>
+  <image id="73" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_126.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1399.87" ytl="955.68" xbr="1631.29" ybr="1157.24" z_order="0">
+    </box>
+  </image>
+  <image id="72" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1255.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="431.86" ytl="1144.80" xbr="556.28" ybr="1289.13" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="516.46" ytl="383.33" xbr="593.61" ybr="450.52" z_order="0">
+    </box>
+  </image>
+  <image id="71" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_125.png" width="2048" height="2048">
+  </image>
+  <image id="70" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1247.png" width="2048" height="2048">
+  </image>
+  <image id="69" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_124.png" width="2048" height="2048">
+  </image>
+  <image id="68" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1234.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1511.85" ytl="375.87" xbr="1616.36" ybr="522.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="718.03" ytl="303.70" xbr="817.57" ybr="408.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="255.17" ytl="360.93" xbr="349.74" ybr="470.43" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1379.96" ytl="547.57" xbr="1531.75" ybr="709.32" z_order="0">
+    </box>
+  </image>
+  <image id="67" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1233.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="504.02" ytl="1318.99" xbr="623.47" ybr="1453.37" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1231.png" width="2048" height="2048">
+  </image>
+  <image id="65" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_123.png" width="2048" height="2048">
+  </image>
+  <image id="64" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1229.png" width="2048" height="2048">
+  </image>
+  <image id="63" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1227.png" width="2048" height="2048">
+  </image>
+  <image id="62" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1223.png" width="2048" height="2048">
+  </image>
+  <image id="61" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1221.png" width="2048" height="2048">
+  </image>
+  <image id="60" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1220.png" width="2048" height="2048">
+  </image>
+  <image id="59" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_122.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1021.62" ytl="1809.22" xbr="1141.07" ybr="1931.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="844.94" ytl="1851.52" xbr="941.99" ybr="1953.55" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1118.67" ytl="642.13" xbr="1235.63" ybr="873.56" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="558.77" ytl="1535.49" xbr="732.96" ybr="1672.35" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="760.33" ytl="1933.64" xbr="849.92" ybr="2030.69" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1219.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="795.17" ytl="1192.08" xbr="894.71" ybr="1323.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1870.18" ytl="619.73" xbr="2039.40" ybr="821.30" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1218.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="894.71" ytl="497.80" xbr="1106.23" ybr="679.46" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1337.65" ytl="62.32" xbr="1484.47" ybr="184.25" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1216.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="63.56" ytl="1192.08" xbr="155.64" ybr="1294.10" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="26.24" ytl="1055.21" xbr="130.75" ybr="1144.80" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="38.68" ytl="920.84" xbr="128.26" ybr="1022.86" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="608.54" ytl="1605.16" xbr="710.56" ybr="1719.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1917.46" ytl="1605.16" xbr="2002.07" ybr="1709.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="185.50" ytl="1366.27" xbr="292.50" ybr="1475.76" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_121.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1770.64" ytl="1652.44" xbr="1974.70" ybr="1846.54" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="504.02" ytl="1620.09" xbr="740.42" ybr="1774.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1260.51" ytl="1075.12" xbr="1531.75" ybr="1259.27" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1206.png" width="2048" height="2048">
+  </image>
+  <image id="53" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_120.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="53.61" ytl="1702.21" xbr="225.31" ybr="1893.82" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="956.92" ytl="1475.76" xbr="1156.00" ybr="1806.73" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="436.83" ytl="1654.93" xbr="568.72" ybr="1759.45" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1422.26" ytl="1888.85" xbr="1544.20" ybr="2020.73" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1190.png" width="2048" height="2048">
+  </image>
+  <image id="51" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_119.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="830.01" ytl="1615.12" xbr="1014.15" ybr="1816.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1078.85" ytl="1814.19" xbr="1170.93" ybr="1923.69" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1569.08" ytl="1480.74" xbr="1907.51" ybr="1794.29" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1185.png" width="2048" height="2048">
+  </image>
+  <image id="49" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1184.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="583.65" ytl="1117.43" xbr="678.21" ybr="1207.01" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="800.15" ytl="1595.21" xbr="979.32" ybr="1821.66" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1584.01" ytl="1119.91" xbr="1676.08" ybr="1207.01" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1183.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1651.20" ytl="1042.77" xbr="1778.11" ybr="1157.24" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1108.71" ytl="1291.62" xbr="1223.18" ybr="1435.95" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1439.68" ytl="1015.40" xbr="1546.68" ybr="1129.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="825.03" ytl="1744.52" xbr="956.92" ybr="1866.45" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1181.png" width="2048" height="2048">
+  </image>
+  <image id="46" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1180.png" width="2048" height="2048">
+  </image>
+  <image id="45" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1174.png" width="2048" height="2048">
+  </image>
+  <image id="44" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1173.png" width="2048" height="2048">
+  </image>
+  <image id="43" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1172.png" width="2048" height="2048">
+  </image>
+  <image id="42" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1171.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1352.58" ytl="462.96" xbr="1534.24" ybr="669.50" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="499.04" ytl="211.63" xbr="673.24" ybr="308.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1103.74" ytl="515.22" xbr="1280.42" ybr="652.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1255.54" ytl="831.25" xbr="1484.47" ybr="1012.91" z_order="0">
+    </box>
+  </image>
+  <image id="433" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_53.png" width="2048" height="2048">
+  </image>
+  <image id="432" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_528.png" width="2048" height="2048">
+  </image>
+  <image id="431" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_527.png" width="2048" height="2048">
+  </image>
+  <image id="430" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_518.png" width="2048" height="2048">
+  </image>
+  <image id="429" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_517.png" width="2048" height="2048">
+  </image>
+  <image id="428" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_516.png" width="2048" height="2048">
+  </image>
+  <image id="427" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_515.png" width="2048" height="2048">
+  </image>
+  <image id="426" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_514.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="869.82" ytl="761.58" xbr="1036.55" ybr="1050.24" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="710.56" ytl="973.09" xbr="844.94" ybr="1102.49" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="713.05" ytl="796.41" xbr="820.05" ybr="895.95" z_order="0">
+    </box>
+  </image>
+  <image id="425" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_513.png" width="2048" height="2048">
+  </image>
+  <image id="424" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_512.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="862.36" ytl="1468.30" xbr="1034.06" ybr="1585.25" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="882.27" ytl="1903.78" xbr="996.73" ybr="2020.73" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="765.31" ytl="1192.08" xbr="899.69" ybr="1378.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1287.88" ytl="550.06" xbr="1432.22" ybr="686.92" z_order="0">
+    </box>
+  </image>
+  <image id="423" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_507.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1409.82" ytl="1022.86" xbr="1501.89" ybr="1174.66" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1300.33" ytl="1050.24" xbr="1412.31" ybr="1169.68" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1661.15" ytl="1149.78" xbr="1780.60" ybr="1328.94" z_order="0">
+    </box>
+  </image>
+  <image id="422" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_500.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1287.88" ytl="642.13" xbr="1392.40" ybr="749.13" z_order="0">
+    </box>
+  </image>
+  <image id="421" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_499.png" width="2048" height="2048">
+  </image>
+  <image id="420" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_494.png" width="2048" height="2048">
+  </image>
+  <image id="419" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_493.png" width="2048" height="2048">
+  </image>
+  <image id="418" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_488.png" width="2048" height="2048">
+  </image>
+  <image id="417" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_482.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="536.37" ytl="495.31" xbr="737.94" ybr="676.97" z_order="0">
+    </box>
+  </image>
+  <image id="416" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_481.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="737.94" ytl="766.55" xbr="966.87" ybr="1060.19" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="785.22" ytl="455.50" xbr="884.76" ybr="567.48" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="934.52" ytl="243.98" xbr="1203.28" ybr="425.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1452.12" ytl="1333.92" xbr="1688.53" ybr="1545.44" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1581.52" ytl="759.09" xbr="1683.55" ybr="858.63" z_order="0">
+    </box>
+  </image>
+  <image id="415" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_480.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="247.71" ytl="258.91" xbr="439.32" ybr="510.24" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="670.75" ytl="699.36" xbr="780.24" ybr="808.86" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1036.55" ytl="1692.26" xbr="1193.32" ybr="1898.80" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1305.30" ytl="47.39" xbr="1414.79" ybr="159.37" z_order="0">
+    </box>
+  </image>
+  <image id="414" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_47.png" width="2048" height="2048">
+  </image>
+  <image id="413" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_469.png" width="2048" height="2048">
+  </image>
+  <image id="412" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_468.png" width="2048" height="2048">
+  </image>
+  <image id="411" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_467.png" width="2048" height="2048">
+  </image>
+  <image id="410" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_466.png" width="2048" height="2048">
+  </image>
+  <image id="409" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_465.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="917.10" ytl="1475.76" xbr="1021.62" ybr="1572.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="26.24" ytl="654.57" xbr="118.31" ybr="746.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="844.94" ytl="783.97" xbr="1051.48" ybr="1007.93" z_order="0">
+    </box>
+  </image>
+  <image id="408" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_463.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1847.79" ytl="796.41" xbr="1952.30" ybr="900.93" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1678.57" ytl="1269.22" xbr="1780.60" ybr="1368.76" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1029.08" ytl="1806.73" xbr="1215.72" ybr="1975.94" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1036.55" ytl="808.86" xbr="1146.04" ybr="925.81" z_order="0">
+    </box>
+  </image>
+  <image id="407" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_461.png" width="2048" height="2048">
+  </image>
+  <image id="406" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_458.png" width="2048" height="2048">
+  </image>
+  <image id="405" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_455.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1469.54" ytl="684.43" xbr="1549.17" ybr="769.04" z_order="0">
+    </box>
+  </image>
+  <image id="404" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_445.png" width="2048" height="2048">
+  </image>
+  <image id="403" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_439.png" width="2048" height="2048">
+  </image>
+  <image id="402" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_433.png" width="2048" height="2048">
+  </image>
+  <image id="401" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_432.png" width="2048" height="2048">
+  </image>
+  <image id="400" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_431.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="601.07" ytl="184.25" xbr="693.14" ybr="276.33" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1897.56" ytl="843.70" xbr="2029.44" ybr="1015.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1051.48" ytl="1070.14" xbr="1193.32" ybr="1261.76" z_order="0">
+    </box>
+  </image>
+  <image id="399" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_430.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="546.32" ytl="149.42" xbr="643.37" ybr="224.07" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="735.45" ytl="599.83" xbr="844.94" ybr="724.25" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="732.96" ytl="333.56" xbr="810.10" ybr="460.47" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="225.31" ytl="1717.14" xbr="352.22" ybr="1814.19" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="113.33" ytl="293.75" xbr="222.83" ybr="408.22" z_order="0">
+    </box>
+  </image>
+  <image id="398" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_429.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="389.55" ytl="560.01" xbr="511.49" ybr="676.97" z_order="0">
+    </box>
+  </image>
+  <image id="397" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_427.png" width="2048" height="2048">
+  </image>
+  <image id="396" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_422.png" width="2048" height="2048">
+  </image>
+  <image id="395" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_419.png" width="2048" height="2048">
+  </image>
+  <image id="394" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_418.png" width="2048" height="2048">
+  </image>
+  <image id="393" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_417.png" width="2048" height="2048">
+  </image>
+  <image id="392" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_415.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="902.17" ytl="87.20" xbr="1063.92" ybr="201.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="586.14" ytl="385.82" xbr="700.61" ybr="480.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="471.67" ytl="258.91" xbr="566.23" ybr="348.49" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="145.68" ytl="838.72" xbr="265.13" ybr="948.21" z_order="0">
+    </box>
+  </image>
+  <image id="391" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_412.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="187.99" ytl="1366.27" xbr="374.62" ybr="1630.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="260.15" ytl="828.76" xbr="491.58" ybr="1132.36" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1006.69" ytl="895.95" xbr="1163.46" ybr="1080.10" z_order="0">
+    </box>
+  </image>
+  <image id="390" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_411.png" width="2048" height="2048">
+  </image>
+  <image id="389" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_403.png" width="2048" height="2048">
+  </image>
+  <image id="388" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_4.png" width="2048" height="2048">
+  </image>
+  <image id="387" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_396.png" width="2048" height="2048">
+  </image>
+  <image id="386" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_390.png" width="2048" height="2048">
+  </image>
+  <image id="385" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_382.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1464.56" ytl="1381.20" xbr="1723.36" ybr="1577.79" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="713.05" ytl="1460.83" xbr="1029.08" ybr="1677.33" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="551.30" ytl="1104.98" xbr="713.05" ybr="1346.36" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1148.53" ytl="1677.33" xbr="1280.42" ybr="1789.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="200.43" ytl="1353.83" xbr="347.25" ybr="1448.39" z_order="0">
+    </box>
+  </image>
+  <image id="384" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_381.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1004.20" ytl="84.72" xbr="1253.05" ybr="355.96" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="411.95" ytl="251.44" xbr="566.23" ybr="440.57" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="568.72" ytl="301.21" xbr="673.24" ybr="472.91" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="173.06" ytl="833.74" xbr="406.97" ybr="1055.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="103.38" ytl="268.86" xbr="262.64" ybr="445.54" z_order="0">
+    </box>
+  </image>
+  <image id="383" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_380.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1292.86" ytl="798.90" xbr="1419.77" ybr="948.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="384.57" ytl="1433.46" xbr="486.60" ybr="1545.44" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1116.18" ytl="435.59" xbr="1213.23" ybr="512.73" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1362.54" ytl="572.45" xbr="1437.19" ybr="649.60" z_order="0">
+    </box>
+  </image>
+  <image id="382" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_379.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="307.43" ytl="1179.64" xbr="426.88" ybr="1309.04" z_order="0">
+    </box>
+  </image>
+  <image id="381" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_371.png" width="2048" height="2048">
+  </image>
+  <image id="380" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_370.png" width="2048" height="2048">
+  </image>
+  <image id="379" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_369.png" width="2048" height="2048">
+  </image>
+  <image id="378" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_356.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1063.92" ytl="393.28" xbr="1250.56" ybr="592.36" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="683.19" ytl="863.60" xbr="1073.88" ybr="1092.54" z_order="0">
+    </box>
+  </image>
+  <image id="377" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_355.png" width="2048" height="2048">
+  </image>
+  <image id="376" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_347.png" width="2048" height="2048">
+  </image>
+  <image id="375" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_341.png" width="2048" height="2048">
+  </image>
+  <image id="374" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_332.png" width="2048" height="2048">
+  </image>
+  <image id="373" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_331.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1867.70" ytl="1435.95" xbr="2009.54" ybr="1649.95" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1427.24" ytl="654.57" xbr="1621.34" ybr="848.67" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1210.74" ytl="1194.57" xbr="1332.68" ybr="1416.04" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1240.60" ytl="863.60" xbr="1370.00" ybr="990.51" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="33.70" ytl="1017.89" xbr="130.75" ybr="1139.82" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="115.82" ytl="179.28" xbr="272.59" ybr="336.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="807.61" ytl="1311.53" xbr="897.20" ybr="1413.55" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="725.49" ytl="1343.88" xbr="802.63" ybr="1421.02" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="302.46" ytl="487.85" xbr="466.69" ybr="657.06" z_order="0">
+    </box>
+  </image>
+  <image id="372" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_330.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="979.32" ytl="788.95" xbr="1078.85" ybr="866.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="732.96" ytl="997.98" xbr="849.92" ybr="1177.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1576.54" ytl="1231.89" xbr="1658.66" ybr="1341.39" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1457.10" ytl="1204.52" xbr="1559.13" ybr="1353.83" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1683.55" ytl="1177.15" xbr="1758.20" ybr="1271.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1561.62" ytl="1147.29" xbr="1666.13" ybr="1221.94" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="984.29" ytl="679.46" xbr="1073.88" ybr="783.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1770.64" ytl="1211.99" xbr="1875.16" ybr="1338.90" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1651.20" ytl="34.95" xbr="1832.86" ybr="179.28" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1596.45" ytl="1000.47" xbr="1723.36" ybr="1080.10" z_order="0">
+    </box>
+  </image>
+  <image id="371" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_329.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="966.87" ytl="251.44" xbr="1215.72" ybr="460.47" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1320.23" ytl="112.09" xbr="1457.10" ybr="336.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="902.17" ytl="933.28" xbr="1029.09" ybr="1035.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="976.83" ytl="736.69" xbr="1136.09" ybr="876.04" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1710.92" ytl="1416.04" xbr="1802.99" ybr="1515.58" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1360.05" ytl="487.85" xbr="1419.77" ybr="577.43" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="411.95" ytl="691.90" xbr="571.21" ybr="806.37" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1484.47" ytl="17.53" xbr="1668.62" ybr="159.37" z_order="0">
+    </box>
+  </image>
+  <image id="370" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_324.png" width="2048" height="2048">
+  </image>
+  <image id="369" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_323.png" width="2048" height="2048">
+  </image>
+  <image id="368" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_322.png" width="2048" height="2048">
+  </image>
+  <image id="367" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_321.png" width="2048" height="2048">
+  </image>
+  <image id="366" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_320.png" width="2048" height="2048">
+  </image>
+  <image id="365" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_316.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="491.58" ytl="1876.40" xbr="576.19" ybr="1970.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="588.63" ytl="1177.15" xbr="785.22" ybr="1383.69" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1053.97" ytl="1396.13" xbr="1188.35" ybr="1533.00" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1193.32" ytl="1781.84" xbr="1392.40" ybr="1970.97" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="406.97" ytl="1896.31" xbr="496.56" ybr="2003.32" z_order="0">
+    </box>
+  </image>
+  <image id="364" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_315.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1019.13" ytl="1271.71" xbr="1178.39" ybr="1378.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="479.14" ytl="1211.99" xbr="618.49" ybr="1348.85" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="362.18" ytl="1042.77" xbr="553.79" ybr="1211.99" z_order="0">
+    </box>
+  </image>
+  <image id="363" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_313.png" width="2048" height="2048">
+  </image>
+  <image id="362" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_310.png" width="2048" height="2048">
+  </image>
+  <image id="361" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_298.png" width="2048" height="2048">
+  </image>
+  <image id="360" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_292.png" width="2048" height="2048">
+  </image>
+  <image id="359" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_281.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="95.91" ytl="841.21" xbr="282.55" ybr="983.05" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="349.74" ytl="662.04" xbr="481.62" ybr="776.51" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="83.47" ytl="196.70" xbr="255.18" ybr="383.33" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1312.77" ytl="1087.56" xbr="1472.03" ybr="1271.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="392.04" ytl="313.65" xbr="518.95" ybr="433.10" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="533.88" ytl="350.98" xbr="658.30" ybr="530.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="999.22" ytl="532.64" xbr="1153.51" ybr="704.34" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="566.23" ytl="1766.91" xbr="658.30" ybr="1876.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1489.45" ytl="970.61" xbr="1588.99" ybr="1095.03" z_order="0">
+    </box>
+  </image>
+  <image id="358" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_280.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1103.74" ytl="662.04" xbr="1248.07" ybr="868.58" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1666.13" ytl="410.70" xbr="1825.39" ybr="545.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="130.75" ytl="1580.28" xbr="237.76" ybr="1684.79" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1081.34" ytl="1251.80" xbr="1195.81" ybr="1416.04" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="518.95" ytl="306.19" xbr="616.00" ybr="383.33" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="285.04" ytl="995.49" xbr="444.30" ybr="1192.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1676.08" ytl="1070.14" xbr="1773.13" ybr="1211.99" z_order="0">
+    </box>
+  </image>
+  <image id="357" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_279.png" width="2048" height="2048">
+  </image>
+  <image id="356" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_277.png" width="2048" height="2048">
+  </image>
+  <image id="355" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_276.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="222.83" ytl="823.79" xbr="329.83" ybr="913.37" z_order="0">
+    </box>
+  </image>
+  <image id="354" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_274.png" width="2048" height="2048">
+  </image>
+  <image id="353" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_273.png" width="2048" height="2048">
+  </image>
+  <image id="352" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_270.png" width="2048" height="2048">
+  </image>
+  <image id="160" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1578.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="314.90" ytl="1513.09" xbr="446.79" ybr="1627.56" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1215.72" ytl="928.30" xbr="1300.33" ybr="1047.75" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="907.15" ytl="403.24" xbr="1006.69" ybr="535.13" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="536.37" ytl="435.59" xbr="740.42" ybr="639.64" z_order="0">
+    </box>
+  </image>
+  <image id="159" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1577.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="611.02" ytl="1117.43" xbr="805.12" ybr="1398.62" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1623.83" ytl="49.88" xbr="1760.69" ybr="174.30" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1136.09" ytl="1547.93" xbr="1233.14" ybr="1684.79" z_order="0">
+    </box>
+  </image>
+  <image id="158" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1576.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="250.20" ytl="1082.59" xbr="411.95" ybr="1221.94" z_order="0">
+    </box>
+  </image>
+  <image id="157" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1575.png" width="2048" height="2048">
+  </image>
+  <image id="156" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1572.png" width="2048" height="2048">
+  </image>
+  <image id="155" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1570.png" width="2048" height="2048">
+  </image>
+  <image id="154" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1566.png" width="2048" height="2048">
+  </image>
+  <image id="153" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1562.png" width="2048" height="2048">
+  </image>
+  <image id="152" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1557.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="414.44" ytl="1443.41" xbr="538.86" ybr="1542.95" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="772.77" ytl="1060.19" xbr="887.24" ybr="1177.15" z_order="0">
+    </box>
+  </image>
+  <image id="151" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1536.png" width="2048" height="2048">
+  </image>
+  <image id="150" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1535.png" width="2048" height="2048">
+  </image>
+  <image id="149" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1534.png" width="2048" height="2048">
+  </image>
+  <image id="148" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1530.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1374.98" ytl="480.38" xbr="1531.75" ybr="691.90" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1539.22" ytl="390.80" xbr="1708.43" ybr="604.80" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1158.48" ytl="567.48" xbr="1272.95" ybr="696.88" z_order="0">
+    </box>
+  </image>
+  <image id="147" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1528.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1591.48" ytl="271.35" xbr="1700.97" ybr="373.38" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1218.21" ytl="236.51" xbr="1335.16" ybr="326.10" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="290.01" ytl="415.68" xbr="486.60" ybr="569.96" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1479.50" ytl="425.63" xbr="1581.52" ybr="507.75" z_order="0">
+    </box>
+  </image>
+  <image id="146" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1527.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="501.53" ytl="1744.52" xbr="653.33" ybr="1903.78" z_order="0">
+    </box>
+  </image>
+  <image id="145" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1526.png" width="2048" height="2048">
+  </image>
+  <image id="144" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1523.png" width="2048" height="2048">
+  </image>
+  <image id="143" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1521.png" width="2048" height="2048">
+  </image>
+  <image id="142" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1517.png" width="2048" height="2048">
+  </image>
+  <image id="141" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_151.png" width="2048" height="2048">
+  </image>
+  <image id="140" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1490.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="352.22" ytl="826.28" xbr="494.07" ybr="960.65" z_order="0">
+    </box>
+  </image>
+  <image id="139" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1487.png" width="2048" height="2048">
+  </image>
+  <image id="138" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1486.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1616.36" ytl="1211.99" xbr="1738.30" ybr="1333.92" z_order="0">
+    </box>
+  </image>
+  <image id="137" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1480.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="932.04" ytl="731.71" xbr="1071.39" ybr="948.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1519.31" ytl="547.57" xbr="1817.93" ybr="838.72" z_order="0">
+    </box>
+  </image>
+  <image id="136" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1479.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1292.86" ytl="1931.15" xbr="1389.91" ybr="2038.15" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="693.14" ytl="1368.76" xbr="805.12" ybr="1453.37" z_order="0">
+    </box>
+  </image>
+  <image id="135" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1478.png" width="2048" height="2048">
+  </image>
+  <image id="134" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1474.png" width="2048" height="2048">
+  </image>
+  <image id="133" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1472.png" width="2048" height="2048">
+  </image>
+  <image id="132" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1468.png" width="2048" height="2048">
+  </image>
+  <image id="131" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1465.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="576.19" ytl="749.13" xbr="951.94" ybr="1065.17" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1243.09" ytl="54.85" xbr="1404.84" ybr="186.74" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="499.04" ytl="520.19" xbr="648.35" ybr="686.92" z_order="0">
+    </box>
+  </image>
+  <image id="130" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1462.png" width="2048" height="2048">
+  </image>
+  <image id="129" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1461.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1529.26" ytl="119.55" xbr="1611.38" ybr="221.58" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1143.55" ytl="216.60" xbr="1228.16" ybr="343.51" z_order="0">
+    </box>
+  </image>
+  <image id="128" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1435.png" width="2048" height="2048">
+  </image>
+  <image id="127" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1433.png" width="2048" height="2048">
+  </image>
+  <image id="126" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1431.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1399.87" ytl="1535.49" xbr="1472.03" ybr="1627.56" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="869.82" ytl="12.55" xbr="1113.69" ybr="171.81" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="611.02" ytl="1712.17" xbr="837.47" ybr="1946.08" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1243.09" ytl="97.16" xbr="1342.63" ybr="246.47" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1511.85" ytl="253.93" xbr="1643.73" ybr="398.26" z_order="0">
+    </box>
+  </image>
+  <image id="125" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1430.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="596.09" ytl="1535.49" xbr="750.38" ybr="1702.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1643.73" ytl="1114.94" xbr="1798.02" ybr="1269.22" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1429.73" ytl="1547.93" xbr="1551.66" ybr="1694.75" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="115.82" ytl="893.46" xbr="260.15" ybr="1072.63" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1820.41" ytl="410.70" xbr="1934.88" ybr="517.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="76.01" ytl="1401.11" xbr="294.99" ybr="1590.23" z_order="0">
+    </box>
+  </image>
+  <image id="124" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1429.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="668.26" ytl="945.72" xbr="752.87" ybr="1057.70" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="755.36" ytl="958.16" xbr="837.47" ybr="1067.66" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1613.87" ytl="117.07" xbr="1830.37" ybr="316.14" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1153.51" ytl="883.51" xbr="1282.91" ybr="1052.72" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="558.77" ytl="798.90" xbr="648.35" ybr="915.86" z_order="0">
+    </box>
+  </image>
+  <image id="123" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1427.png" width="2048" height="2048">
+  </image>
+  <image id="122" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1425.png" width="2048" height="2048">
+  </image>
+  <image id="121" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1423.png" width="2048" height="2048">
+  </image>
+  <image id="120" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1419.png" width="2048" height="2048">
+  </image>
+  <image id="119" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1416.png" width="2048" height="2048">
+  </image>
+  <image id="118" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1415.png" width="2048" height="2048">
+  </image>
+  <image id="117" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1413.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="277.57" ytl="1473.27" xbr="416.92" ybr="1587.74" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1616.36" ytl="1575.30" xbr="1698.48" ybr="1669.86" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1840.32" ytl="1132.36" xbr="1917.46" ybr="1221.94" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1730.83" ytl="1533.00" xbr="1812.95" ybr="1632.54" z_order="0">
+    </box>
+  </image>
+  <image id="116" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1405.png" width="2048" height="2048">
+  </image>
+  <image id="115" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1398.png" width="2048" height="2048">
+  </image>
+  <image id="114" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1394.png" width="2048" height="2048">
+  </image>
+  <image id="113" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1389.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1285.40" ytl="1271.71" xbr="1402.35" ybr="1408.57" z_order="0">
+    </box>
+  </image>
+  <image id="112" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1384.png" width="2048" height="2048">
+  </image>
+  <image id="111" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1383.png" width="2048" height="2048">
+  </image>
+  <image id="110" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1376.png" width="2048" height="2048">
+  </image>
+  <image id="109" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1374.png" width="2048" height="2048">
+  </image>
+  <image id="108" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1370.png" width="2048" height="2048">
+  </image>
+  <image id="107" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1367.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="571.21" ytl="1498.16" xbr="678.21" ybr="1620.09" z_order="0">
+    </box>
+  </image>
+  <image id="106" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1365.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1310.28" ytl="1600.19" xbr="1424.75" ybr="1714.65" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="98.40" ytl="1941.10" xbr="227.80" ybr="2025.71" z_order="0">
+    </box>
+  </image>
+  <image id="105" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1354.png" width="2048" height="2048">
+  </image>
+  <image id="104" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1343.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="123.29" ytl="1871.43" xbr="257.66" ybr="2010.78" z_order="0">
+    </box>
+  </image>
+  <image id="103" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1334.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1183.37" ytl="385.82" xbr="1282.91" ybr="475.40" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1.35" ytl="1159.73" xbr="135.73" ybr="1271.71" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1536.73" ytl="579.92" xbr="1648.71" ybr="731.71" z_order="0">
+    </box>
+  </image>
+  <image id="102" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1333.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1058.95" ytl="1027.84" xbr="1158.49" ybr="1142.31" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1213.23" ytl="1764.42" xbr="1312.77" ybr="1898.80" z_order="0">
+    </box>
+  </image>
+  <image id="101" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1329.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1058.95" ytl="346.00" xbr="1195.81" ybr="430.61" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1830.37" ytl="696.88" xbr="1957.28" ybr="813.83" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="849.92" ytl="164.35" xbr="1046.50" ybr="306.19" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1484.47" ytl="1572.81" xbr="1673.60" ybr="1759.45" z_order="0">
+    </box>
+  </image>
+  <image id="100" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1327.png" width="2048" height="2048">
+  </image>
+  <image id="99" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1325.png" width="2048" height="2048">
+  </image>
+  <image id="98" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1321.png" width="2048" height="2048">
+  </image>
+  <image id="97" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1319.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1773.13" ytl="1523.04" xbr="1872.67" ybr="1657.42" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1297.84" ytl="1281.66" xbr="1444.66" ybr="1366.27" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="235.27" ytl="985.54" xbr="431.85" ybr="1174.66" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1534.24" ytl="1500.65" xbr="1611.38" ybr="1620.09" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="954.43" ytl="1177.15" xbr="1046.50" ybr="1314.01" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1322.72" ytl="1378.71" xbr="1437.19" ybr="1513.09" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1150.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1156.00" ytl="900.93" xbr="1389.91" ybr="1072.63" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1147.png" width="2048" height="2048">
+  </image>
+  <image id="39" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1140.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="596.09" ytl="512.73" xbr="730.47" ybr="639.64" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1469.54" ytl="997.98" xbr="1559.13" ybr="1095.03" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1817.93" ytl="1644.98" xbr="1954.79" ybr="1858.99" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1139.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="150.66" ytl="1192.08" xbr="362.18" ybr="1393.64" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="83.47" ytl="793.93" xbr="195.45" ybr="940.74" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1160.97" ytl="856.14" xbr="1370.00" ybr="995.49" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1019.13" ytl="791.44" xbr="1163.46" ybr="925.81" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1137.png" width="2048" height="2048">
+  </image>
+  <image id="36" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1134.png" width="2048" height="2048">
+  </image>
+  <image id="35" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1131.png" width="2048" height="2048">
+  </image>
+  <image id="34" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1125.png" width="2048" height="2048">
+  </image>
+  <image id="33" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1121.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="38.68" ytl="311.17" xbr="113.33" ybr="408.21" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1576.54" ytl="308.68" xbr="1728.34" ybr="430.61" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1120.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="757.84" ytl="838.72" xbr="872.31" ybr="973.10" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="601.07" ytl="1834.10" xbr="703.10" ybr="1941.11" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1115.png" width="2048" height="2048">
+  </image>
+  <image id="30" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1114.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="817.57" ytl="764.06" xbr="969.36" ybr="960.65" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1110.png" width="2048" height="2048">
+  </image>
+  <image id="28" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1100.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="393.04" ytl="1711.92" xbr="514.97" ybr="1801.50" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1082.png" width="2048" height="2048">
+  </image>
+  <image id="26" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1076.png" width="2048" height="2048">
+  </image>
+  <image id="25" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1074.png" width="2048" height="2048">
+  </image>
+  <image id="24" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1073.png" width="2048" height="2048">
+  </image>
+  <image id="23" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1072.png" width="2048" height="2048">
+  </image>
+  <image id="22" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1069.png" width="2048" height="2048">
+  </image>
+  <image id="21" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1066.png" width="2048" height="2048">
+  </image>
+  <image id="20" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1065.png" width="2048" height="2048">
+  </image>
+  <image id="19" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1063.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1442.17" ytl="10.06" xbr="1541.71" ybr="127.02" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1703.46" ytl="296.23" xbr="1803.00" ybr="403.24" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1062.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="257.66" ytl="480.38" xbr="369.64" ybr="617.25" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1061.png" width="2048" height="2048">
+  </image>
+  <image id="16" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1060.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1306.30" ytl="982.80" xbr="1470.54" ybr="1152.01" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1807.97" ytl="1839.08" xbr="1927.42" ybr="1988.39" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1056.png" width="2048" height="2048">
+  </image>
+  <image id="14" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1050.png" width="2048" height="2048">
+  </image>
+  <image id="13" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1047.png" width="2048" height="2048">
+  </image>
+  <image id="12" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1034.png" width="2048" height="2048">
+  </image>
+  <image id="11" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1033.png" width="2048" height="2048">
+  </image>
+  <image id="10" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1027.png" width="2048" height="2048">
+  </image>
+  <image id="9" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1025.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1855.25" ytl="1299.08" xbr="2007.05" ybr="1403.60" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="230.29" ytl="1649.96" xbr="421.90" ybr="1774.38" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1024.png" width="2048" height="2048">
+  </image>
+  <image id="7" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1023.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1352.58" ytl="1164.71" xbr="1593.96" ybr="1393.64" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="43.66" ytl="537.61" xbr="155.64" ybr="657.06" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1728.34" ytl="1199.54" xbr="1880.14" ybr="1378.71" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_102.png" width="2048" height="2048">
+  </image>
+  <image id="5" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1016.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="638.40" ytl="1356.32" xbr="762.82" ybr="1518.07" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1015.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="170.57" ytl="1052.72" xbr="369.64" ybr="1236.87" z_order="0">
+    </box>
+    <box label="Negative" occluded="0" source="manual" xtl="1486.96" ytl="1819.17" xbr="1579.03" ybr="1961.01" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1014.png" width="2048" height="2048">
+  </image>
+  <image id="2" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1002.png" width="2048" height="2048">
+  </image>
+  <image id="1" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1001.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="1419.77" ytl="1510.60" xbr="1584.01" ybr="1644.98" z_order="0">
+    </box>
+  </image>
+  <image id="0" name="negative/LBC10-20210102(1)/LBC10-20210102(1)_1000.png" width="2048" height="2048">
+    <box label="Negative" occluded="0" source="manual" xtl="618.49" ytl="980.56" xbr="810.10" ybr="1142.31" z_order="0">
+    </box>
+  </image>
+</annotations>

@@ -109,7 +109,8 @@ class PapsClsModel(LightningModule) :
         
         shape = self.model.fc.weight.shape
         self.model.fc = nn.Linear(shape[1], self.num_classes)
-        self.criterion = nn.CrossEntropyLoss()
+        # self.criterion = nn.CrossEntropyLoss()
+        self.criterion = FocalLoss()
             
         print("=> creating model '{}'".format(self.arch))
         self.train_dataset: Optional[Dataset] = None

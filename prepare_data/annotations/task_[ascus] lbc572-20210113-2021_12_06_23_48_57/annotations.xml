@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>549</id>
+      <name>[ASCUS] LBC572-20210113</name>
+      <size>402</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2021-12-06 00:44:21.277038+00:00</created>
+      <updated>2021-12-06 23:48:57.674440+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>401</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>Benign atypia</name>
+          <color>#3578d1</color>
+          <attributes>
+            <attribute>
+              <name>Infection Type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Candida albicans
+Trichomonas vaginalis
+Herpes simplex virus
+Cytomegalovirus
+Grandnerella species
+Actinomyces species
+Chlamydia species</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Reactive change</name>
+          <color>#ea02bd</color>
+          <attributes>
+            <attribute>
+              <name>Type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Associated cellular change</default_value>
+              <values>Associated cellular change
+Follicular cervicitis
+Chemotherapy
+Radiation change
+Pregnancy</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>ASC-US</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Atypical squamous cells of undetermined significance</default_value>
+              <values>Atypical squamous cells of undetermined significance</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>ASCUS-SIL</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>ASCUS squamous intraepithelial lesion</default_value>
+              <values>ASCUS squamous intraepithelial lesion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>ASC-H</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Atypical squamous cells of undetermined significants-High</default_value>
+              <values>Atypical squamous cells of undetermined significants-High</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>LSIL</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Low-grade squamous intraepithelial lesion</default_value>
+              <values>Low-grade squamous intraepithelial lesion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>HSIL</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>High-grade squamous intraepithelial lesion</default_value>
+              <values>High-grade squamous intraepithelial lesion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Carcinoma</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Invasive squamous cell carcinoma (편평상피암)</default_value>
+              <values>Invasive squamous cell carcinoma (편평상피암)</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AGUS</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Atypical glandular cells of undetermined significants</default_value>
+              <values>Atypical glandular cells of undetermined significants</values>
+            </attribute>
+            <attribute>
+              <name>Cell Type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Endocervical cell</default_value>
+              <values>Endocervical cell
+Endometrial cell</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AIS</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Adenocarcinoma Insitu (선상피내암)</default_value>
+              <values>Adenocarcinoma Insitu (선상피내암)</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Adenocarcinoma</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Cell Type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Endocervical cell</default_value>
+              <values>Endocervical cell
+Endometrial cell</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Negative</name>
+          <color>#0049ff</color>
+          <attributes>
+            <attribute>
+              <name>Cell Type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Superficial cell</default_value>
+              <values>Superficial cell
+Intermediate cell
+Parabasal cell
+Metaplastic cell
+Tissue repair
+Endocervical cell
+Endometrial cell</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>ASC-US with HPV infection</name>
+          <color>#ff0000</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>ASC-H with HPV infection</name>
+          <color>#ff0000</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>LSIL with HPV infection</name>
+          <color>#ff0000</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>HSIL with HPV infection</name>
+          <color>#ff0000</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Candida</name>
+          <color>#2d00ff</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>417</id>
+          <start>0</start>
+          <stop>401</stop>
+          <url>http://cvat.doai.co/?id=417</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>django</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2022-01-04 00:48:47.752303+00:00</dumped>
+  </meta>
+  <image id="353" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_796.png" width="2048" height="2048">
+  </image>
+  <image id="352" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_795.png" width="2048" height="2048">
+  </image>
+  <image id="351" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_794.png" width="2048" height="2048">
+  </image>
+  <image id="350" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_789.png" width="2048" height="2048">
+  </image>
+  <image id="349" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_787.png" width="2048" height="2048">
+  </image>
+  <image id="348" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_783.png" width="2048" height="2048">
+  </image>
+  <image id="347" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_782.png" width="2048" height="2048">
+  </image>
+  <image id="346" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_779.png" width="2048" height="2048">
+  </image>
+  <image id="345" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_776.png" width="2048" height="2048">
+  </image>
+  <image id="344" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_774.png" width="2048" height="2048">
+  </image>
+  <image id="343" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_763.png" width="2048" height="2048">
+  </image>
+  <image id="342" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_756.png" width="2048" height="2048">
+  </image>
+  <image id="341" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_752.png" width="2048" height="2048">
+  </image>
+  <image id="340" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_751.png" width="2048" height="2048">
+  </image>
+  <image id="339" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_747.png" width="2048" height="2048">
+  </image>
+  <image id="338" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_746.png" width="2048" height="2048">
+  </image>
+  <image id="337" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_745.png" width="2048" height="2048">
+  </image>
+  <image id="336" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_741.png" width="2048" height="2048">
+  </image>
+  <image id="335" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_738.png" width="2048" height="2048">
+  </image>
+  <image id="334" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_737.png" width="2048" height="2048">
+  </image>
+  <image id="333" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_728.png" width="2048" height="2048">
+  </image>
+  <image id="332" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_726.png" width="2048" height="2048">
+  </image>
+  <image id="331" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_709.png" width="2048" height="2048">
+  </image>
+  <image id="330" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_703.png" width="2048" height="2048">
+  </image>
+  <image id="329" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_702.png" width="2048" height="2048">
+  </image>
+  <image id="328" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_701.png" width="2048" height="2048">
+  </image>
+  <image id="327" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_700.png" width="2048" height="2048">
+  </image>
+  <image id="326" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_699.png" width="2048" height="2048">
+  </image>
+  <image id="325" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_698.png" width="2048" height="2048">
+  </image>
+  <image id="324" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_697.png" width="2048" height="2048">
+  </image>
+  <image id="323" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_693.png" width="2048" height="2048">
+  </image>
+  <image id="322" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_680.png" width="2048" height="2048">
+  </image>
+  <image id="321" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_678.png" width="2048" height="2048">
+  </image>
+  <image id="320" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_665.png" width="2048" height="2048">
+  </image>
+  <image id="319" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_655.png" width="2048" height="2048">
+  </image>
+  <image id="318" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_654.png" width="2048" height="2048">
+  </image>
+  <image id="317" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_653.png" width="2048" height="2048">
+  </image>
+  <image id="316" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_652.png" width="2048" height="2048">
+  </image>
+  <image id="315" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_651.png" width="2048" height="2048">
+  </image>
+  <image id="314" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_650.png" width="2048" height="2048">
+  </image>
+  <image id="313" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_649.png" width="2048" height="2048">
+  </image>
+  <image id="312" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_644.png" width="2048" height="2048">
+  </image>
+  <image id="311" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_642.png" width="2048" height="2048">
+  </image>
+  <image id="310" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_637.png" width="2048" height="2048">
+  </image>
+  <image id="309" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_635.png" width="2048" height="2048">
+  </image>
+  <image id="308" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_632.png" width="2048" height="2048">
+  </image>
+  <image id="307" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_630.png" width="2048" height="2048">
+  </image>
+  <image id="306" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_609.png" width="2048" height="2048">
+  </image>
+  <image id="305" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_608.png" width="2048" height="2048">
+  </image>
+  <image id="304" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_605.png" width="2048" height="2048">
+  </image>
+  <image id="303" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_602.png" width="2048" height="2048">
+  </image>
+  <image id="302" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_6.png" width="2048" height="2048">
+  </image>
+  <image id="301" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_593.png" width="2048" height="2048">
+  </image>
+  <image id="300" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_591.png" width="2048" height="2048">
+  </image>
+  <image id="299" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_590.png" width="2048" height="2048">
+  </image>
+  <image id="298" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_585.png" width="2048" height="2048">
+  </image>
+  <image id="297" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_584.png" width="2048" height="2048">
+  </image>
+  <image id="296" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_582.png" width="2048" height="2048">
+  </image>
+  <image id="295" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_556.png" width="2048" height="2048">
+  </image>
+  <image id="294" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_554.png" width="2048" height="2048">
+  </image>
+  <image id="293" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_553.png" width="2048" height="2048">
+  </image>
+  <image id="292" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_549.png" width="2048" height="2048">
+  </image>
+  <image id="291" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_548.png" width="2048" height="2048">
+  </image>
+  <image id="290" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_544.png" width="2048" height="2048">
+  </image>
+  <image id="289" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_543.png" width="2048" height="2048">
+  </image>
+  <image id="288" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_54.png" width="2048" height="2048">
+  </image>
+  <image id="287" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_536.png" width="2048" height="2048">
+  </image>
+  <image id="286" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_534.png" width="2048" height="2048">
+  </image>
+  <image id="285" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_522.png" width="2048" height="2048">
+  </image>
+  <image id="284" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_505.png" width="2048" height="2048">
+  </image>
+  <image id="283" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_503.png" width="2048" height="2048">
+  </image>
+  <image id="282" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_5.png" width="2048" height="2048">
+  </image>
+  <image id="281" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_495.png" width="2048" height="2048">
+  </image>
+  <image id="280" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_488.png" width="2048" height="2048">
+  </image>
+  <image id="279" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_487.png" width="2048" height="2048">
+  </image>
+  <image id="278" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_486.png" width="2048" height="2048">
+  </image>
+  <image id="277" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_463.png" width="2048" height="2048">
+  </image>
+  <image id="276" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_46.png" width="2048" height="2048">
+  </image>
+  <image id="275" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_458.png" width="2048" height="2048">
+  </image>
+  <image id="274" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_454.png" width="2048" height="2048">
+  </image>
+  <image id="273" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_449.png" width="2048" height="2048">
+  </image>
+  <image id="272" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_447.png" width="2048" height="2048">
+  </image>
+  <image id="271" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_445.png" width="2048" height="2048">
+  </image>
+  <image id="270" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_444.png" width="2048" height="2048">
+  </image>
+  <image id="269" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_439.png" width="2048" height="2048">
+  </image>
+  <image id="268" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_438.png" width="2048" height="2048">
+  </image>
+  <image id="267" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_423.png" width="2048" height="2048">
+  </image>
+  <image id="266" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_422.png" width="2048" height="2048">
+  </image>
+  <image id="265" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_419.png" width="2048" height="2048">
+  </image>
+  <image id="264" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_415.png" width="2048" height="2048">
+  </image>
+  <image id="263" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_412.png" width="2048" height="2048">
+  </image>
+  <image id="262" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_408.png" width="2048" height="2048">
+  </image>
+  <image id="261" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_407.png" width="2048" height="2048">
+  </image>
+  <image id="260" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_406.png" width="2048" height="2048">
+  </image>
+  <image id="259" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_405.png" width="2048" height="2048">
+  </image>
+  <image id="258" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_404.png" width="2048" height="2048">
+  </image>
+  <image id="257" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_403.png" width="2048" height="2048">
+  </image>
+  <image id="256" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_401.png" width="2048" height="2048">
+  </image>
+  <image id="255" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_400.png" width="2048" height="2048">
+  </image>
+  <image id="254" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_391.png" width="2048" height="2048">
+  </image>
+  <image id="253" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_390.png" width="2048" height="2048">
+  </image>
+  <image id="252" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_363.png" width="2048" height="2048">
+  </image>
+  <image id="251" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_354.png" width="2048" height="2048">
+  </image>
+  <image id="250" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_343.png" width="2048" height="2048">
+  </image>
+  <image id="249" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_342.png" width="2048" height="2048">
+  </image>
+  <image id="248" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_317.png" width="2048" height="2048">
+  </image>
+  <image id="247" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_311.png" width="2048" height="2048">
+  </image>
+  <image id="246" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_306.png" width="2048" height="2048">
+  </image>
+  <image id="245" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_295.png" width="2048" height="2048">
+  </image>
+  <image id="244" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_294.png" width="2048" height="2048">
+  </image>
+  <image id="243" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_274.png" width="2048" height="2048">
+  </image>
+  <image id="242" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_271.png" width="2048" height="2048">
+  </image>
+  <image id="241" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_270.png" width="2048" height="2048">
+  </image>
+  <image id="240" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_261.png" width="2048" height="2048">
+  </image>
+  <image id="239" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_255.png" width="2048" height="2048">
+  </image>
+  <image id="238" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_247.png" width="2048" height="2048">
+  </image>
+  <image id="237" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_246.png" width="2048" height="2048">
+  </image>
+  <image id="236" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_245.png" width="2048" height="2048">
+  </image>
+  <image id="235" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_220.png" width="2048" height="2048">
+  </image>
+  <image id="234" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_217.png" width="2048" height="2048">
+  </image>
+  <image id="233" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_2072.png" width="2048" height="2048">
+  </image>
+  <image id="232" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_2071.png" width="2048" height="2048">
+  </image>
+  <image id="231" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_2070.png" width="2048" height="2048">
+  </image>
+  <image id="230" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_2024.png" width="2048" height="2048">
+  </image>
+  <image id="229" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_2023.png" width="2048" height="2048">
+  </image>
+  <image id="228" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_2022.png" width="2048" height="2048">
+  </image>
+  <image id="227" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_2021.png" width="2048" height="2048">
+  </image>
+  <image id="226" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1995.png" width="2048" height="2048">
+  </image>
+  <image id="225" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_199.png" width="2048" height="2048">
+  </image>
+  <image id="224" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_198.png" width="2048" height="2048">
+  </image>
+  <image id="223" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1976.png" width="2048" height="2048">
+  </image>
+  <image id="222" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1975.png" width="2048" height="2048">
+  </image>
+  <image id="221" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1974.png" width="2048" height="2048">
+  </image>
+  <image id="220" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_197.png" width="2048" height="2048">
+  </image>
+  <image id="219" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1947.png" width="2048" height="2048">
+  </image>
+  <image id="218" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1944.png" width="2048" height="2048">
+  </image>
+  <image id="217" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1943.png" width="2048" height="2048">
+  </image>
+  <image id="216" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1942.png" width="2048" height="2048">
+  </image>
+  <image id="215" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1939.png" width="2048" height="2048">
+  </image>
+  <image id="214" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1928.png" width="2048" height="2048">
+  </image>
+  <image id="213" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1927.png" width="2048" height="2048">
+  </image>
+  <image id="212" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1926.png" width="2048" height="2048">
+  </image>
+  <image id="211" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1925.png" width="2048" height="2048">
+  </image>
+  <image id="210" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1906.png" width="2048" height="2048">
+  </image>
+  <image id="209" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1899.png" width="2048" height="2048">
+  </image>
+  <image id="208" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1880.png" width="2048" height="2048">
+  </image>
+  <image id="207" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1879.png" width="2048" height="2048">
+  </image>
+  <image id="206" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1878.png" width="2048" height="2048">
+  </image>
+  <image id="205" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1859.png" width="2048" height="2048">
+  </image>
+  <image id="204" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1851.png" width="2048" height="2048">
+  </image>
+  <image id="203" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1847.png" width="2048" height="2048">
+  </image>
+  <image id="202" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1844.png" width="2048" height="2048">
+  </image>
+  <image id="201" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1832.png" width="2048" height="2048">
+  </image>
+  <image id="200" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1831.png" width="2048" height="2048">
+  </image>
+  <image id="199" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1830.png" width="2048" height="2048">
+  </image>
+  <image id="198" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1798.png" width="2048" height="2048">
+  </image>
+  <image id="197" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1797.png" width="2048" height="2048">
+  </image>
+  <image id="196" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1794.png" width="2048" height="2048">
+  </image>
+  <image id="195" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1792.png" width="2048" height="2048">
+  </image>
+  <image id="194" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1784.png" width="2048" height="2048">
+  </image>
+  <image id="193" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1783.png" width="2048" height="2048">
+  </image>
+  <image id="192" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1782.png" width="2048" height="2048">
+  </image>
+  <image id="191" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1745.png" width="2048" height="2048">
+  </image>
+  <image id="190" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1744.png" width="2048" height="2048">
+  </image>
+  <image id="189" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1743.png" width="2048" height="2048">
+  </image>
+  <image id="188" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1742.png" width="2048" height="2048">
+  </image>
+  <image id="187" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1736.png" width="2048" height="2048">
+  </image>
+  <image id="186" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1735.png" width="2048" height="2048">
+  </image>
+  <image id="185" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1734.png" width="2048" height="2048">
+  </image>
+  <image id="184" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1721.png" width="2048" height="2048">
+  </image>
+  <image id="183" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1718.png" width="2048" height="2048">
+  </image>
+  <image id="182" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1709.png" width="2048" height="2048">
+  </image>
+  <image id="181" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1706.png" width="2048" height="2048">
+  </image>
+  <image id="180" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1701.png" width="2048" height="2048">
+  </image>
+  <image id="179" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1692.png" width="2048" height="2048">
+  </image>
+  <image id="178" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1688.png" width="2048" height="2048">
+  </image>
+  <image id="177" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1687.png" width="2048" height="2048">
+  </image>
+  <image id="176" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1686.png" width="2048" height="2048">
+  </image>
+  <image id="175" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1657.png" width="2048" height="2048">
+  </image>
+  <image id="174" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1656.png" width="2048" height="2048">
+  </image>
+  <image id="173" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1654.png" width="2048" height="2048">
+  </image>
+  <image id="172" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1651.png" width="2048" height="2048">
+  </image>
+  <image id="171" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1649.png" width="2048" height="2048">
+  </image>
+  <image id="170" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1644.png" width="2048" height="2048">
+  </image>
+  <image id="169" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1640.png" width="2048" height="2048">
+  </image>
+  <image id="168" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_164.png" width="2048" height="2048">
+  </image>
+  <image id="167" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1639.png" width="2048" height="2048">
+  </image>
+  <image id="166" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1638.png" width="2048" height="2048">
+  </image>
+  <image id="165" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1619.png" width="2048" height="2048">
+  </image>
+  <image id="164" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1614.png" width="2048" height="2048">
+  </image>
+  <image id="163" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1609.png" width="2048" height="2048">
+  </image>
+  <image id="162" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1608.png" width="2048" height="2048">
+  </image>
+  <image id="161" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1607.png" width="2048" height="2048">
+  </image>
+  <image id="160" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1601.png" width="2048" height="2048">
+  </image>
+  <image id="159" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1599.png" width="2048" height="2048">
+  </image>
+  <image id="158" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1592.png" width="2048" height="2048">
+  </image>
+  <image id="157" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1591.png" width="2048" height="2048">
+  </image>
+  <image id="156" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1590.png" width="2048" height="2048">
+  </image>
+  <image id="155" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1576.png" width="2048" height="2048">
+  </image>
+  <image id="154" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1568.png" width="2048" height="2048">
+  </image>
+  <image id="153" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1560.png" width="2048" height="2048">
+  </image>
+  <image id="152" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1550.png" width="2048" height="2048">
+  </image>
+  <image id="151" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1549.png" width="2048" height="2048">
+  </image>
+  <image id="150" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1546.png" width="2048" height="2048">
+  </image>
+  <image id="149" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1544.png" width="2048" height="2048">
+  </image>
+  <image id="148" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1543.png" width="2048" height="2048">
+  </image>
+  <image id="147" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1542.png" width="2048" height="2048">
+  </image>
+  <image id="146" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1525.png" width="2048" height="2048">
+  </image>
+  <image id="145" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_151.png" width="2048" height="2048">
+  </image>
+  <image id="144" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1506.png" width="2048" height="2048">
+  </image>
+  <image id="143" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1503.png" width="2048" height="2048">
+  </image>
+  <image id="142" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_150.png" width="2048" height="2048">
+  </image>
+  <image id="141" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1498.png" width="2048" height="2048">
+  </image>
+  <image id="140" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1497.png" width="2048" height="2048">
+  </image>
+  <image id="139" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1496.png" width="2048" height="2048">
+  </image>
+  <image id="138" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1495.png" width="2048" height="2048">
+  </image>
+  <image id="137" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1494.png" width="2048" height="2048">
+  </image>
+  <image id="136" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1477.png" width="2048" height="2048">
+  </image>
+  <image id="135" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1470.png" width="2048" height="2048">
+  </image>
+  <image id="134" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1468.png" width="2048" height="2048">
+  </image>
+  <image id="133" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1466.png" width="2048" height="2048">
+  </image>
+  <image id="132" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1456.png" width="2048" height="2048">
+  </image>
+  <image id="131" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1455.png" width="2048" height="2048">
+  </image>
+  <image id="130" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1453.png" width="2048" height="2048">
+  </image>
+  <image id="129" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1452.png" width="2048" height="2048">
+  </image>
+  <image id="128" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1448.png" width="2048" height="2048">
+  </image>
+  <image id="127" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1447.png" width="2048" height="2048">
+  </image>
+  <image id="126" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1446.png" width="2048" height="2048">
+  </image>
+  <image id="125" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1433.png" width="2048" height="2048">
+  </image>
+  <image id="124" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1422.png" width="2048" height="2048">
+  </image>
+  <image id="123" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1414.png" width="2048" height="2048">
+  </image>
+  <image id="122" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1408.png" width="2048" height="2048">
+  </image>
+  <image id="121" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1407.png" width="2048" height="2048">
+  </image>
+  <image id="120" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1405.png" width="2048" height="2048">
+  </image>
+  <image id="119" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1404.png" width="2048" height="2048">
+  </image>
+  <image id="118" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1403.png" width="2048" height="2048">
+  </image>
+  <image id="117" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1402.png" width="2048" height="2048">
+  </image>
+  <image id="116" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1401.png" width="2048" height="2048">
+  </image>
+  <image id="115" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1400.png" width="2048" height="2048">
+  </image>
+  <image id="114" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1399.png" width="2048" height="2048">
+  </image>
+  <image id="113" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1398.png" width="2048" height="2048">
+  </image>
+  <image id="112" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1381.png" width="2048" height="2048">
+  </image>
+  <image id="111" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1379.png" width="2048" height="2048">
+  </image>
+  <image id="110" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1378.png" width="2048" height="2048">
+  </image>
+  <image id="109" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1366.png" width="2048" height="2048">
+  </image>
+  <image id="108" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1365.png" width="2048" height="2048">
+  </image>
+  <image id="107" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1364.png" width="2048" height="2048">
+  </image>
+  <image id="106" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1363.png" width="2048" height="2048">
+  </image>
+  <image id="105" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1362.png" width="2048" height="2048">
+  </image>
+  <image id="104" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1361.png" width="2048" height="2048">
+  </image>
+  <image id="103" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1358.png" width="2048" height="2048">
+  </image>
+  <image id="102" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1357.png" width="2048" height="2048">
+  </image>
+  <image id="101" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1356.png" width="2048" height="2048">
+  </image>
+  <image id="100" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1355.png" width="2048" height="2048">
+  </image>
+  <image id="99" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1354.png" width="2048" height="2048">
+  </image>
+  <image id="98" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1353.png" width="2048" height="2048">
+  </image>
+  <image id="97" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1352.png" width="2048" height="2048">
+  </image>
+  <image id="96" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1351.png" width="2048" height="2048">
+  </image>
+  <image id="95" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1350.png" width="2048" height="2048">
+  </image>
+  <image id="94" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1333.png" width="2048" height="2048">
+  </image>
+  <image id="93" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1327.png" width="2048" height="2048">
+    <box label="ASC-US" occluded="0" source="manual" xtl="202.92" ytl="662.04" xbr="334.81" ybr="793.93" z_order="0">
+      <attribute name="Description">Atypical squamous cells of undetermined significance</attribute>
+    </box>
+  </image>
+  <image id="92" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1325.png" width="2048" height="2048">
+  </image>
+  <image id="91" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1311.png" width="2048" height="2048">
+  </image>
+  <image id="90" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1309.png" width="2048" height="2048">
+  </image>
+  <image id="89" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1308.png" width="2048" height="2048">
+  </image>
+  <image id="88" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1306.png" width="2048" height="2048">
+  </image>
+  <image id="87" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1304.png" width="2048" height="2048">
+  </image>
+  <image id="86" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1303.png" width="2048" height="2048">
+  </image>
+  <image id="85" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1302.png" width="2048" height="2048">
+  </image>
+  <image id="84" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1291.png" width="2048" height="2048">
+  </image>
+  <image id="83" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1270.png" width="2048" height="2048">
+  </image>
+  <image id="82" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1268.png" width="2048" height="2048">
+  </image>
+  <image id="81" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1266.png" width="2048" height="2048">
+  </image>
+  <image id="80" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1265.png" width="2048" height="2048">
+  </image>
+  <image id="79" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1264.png" width="2048" height="2048">
+  </image>
+  <image id="78" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1263.png" width="2048" height="2048">
+  </image>
+  <image id="77" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1262.png" width="2048" height="2048">
+  </image>
+  <image id="76" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1261.png" width="2048" height="2048">
+  </image>
+  <image id="75" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1260.png" width="2048" height="2048">
+  </image>
+  <image id="74" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1259.png" width="2048" height="2048">
+  </image>
+  <image id="73" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1258.png" width="2048" height="2048">
+  </image>
+  <image id="72" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1257.png" width="2048" height="2048">
+  </image>
+  <image id="71" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1256.png" width="2048" height="2048">
+  </image>
+  <image id="70" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1255.png" width="2048" height="2048">
+  </image>
+  <image id="69" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1254.png" width="2048" height="2048">
+  </image>
+  <image id="68" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1246.png" width="2048" height="2048">
+  </image>
+  <image id="67" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1239.png" width="2048" height="2048">
+  </image>
+  <image id="66" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1222.png" width="2048" height="2048">
+  </image>
+  <image id="65" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1221.png" width="2048" height="2048">
+  </image>
+  <image id="64" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1217.png" width="2048" height="2048">
+  </image>
+  <image id="63" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1216.png" width="2048" height="2048">
+  </image>
+  <image id="62" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1215.png" width="2048" height="2048">
+  </image>
+  <image id="61" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1212.png" width="2048" height="2048">
+  </image>
+  <image id="60" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1211.png" width="2048" height="2048">
+  </image>
+  <image id="59" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1210.png" width="2048" height="2048">
+  </image>
+  <image id="58" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1209.png" width="2048" height="2048">
+  </image>
+  <image id="57" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1208.png" width="2048" height="2048">
+  </image>
+  <image id="56" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1207.png" width="2048" height="2048">
+  </image>
+  <image id="55" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1206.png" width="2048" height="2048">
+  </image>
+  <image id="54" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1195.png" width="2048" height="2048">
+  </image>
+  <image id="53" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1194.png" width="2048" height="2048">
+  </image>
+  <image id="52" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1188.png" width="2048" height="2048">
+  </image>
+  <image id="51" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1187.png" width="2048" height="2048">
+  </image>
+  <image id="50" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1176.png" width="2048" height="2048">
+  </image>
+  <image id="49" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1169.png" width="2048" height="2048">
+  </image>
+  <image id="48" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1167.png" width="2048" height="2048">
+  </image>
+  <image id="47" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1166.png" width="2048" height="2048">
+  </image>
+  <image id="46" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1165.png" width="2048" height="2048">
+  </image>
+  <image id="45" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1164.png" width="2048" height="2048">
+  </image>
+  <image id="44" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1163.png" width="2048" height="2048">
+  </image>
+  <image id="43" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1162.png" width="2048" height="2048">
+  </image>
+  <image id="42" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1161.png" width="2048" height="2048">
+  </image>
+  <image id="401" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_998.png" width="2048" height="2048">
+  </image>
+  <image id="400" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_990.png" width="2048" height="2048">
+  </image>
+  <image id="399" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_986.png" width="2048" height="2048">
+  </image>
+  <image id="398" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_982.png" width="2048" height="2048">
+  </image>
+  <image id="397" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_981.png" width="2048" height="2048">
+  </image>
+  <image id="396" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_980.png" width="2048" height="2048">
+  </image>
+  <image id="395" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_978.png" width="2048" height="2048">
+  </image>
+  <image id="394" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_977.png" width="2048" height="2048">
+  </image>
+  <image id="393" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_974.png" width="2048" height="2048">
+  </image>
+  <image id="392" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_972.png" width="2048" height="2048">
+  </image>
+  <image id="391" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_971.png" width="2048" height="2048">
+  </image>
+  <image id="390" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_969.png" width="2048" height="2048">
+  </image>
+  <image id="389" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_968.png" width="2048" height="2048">
+  </image>
+  <image id="388" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_966.png" width="2048" height="2048">
+  </image>
+  <image id="387" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_956.png" width="2048" height="2048">
+  </image>
+  <image id="386" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_951.png" width="2048" height="2048">
+  </image>
+  <image id="385" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_947.png" width="2048" height="2048">
+  </image>
+  <image id="384" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_934.png" width="2048" height="2048">
+  </image>
+  <image id="383" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_929.png" width="2048" height="2048">
+  </image>
+  <image id="382" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_926.png" width="2048" height="2048">
+  </image>
+  <image id="381" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_925.png" width="2048" height="2048">
+  </image>
+  <image id="380" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_920.png" width="2048" height="2048">
+  </image>
+  <image id="379" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_918.png" width="2048" height="2048">
+  </image>
+  <image id="378" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_908.png" width="2048" height="2048">
+  </image>
+  <image id="377" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_902.png" width="2048" height="2048">
+  </image>
+  <image id="376" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_901.png" width="2048" height="2048">
+  </image>
+  <image id="375" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_899.png" width="2048" height="2048">
+  </image>
+  <image id="374" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_898.png" width="2048" height="2048">
+  </image>
+  <image id="373" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_896.png" width="2048" height="2048">
+  </image>
+  <image id="372" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_884.png" width="2048" height="2048">
+  </image>
+  <image id="371" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_883.png" width="2048" height="2048">
+  </image>
+  <image id="370" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_881.png" width="2048" height="2048">
+  </image>
+  <image id="369" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_880.png" width="2048" height="2048">
+  </image>
+  <image id="368" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_876.png" width="2048" height="2048">
+  </image>
+  <image id="367" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_872.png" width="2048" height="2048">
+  </image>
+  <image id="366" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_870.png" width="2048" height="2048">
+  </image>
+  <image id="365" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_858.png" width="2048" height="2048">
+  </image>
+  <image id="364" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_854.png" width="2048" height="2048">
+  </image>
+  <image id="363" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_847.png" width="2048" height="2048">
+  </image>
+  <image id="362" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_841.png" width="2048" height="2048">
+  </image>
+  <image id="361" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_834.png" width="2048" height="2048">
+  </image>
+  <image id="360" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_830.png" width="2048" height="2048">
+  </image>
+  <image id="359" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_824.png" width="2048" height="2048">
+  </image>
+  <image id="358" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_822.png" width="2048" height="2048">
+  </image>
+  <image id="357" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_800.png" width="2048" height="2048">
+  </image>
+  <image id="356" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_799.png" width="2048" height="2048">
+  </image>
+  <image id="355" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_798.png" width="2048" height="2048">
+  </image>
+  <image id="354" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_797.png" width="2048" height="2048">
+  </image>
+  <image id="41" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1160.png" width="2048" height="2048">
+  </image>
+  <image id="40" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1158.png" width="2048" height="2048">
+  </image>
+  <image id="39" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1148.png" width="2048" height="2048">
+  </image>
+  <image id="38" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1143.png" width="2048" height="2048">
+  </image>
+  <image id="37" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1139.png" width="2048" height="2048">
+  </image>
+  <image id="36" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1130.png" width="2048" height="2048">
+  </image>
+  <image id="35" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1129.png" width="2048" height="2048">
+  </image>
+  <image id="34" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1127.png" width="2048" height="2048">
+  </image>
+  <image id="33" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1125.png" width="2048" height="2048">
+  </image>
+  <image id="32" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1124.png" width="2048" height="2048">
+  </image>
+  <image id="31" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1119.png" width="2048" height="2048">
+  </image>
+  <image id="30" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1118.png" width="2048" height="2048">
+  </image>
+  <image id="29" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1117.png" width="2048" height="2048">
+  </image>
+  <image id="28" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1116.png" width="2048" height="2048">
+  </image>
+  <image id="27" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1115.png" width="2048" height="2048">
+  </image>
+  <image id="26" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1114.png" width="2048" height="2048">
+  </image>
+  <image id="25" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1113.png" width="2048" height="2048">
+  </image>
+  <image id="24" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1112.png" width="2048" height="2048">
+  </image>
+  <image id="23" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1111.png" width="2048" height="2048">
+  </image>
+  <image id="22" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1110.png" width="2048" height="2048">
+  </image>
+  <image id="21" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1087.png" width="2048" height="2048">
+  </image>
+  <image id="20" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1086.png" width="2048" height="2048">
+  </image>
+  <image id="19" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1082.png" width="2048" height="2048">
+  </image>
+  <image id="18" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1081.png" width="2048" height="2048">
+  </image>
+  <image id="17" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1079.png" width="2048" height="2048">
+  </image>
+  <image id="16" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1077.png" width="2048" height="2048">
+  </image>
+  <image id="15" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1076.png" width="2048" height="2048">
+  </image>
+  <image id="14" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1071.png" width="2048" height="2048">
+  </image>
+  <image id="13" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1066.png" width="2048" height="2048">
+  </image>
+  <image id="12" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1064.png" width="2048" height="2048">
+  </image>
+  <image id="11" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1062.png" width="2048" height="2048">
+  </image>
+  <image id="10" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1047.png" width="2048" height="2048">
+  </image>
+  <image id="9" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1043.png" width="2048" height="2048">
+  </image>
+  <image id="8" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1025.png" width="2048" height="2048">
+  </image>
+  <image id="7" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_102.png" width="2048" height="2048">
+  </image>
+  <image id="6" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1018.png" width="2048" height="2048">
+  </image>
+  <image id="5" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1017.png" width="2048" height="2048">
+  </image>
+  <image id="4" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1016.png" width="2048" height="2048">
+  </image>
+  <image id="3" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1015.png" width="2048" height="2048">
+    <box label="ASC-US" occluded="0" source="manual" xtl="1748.25" ytl="1037.79" xbr="1912.49" ybr="1184.61" z_order="0">
+      <attribute name="Description">Atypical squamous cells of undetermined significance</attribute>
+    </box>
+  </image>
+  <image id="2" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1014.png" width="2048" height="2048">
+  </image>
+  <image id="1" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_101.png" width="2048" height="2048">
+  </image>
+  <image id="0" name="2021.05.11/LBC572-20210113(1)/LBC572-20210113(1)_1000.png" width="2048" height="2048">
+  </image>
+</annotations>

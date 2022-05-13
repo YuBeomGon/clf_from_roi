@@ -1,0 +1,2514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>616</id>
+      <name>[AH6] LBC812-20210116</name>
+      <size>890</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-01-14 06:13:22.767087+00:00</created>
+      <updated>2022-02-23 14:30:51.133860+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>889</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>AS</name>
+          <color>#fff600</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>ASC-US</default_value>
+              <values>ASC-US</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AH</name>
+          <color>#ffba00</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>ASC-H</default_value>
+              <values>ASC-H</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>LS</name>
+          <color>#ff8d00</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>LSIL</default_value>
+              <values>LSIL</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>HS</name>
+          <color>#ff5000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>High-grade squamous intraepithelial lesion</default_value>
+              <values>High-grade squamous intraepithelial lesion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>HN</name>
+          <color>#ff3200</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>HSIL with features suspicious for invasion</default_value>
+              <values>HSIL with features suspicious for invasion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>SM</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Suspicious for malignancy</default_value>
+              <values>Suspicious for malignancy</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>SC</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Invasive squamous cell carcinoma</default_value>
+              <values>Invasive squamous cell carcinoma</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>C</name>
+          <color>#87c76b</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Candida albicans</default_value>
+              <values>Candida albicans</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>T</name>
+          <color>#5aa72c</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Trichomonas vaginalis</default_value>
+              <values>Trichomonas vaginalis</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>H</name>
+          <color>#5ed80c</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Herpes simplex virus</default_value>
+              <values>Herpes simplex virus</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AC</name>
+          <color>#0dc424</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Actinomyces species</default_value>
+              <values>Actinomyces species</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Others</name>
+          <color>#0e1de8</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>판독불가</name>
+          <color>#ff6037</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>N - Endocervical Cell</name>
+          <color>#bb02d0</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>N - Endometrial cell</name>
+          <color>#2a454f</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>GC</name>
+          <color>#03a541</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>GC</name>
+          <color>#83a541</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>GN</name>
+          <color>#da84a8</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>GC</name>
+          <color>#0325c1</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>GN</name>
+          <color>#1a4428</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>AD</name>
+          <color>#c61049</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>482</id>
+          <start>0</start>
+          <stop>889</stop>
+          <url>http://cvat.doai.ai/?id=482</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>django</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2022-04-24 22:05:39.063658+00:00</dumped>
+  </meta>
+  <image id="889" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_999.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="484.61" ytl="1537.48" xbr="691.15" ybr="1699.23" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="888" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_998.png" width="2048" height="2048">
+  </image>
+  <image id="887" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_997.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="58.56" ytl="450.59" xbr="174.47" ybr="561.69" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AS" occluded="0" source="manual" xtl="238.64" ytl="709.58" xbr="366.36" ybr="819.46" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="886" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_996.png" width="2048" height="2048">
+  </image>
+  <image id="885" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_987.png" width="2048" height="2048">
+  </image>
+  <image id="884" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_975.png" width="2048" height="2048">
+  </image>
+  <image id="883" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_973.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1768.00" ytl="1404.60" xbr="1871.22" ybr="1547.23" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1219.79" ytl="1529.94" xbr="1262.18" ybr="1589.62" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="882" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_970.png" width="2048" height="2048">
+  </image>
+  <image id="881" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_969.png" width="2048" height="2048">
+  </image>
+  <image id="880" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_968.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1314.64" ytl="562.98" xbr="1475.93" ybr="732.31" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="879" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_967.png" width="2048" height="2048">
+  </image>
+  <image id="878" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_966.png" width="2048" height="2048">
+  </image>
+  <image id="877" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_965.png" width="2048" height="2048">
+  </image>
+  <image id="876" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_963.png" width="2048" height="2048">
+  </image>
+  <image id="875" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_962.png" width="2048" height="2048">
+  </image>
+  <image id="874" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_961.png" width="2048" height="2048">
+  </image>
+  <image id="873" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_960.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="961.86" ytl="352.18" xbr="1051.30" ybr="428.20" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="872" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_959.png" width="2048" height="2048">
+  </image>
+  <image id="871" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_958.png" width="2048" height="2048">
+  </image>
+  <image id="870" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_957.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="425.33" ytl="945.71" xbr="582.55" ybr="1063.38" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="761.24" ytl="1729.87" xbr="906.24" ybr="1830.71" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="869" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_956.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="51.03" ytl="376.77" xbr="170.69" ybr="456.28" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="868" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_955.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="1468.73" ytl="1453.47" xbr="1841.71" ybr="1833.79" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="867" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_954.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1938.34" ytl="1179.57" xbr="1998.83" ybr="1287.57" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1656.09" ytl="963.55" xbr="1769.85" ybr="1104.68" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="866" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_953.png" width="2048" height="2048">
+  </image>
+  <image id="865" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_952.png" width="2048" height="2048">
+  </image>
+  <image id="864" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_951.png" width="2048" height="2048">
+  </image>
+  <image id="863" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_950.png" width="2048" height="2048">
+  </image>
+  <image id="862" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_949.png" width="2048" height="2048">
+  </image>
+  <image id="861" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_948.png" width="2048" height="2048">
+  </image>
+  <image id="860" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_947.png" width="2048" height="2048">
+  </image>
+  <image id="859" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_946.png" width="2048" height="2048">
+  </image>
+  <image id="858" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_945.png" width="2048" height="2048">
+  </image>
+  <image id="857" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_938.png" width="2048" height="2048">
+  </image>
+  <image id="856" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_927.png" width="2048" height="2048">
+  </image>
+  <image id="855" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_921.png" width="2048" height="2048">
+  </image>
+  <image id="854" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_920.png" width="2048" height="2048">
+  </image>
+  <image id="853" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_919.png" width="2048" height="2048">
+  </image>
+  <image id="852" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_918.png" width="2048" height="2048">
+  </image>
+  <image id="851" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_917.png" width="2048" height="2048">
+  </image>
+  <image id="850" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_916.png" width="2048" height="2048">
+  </image>
+  <image id="849" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_913.png" width="2048" height="2048">
+  </image>
+  <image id="848" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_912.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="527.52" ytl="869.33" xbr="605.42" ybr="989.80" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="847" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_910.png" width="2048" height="2048">
+  </image>
+  <image id="846" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_909.png" width="2048" height="2048">
+  </image>
+  <image id="845" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_908.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1601.55" ytl="867.51" xbr="1823.56" ybr="1096.52" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="844" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_907.png" width="2048" height="2048">
+  </image>
+  <image id="843" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_906.png" width="2048" height="2048">
+  </image>
+  <image id="842" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_905.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1473.61" ytl="117.60" xbr="1614.31" ybr="250.60" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="841" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_904.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="484.29" ytl="1890.87" xbr="717.30" ybr="2048.00" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="247.40" ytl="1386.17" xbr="319.56" ybr="1483.22" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="14.04" ytl="1536.48" xbr="265.38" ybr="1787.10" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="840" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_903.png" width="2048" height="2048">
+  </image>
+  <image id="839" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_902.png" width="2048" height="2048">
+  </image>
+  <image id="838" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_901.png" width="2048" height="2048">
+  </image>
+  <image id="837" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_900.png" width="2048" height="2048">
+  </image>
+  <image id="836" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_898.png" width="2048" height="2048">
+  </image>
+  <image id="835" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_897.png" width="2048" height="2048">
+  </image>
+  <image id="834" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_896.png" width="2048" height="2048">
+  </image>
+  <image id="833" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_889.png" width="2048" height="2048">
+  </image>
+  <image id="832" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_877.png" width="2048" height="2048">
+  </image>
+  <image id="831" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_874.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1546.68" ytl="443.05" xbr="1795.53" ybr="589.87" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="830" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_872.png" width="2048" height="2048">
+  </image>
+  <image id="829" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_871.png" width="2048" height="2048">
+  </image>
+  <image id="828" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_869.png" width="2048" height="2048">
+  </image>
+  <image id="827" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_868.png" width="2048" height="2048">
+  </image>
+  <image id="826" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_867.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="775.26" ytl="293.75" xbr="874.80" ybr="410.70" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="810.48" ytl="446.12" xbr="886.77" ybr="515.73" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="825" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_865.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1652.70" ytl="1217.81" xbr="1774.78" ybr="1359.96" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="824" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_863.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="599.08" ytl="1848.67" xbr="688.23" ybr="1937.81" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="823" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_862.png" width="2048" height="2048">
+  </image>
+  <image id="822" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_861.png" width="2048" height="2048">
+  </image>
+  <image id="821" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_860.png" width="2048" height="2048">
+  </image>
+  <image id="820" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_859.png" width="2048" height="2048">
+  </image>
+  <image id="819" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_858.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1720.89" ytl="207.86" xbr="1786.48" ybr="287.51" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="818" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_857.png" width="2048" height="2048">
+  </image>
+  <image id="817" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_856.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="853.15" ytl="964.63" xbr="1009.92" ybr="1086.57" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="423.88" ytl="1081.92" xbr="695.90" ybr="1352.93" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="816" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_855.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="393.17" ytl="11.90" xbr="704.93" ybr="220.10" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="815" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_854.png" width="2048" height="2048">
+  </image>
+  <image id="814" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_853.png" width="2048" height="2048">
+  </image>
+  <image id="813" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_852.png" width="2048" height="2048">
+  </image>
+  <image id="812" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_851.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="562.01" ytl="645.18" xbr="680.82" ybr="738.78" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="222.68" ytl="1250.51" xbr="331.55" ybr="1407.77" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="811" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_848.png" width="2048" height="2048">
+  </image>
+  <image id="810" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_847.png" width="2048" height="2048">
+  </image>
+  <image id="809" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_844.png" width="2048" height="2048">
+  </image>
+  <image id="808" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_840.png" width="2048" height="2048">
+  </image>
+  <image id="807" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_826.png" width="2048" height="2048">
+  </image>
+  <image id="806" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_823.png" width="2048" height="2048">
+  </image>
+  <image id="805" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_821.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1525.17" ytl="503.97" xbr="1575.13" ybr="639.87" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="804" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_819.png" width="2048" height="2048">
+  </image>
+  <image id="803" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_817.png" width="2048" height="2048">
+  </image>
+  <image id="802" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_816.png" width="2048" height="2048">
+  </image>
+  <image id="801" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_814.png" width="2048" height="2048">
+  </image>
+  <image id="800" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_813.png" width="2048" height="2048">
+  </image>
+  <image id="799" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_812.png" width="2048" height="2048">
+  </image>
+  <image id="798" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_811.png" width="2048" height="2048">
+  </image>
+  <image id="797" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_810.png" width="2048" height="2048">
+  </image>
+  <image id="796" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_809.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1031.12" ytl="105.63" xbr="1118.72" ybr="192.15" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1484.74" ytl="358.96" xbr="1719.96" ybr="559.25" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="795" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_808.png" width="2048" height="2048">
+  </image>
+  <image id="794" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_807.png" width="2048" height="2048">
+  </image>
+  <image id="793" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_806.png" width="2048" height="2048">
+  </image>
+  <image id="792" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_805.png" width="2048" height="2048">
+  </image>
+  <image id="791" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_804.png" width="2048" height="2048">
+  </image>
+  <image id="790" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_803.png" width="2048" height="2048">
+  </image>
+  <image id="789" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_802.png" width="2048" height="2048">
+  </image>
+  <image id="788" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_800.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="239.75" ytl="936.42" xbr="317.39" ybr="1037.95" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="383.08" ytl="855.79" xbr="502.53" ybr="990.17" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="739" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_677.png" width="2048" height="2048">
+  </image>
+  <image id="738" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_676.png" width="2048" height="2048">
+  </image>
+  <image id="737" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_674.png" width="2048" height="2048">
+  </image>
+  <image id="736" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_673.png" width="2048" height="2048">
+  </image>
+  <image id="735" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_672.png" width="2048" height="2048">
+  </image>
+  <image id="734" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_671.png" width="2048" height="2048">
+  </image>
+  <image id="733" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_666.png" width="2048" height="2048">
+  </image>
+  <image id="732" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_664.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="951.50" ytl="670.64" xbr="1034.20" ybr="746.90" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="731" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_663.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="537.70" ytl="585.99" xbr="642.75" ybr="664.05" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="730" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_659.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="178.47" ytl="605.93" xbr="233.67" ybr="652.74" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="905.23" ytl="845.04" xbr="1057.88" ybr="999.12" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="729" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_657.png" width="2048" height="2048">
+  </image>
+  <image id="728" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_656.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="116.43" ytl="794.22" xbr="426.04" ybr="1037.84" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="727" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_655.png" width="2048" height="2048">
+  </image>
+  <image id="726" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_654.png" width="2048" height="2048">
+  </image>
+  <image id="725" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_652.png" width="2048" height="2048">
+  </image>
+  <image id="724" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_649.png" width="2048" height="2048">
+  </image>
+  <image id="723" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_644.png" width="2048" height="2048">
+  </image>
+  <image id="722" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_629.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1184.75" ytl="890.97" xbr="1369.08" ybr="1130.03" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="721" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_626.png" width="2048" height="2048">
+  </image>
+  <image id="720" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_625.png" width="2048" height="2048">
+  </image>
+  <image id="719" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_624.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1819.35" ytl="1336.43" xbr="1893.24" ybr="1500.27" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="718" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_622.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1662.39" ytl="1505.45" xbr="1742.04" ybr="1576.39" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="717" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_620.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1564.36" ytl="1237.75" xbr="1719.88" ybr="1570.40" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="716" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_618.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1363.58" ytl="127.08" xbr="1481.64" ybr="263.61" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="715" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_617.png" width="2048" height="2048">
+  </image>
+  <image id="714" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_616.png" width="2048" height="2048">
+  </image>
+  <image id="713" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_615.png" width="2048" height="2048">
+  </image>
+  <image id="712" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_613.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="469.16" ytl="162.30" xbr="605.69" ybr="275.40" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="711" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_612.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="663.68" ytl="1816.45" xbr="806.04" ybr="1947.01" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="710" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_609.png" width="2048" height="2048">
+  </image>
+  <image id="709" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_608.png" width="2048" height="2048">
+  </image>
+  <image id="708" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_606.png" width="2048" height="2048">
+  </image>
+  <image id="707" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_605.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="42.53" ytl="1367.60" xbr="182.12" ybr="1548.17" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="706" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_604.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1877.06" ytl="119.57" xbr="2048.00" ybr="457.59" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="705" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_603.png" width="2048" height="2048">
+  </image>
+  <image id="704" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_602.png" width="2048" height="2048">
+  </image>
+  <image id="703" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_600.png" width="2048" height="2048">
+  </image>
+  <image id="702" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_6.png" width="2048" height="2048">
+  </image>
+  <image id="701" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_599.png" width="2048" height="2048">
+  </image>
+  <image id="700" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_595.png" width="2048" height="2048">
+  </image>
+  <image id="699" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_581.png" width="2048" height="2048">
+  </image>
+  <image id="698" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_580.png" width="2048" height="2048">
+  </image>
+  <image id="697" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_579.png" width="2048" height="2048">
+  </image>
+  <image id="696" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_578.png" width="2048" height="2048">
+  </image>
+  <image id="695" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_577.png" width="2048" height="2048">
+  </image>
+  <image id="694" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_576.png" width="2048" height="2048">
+  </image>
+  <image id="693" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_575.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="951.41" ytl="1626.03" xbr="1212.26" ybr="1825.21" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="692" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_574.png" width="2048" height="2048">
+  </image>
+  <image id="691" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_573.png" width="2048" height="2048">
+  </image>
+  <image id="690" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_571.png" width="2048" height="2048">
+  </image>
+  <image id="689" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_570.png" width="2048" height="2048">
+  </image>
+  <image id="688" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_568.png" width="2048" height="2048">
+  </image>
+  <image id="687" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_567.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="781.07" ytl="1777.38" xbr="939.41" ybr="1929.05" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="260.78" ytl="670.00" xbr="433.78" ybr="982.02" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="686" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_563.png" width="2048" height="2048">
+  </image>
+  <image id="685" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_561.png" width="2048" height="2048">
+  </image>
+  <image id="684" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_560.png" width="2048" height="2048">
+  </image>
+  <image id="683" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_558.png" width="2048" height="2048">
+  </image>
+  <image id="682" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_557.png" width="2048" height="2048">
+  </image>
+  <image id="681" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_556.png" width="2048" height="2048">
+  </image>
+  <image id="680" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_555.png" width="2048" height="2048">
+  </image>
+  <image id="679" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_554.png" width="2048" height="2048">
+  </image>
+  <image id="678" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_553.png" width="2048" height="2048">
+  </image>
+  <image id="677" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_550.png" width="2048" height="2048">
+  </image>
+  <image id="676" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_55.png" width="2048" height="2048">
+  </image>
+  <image id="675" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_546.png" width="2048" height="2048">
+  </image>
+  <image id="674" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_533.png" width="2048" height="2048">
+  </image>
+  <image id="673" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_532.png" width="2048" height="2048">
+  </image>
+  <image id="672" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_531.png" width="2048" height="2048">
+  </image>
+  <image id="671" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_530.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="79.87" ytl="336.68" xbr="498.89" ybr="685.70" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="670" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_528.png" width="2048" height="2048">
+  </image>
+  <image id="669" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_526.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="581.30" ytl="356.09" xbr="704.22" ybr="451.93" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="425.63" ytl="1420.02" xbr="520.64" ybr="1599.20" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="1202.83" ytl="506.49" xbr="1418.84" ybr="643.50" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="668" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_525.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1566.20" ytl="523.72" xbr="1649.54" ybr="651.23" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="667" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_524.png" width="2048" height="2048">
+  </image>
+  <image id="666" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_523.png" width="2048" height="2048">
+  </image>
+  <image id="665" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_520.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="1941.55" ytl="1184.68" xbr="2048.00" ybr="1385.52" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="664" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_518.png" width="2048" height="2048">
+  </image>
+  <image id="663" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_514.png" width="2048" height="2048">
+  </image>
+  <image id="662" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_512.png" width="2048" height="2048">
+  </image>
+  <image id="661" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_511.png" width="2048" height="2048">
+  </image>
+  <image id="660" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_510.png" width="2048" height="2048">
+  </image>
+  <image id="659" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_509.png" width="2048" height="2048">
+  </image>
+  <image id="658" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_508.png" width="2048" height="2048">
+  </image>
+  <image id="657" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_507.png" width="2048" height="2048">
+  </image>
+  <image id="656" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_506.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="110.70" ytl="993.83" xbr="312.38" ybr="1189.68" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="655" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_502.png" width="2048" height="2048">
+  </image>
+  <image id="654" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_497.png" width="2048" height="2048">
+  </image>
+  <image id="653" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_496.png" width="2048" height="2048">
+  </image>
+  <image id="652" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_481.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="255.61" ytl="1072.28" xbr="386.66" ybr="1204.77" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="651" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_480.png" width="2048" height="2048">
+  </image>
+  <image id="650" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_479.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="459.81" ytl="1590.89" xbr="599.86" ybr="1728.05" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="649" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_478.png" width="2048" height="2048">
+  </image>
+  <image id="648" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_477.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1735.35" ytl="925.91" xbr="1833.85" ybr="1091.81" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1661.04" ytl="1641.34" xbr="1773.37" ybr="1777.86" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1386.84" ytl="1123.35" xbr="1577.82" ybr="1274.75" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="647" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_475.png" width="2048" height="2048">
+  </image>
+  <image id="646" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_474.png" width="2048" height="2048">
+  </image>
+  <image id="645" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_473.png" width="2048" height="2048">
+  </image>
+  <image id="644" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_472.png" width="2048" height="2048">
+  </image>
+  <image id="643" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_468.png" width="2048" height="2048">
+  </image>
+  <image id="642" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_461.png" width="2048" height="2048">
+  </image>
+  <image id="641" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_460.png" width="2048" height="2048">
+  </image>
+  <image id="640" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_459.png" width="2048" height="2048">
+  </image>
+  <image id="639" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_458.png" width="2048" height="2048">
+  </image>
+  <image id="638" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_454.png" width="2048" height="2048">
+  </image>
+  <image id="637" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_453.png" width="2048" height="2048">
+  </image>
+  <image id="636" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_448.png" width="2048" height="2048">
+  </image>
+  <image id="635" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_447.png" width="2048" height="2048">
+  </image>
+  <image id="634" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_432.png" width="2048" height="2048">
+  </image>
+  <image id="633" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_431.png" width="2048" height="2048">
+  </image>
+  <image id="632" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_430.png" width="2048" height="2048">
+  </image>
+  <image id="631" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_429.png" width="2048" height="2048">
+  </image>
+  <image id="630" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_427.png" width="2048" height="2048">
+  </image>
+  <image id="629" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_426.png" width="2048" height="2048">
+  </image>
+  <image id="628" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_423.png" width="2048" height="2048">
+  </image>
+  <image id="627" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_419.png" width="2048" height="2048">
+  </image>
+  <image id="626" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_416.png" width="2048" height="2048">
+  </image>
+  <image id="625" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_414.png" width="2048" height="2048">
+  </image>
+  <image id="624" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_413.png" width="2048" height="2048">
+  </image>
+  <image id="623" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_412.png" width="2048" height="2048">
+  </image>
+  <image id="622" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_409.png" width="2048" height="2048">
+  </image>
+  <image id="621" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_408.png" width="2048" height="2048">
+  </image>
+  <image id="620" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_407.png" width="2048" height="2048">
+  </image>
+  <image id="619" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_405.png" width="2048" height="2048">
+  </image>
+  <image id="618" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_398.png" width="2048" height="2048">
+  </image>
+  <image id="617" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_385.png" width="2048" height="2048">
+  </image>
+  <image id="616" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_384.png" width="2048" height="2048">
+  </image>
+  <image id="615" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_383.png" width="2048" height="2048">
+  </image>
+  <image id="614" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_382.png" width="2048" height="2048">
+  </image>
+  <image id="613" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_381.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="700.07" ytl="1296.77" xbr="850.07" ybr="1464.27" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="612" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_380.png" width="2048" height="2048">
+  </image>
+  <image id="611" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_379.png" width="2048" height="2048">
+  </image>
+  <image id="610" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_378.png" width="2048" height="2048">
+  </image>
+  <image id="609" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_377.png" width="2048" height="2048">
+  </image>
+  <image id="608" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_373.png" width="2048" height="2048">
+    <box label="N - Endocervical Cell" occluded="0" source="manual" xtl="1203.56" ytl="347.36" xbr="1567.86" ybr="800.33" z_order="0">
+    </box>
+  </image>
+  <image id="607" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_370.png" width="2048" height="2048">
+  </image>
+  <image id="606" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_367.png" width="2048" height="2048">
+  </image>
+  <image id="605" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_365.png" width="2048" height="2048">
+  </image>
+  <image id="604" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_363.png" width="2048" height="2048">
+  </image>
+  <image id="603" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_357.png" width="2048" height="2048">
+  </image>
+  <image id="602" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_349.png" width="2048" height="2048">
+  </image>
+  <image id="601" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_338.png" width="2048" height="2048">
+  </image>
+  <image id="600" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_337.png" width="2048" height="2048">
+  </image>
+  <image id="599" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_336.png" width="2048" height="2048">
+  </image>
+  <image id="598" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_335.png" width="2048" height="2048">
+  </image>
+  <image id="597" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_334.png" width="2048" height="2048">
+  </image>
+  <image id="596" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_328.png" width="2048" height="2048">
+  </image>
+  <image id="595" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_321.png" width="2048" height="2048">
+  </image>
+  <image id="594" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_320.png" width="2048" height="2048">
+  </image>
+  <image id="593" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_319.png" width="2048" height="2048">
+  </image>
+  <image id="592" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_318.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1654.36" ytl="93.31" xbr="1746.52" ybr="184.04" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="591" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_317.png" width="2048" height="2048">
+  </image>
+  <image id="590" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_316.png" width="2048" height="2048">
+  </image>
+  <image id="589" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_315.png" width="2048" height="2048">
+  </image>
+  <image id="588" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_312.png" width="2048" height="2048">
+  </image>
+  <image id="587" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_300.png" width="2048" height="2048">
+  </image>
+  <image id="586" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_289.png" width="2048" height="2048">
+  </image>
+  <image id="585" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_288.png" width="2048" height="2048">
+  </image>
+  <image id="584" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_281.png" width="2048" height="2048">
+  </image>
+  <image id="583" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_280.png" width="2048" height="2048">
+  </image>
+  <image id="582" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_279.png" width="2048" height="2048">
+  </image>
+  <image id="581" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_276.png" width="2048" height="2048">
+  </image>
+  <image id="580" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_274.png" width="2048" height="2048">
+  </image>
+  <image id="579" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_271.png" width="2048" height="2048">
+  </image>
+  <image id="578" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_270.png" width="2048" height="2048">
+  </image>
+  <image id="577" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_267.png" width="2048" height="2048">
+  </image>
+  <image id="576" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_266.png" width="2048" height="2048">
+  </image>
+  <image id="575" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_265.png" width="2048" height="2048">
+  </image>
+  <image id="574" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_264.png" width="2048" height="2048">
+  </image>
+  <image id="573" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_263.png" width="2048" height="2048">
+  </image>
+  <image id="572" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_262.png" width="2048" height="2048">
+  </image>
+  <image id="571" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_251.png" width="2048" height="2048">
+  </image>
+  <image id="570" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_230.png" width="2048" height="2048">
+  </image>
+  <image id="569" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_228.png" width="2048" height="2048">
+  </image>
+  <image id="568" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_227.png" width="2048" height="2048">
+  </image>
+  <image id="567" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_224.png" width="2048" height="2048">
+  </image>
+  <image id="566" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_223.png" width="2048" height="2048">
+  </image>
+  <image id="565" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_222.png" width="2048" height="2048">
+  </image>
+  <image id="564" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_218.png" width="2048" height="2048">
+  </image>
+  <image id="563" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_217.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="524.02" ytl="217.45" xbr="629.07" ybr="270.46" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="562" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2163.png" width="2048" height="2048">
+  </image>
+  <image id="561" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2162.png" width="2048" height="2048">
+  </image>
+  <image id="560" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_215.png" width="2048" height="2048">
+  </image>
+  <image id="559" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_213.png" width="2048" height="2048">
+  </image>
+  <image id="558" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2114.png" width="2048" height="2048">
+  </image>
+  <image id="557" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2113.png" width="2048" height="2048">
+  </image>
+  <image id="556" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2112.png" width="2048" height="2048">
+  </image>
+  <image id="555" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2088.png" width="2048" height="2048">
+  </image>
+  <image id="554" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2087.png" width="2048" height="2048">
+  </image>
+  <image id="553" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2086.png" width="2048" height="2048">
+  </image>
+  <image id="552" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2085.png" width="2048" height="2048">
+  </image>
+  <image id="551" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2084.png" width="2048" height="2048">
+  </image>
+  <image id="550" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2083.png" width="2048" height="2048">
+  </image>
+  <image id="549" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2065.png" width="2048" height="2048">
+  </image>
+  <image id="548" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2064.png" width="2048" height="2048">
+  </image>
+  <image id="547" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2063.png" width="2048" height="2048">
+  </image>
+  <image id="546" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2040.png" width="2048" height="2048">
+  </image>
+  <image id="545" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2038.png" width="2048" height="2048">
+  </image>
+  <image id="544" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2037.png" width="2048" height="2048">
+  </image>
+  <image id="543" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2036.png" width="2048" height="2048">
+  </image>
+  <image id="542" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2034.png" width="2048" height="2048">
+  </image>
+  <image id="541" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2031.png" width="2048" height="2048">
+  </image>
+  <image id="540" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_202.png" width="2048" height="2048">
+  </image>
+  <image id="539" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2016.png" width="2048" height="2048">
+  </image>
+  <image id="538" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_2014.png" width="2048" height="2048">
+  </image>
+  <image id="537" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_201.png" width="2048" height="2048">
+  </image>
+  <image id="536" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1996.png" width="2048" height="2048">
+  </image>
+  <image id="535" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1995.png" width="2048" height="2048">
+  </image>
+  <image id="534" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1994.png" width="2048" height="2048">
+  </image>
+  <image id="533" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1993.png" width="2048" height="2048">
+  </image>
+  <image id="532" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1992.png" width="2048" height="2048">
+  </image>
+  <image id="531" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1991.png" width="2048" height="2048">
+  </image>
+  <image id="530" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1990.png" width="2048" height="2048">
+  </image>
+  <image id="529" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1989.png" width="2048" height="2048">
+  </image>
+  <image id="528" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1987.png" width="2048" height="2048">
+  </image>
+  <image id="527" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1986.png" width="2048" height="2048">
+  </image>
+  <image id="526" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1985.png" width="2048" height="2048">
+  </image>
+  <image id="525" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1984.png" width="2048" height="2048">
+  </image>
+  <image id="524" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1983.png" width="2048" height="2048">
+  </image>
+  <image id="444" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1753.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="523.93" ytl="104.62" xbr="625.95" ybr="239.00" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="443" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1750.png" width="2048" height="2048">
+  </image>
+  <image id="442" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_175.png" width="2048" height="2048">
+  </image>
+  <image id="441" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1749.png" width="2048" height="2048">
+  </image>
+  <image id="440" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1748.png" width="2048" height="2048">
+  </image>
+  <image id="439" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1747.png" width="2048" height="2048">
+  </image>
+  <image id="438" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1746.png" width="2048" height="2048">
+  </image>
+  <image id="437" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1745.png" width="2048" height="2048">
+  </image>
+  <image id="436" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1744.png" width="2048" height="2048">
+  </image>
+  <image id="435" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1742.png" width="2048" height="2048">
+  </image>
+  <image id="434" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1741.png" width="2048" height="2048">
+  </image>
+  <image id="433" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1737.png" width="2048" height="2048">
+  </image>
+  <image id="432" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1736.png" width="2048" height="2048">
+  </image>
+  <image id="431" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1735.png" width="2048" height="2048">
+  </image>
+  <image id="430" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1732.png" width="2048" height="2048">
+  </image>
+  <image id="429" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1730.png" width="2048" height="2048">
+  </image>
+  <image id="428" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1727.png" width="2048" height="2048">
+  </image>
+  <image id="427" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1722.png" width="2048" height="2048">
+  </image>
+  <image id="426" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1708.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1170.34" ytl="1115.51" xbr="1299.52" ybr="1258.01" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="425" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1702.png" width="2048" height="2048">
+  </image>
+  <image id="424" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1701.png" width="2048" height="2048">
+  </image>
+  <image id="423" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_170.png" width="2048" height="2048">
+  </image>
+  <image id="422" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1699.png" width="2048" height="2048">
+  </image>
+  <image id="421" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1698.png" width="2048" height="2048">
+  </image>
+  <image id="420" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1696.png" width="2048" height="2048">
+  </image>
+  <image id="419" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1695.png" width="2048" height="2048">
+  </image>
+  <image id="418" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1693.png" width="2048" height="2048">
+  </image>
+  <image id="417" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1692.png" width="2048" height="2048">
+  </image>
+  <image id="416" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1690.png" width="2048" height="2048">
+  </image>
+  <image id="415" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_169.png" width="2048" height="2048">
+  </image>
+  <image id="414" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1689.png" width="2048" height="2048">
+  </image>
+  <image id="413" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1685.png" width="2048" height="2048">
+  </image>
+  <image id="412" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1683.png" width="2048" height="2048">
+  </image>
+  <image id="411" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1681.png" width="2048" height="2048">
+  </image>
+  <image id="410" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1680.png" width="2048" height="2048">
+  </image>
+  <image id="409" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1677.png" width="2048" height="2048">
+  </image>
+  <image id="408" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1673.png" width="2048" height="2048">
+  </image>
+  <image id="407" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1656.png" width="2048" height="2048">
+  </image>
+  <image id="406" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1655.png" width="2048" height="2048">
+  </image>
+  <image id="405" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1654.png" width="2048" height="2048">
+  </image>
+  <image id="404" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1653.png" width="2048" height="2048">
+  </image>
+  <image id="403" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1652.png" width="2048" height="2048">
+  </image>
+  <image id="402" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1651.png" width="2048" height="2048">
+  </image>
+  <image id="401" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1650.png" width="2048" height="2048">
+  </image>
+  <image id="400" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1649.png" width="2048" height="2048">
+  </image>
+  <image id="399" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1647.png" width="2048" height="2048">
+  </image>
+  <image id="398" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1646.png" width="2048" height="2048">
+  </image>
+  <image id="397" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1644.png" width="2048" height="2048">
+  </image>
+  <image id="396" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1643.png" width="2048" height="2048">
+  </image>
+  <image id="395" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1641.png" width="2048" height="2048">
+  </image>
+  <image id="394" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1639.png" width="2048" height="2048">
+  </image>
+  <image id="393" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1638.png" width="2048" height="2048">
+  </image>
+  <image id="392" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1636.png" width="2048" height="2048">
+  </image>
+  <image id="391" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1634.png" width="2048" height="2048">
+  </image>
+  <image id="390" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1633.png" width="2048" height="2048">
+  </image>
+  <image id="389" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1632.png" width="2048" height="2048">
+  </image>
+  <image id="388" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1631.png" width="2048" height="2048">
+  </image>
+  <image id="387" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1630.png" width="2048" height="2048">
+  </image>
+  <image id="386" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1629.png" width="2048" height="2048">
+  </image>
+  <image id="385" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1627.png" width="2048" height="2048">
+  </image>
+  <image id="384" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1624.png" width="2048" height="2048">
+  </image>
+  <image id="383" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1623.png" width="2048" height="2048">
+  </image>
+  <image id="382" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1609.png" width="2048" height="2048">
+  </image>
+  <image id="381" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1608.png" width="2048" height="2048">
+  </image>
+  <image id="380" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1607.png" width="2048" height="2048">
+  </image>
+  <image id="379" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1606.png" width="2048" height="2048">
+  </image>
+  <image id="378" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1605.png" width="2048" height="2048">
+  </image>
+  <image id="377" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1604.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="1360.35" ytl="934.38" xbr="1650.67" ybr="1288.64" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="376" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1603.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="459.15" ytl="342.16" xbr="628.51" ybr="687.78" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="375" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1602.png" width="2048" height="2048">
+  </image>
+  <image id="374" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1601.png" width="2048" height="2048">
+  </image>
+  <image id="373" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1600.png" width="2048" height="2048">
+  </image>
+  <image id="372" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1598.png" width="2048" height="2048">
+  </image>
+  <image id="371" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1595.png" width="2048" height="2048">
+  </image>
+  <image id="370" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1594.png" width="2048" height="2048">
+  </image>
+  <image id="369" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1593.png" width="2048" height="2048">
+  </image>
+  <image id="368" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1592.png" width="2048" height="2048">
+  </image>
+  <image id="367" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1591.png" width="2048" height="2048">
+  </image>
+  <image id="366" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1590.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1373.81" ytl="263.91" xbr="1617.45" ybr="511.61" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="365" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1588.png" width="2048" height="2048">
+  </image>
+  <image id="364" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1587.png" width="2048" height="2048">
+  </image>
+  <image id="363" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1586.png" width="2048" height="2048">
+  </image>
+  <image id="362" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1585.png" width="2048" height="2048">
+  </image>
+  <image id="361" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1584.png" width="2048" height="2048">
+  </image>
+  <image id="360" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1583.png" width="2048" height="2048">
+  </image>
+  <image id="359" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1582.png" width="2048" height="2048">
+  </image>
+  <image id="358" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1581.png" width="2048" height="2048">
+  </image>
+  <image id="357" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1580.png" width="2048" height="2048">
+  </image>
+  <image id="356" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1579.png" width="2048" height="2048">
+  </image>
+  <image id="355" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1578.png" width="2048" height="2048">
+  </image>
+  <image id="354" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1575.png" width="2048" height="2048">
+  </image>
+  <image id="353" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1563.png" width="2048" height="2048">
+  </image>
+  <image id="352" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1561.png" width="2048" height="2048">
+  </image>
+  <image id="351" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1560.png" width="2048" height="2048">
+  </image>
+  <image id="350" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1559.png" width="2048" height="2048">
+  </image>
+  <image id="349" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1558.png" width="2048" height="2048">
+  </image>
+  <image id="348" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1557.png" width="2048" height="2048">
+  </image>
+  <image id="347" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1556.png" width="2048" height="2048">
+  </image>
+  <image id="346" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1555.png" width="2048" height="2048">
+  </image>
+  <image id="345" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1554.png" width="2048" height="2048">
+  </image>
+  <image id="344" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1553.png" width="2048" height="2048">
+  </image>
+  <image id="343" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1552.png" width="2048" height="2048">
+  </image>
+  <image id="342" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1548.png" width="2048" height="2048">
+  </image>
+  <image id="341" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1547.png" width="2048" height="2048">
+  </image>
+  <image id="340" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1546.png" width="2048" height="2048">
+  </image>
+  <image id="339" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1545.png" width="2048" height="2048">
+  </image>
+  <image id="338" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1544.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1892.28" ytl="1287.76" xbr="1954.12" ybr="1344.86" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="337" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1543.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="392.18" ytl="498.70" xbr="591.20" ybr="774.00" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="336" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1542.png" width="2048" height="2048">
+  </image>
+  <image id="335" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1541.png" width="2048" height="2048">
+  </image>
+  <image id="334" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1539.png" width="2048" height="2048">
+  </image>
+  <image id="333" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1538.png" width="2048" height="2048">
+  </image>
+  <image id="332" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1536.png" width="2048" height="2048">
+  </image>
+  <image id="331" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1535.png" width="2048" height="2048">
+  </image>
+  <image id="330" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1534.png" width="2048" height="2048">
+  </image>
+  <image id="329" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1533.png" width="2048" height="2048">
+  </image>
+  <image id="328" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1532.png" width="2048" height="2048">
+  </image>
+  <image id="327" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1531.png" width="2048" height="2048">
+  </image>
+  <image id="326" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1530.png" width="2048" height="2048">
+  </image>
+  <image id="325" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_153.png" width="2048" height="2048">
+  </image>
+  <image id="324" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1529.png" width="2048" height="2048">
+  </image>
+  <image id="323" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1528.png" width="2048" height="2048">
+  </image>
+  <image id="322" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1526.png" width="2048" height="2048">
+  </image>
+  <image id="321" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_152.png" width="2048" height="2048">
+  </image>
+  <image id="320" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1514.png" width="2048" height="2048">
+  </image>
+  <image id="319" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1513.png" width="2048" height="2048">
+  </image>
+  <image id="318" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1512.png" width="2048" height="2048">
+  </image>
+  <image id="317" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1511.png" width="2048" height="2048">
+  </image>
+  <image id="316" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1510.png" width="2048" height="2048">
+  </image>
+  <image id="315" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1509.png" width="2048" height="2048">
+  </image>
+  <image id="787" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_799.png" width="2048" height="2048">
+  </image>
+  <image id="786" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_798.png" width="2048" height="2048">
+  </image>
+  <image id="785" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_797.png" width="2048" height="2048">
+  </image>
+  <image id="784" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_796.png" width="2048" height="2048">
+  </image>
+  <image id="783" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_791.png" width="2048" height="2048">
+  </image>
+  <image id="782" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_778.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="1897.95" ytl="1213.65" xbr="2001.20" ybr="1403.50" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="881.62" ytl="1493.47" xbr="979.33" ybr="1608.58" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="781" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_777.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1084.28" ytl="524.57" xbr="1215.09" ybr="633.78" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1927.93" ytl="834.75" xbr="2015.36" ybr="961.04" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="780" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_774.png" width="2048" height="2048">
+  </image>
+  <image id="779" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_773.png" width="2048" height="2048">
+  </image>
+  <image id="778" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_772.png" width="2048" height="2048">
+  </image>
+  <image id="777" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_770.png" width="2048" height="2048">
+  </image>
+  <image id="776" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_769.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="490.22" ytl="438.89" xbr="771.07" ybr="630.65" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1444.47" ytl="707.71" xbr="1616.00" ybr="892.57" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="775" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_763.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="451.95" ytl="1361.08" xbr="554.88" ybr="1461.69" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="826.66" ytl="940.11" xbr="897.20" ybr="1023.38" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="774" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_761.png" width="2048" height="2048">
+  </image>
+  <image id="773" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_760.png" width="2048" height="2048">
+  </image>
+  <image id="772" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_758.png" width="2048" height="2048">
+  </image>
+  <image id="771" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_756.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="432.79" ytl="878.71" xbr="570.79" ybr="1010.72" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="770" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_755.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="795.80" ytl="1133.02" xbr="993.82" ybr="1231.03" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="744.81" ytl="668.77" xbr="829.48" ybr="772.46" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="769" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_754.png" width="2048" height="2048">
+  </image>
+  <image id="768" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_751.png" width="2048" height="2048">
+  </image>
+  <image id="767" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_750.png" width="2048" height="2048">
+  </image>
+  <image id="766" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_749.png" width="2048" height="2048">
+  </image>
+  <image id="765" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_748.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1486.16" ytl="916.41" xbr="1560.47" ybr="1058.11" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="764" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_747.png" width="2048" height="2048">
+  </image>
+  <image id="763" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_746.png" width="2048" height="2048">
+  </image>
+  <image id="762" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_742.png" width="2048" height="2048">
+  </image>
+  <image id="761" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_725.png" width="2048" height="2048">
+  </image>
+  <image id="760" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_722.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1551.97" ytl="578.48" xbr="1671.50" ybr="682.16" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1377.72" ytl="816.09" xbr="1448.28" ybr="909.69" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="759" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_721.png" width="2048" height="2048">
+  </image>
+  <image id="758" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_717.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="225.46" ytl="0.28" xbr="419.63" ybr="215.37" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="518.81" ytl="7.86" xbr="608.81" ybr="92.03" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="757" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_716.png" width="2048" height="2048">
+  </image>
+  <image id="756" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_715.png" width="2048" height="2048">
+  </image>
+  <image id="755" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_714.png" width="2048" height="2048">
+  </image>
+  <image id="754" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_713.png" width="2048" height="2048">
+  </image>
+  <image id="753" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_712.png" width="2048" height="2048">
+  </image>
+  <image id="752" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_710.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1800.87" ytl="1431.96" xbr="1874.49" ybr="1492.87" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="751" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_709.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1441.07" ytl="1623.23" xbr="1584.41" ybr="1739.69" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="750" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_708.png" width="2048" height="2048">
+  </image>
+  <image id="749" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_707.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1354.84" ytl="1351.63" xbr="1520.85" ybr="1534.64" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="748" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_706.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1705.15" ytl="982.52" xbr="1928.17" ybr="1203.53" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="747" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_705.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1141.88" ytl="618.66" xbr="1302.69" ybr="837.07" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1057.88" ytl="1131.08" xbr="1376.02" ybr="1476.70" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1794.45" ytl="402.99" xbr="1893.99" ybr="506.67" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="746" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_704.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="196.47" ytl="458.69" xbr="336.88" ybr="680.70" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="745" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_700.png" width="2048" height="2048">
+  </image>
+  <image id="744" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_699.png" width="2048" height="2048">
+  </image>
+  <image id="743" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_697.png" width="2048" height="2048">
+  </image>
+  <image id="742" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_693.png" width="2048" height="2048">
+  </image>
+  <image id="741" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_680.png" width="2048" height="2048">
+  </image>
+  <image id="740" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_678.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1378.02" ytl="1324.60" xbr="1478.03" ybr="1404.61" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="314" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1508.png" width="2048" height="2048">
+  </image>
+  <image id="313" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1507.png" width="2048" height="2048">
+  </image>
+  <image id="312" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1506.png" width="2048" height="2048">
+  </image>
+  <image id="311" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1505.png" width="2048" height="2048">
+  </image>
+  <image id="310" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1504.png" width="2048" height="2048">
+  </image>
+  <image id="309" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1503.png" width="2048" height="2048">
+  </image>
+  <image id="308" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1501.png" width="2048" height="2048">
+  </image>
+  <image id="307" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1500.png" width="2048" height="2048">
+  </image>
+  <image id="306" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1499.png" width="2048" height="2048">
+  </image>
+  <image id="305" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1498.png" width="2048" height="2048">
+  </image>
+  <image id="304" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1497.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="0.00" ytl="1185.26" xbr="89.37" ybr="1407.77" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="339.38" ytl="832.74" xbr="411.05" ybr="954.41" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="303" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1496.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="116.64" ytl="125.80" xbr="267.60" ybr="253.57" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="541.46" ytl="1763.69" xbr="749.01" ybr="1960.35" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="302" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1495.png" width="2048" height="2048">
+  </image>
+  <image id="301" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1493.png" width="2048" height="2048">
+  </image>
+  <image id="300" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1492.png" width="2048" height="2048">
+  </image>
+  <image id="299" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1491.png" width="2048" height="2048">
+  </image>
+  <image id="298" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1490.png" width="2048" height="2048">
+  </image>
+  <image id="297" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1488.png" width="2048" height="2048">
+  </image>
+  <image id="296" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1487.png" width="2048" height="2048">
+  </image>
+  <image id="295" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1486.png" width="2048" height="2048">
+  </image>
+  <image id="294" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1485.png" width="2048" height="2048">
+  </image>
+  <image id="293" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1484.png" width="2048" height="2048">
+  </image>
+  <image id="292" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1483.png" width="2048" height="2048">
+  </image>
+  <image id="291" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1481.png" width="2048" height="2048">
+  </image>
+  <image id="290" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1479.png" width="2048" height="2048">
+  </image>
+  <image id="289" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1477.png" width="2048" height="2048">
+  </image>
+  <image id="288" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1466.png" width="2048" height="2048">
+  </image>
+  <image id="287" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1465.png" width="2048" height="2048">
+  </image>
+  <image id="286" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1464.png" width="2048" height="2048">
+  </image>
+  <image id="285" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1463.png" width="2048" height="2048">
+  </image>
+  <image id="284" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1462.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1556.80" ytl="478.68" xbr="1737.22" ybr="659.09" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="283" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1461.png" width="2048" height="2048">
+  </image>
+  <image id="282" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1460.png" width="2048" height="2048">
+  </image>
+  <image id="281" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1459.png" width="2048" height="2048">
+  </image>
+  <image id="280" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1458.png" width="2048" height="2048">
+  </image>
+  <image id="279" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1457.png" width="2048" height="2048">
+  </image>
+  <image id="278" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1455.png" width="2048" height="2048">
+  </image>
+  <image id="277" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1454.png" width="2048" height="2048">
+  </image>
+  <image id="276" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1453.png" width="2048" height="2048">
+  </image>
+  <image id="275" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1452.png" width="2048" height="2048">
+  </image>
+  <image id="274" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1451.png" width="2048" height="2048">
+  </image>
+  <image id="273" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1450.png" width="2048" height="2048">
+  </image>
+  <image id="272" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1449.png" width="2048" height="2048">
+  </image>
+  <image id="271" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1448.png" width="2048" height="2048">
+  </image>
+  <image id="270" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1447.png" width="2048" height="2048">
+  </image>
+  <image id="269" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1446.png" width="2048" height="2048">
+  </image>
+  <image id="268" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1445.png" width="2048" height="2048">
+  </image>
+  <image id="267" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1444.png" width="2048" height="2048">
+  </image>
+  <image id="266" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1443.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="1776.51" ytl="967.93" xbr="1847.35" ybr="1095.02" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="265" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1442.png" width="2048" height="2048">
+  </image>
+  <image id="264" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1441.png" width="2048" height="2048">
+  </image>
+  <image id="263" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1439.png" width="2048" height="2048">
+  </image>
+  <image id="262" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1438.png" width="2048" height="2048">
+  </image>
+  <image id="261" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1437.png" width="2048" height="2048">
+  </image>
+  <image id="260" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1436.png" width="2048" height="2048">
+  </image>
+  <image id="259" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1435.png" width="2048" height="2048">
+  </image>
+  <image id="258" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1434.png" width="2048" height="2048">
+  </image>
+  <image id="257" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1433.png" width="2048" height="2048">
+  </image>
+  <image id="256" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1432.png" width="2048" height="2048">
+  </image>
+  <image id="255" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1431.png" width="2048" height="2048">
+  </image>
+  <image id="254" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1430.png" width="2048" height="2048">
+  </image>
+  <image id="196" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1319.png" width="2048" height="2048">
+  </image>
+  <image id="195" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1318.png" width="2048" height="2048">
+  </image>
+  <image id="194" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1317.png" width="2048" height="2048">
+  </image>
+  <image id="193" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1316.png" width="2048" height="2048">
+  </image>
+  <image id="192" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1315.png" width="2048" height="2048">
+  </image>
+  <image id="191" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1314.png" width="2048" height="2048">
+  </image>
+  <image id="190" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1312.png" width="2048" height="2048">
+  </image>
+  <image id="189" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1311.png" width="2048" height="2048">
+  </image>
+  <image id="188" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1310.png" width="2048" height="2048">
+  </image>
+  <image id="187" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1307.png" width="2048" height="2048">
+  </image>
+  <image id="186" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1306.png" width="2048" height="2048">
+  </image>
+  <image id="185" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1302.png" width="2048" height="2048">
+  </image>
+  <image id="184" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1298.png" width="2048" height="2048">
+  </image>
+  <image id="183" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1297.png" width="2048" height="2048">
+  </image>
+  <image id="182" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1295.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1590.90" ytl="1453.26" xbr="1659.50" ybr="1556.44" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="181" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1294.png" width="2048" height="2048">
+    <box label="AS" occluded="0" source="manual" xtl="28.73" ytl="263.88" xbr="327.34" ybr="500.29" z_order="0">
+      <attribute name="Description">ASC-US</attribute>
+    </box>
+  </image>
+  <image id="180" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1292.png" width="2048" height="2048">
+  </image>
+  <image id="179" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1291.png" width="2048" height="2048">
+  </image>
+  <image id="178" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1290.png" width="2048" height="2048">
+  </image>
+  <image id="177" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1289.png" width="2048" height="2048">
+  </image>
+  <image id="176" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1288.png" width="2048" height="2048">
+  </image>
+  <image id="175" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1287.png" width="2048" height="2048">
+  </image>
+  <image id="174" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1286.png" width="2048" height="2048">
+  </image>
+  <image id="173" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1285.png" width="2048" height="2048">
+  </image>
+  <image id="172" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1284.png" width="2048" height="2048">
+  </image>
+  <image id="171" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1281.png" width="2048" height="2048">
+  </image>
+  <image id="170" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1271.png" width="2048" height="2048">
+  </image>
+  <image id="169" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1270.png" width="2048" height="2048">
+  </image>
+  <image id="168" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1269.png" width="2048" height="2048">
+  </image>
+  <image id="167" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1266.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="0.00" ytl="426.32" xbr="177.47" ybr="625.05" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="166" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1265.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1494.43" ytl="2.60" xbr="1895.07" ybr="291.26" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="165" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1264.png" width="2048" height="2048">
+  </image>
+  <image id="164" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1263.png" width="2048" height="2048">
+  </image>
+  <image id="163" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1261.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="416.76" ytl="448.29" xbr="521.88" ybr="580.78" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="162" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1260.png" width="2048" height="2048">
+  </image>
+  <image id="161" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1259.png" width="2048" height="2048">
+  </image>
+  <image id="160" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1258.png" width="2048" height="2048">
+  </image>
+  <image id="159" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1257.png" width="2048" height="2048">
+  </image>
+  <image id="158" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1252.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="427.88" ytl="12.45" xbr="569.60" ybr="176.62" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="157" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1249.png" width="2048" height="2048">
+  </image>
+  <image id="156" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1246.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1677.25" ytl="736.04" xbr="1828.56" ybr="832.42" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="155" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1245.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="989.60" ytl="1523.24" xbr="1366.40" ybr="1765.10" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="154" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1244.png" width="2048" height="2048">
+  </image>
+  <image id="153" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1240.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="884.03" ytl="1122.64" xbr="978.80" ybr="1209.38" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="152" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1239.png" width="2048" height="2048">
+  </image>
+  <image id="151" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1238.png" width="2048" height="2048">
+  </image>
+  <image id="150" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1237.png" width="2048" height="2048">
+  </image>
+  <image id="149" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1236.png" width="2048" height="2048">
+  </image>
+  <image id="148" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1234.png" width="2048" height="2048">
+  </image>
+  <image id="147" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1232.png" width="2048" height="2048">
+  </image>
+  <image id="146" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1216.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1725.24" ytl="1730.00" xbr="1983.40" ybr="1948.08" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="145" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1215.png" width="2048" height="2048">
+  </image>
+  <image id="144" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1214.png" width="2048" height="2048">
+  </image>
+  <image id="143" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1213.png" width="2048" height="2048">
+  </image>
+  <image id="142" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1212.png" width="2048" height="2048">
+  </image>
+  <image id="141" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1211.png" width="2048" height="2048">
+  </image>
+  <image id="140" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1210.png" width="2048" height="2048">
+  </image>
+  <image id="139" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1209.png" width="2048" height="2048">
+  </image>
+  <image id="138" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1208.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="983.94" ytl="1858.79" xbr="1079.51" ybr="1952.75" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="137" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1207.png" width="2048" height="2048">
+  </image>
+  <image id="136" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1206.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="736.68" ytl="691.75" xbr="842.10" ybr="823.09" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="135" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1205.png" width="2048" height="2048">
+  </image>
+  <image id="134" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1204.png" width="2048" height="2048">
+  </image>
+  <image id="133" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1203.png" width="2048" height="2048">
+  </image>
+  <image id="132" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1201.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1688.64" ytl="561.90" xbr="1815.96" ybr="801.50" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="131" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1199.png" width="2048" height="2048">
+  </image>
+  <image id="130" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1198.png" width="2048" height="2048">
+  </image>
+  <image id="129" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1197.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1465.03" ytl="1343.95" xbr="1584.16" ybr="1493.20" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="128" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1196.png" width="2048" height="2048">
+  </image>
+  <image id="127" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1195.png" width="2048" height="2048">
+  </image>
+  <image id="126" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1194.png" width="2048" height="2048">
+  </image>
+  <image id="125" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1193.png" width="2048" height="2048">
+  </image>
+  <image id="124" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1192.png" width="2048" height="2048">
+  </image>
+  <image id="123" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1191.png" width="2048" height="2048">
+  </image>
+  <image id="122" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1190.png" width="2048" height="2048">
+  </image>
+  <image id="121" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1189.png" width="2048" height="2048">
+  </image>
+  <image id="120" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1188.png" width="2048" height="2048">
+  </image>
+  <image id="119" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1187.png" width="2048" height="2048">
+  </image>
+  <image id="118" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1186.png" width="2048" height="2048">
+  </image>
+  <image id="117" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1185.png" width="2048" height="2048">
+  </image>
+  <image id="116" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1184.png" width="2048" height="2048">
+  </image>
+  <image id="115" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1183.png" width="2048" height="2048">
+  </image>
+  <image id="114" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1173.png" width="2048" height="2048">
+  </image>
+  <image id="113" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1169.png" width="2048" height="2048">
+  </image>
+  <image id="112" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1168.png" width="2048" height="2048">
+  </image>
+  <image id="111" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1167.png" width="2048" height="2048">
+  </image>
+  <image id="110" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1166.png" width="2048" height="2048">
+  </image>
+  <image id="109" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1165.png" width="2048" height="2048">
+  </image>
+  <image id="108" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1164.png" width="2048" height="2048">
+  </image>
+  <image id="107" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1163.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1179.93" ytl="162.45" xbr="1422.44" ybr="400.80" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="106" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1162.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1324.29" ytl="1023.32" xbr="1541.75" ybr="1249.41" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="105" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1161.png" width="2048" height="2048">
+  </image>
+  <image id="104" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1160.png" width="2048" height="2048">
+  </image>
+  <image id="103" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1159.png" width="2048" height="2048">
+  </image>
+  <image id="102" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1158.png" width="2048" height="2048">
+  </image>
+  <image id="101" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1157.png" width="2048" height="2048">
+  </image>
+  <image id="100" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1156.png" width="2048" height="2048">
+  </image>
+  <image id="99" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1155.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="920.25" ytl="506.22" xbr="1065.25" ybr="703.73" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="98" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1153.png" width="2048" height="2048">
+  </image>
+  <image id="97" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1152.png" width="2048" height="2048">
+  </image>
+  <image id="96" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1150.png" width="2048" height="2048">
+  </image>
+  <image id="95" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1149.png" width="2048" height="2048">
+  </image>
+  <image id="94" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1148.png" width="2048" height="2048">
+  </image>
+  <image id="93" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1147.png" width="2048" height="2048">
+  </image>
+  <image id="92" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1146.png" width="2048" height="2048">
+  </image>
+  <image id="91" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1145.png" width="2048" height="2048">
+  </image>
+  <image id="90" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1144.png" width="2048" height="2048">
+  </image>
+  <image id="89" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1143.png" width="2048" height="2048">
+  </image>
+  <image id="88" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1142.png" width="2048" height="2048">
+  </image>
+  <image id="87" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1141.png" width="2048" height="2048">
+  </image>
+  <image id="86" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1139.png" width="2048" height="2048">
+  </image>
+  <image id="85" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1137.png" width="2048" height="2048">
+  </image>
+  <image id="84" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1134.png" width="2048" height="2048">
+  </image>
+  <image id="83" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1122.png" width="2048" height="2048">
+  </image>
+  <image id="82" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1121.png" width="2048" height="2048">
+  </image>
+  <image id="81" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1120.png" width="2048" height="2048">
+  </image>
+  <image id="80" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1119.png" width="2048" height="2048">
+  </image>
+  <image id="79" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1118.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1169.22" ytl="147.40" xbr="1266.40" ybr="238.15" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="78" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1117.png" width="2048" height="2048">
+  </image>
+  <image id="77" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1116.png" width="2048" height="2048">
+  </image>
+  <image id="76" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1115.png" width="2048" height="2048">
+    <box label="N - Endocervical Cell" occluded="0" source="manual" xtl="1394.89" ytl="574.69" xbr="1885.11" ybr="1144.80" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1114.png" width="2048" height="2048">
+  </image>
+  <image id="74" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1113.png" width="2048" height="2048">
+  </image>
+  <image id="73" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1112.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1547.36" ytl="67.83" xbr="1751.85" ybr="301.12" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="72" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1111.png" width="2048" height="2048">
+  </image>
+  <image id="71" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1110.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="506.19" ytl="41.47" xbr="577.50" ybr="155.19" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="70" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1109.png" width="2048" height="2048">
+  </image>
+  <image id="69" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1108.png" width="2048" height="2048">
+  </image>
+  <image id="68" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1107.png" width="2048" height="2048">
+  </image>
+  <image id="67" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1106.png" width="2048" height="2048">
+  </image>
+  <image id="66" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1105.png" width="2048" height="2048">
+  </image>
+  <image id="65" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1102.png" width="2048" height="2048">
+  </image>
+  <image id="64" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1101.png" width="2048" height="2048">
+  </image>
+  <image id="63" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1100.png" width="2048" height="2048">
+  </image>
+  <image id="62" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1099.png" width="2048" height="2048">
+  </image>
+  <image id="61" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1098.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="525.05" ytl="1470.10" xbr="628.26" ybr="1571.03" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="732.65" ytl="733.07" xbr="889.33" ybr="901.41" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="60" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1097.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="145.43" ytl="326.10" xbr="431.85" ybr="716.78" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="59" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1096.png" width="2048" height="2048">
+  </image>
+  <image id="58" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1095.png" width="2048" height="2048">
+  </image>
+  <image id="57" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1094.png" width="2048" height="2048">
+  </image>
+  <image id="56" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1093.png" width="2048" height="2048">
+  </image>
+  <image id="55" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1091.png" width="2048" height="2048">
+  </image>
+  <image id="54" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1088.png" width="2048" height="2048">
+  </image>
+  <image id="53" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1086.png" width="2048" height="2048">
+  </image>
+  <image id="52" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1085.png" width="2048" height="2048">
+  </image>
+  <image id="51" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1073.png" width="2048" height="2048">
+  </image>
+  <image id="50" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1072.png" width="2048" height="2048">
+  </image>
+  <image id="49" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1071.png" width="2048" height="2048">
+  </image>
+  <image id="48" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1070.png" width="2048" height="2048">
+  </image>
+  <image id="47" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1069.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="79.10" ytl="156.84" xbr="207.00" ybr="304.73" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="46" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1068.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1460.75" ytl="611.77" xbr="1602.10" ybr="733.04" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1667.61" ytl="1531.81" xbr="1759.77" ybr="1634.05" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="586.11" ytl="1855.83" xbr="813.64" ybr="2024.32" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="45" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1067.png" width="2048" height="2048">
+  </image>
+  <image id="44" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1066.png" width="2048" height="2048">
+  </image>
+  <image id="43" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1065.png" width="2048" height="2048">
+  </image>
+  <image id="42" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1063.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1532.80" ytl="1766.38" xbr="1653.60" ybr="1867.70" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="523" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1981.png" width="2048" height="2048">
+  </image>
+  <image id="522" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1967.png" width="2048" height="2048">
+  </image>
+  <image id="521" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1947.png" width="2048" height="2048">
+  </image>
+  <image id="520" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1946.png" width="2048" height="2048">
+  </image>
+  <image id="519" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1945.png" width="2048" height="2048">
+  </image>
+  <image id="518" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1944.png" width="2048" height="2048">
+  </image>
+  <image id="517" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1942.png" width="2048" height="2048">
+  </image>
+  <image id="516" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1939.png" width="2048" height="2048">
+  </image>
+  <image id="515" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1938.png" width="2048" height="2048">
+  </image>
+  <image id="514" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1937.png" width="2048" height="2048">
+  </image>
+  <image id="513" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1936.png" width="2048" height="2048">
+  </image>
+  <image id="512" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1934.png" width="2048" height="2048">
+  </image>
+  <image id="511" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1932.png" width="2048" height="2048">
+  </image>
+  <image id="510" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1931.png" width="2048" height="2048">
+  </image>
+  <image id="509" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1918.png" width="2048" height="2048">
+  </image>
+  <image id="508" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1901.png" width="2048" height="2048">
+  </image>
+  <image id="507" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1900.png" width="2048" height="2048">
+  </image>
+  <image id="506" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1899.png" width="2048" height="2048">
+  </image>
+  <image id="505" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1898.png" width="2048" height="2048">
+  </image>
+  <image id="504" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1897.png" width="2048" height="2048">
+  </image>
+  <image id="503" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1895.png" width="2048" height="2048">
+  </image>
+  <image id="502" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1894.png" width="2048" height="2048">
+  </image>
+  <image id="501" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1892.png" width="2048" height="2048">
+  </image>
+  <image id="500" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1891.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1625.24" ytl="435.24" xbr="1734.46" ybr="513.14" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="499" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1890.png" width="2048" height="2048">
+  </image>
+  <image id="498" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1889.png" width="2048" height="2048">
+  </image>
+  <image id="497" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1888.png" width="2048" height="2048">
+  </image>
+  <image id="496" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1887.png" width="2048" height="2048">
+  </image>
+  <image id="495" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1885.png" width="2048" height="2048">
+  </image>
+  <image id="494" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1883.png" width="2048" height="2048">
+  </image>
+  <image id="493" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1881.png" width="2048" height="2048">
+  </image>
+  <image id="492" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1877.png" width="2048" height="2048">
+  </image>
+  <image id="491" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1869.png" width="2048" height="2048">
+  </image>
+  <image id="490" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1853.png" width="2048" height="2048">
+  </image>
+  <image id="489" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1852.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="101.52" ytl="365.70" xbr="174.49" ybr="447.50" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="488" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1851.png" width="2048" height="2048">
+  </image>
+  <image id="487" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1850.png" width="2048" height="2048">
+  </image>
+  <image id="486" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1849.png" width="2048" height="2048">
+  </image>
+  <image id="485" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1848.png" width="2048" height="2048">
+  </image>
+  <image id="484" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1847.png" width="2048" height="2048">
+  </image>
+  <image id="483" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1846.png" width="2048" height="2048">
+  </image>
+  <image id="482" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1845.png" width="2048" height="2048">
+  </image>
+  <image id="481" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1843.png" width="2048" height="2048">
+  </image>
+  <image id="480" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1842.png" width="2048" height="2048">
+  </image>
+  <image id="479" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1841.png" width="2048" height="2048">
+  </image>
+  <image id="478" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1839.png" width="2048" height="2048">
+  </image>
+  <image id="477" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1838.png" width="2048" height="2048">
+  </image>
+  <image id="476" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1837.png" width="2048" height="2048">
+  </image>
+  <image id="475" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1836.png" width="2048" height="2048">
+  </image>
+  <image id="474" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1834.png" width="2048" height="2048">
+  </image>
+  <image id="473" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1833.png" width="2048" height="2048">
+  </image>
+  <image id="472" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1832.png" width="2048" height="2048">
+  </image>
+  <image id="471" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1830.png" width="2048" height="2048">
+  </image>
+  <image id="470" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1828.png" width="2048" height="2048">
+  </image>
+  <image id="469" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1827.png" width="2048" height="2048">
+  </image>
+  <image id="468" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1826.png" width="2048" height="2048">
+  </image>
+  <image id="467" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1820.png" width="2048" height="2048">
+  </image>
+  <image id="466" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1804.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="944.41" ytl="928.03" xbr="1004.16" ybr="1028.26" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="465" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1803.png" width="2048" height="2048">
+  </image>
+  <image id="464" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1800.png" width="2048" height="2048">
+  </image>
+  <image id="463" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_180.png" width="2048" height="2048">
+  </image>
+  <image id="462" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1799.png" width="2048" height="2048">
+  </image>
+  <image id="461" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1798.png" width="2048" height="2048">
+  </image>
+  <image id="460" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1797.png" width="2048" height="2048">
+  </image>
+  <image id="459" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1796.png" width="2048" height="2048">
+  </image>
+  <image id="458" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1794.png" width="2048" height="2048">
+  </image>
+  <image id="457" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1793.png" width="2048" height="2048">
+  </image>
+  <image id="456" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1792.png" width="2048" height="2048">
+  </image>
+  <image id="455" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1791.png" width="2048" height="2048">
+  </image>
+  <image id="454" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1790.png" width="2048" height="2048">
+  </image>
+  <image id="453" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_179.png" width="2048" height="2048">
+  </image>
+  <image id="452" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1789.png" width="2048" height="2048">
+  </image>
+  <image id="451" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1787.png" width="2048" height="2048">
+  </image>
+  <image id="450" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1785.png" width="2048" height="2048">
+  </image>
+  <image id="449" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1784.png" width="2048" height="2048">
+  </image>
+  <image id="448" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1783.png" width="2048" height="2048">
+  </image>
+  <image id="447" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1781.png" width="2048" height="2048">
+  </image>
+  <image id="446" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_178.png" width="2048" height="2048">
+  </image>
+  <image id="445" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1771.png" width="2048" height="2048">
+  </image>
+  <image id="253" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1429.png" width="2048" height="2048">
+  </image>
+  <image id="252" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1428.png" width="2048" height="2048">
+  </image>
+  <image id="251" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1419.png" width="2048" height="2048">
+  </image>
+  <image id="250" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1418.png" width="2048" height="2048">
+  </image>
+  <image id="249" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1417.png" width="2048" height="2048">
+  </image>
+  <image id="248" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1415.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="648.50" ytl="45.96" xbr="887.51" ybr="247.00" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="247" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1412.png" width="2048" height="2048">
+  </image>
+  <image id="246" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1411.png" width="2048" height="2048">
+  </image>
+  <image id="245" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1410.png" width="2048" height="2048">
+  </image>
+  <image id="244" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1408.png" width="2048" height="2048">
+  </image>
+  <image id="243" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1407.png" width="2048" height="2048">
+  </image>
+  <image id="242" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1406.png" width="2048" height="2048">
+  </image>
+  <image id="241" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1404.png" width="2048" height="2048">
+  </image>
+  <image id="240" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1402.png" width="2048" height="2048">
+  </image>
+  <image id="239" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1401.png" width="2048" height="2048">
+  </image>
+  <image id="238" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1400.png" width="2048" height="2048">
+  </image>
+  <image id="237" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1396.png" width="2048" height="2048">
+  </image>
+  <image id="236" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1395.png" width="2048" height="2048">
+  </image>
+  <image id="235" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1394.png" width="2048" height="2048">
+  </image>
+  <image id="234" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1393.png" width="2048" height="2048">
+  </image>
+  <image id="233" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1392.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="189.19" ytl="255.96" xbr="394.49" ybr="533.84" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="232" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1391.png" width="2048" height="2048">
+  </image>
+  <image id="231" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1390.png" width="2048" height="2048">
+  </image>
+  <image id="230" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1389.png" width="2048" height="2048">
+  </image>
+  <image id="229" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1387.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1833.02" ytl="899.23" xbr="2048.00" ybr="1119.04" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="478.89" ytl="747.85" xbr="858.38" ybr="1369.96" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="228" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1386.png" width="2048" height="2048">
+  </image>
+  <image id="227" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1384.png" width="2048" height="2048">
+  </image>
+  <image id="226" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1383.png" width="2048" height="2048">
+  </image>
+  <image id="225" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1382.png" width="2048" height="2048">
+  </image>
+  <image id="224" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1379.png" width="2048" height="2048">
+  </image>
+  <image id="223" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1370.png" width="2048" height="2048">
+  </image>
+  <image id="222" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1369.png" width="2048" height="2048">
+  </image>
+  <image id="221" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1368.png" width="2048" height="2048">
+  </image>
+  <image id="220" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1366.png" width="2048" height="2048">
+  </image>
+  <image id="219" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1365.png" width="2048" height="2048">
+  </image>
+  <image id="218" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1364.png" width="2048" height="2048">
+  </image>
+  <image id="217" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1363.png" width="2048" height="2048">
+  </image>
+  <image id="216" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1362.png" width="2048" height="2048">
+  </image>
+  <image id="215" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1359.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="466.69" ytl="530.15" xbr="802.64" ybr="813.83" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="214" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1358.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="740.14" ytl="841.23" xbr="805.81" ybr="915.54" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="608.98" ytl="1215.88" xbr="757.59" ybr="1305.75" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="613.89" ytl="378.45" xbr="763.27" ybr="499.89" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="213" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1355.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="305.58" ytl="1672.85" xbr="409.67" ybr="1781.10" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="212" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1354.png" width="2048" height="2048">
+  </image>
+  <image id="211" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1352.png" width="2048" height="2048">
+  </image>
+  <image id="210" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1350.png" width="2048" height="2048">
+  </image>
+  <image id="209" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1349.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1000.92" ytl="1028.92" xbr="1195.93" ybr="1437.94" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="208" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1346.png" width="2048" height="2048">
+  </image>
+  <image id="207" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1344.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="283.88" ytl="1436.94" xbr="450.89" ybr="1564.95" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="206" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1343.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="154.01" ytl="621.94" xbr="308.80" ybr="782.60" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="525.59" ytl="178.17" xbr="765.60" ybr="658.20" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="205" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1342.png" width="2048" height="2048">
+  </image>
+  <image id="204" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1341.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1101.92" ytl="348.55" xbr="1293.60" ybr="497.72" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="1105.26" ytl="716.07" xbr="1200.26" ybr="805.24" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="203" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1340.png" width="2048" height="2048">
+  </image>
+  <image id="202" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1339.png" width="2048" height="2048">
+  </image>
+  <image id="201" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1336.png" width="2048" height="2048">
+  </image>
+  <image id="200" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1335.png" width="2048" height="2048">
+  </image>
+  <image id="199" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1334.png" width="2048" height="2048">
+  </image>
+  <image id="198" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1333.png" width="2048" height="2048">
+  </image>
+  <image id="197" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1330.png" width="2048" height="2048">
+  </image>
+  <image id="41" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1062.png" width="2048" height="2048">
+  </image>
+  <image id="40" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1061.png" width="2048" height="2048">
+  </image>
+  <image id="39" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1060.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="1037.22" ytl="1320.83" xbr="1158.23" ybr="1456.84" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+    <box label="HS" occluded="0" source="manual" xtl="1169.23" ytl="1624.85" xbr="1255.23" ybr="1693.86" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="38" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1058.png" width="2048" height="2048">
+  </image>
+  <image id="37" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1057.png" width="2048" height="2048">
+  </image>
+  <image id="36" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1056.png" width="2048" height="2048">
+  </image>
+  <image id="35" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1055.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="265.38" ytl="1587.30" xbr="483.70" ybr="1839.80" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="34" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1054.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="501.89" ytl="888.66" xbr="619.40" ybr="1057.84" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="33" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1052.png" width="2048" height="2048">
+    <box label="HS" occluded="0" source="manual" xtl="1560.35" ytl="9.70" xbr="1817.16" ybr="174.27" z_order="0">
+      <attribute name="Description">High-grade squamous intraepithelial lesion</attribute>
+    </box>
+  </image>
+  <image id="32" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1051.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1080.95" ytl="961.46" xbr="1183.65" ybr="1058.60" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="31" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1050.png" width="2048" height="2048">
+  </image>
+  <image id="30" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1049.png" width="2048" height="2048">
+  </image>
+  <image id="29" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1048.png" width="2048" height="2048">
+  </image>
+  <image id="28" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1047.png" width="2048" height="2048">
+  </image>
+  <image id="27" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1046.png" width="2048" height="2048">
+  </image>
+  <image id="26" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1045.png" width="2048" height="2048">
+  </image>
+  <image id="25" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1044.png" width="2048" height="2048">
+  </image>
+  <image id="24" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1043.png" width="2048" height="2048">
+  </image>
+  <image id="23" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1042.png" width="2048" height="2048">
+  </image>
+  <image id="22" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_104.png" width="2048" height="2048">
+  </image>
+  <image id="21" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1036.png" width="2048" height="2048">
+  </image>
+  <image id="20" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_103.png" width="2048" height="2048">
+  </image>
+  <image id="19" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1025.png" width="2048" height="2048">
+  </image>
+  <image id="18" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1023.png" width="2048" height="2048">
+  </image>
+  <image id="17" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1022.png" width="2048" height="2048">
+  </image>
+  <image id="16" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1021.png" width="2048" height="2048">
+  </image>
+  <image id="15" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1018.png" width="2048" height="2048">
+  </image>
+  <image id="14" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1017.png" width="2048" height="2048">
+  </image>
+  <image id="13" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1015.png" width="2048" height="2048">
+  </image>
+  <image id="12" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1014.png" width="2048" height="2048">
+  </image>
+  <image id="11" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1013.png" width="2048" height="2048">
+  </image>
+  <image id="10" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1012.png" width="2048" height="2048">
+  </image>
+  <image id="9" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1011.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1568.45" ytl="1298.73" xbr="1742.46" ybr="1459.74" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="8" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1010.png" width="2048" height="2048">
+  </image>
+  <image id="7" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1008.png" width="2048" height="2048">
+  </image>
+  <image id="6" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1007.png" width="2048" height="2048">
+  </image>
+  <image id="5" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1006.png" width="2048" height="2048">
+  </image>
+  <image id="4" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1005.png" width="2048" height="2048">
+  </image>
+  <image id="3" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1003.png" width="2048" height="2048">
+  </image>
+  <image id="2" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1002.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1414.90" ytl="561.17" xbr="1465.26" ybr="685.87" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+  <image id="1" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1001.png" width="2048" height="2048">
+    <box label="N - Endocervical Cell" occluded="0" source="manual" xtl="1539.30" ytl="762.37" xbr="2026.41" ybr="1201.50" z_order="0">
+    </box>
+  </image>
+  <image id="0" name="scl/LBC812-20210116(1)/LBC812-20210116(1)_1000.png" width="2048" height="2048">
+    <box label="AH" occluded="0" source="manual" xtl="1302.08" ytl="373.64" xbr="1533.60" ybr="578.50" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+    <box label="AH" occluded="0" source="manual" xtl="478.79" ytl="1390.44" xbr="674.80" ybr="1736.46" z_order="0">
+      <attribute name="Description">ASC-H</attribute>
+    </box>
+  </image>
+</annotations>
