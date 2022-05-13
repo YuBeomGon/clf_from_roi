@@ -52,6 +52,9 @@ if __name__ == "__main__":
     train = df.iloc[train_inds]
     test = df.iloc[test_inds] 
     
+    train.reset_index(drop=True, inplace=True)  
+    test.reset_index(drop=True, inplace=True)      
+    
     # need to check ratio 0.25, if not change seed
     print('train {}, test {} for bbox'.format(len(train_inds), len(test_inds)))
     print('train {}, test {} for wsi'.format(len(train.task.unique()),
