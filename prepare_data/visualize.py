@@ -25,7 +25,7 @@ def visualize(image, bboxes):
     for bbox in (bboxes):
 #         print(bbox)
         img = visualize_bbox(img, bbox)
-    plt.figure(figsize=(5, 5))
+    plt.figure(figsize=(7, 7))
     plt.axis('off')
     plt.imshow(img)
     

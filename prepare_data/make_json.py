@@ -45,6 +45,8 @@ if __name__ == "__main__":
     df['label_id'] = df.label.apply(lambda x : CLASS_MAPPER[str(x)])
     df = drop_wrong(df, columns='label_id')
     
+    df.reset_index(drop=True, inplace=True)
+    
     # take abnormal only,
     # df['label_id'] = df.label_id.apply(lambda x : 'negative' if 'Benign' in x or 'Negative' in x else 'abnormal')
     normal_size = df.shape

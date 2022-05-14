@@ -311,6 +311,9 @@ def drop_wrong(df, columns='label') :
     # remove abnormally big size samples
     df = df[(df['area'] < 1400)] 
     
+    # remove abnormally small size samples
+    df = df[(df['area'] > 20)]     
+    
     return df
 
 
@@ -320,7 +323,7 @@ def split_by_group(df, ratio, seed ) :
                                                     random_state = seed).split(df, groups=df['task']))
     return train_inds, test_inds
 
-def paps_data_split (df, ratio, seed=0, method='both', columns='label') :
+def paps_data_split (df, ratio=0.25, seed=0, method='both', columns='label') :
     if method == 'whole_slide' :
         train_inds, test_inds = split_by_group(df, ratio, seed)                                                       
 
@@ -347,14 +350,21 @@ def paps_data_split (df, ratio, seed=0, method='both', columns='label') :
             print('size mismatching, check the label carefully')
             print(all_size, sum_partial)
         
-        train_inds = []
-        test_inds = []
+        train_li = []
+        test_li = []
 
-        for df in list([ascus_df, asch_df, neg_df, hsil_df, lsil_df]) :
-            tr_inds, te_inds = split_by_group(df, ratio, seed)
-            train_inds.extend(tr_inds)
-            test_inds.extend(te_inds)
-    
+        for tdf in list([ascus_df, asch_df, neg_df, hsil_df, lsil_df]) :
+            tr_inds, te_inds = split_by_group(tdf, ratio, seed)
+            temp_tr = tdf.iloc[tr_inds]
+            temp_te = tdf.iloc[te_inds]
+            train_li.append(temp_tr)
+            test_li.append(temp_te)
+        train_df = pd.concat(train_li)
+        test_df = pd.concat(test_li)
+
+        train_inds = train_df.index
+        test_inds = test_df.index 
+
     return train_inds, test_inds
 
 

@@ -1,8 +1,10 @@
 .ipynb_checkpoints/*
 */.ipynb_checkpoints/*
+*/*/.ipynb_checkpoints/*
 */patch_images/*
 lightning_logs/*
 */__pycache__/*
+*/*/__pycache__/*
 __pycache__/*
 */saved_models/*
 */data/*
