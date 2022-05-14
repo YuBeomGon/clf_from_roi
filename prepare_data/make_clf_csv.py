@@ -8,8 +8,7 @@ import sys
 import cv2
 import re
 
-from sklearn.model_selection import GroupShuffleSplit, train_test_split
-from utils import CLASS_MAPPER, convert, drop_wrong
+from utils import CLASS_MAPPER, convert, drop_wrong, paps_data_split
 
 parser = argparse.ArgumentParser(description='get dataframe of annotations')
 parser.add_argument('--saved_path', default='saved/', type=str, metavar='M',
@@ -37,17 +36,7 @@ if __name__ == "__main__":
     df.reset_index(drop=True, inplace=True)    
 
     # split train test data by whole slide or bbox
-    if args.whole_slide :
-        train_inds, test_inds = next(GroupShuffleSplit(test_size=args.ratio, 
-                                                       n_splits=2, 
-                                                       random_state = args.seed).split(df, groups=df['task']))
-    else :
-        # split by bbox, do balance split by original label
-        targets = df['label']
-        train_inds, test_inds = train_test_split(np.arrange(len(df)),
-                                                 test_size=args.ratio,
-                                                 stratify=targets,
-                                                 random_state=args.seed)
+    train_inds, test_inds = paps_data_split(df, args.ratio, args.seed)
 
     train = df.iloc[train_inds]
     test = df.iloc[test_inds] 

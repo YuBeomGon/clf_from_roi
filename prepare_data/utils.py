@@ -7,6 +7,7 @@ import re
 import json
 
 from xml.etree.ElementTree import parse
+from sklearn.model_selection import GroupShuffleSplit, train_test_split
 
 CLASS_MAPPER = {
     # [DOAI]
@@ -311,3 +312,53 @@ def drop_wrong(df, columns='label') :
     df = df[(df['area'] < 1400)] 
     
     return df
+
+
+def split_by_group(df, ratio, seed ) :
+    train_inds, test_inds = next(GroupShuffleSplit(test_size=ratio,
+                                                    n_splits=2, 
+                                                    random_state = seed).split(df, groups=df['task']))
+    return train_inds, test_inds
+
+def paps_data_split (df, ratio, seed=0, method='both', columns='label') :
+    if method == 'whole_slide' :
+        train_inds, test_inds = split_by_group(df, ratio, seed)                                                       
+
+    elif method == 'box' :
+        # use original label but label_id
+        targets = df['label']
+        train_inds, test_inds = train_test_split(np.arrange(len(df)),
+                                                 test_size=ratio,
+                                                 stratify=targets,
+                                                 random_state=seed)
+
+    else :
+        all_size = len(df)
+        ascus_df = df[df[columns]=='ASC-US']
+        asch_df = df[df[columns]=='ASC-H']
+        neg_df = df[df[columns]=='Negative']
+        hsil_df = df[df[columns]=='HSIL']
+        lsil_df = df[df[columns]=='LSIL']
+        carcinoma_df = df[df[columns]=='Carcinoma']
+        sum_partial = len(ascus_df) + len(asch_df) + len(neg_df) + len(hsil_df) + len(lsil_df) + len(carcinoma_df)
+
+        if all_size != sum_partial :
+            print('*************************************')
+            print('size mismatching, check the label carefully')
+            print(all_size, sum_partial)
+        
+        train_inds = []
+        test_inds = []
+
+        for df in list([ascus_df, asch_df, neg_df, hsil_df, lsil_df]) :
+            tr_inds, te_inds = split_by_group(df, ratio, seed)
+            train_inds.extend(tr_inds)
+            test_inds.extend(te_inds)
+    
+    return train_inds, test_inds
+
+
+
+        
+
+
