@@ -20,10 +20,18 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 # IMAGE_SIZE = 448
-IMAGE_SIZE = 224
+# IMAGE_SIZE = 224
+# box more than this size, crop it
+# if backbone is swin, size should be selected carefully
+MAX_IMAGE_SIZE = 448
 
+# adaptive resizing threshold for small image
+# if area( geometric mean of W*H is smaller than this, resize in some range (1, 1.5)
+SMALL_IMAGE_SIZE = 100.
+range_limit = 0.5 # range(1, 1 + range limit)
 
 train_transforms = A.Compose([
+    A.RandomScale(scale_limit=.05, p=0.7),
     A.OneOf([
         A.HorizontalFlip(p=.8),
         A.VerticalFlip(p=.8),
@@ -33,15 +41,15 @@ train_transforms = A.Compose([
 ], p=1.0) 
 
 val_transforms = A.Compose([
-    A.HorizontalFlip(p=.01),
+    A.HorizontalFlip(p=.001),
 ], p=1.0) 
 
 test_transforms = A.Compose([
-    A.HorizontalFlip(p=.01),
+    A.HorizontalFlip(p=.001),
 ], p=1.0) 
 
 contra_transforms = A.Compose([
-    A.RandomScale(scale_limit=.1, p=0.7),
+    A.RandomScale(scale_limit=.05, p=0.7),
     A.OneOf([
         A.HorizontalFlip(p=.8),
         A.VerticalFlip(p=.8),
@@ -69,17 +77,6 @@ def label_mapper(label) :
         return 'Benign'
     else :
         return label
-    
-# def label_id(label) :
-#     label = str(label)
-#     if label == 'ASC-US' :
-#         return 0
-#     elif label == 'LSIL' :
-#         return 1
-#     elif label == 'HSIL' :
-#         return 2
-#     else : #others
-#         return 3
 
 def label_id(label) :
     label = str(label)
@@ -92,10 +89,11 @@ def label_id(label) :
     elif label == 'Negative' :
         return 3
     elif label == 'ASC-H' :
-        return 4    
+        return 4   
+    # elif label == 'Carcinoma' :
+    #     return 5
     else : #others
         return 5
-        
 
 class PapsDataset(Dataset):
     def __init__(self, df, defaultpath='/home/Dataset/scl/', transform=None):
@@ -106,12 +104,17 @@ class PapsDataset(Dataset):
         self.df = self.df[self.df['label'] != self.num_classes]
         self.image_mean = np.array([0.485, 0.456, 0.406])
         self.image_std = np.array([0.229, 0.224, 0.225])
-        self.df.reset_index(inplace=True, drop=False)
         print(self.df.shape)
         
         self.transform = transform
         self.dir = defaultpath
-        # self.df = self.df.sample(frac=1).reset_index(drop=True)[:200]
+        
+        # sorting by size, batch should be consider size for compute efficiency and performance
+        # I think batchnorm will be affected if image with lots of padding, therefore
+        # custom sampler should check area
+        self.df = self.df.sort_values('area', axis=0)
+        
+        self.df.reset_index(inplace=True, drop=False)
 
     def __len__(self):
         return len(self.df)   
@@ -120,10 +123,6 @@ class PapsDataset(Dataset):
         path = self.df.loc[idx]['file_name']
         image = cv2.imread(self.dir + path)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        # xmin = self.df.iloc[idx, 4]
-        # ymin = self.df.iloc[idx, 5]
-        # xmax = xmin + self.df.iloc[idx, 6]
-        # ymax = ymin + self.df.iloc[idx, 7]
         xmin, ymin, w, h = self.df.loc[idx][['xmin', 'ymin', 'w', 'h']]
         xmax = xmin + w
         ymax = ymin + h
@@ -131,52 +130,52 @@ class PapsDataset(Dataset):
         image = image[ymin:ymax,xmin:xmax,:]
         return image
     
-    def get_croppad(self, image):
+    def get_crop(self, image):
         
+        #crop more than max_image_size
         x, y, _ = image.shape
         s_x = s_y = 0
         pl_x = pl_y = pr_x = pr_y = 0
-        if x > IMAGE_SIZE :
-            s_x = (x-IMAGE_SIZE)//2
-        elif x < IMAGE_SIZE :
-            pl_x = (IMAGE_SIZE-x)//2
-            pr_x = IMAGE_SIZE-x - pl_x
-        if y > IMAGE_SIZE :
-            s_y = (y - IMAGE_SIZE)//2
-        elif y < IMAGE_SIZE :
-            pl_y = (IMAGE_SIZE-y)//2
-            pr_y = IMAGE_SIZE-y - pl_y
+        if x > MAX_IMAGE_SIZE :
+            s_x = (x-MAX_IMAGE_SIZE)//2
+        if y > MAX_IMAGE_SIZE :
+            s_y = (y - MAX_IMAGE_SIZE)//2
             
-#         crop the image to IMAGE_SIZE if image is larget than IMAGE_SIZE
+#         crop the image to IMAGE_SIZE if image is larger than IMAGE_SIZE, by center
         image = image[s_x:IMAGE_SIZE+s_x, s_y:IMAGE_SIZE+s_y,:]
     
+        # need to select real statistics 
         image = image/255.
         image = (image - self.image_mean[None, None, :]) / self.image_std[None, None, :]
         
-#         pad image to IMAGE_SIZE
-        image = np.pad(image, ((pl_x,pr_x), (pl_y,pr_y), (0,0)), 'constant', constant_values=0)
-        image =  torch.tensor(image, dtype=torch.float32)
-        image = image.permute(2,0,1)   
+        # do this in collate_fn
+        # image =  torch.tensor(image, dtype=torch.float32)
+        # image = image.permute(2,0,1)   
         
         return image
     
     def get_label(self, idx):
-        # return self.df.iloc[idx, 8]
         return self.df.loc[idx]['label']
 
     def __getitem__(self, idx):
-        image = self.get_roi(idx)
         label = self.get_label(idx)
+        image = self.get_roi(idx)
+        area = self.df.loc[idx]['area']
+        
+        if area < SMALL_IMAGE_SIZE :
+            # adaptive image scaling, range and scaling is varing by area
+            scale = 1 + float(((SMALL_IMAGE_SIZE/area)**2)*0.1 + np.random.randn(1) * 0.1)
+            image = cv2.resize(image, dsize=(0,0), fx=scale, fy=scale)
         
 #         if image is uint8, normalization by 255 is done automatically by albumebtation(ToTensor method)
         if self.transform:
             timage = self.transform(image=image)
             image = timage['image']
             
-#         crop or pad for fixed size (IMAGE_SIZE*IMAGE_SIZE*3) based on center
-        image = self.get_croppad(image)
+        # crop big size image
+        image = self.get_crop(image)
         
-        return image, label #, path
+        return image, label, area #, path
 
     
 class ContraPapsDataset(PapsDataset):

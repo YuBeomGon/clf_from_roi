@@ -32,7 +32,9 @@ from pytorch_lightning.loggers import TensorBoardLogger, WandbLogger
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping, LearningRateMonitor
 from pytorch_lightning.plugins import DDPPlugin
 
-from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_transforms, test_transforms, contra_transforms, IMAGE_SIZE
+from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_transforms, test_transforms, contra_transforms, MAX_IMAGE_SIZE
+from utils.collate import collate_fn
+from utils.sampler_by_group import GroupedBatchSampler, create_area_groups
 from utils.losses import SupConLoss, FocalLoss
 import custom_models
 # from models.efficientnet import EfficientNet, VALID_MODELS
@@ -67,6 +69,7 @@ parser.add_argument('--accelerator', '--accelerator', default='gpu', type=str, h
 parser.add_argument('--devices', '--devices', default=4, type=int, help='number of gpus, default 2')
 parser.add_argument('--img_size', default=400, type=int, help='input image resolution in swin models')
 parser.add_argument('--num_classes', default=5, type=int, help='number of classes')
+parser.add_argument('--groups', default=3, type=int, help='number of groups of data')
 parser.add_argument('--saved_dir', default='./saved_models/tunning', type=str, help='directory for model checkpoint')
 parser.add_argument('--from_contra', default='./saved_models/contra', type=str, help='directory for model checkpoint')
 # parser.add_argument('--is_contra', default=False, type=bool, help='supervised contrastive learning or not')
@@ -85,6 +88,7 @@ class PapsClsModel(LightningModule) :
         workers: int = 16,
         num_classes: int = 5,
         from_contra : str = './saved_models/contra/',
+        groups : int = 3,
         # is_contra: bool = False,
     ):
         
@@ -98,6 +102,7 @@ class PapsClsModel(LightningModule) :
         self.batch_size = batch_size
         self.workers = workers
         self.num_classes = num_classes
+        self.groups = groups
         self.from_contra = from_contra
         
         if self.arch not in models.__dict__.keys() : 
@@ -121,6 +126,9 @@ class PapsClsModel(LightningModule) :
         self.specificity = Specificity(average='macro', num_classes=self.num_classes)
         
         self.save_hyperparameters()
+        self.train_transforms = train_transforms
+        self.val_transforms = val_transforms
+        self.test_transforms = test_transforms
         
     def forward(self, x) :
         return self.model(x)
@@ -152,7 +160,7 @@ class PapsClsModel(LightningModule) :
     
     def training_epoch_end(self, outputs):
         # if(self.current_epoch==1):
-        #     sampleImg=torch.rand((1,3,IMAGE_SIZE,IMAGE_SIZE))
+        #     sampleImg=torch.rand((1,3,MAX_IMAGE_SIZE,MAX_IMAGE_SIZE))
         #     self.logger.experiment.add_graph(self.model(), sampleImg)
 
         avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
@@ -256,18 +264,34 @@ class PapsClsModel(LightningModule) :
             
         if stage in (None, 'fit') :
             train_df = pd.read_csv(self.data_path + '/train.csv') 
-            self.train_dataset = PapsDataset(train_df, defaultpath=self.data_path, transform=train_transforms)
+            self.train_dataset = PapsDataset(train_df, defaultpath=self.data_path, transform=self.train_transforms)
+            
+        #train_sampler = torch.utils.data.distributed.DistributedSampler(self.train_dataset)  
+        train_sampler = torch.utils.data.RandomSampler(self.train_dataset)
+            
+        if self.groups > 0 :
+            group_ids = create_area_groups(self.train_dataset, k=self.groups)   
+            self.train_batch_sampler = GroupedBatchSampler(train_sampler, group_ids, self.batch_size)
+            self.shuffle = False
+        else :
+            self.train_batch_sampler = train_sampler
+            self.shuffle = True
+        
         test_df = pd.read_csv(self.data_path + '/test.csv')
-        self.eval_dataset = PapsDataset(test_df, defaultpath=self.data_path, transform=test_transforms)              
+        self.eval_dataset = PapsDataset(test_df, defaultpath=self.data_path, transform=self.test_transforms)         
+        # test_sampler = torch.utils.data.distributed.DistributedSampler(self.eval_dataset)
 
         
     def train_dataloader(self) :
         return torch.utils.data.DataLoader(
             dataset=self.train_dataset,
-            batch_size=self.batch_size,
-            shuffle=True,
+            # batch_size=self.batch_size, # batch_size is decided in sampler
+            # shuffle=True,
+            batch_sampler=self.train_batch_sampler,
             num_workers=self.workers,
-            pin_memory=True
+            collate_fn=collate_fn,
+            pin_memory=True,
+            # drop_last=True
         )
     
     def val_dataloader(self) :
@@ -275,6 +299,7 @@ class PapsClsModel(LightningModule) :
             dataset=self.eval_dataset,
             batch_size=self.batch_size,
             num_workers=self.workers,
+            collate_fn=collate_fn,
             pin_memory=True
         )
     
@@ -314,7 +339,7 @@ if __name__ == "__main__":
         args.accelerator = 'gpu'
         args.devices = torch.cuda.device_count()
         
-    args.img_size = IMAGE_SIZE
+    args.img_size = MAX_IMAGE_SIZE
     # tb_logger = TensorBoardLogger(save_dir="tuning_logs/" + args.arch, name=args.arch + "_my_model")
     logger_tb = TensorBoardLogger('./tuning_logs' +'/' + args.arch, name=now)
     logger_wandb = WandbLogger(project='Paps_clf', name=now, mode='online') # online or disabled    
@@ -350,6 +375,7 @@ if __name__ == "__main__":
         batch_size=args.batch_size,
         weight_decay=args.weight_decay,
         num_classes=args.num_classes,
+        groups=args.groups,
         from_contra=args.from_contra)
     
     path = args.from_contra + '/' + args.arch
