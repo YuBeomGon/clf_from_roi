@@ -5,6 +5,7 @@ import sys
 import cv2
 import re
 import json
+import random
 
 from xml.etree.ElementTree import parse
 from sklearn.model_selection import GroupShuffleSplit, train_test_split
@@ -323,6 +324,33 @@ def split_by_group(df, ratio, seed ) :
                                                     random_state = seed).split(df, groups=df['task']))
     return train_inds, test_inds
 
+# split by group but consider real sample ratio, as much as possble 
+def split_by_group_ratio(df, test_ratio, seed ) :
+    TRAIN_TEST_SPLIT_PERC = 1- test_ratio
+    uniques = df["task"].unique()
+    sep = int(len(uniques) * TRAIN_TEST_SPLIT_PERC)
+
+    best_ratio = 0
+    best_unique = []
+    best_train_df = []
+    best_test_df = []
+    for i in range(40) :
+        random.shuffle(uniques)
+        df = df.sample(frac=1).reset_index(drop=True) #For shuffling your data
+        train_ids, test_ids = uniques[:sep], uniques[sep:]
+        train_df, test_df = df[df.task.isin(train_ids)], df[df.task.isin(test_ids)]
+        ratio = len(test_df)/(len(test_df) + len(train_df))
+        if ratio > best_ratio and ratio < test_ratio :
+            best_ratio = ratio
+            best_unique.append(uniques)
+            best_train_df.append(train_df)
+            best_test_df.append(test_df)
+
+    # print(best_ratio)
+    print(len(best_test_df[-1])/(len(best_test_df[-1]) + len(best_train_df[-1])))
+    
+    return best_train_df[-1].index, best_test_df[-1].index
+
 def paps_data_split (df, ratio=0.25, seed=0, method='both', columns='label') :
     if method == 'whole_slide' :
         train_inds, test_inds = split_by_group(df, ratio, seed)                                                       
@@ -354,7 +382,7 @@ def paps_data_split (df, ratio=0.25, seed=0, method='both', columns='label') :
         test_li = []
 
         for tdf in list([ascus_df, asch_df, neg_df, hsil_df, lsil_df]) :
-            tr_inds, te_inds = split_by_group(tdf, ratio, seed)
+            tr_inds, te_inds = split_by_group_ratio(tdf, ratio, seed)
             temp_tr = tdf.iloc[tr_inds]
             temp_te = tdf.iloc[te_inds]
             train_li.append(temp_tr)
