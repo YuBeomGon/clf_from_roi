@@ -141,8 +141,8 @@ class PapsDataset(Dataset):
         if y > MAX_IMAGE_SIZE :
             s_y = (y - MAX_IMAGE_SIZE)//2
             
-#         crop the image to IMAGE_SIZE if image is larger than IMAGE_SIZE, by center
-        image = image[s_x:IMAGE_SIZE+s_x, s_y:IMAGE_SIZE+s_y,:]
+#         crop the image to MAX_IMAGE_SIZE if image is larger than MAX_IMAGE_SIZE, by center
+        image = image[s_x:MAX_IMAGE_SIZE+s_x, s_y:MAX_IMAGE_SIZE+s_y,:]
     
         # need to select real statistics 
         image = image/255.

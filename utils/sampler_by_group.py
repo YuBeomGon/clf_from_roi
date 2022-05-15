@@ -41,7 +41,7 @@ class GroupedBatchSampler(BatchSampler):
         batch_size (int): Size of mini-batch.
     """
 
-    def __init__(self, sampler, group_ids, batch_size, drop_last=True):
+    def __init__(self, sampler, group_ids, batch_size, drop_last=False):
     # def __init__(self, sampler, group_ids, batch_size):
         if not isinstance(sampler, Sampler):
             raise ValueError(f"sampler should be an instance of torch.utils.data.Sampler, but got sampler={sampler}")
@@ -52,7 +52,7 @@ class GroupedBatchSampler(BatchSampler):
             
         # buffer the indices of each group until batch size is reached
         self.buffer_per_group = {k: [] for k in self.groups}
-        self.drop_last = True
+        self.drop_last = drop_last
 
     def __iter__(self):
         for idx in self.sampler:

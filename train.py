@@ -70,6 +70,7 @@ parser.add_argument('--devices', '--devices', default=4, type=int, help='number 
 parser.add_argument('--img_size', default=400, type=int, help='input image resolution in swin models')
 parser.add_argument('--num_classes', default=5, type=int, help='number of classes')
 parser.add_argument('--groups', default=3, type=int, help='number of groups of data')
+parser.add_argument('--drop_last', default=False, type=bool, help='drop or not on every end of epoch or groups')
 parser.add_argument('--saved_dir', default='./saved_models/tunning', type=str, help='directory for model checkpoint')
 parser.add_argument('--from_contra', default='./saved_models/contra', type=str, help='directory for model checkpoint')
 # parser.add_argument('--is_contra', default=False, type=bool, help='supervised contrastive learning or not')
@@ -89,6 +90,7 @@ class PapsClsModel(LightningModule) :
         num_classes: int = 5,
         from_contra : str = './saved_models/contra/',
         groups : int = 3,
+        drop_last : bool = False,
         # is_contra: bool = False,
     ):
         
@@ -103,6 +105,7 @@ class PapsClsModel(LightningModule) :
         self.workers = workers
         self.num_classes = num_classes
         self.groups = groups
+        self.drop_last = drop_last
         self.from_contra = from_contra
         
         if self.arch not in models.__dict__.keys() : 
@@ -271,7 +274,8 @@ class PapsClsModel(LightningModule) :
             
         if self.groups > 0 :
             group_ids = create_area_groups(self.train_dataset, k=self.groups)   
-            self.train_batch_sampler = GroupedBatchSampler(train_sampler, group_ids, self.batch_size)
+            self.train_batch_sampler = GroupedBatchSampler(train_sampler, group_ids, 
+                                                           self.batch_size, drop_last=self.drop_last)
             self.shuffle = False
         else :
             self.train_batch_sampler = train_sampler
@@ -376,6 +380,7 @@ if __name__ == "__main__":
         weight_decay=args.weight_decay,
         num_classes=args.num_classes,
         groups=args.groups,
+        drop_last=args.drop_last,
         from_contra=args.from_contra)
     
     path = args.from_contra + '/' + args.arch
