@@ -360,9 +360,11 @@ if __name__ == "__main__":
         max_epochs = args.epochs,
         accelerator = args.accelerator, # auto, or select device, "gpu"
         devices = args.devices, # number of gpus
+        # devices = 1, # number of gpus
         logger = [logger_tb, logger_wandb],
         benchmark = True,
         strategy = "ddp",
+        # gpus=[1],
         )
     
     model = PapsClsModel(
