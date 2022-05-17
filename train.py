@@ -7,6 +7,7 @@ from typing import Optional
 import pandas as pd
 import logging
 from datetime import datetime
+import timm
 
 import torch
 import torch.nn as nn
@@ -36,7 +37,7 @@ from utils.dataset import PapsDataset, ContraPapsDataset, train_transforms, val_
 from utils.collate import collate_fn
 from utils.sampler_by_group import GroupedBatchSampler, create_area_groups
 from utils.losses import SupConLoss, FocalLoss
-import custom_models
+# import custom_models
 # from models.efficientnet import EfficientNet, VALID_MODELS
 
 parser = argparse.ArgumentParser(description='PyTorch Lightning ImageNet Training')
@@ -107,16 +108,10 @@ class PapsClsModel(LightningModule) :
         self.groups = groups
         self.drop_last = drop_last
         self.from_contra = from_contra
+
+        self.model = timm.create_model(self.arch, pretrained=self.pretrained, num_classes=self.num_classes)
         
-        if self.arch not in models.__dict__.keys() : 
-            # self.model = custom_models.__dict__[self.arch](pretrained=False, img_size=args.img_size)
-            self.model = custom_models.__dict__[self.arch](pretrained=False)
-        else :
-            print('only resnet is supported') 
-            self.model = models.__dict__[self.arch](pretrained=self.pretrained) 
-        
-        shape = self.model.fc.weight.shape
-        self.model.fc = nn.Linear(shape[1], self.num_classes)
+        # classifier = model.get_classifier()
         # self.criterion = nn.CrossEntropyLoss()
         self.criterion = FocalLoss()
             
