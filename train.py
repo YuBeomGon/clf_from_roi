@@ -69,7 +69,7 @@ parser.add_argument('--accelerator', '--accelerator', default='gpu', type=str, h
 
 parser.add_argument('--devices', '--devices', default=4, type=int, help='number of gpus, default 2')
 parser.add_argument('--img_size', default=400, type=int, help='input image resolution in swin models')
-parser.add_argument('--num_classes', default=5, type=int, help='number of classes')
+parser.add_argument('--num_classes', default=6, type=int, help='number of classes')
 parser.add_argument('--groups', default=3, type=int, help='number of groups of data')
 parser.add_argument('--drop_last', default=False, type=bool, help='drop or not on every end of epoch or groups')
 

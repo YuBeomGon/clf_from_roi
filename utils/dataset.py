@@ -90,10 +90,10 @@ def label_id(label) :
         return 3
     elif label == 'ASC-H' :
         return 4   
-    # elif label == 'Carcinoma' :
-    #     return 5
-    else : #others
+    elif label == 'Carcinoma' :
         return 5
+    else : #others
+        return 6
 
 class PapsDataset(Dataset):
     def __init__(self, df, defaultpath='/home/Dataset/scl/', transform=None):

@@ -157,7 +157,12 @@ def anno_to_df(df, src_path):
                     task_name = file_name.split("negative/")[-1].split('-')[0]
                     task_number = int(re.sub('LBC', '', task_name))
                     uppder_dir = get_upper_dir(task_number)
-                    file_name = uppder_dir + re.sub('negative/', '', file_name)     
+                    file_name = uppder_dir + re.sub('negative/', '', file_name)   
+                elif 'carcinoma' in file_name :
+                    task_name = file_name.split("carcinoma/")[-1].split('-')[0]
+                    task_number = int(re.sub('LBC', '', task_name))
+                    uppder_dir = get_upper_dir(task_number)
+                    file_name = 'patch_images1/' + re.sub('carcinoma/', '2022.04.08/', file_name)                         
 
                 elif len(file_name.split('/')) ==  3 :
                     file_name = 'patch_images/' + file_name
@@ -315,8 +320,8 @@ def drop_wrong(df, columns='label') :
     # remove abnormally small size samples
     df = df[(df['area'] > 20)]     
     
-    # remove Carcinoma temporalliy becuase there is few samples
-    df = df[(df[columns] != 'Carcinoma')]       
+    # # remove Carcinoma temporalliy becuase there is few samples
+    # df = df[(df[columns] != 'Carcinoma')]       
     
     return df
 
