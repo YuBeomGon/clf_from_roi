@@ -39,8 +39,6 @@ if __name__ == "__main__":
     if torch.cuda.is_available() :
         args.accelerator = 'gpu'
         args.devices = torch.cuda.device_count()
-        
-    args.img_size = IMAGE_SIZE
     
     trainer_defaults = dict(
         callbacks = [
