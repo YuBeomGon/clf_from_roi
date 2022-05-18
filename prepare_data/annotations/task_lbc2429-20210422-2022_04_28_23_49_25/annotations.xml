@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>756</id>
+      <name>LBC2429-20210422</name>
+      <size>430</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-04-21 06:14:21.148449+00:00</created>
+      <updated>2022-04-28 23:49:25.070611+00:00</updated>
+      <start_frame>0</start_frame>
+      <stop_frame>429</stop_frame>
+      <frame_filter></frame_filter>
+      <labels>
+        <label>
+          <name>GC</name>
+          <color>#03a541</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>GN</name>
+          <color>#da84a8</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>AS</name>
+          <color>#fff600</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>ASC-US</default_value>
+              <values>ASC-US</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AH</name>
+          <color>#ffba00</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>ASC-H</default_value>
+              <values>ASC-H</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>LS</name>
+          <color>#ff8d00</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>LSIL</default_value>
+              <values>LSIL</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>HS</name>
+          <color>#ff5000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>High-grade squamous intraepithelial lesion</default_value>
+              <values>High-grade squamous intraepithelial lesion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>HN</name>
+          <color>#ff3200</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>HSIL with features suspicious for invasion</default_value>
+              <values>HSIL with features suspicious for invasion</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>SM</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Suspicious for malignancy</default_value>
+              <values>Suspicious for malignancy</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>SC</name>
+          <color>#ff0000</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Invasive squamous cell carcinoma</default_value>
+              <values>Invasive squamous cell carcinoma</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>C</name>
+          <color>#87c76b</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Candida albicans</default_value>
+              <values>Candida albicans</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>T</name>
+          <color>#5aa72c</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Trichomonas vaginalis</default_value>
+              <values>Trichomonas vaginalis</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>H</name>
+          <color>#5ed80c</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Herpes simplex virus</default_value>
+              <values>Herpes simplex virus</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>AC</name>
+          <color>#0dc424</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value>Actinomyces species</default_value>
+              <values>Actinomyces species</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Others</name>
+          <color>#0e1de8</color>
+          <attributes>
+            <attribute>
+              <name>Description</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>판독불가</name>
+          <color>#ff6037</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>N - Endocervical Cell</name>
+          <color>#bb02d0</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>N - Endometrial cell</name>
+          <color>#2a454f</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>AD</name>
+          <color>#c61049</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <segments>
+        <segment>
+          <id>610</id>
+          <start>0</start>
+          <stop>429</stop>
+          <url>http://cvat.doai.ai/?id=610</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>django</username>
+        <email></email>
+      </owner>
+      <assignee></assignee>
+    </task>
+    <dumped>2022-05-18 08:58:32.873043+00:00</dumped>
+  </meta>
+  <image id="414" name="carcinoma/LBC2429-20210422/LBC2429-20210422_954.png" width="2048" height="2048">
+  </image>
+  <image id="413" name="carcinoma/LBC2429-20210422/LBC2429-20210422_943.png" width="2048" height="2048">
+  </image>
+  <image id="412" name="carcinoma/LBC2429-20210422/LBC2429-20210422_942.png" width="2048" height="2048">
+  </image>
+  <image id="411" name="carcinoma/LBC2429-20210422/LBC2429-20210422_941.png" width="2048" height="2048">
+  </image>
+  <image id="410" name="carcinoma/LBC2429-20210422/LBC2429-20210422_94.png" width="2048" height="2048">
+  </image>
+  <image id="409" name="carcinoma/LBC2429-20210422/LBC2429-20210422_939.png" width="2048" height="2048">
+  </image>
+  <image id="408" name="carcinoma/LBC2429-20210422/LBC2429-20210422_936.png" width="2048" height="2048">
+  </image>
+  <image id="407" name="carcinoma/LBC2429-20210422/LBC2429-20210422_935.png" width="2048" height="2048">
+  </image>
+  <image id="406" name="carcinoma/LBC2429-20210422/LBC2429-20210422_93.png" width="2048" height="2048">
+  </image>
+  <image id="405" name="carcinoma/LBC2429-20210422/LBC2429-20210422_927.png" width="2048" height="2048">
+  </image>
+  <image id="404" name="carcinoma/LBC2429-20210422/LBC2429-20210422_923.png" width="2048" height="2048">
+  </image>
+  <image id="403" name="carcinoma/LBC2429-20210422/LBC2429-20210422_922.png" width="2048" height="2048">
+  </image>
+  <image id="402" name="carcinoma/LBC2429-20210422/LBC2429-20210422_917.png" width="2048" height="2048">
+  </image>
+  <image id="401" name="carcinoma/LBC2429-20210422/LBC2429-20210422_916.png" width="2048" height="2048">
+  </image>
+  <image id="400" name="carcinoma/LBC2429-20210422/LBC2429-20210422_914.png" width="2048" height="2048">
+  </image>
+  <image id="399" name="carcinoma/LBC2429-20210422/LBC2429-20210422_912.png" width="2048" height="2048">
+  </image>
+  <image id="398" name="carcinoma/LBC2429-20210422/LBC2429-20210422_911.png" width="2048" height="2048">
+  </image>
+  <image id="397" name="carcinoma/LBC2429-20210422/LBC2429-20210422_910.png" width="2048" height="2048">
+  </image>
+  <image id="396" name="carcinoma/LBC2429-20210422/LBC2429-20210422_909.png" width="2048" height="2048">
+  </image>
+  <image id="395" name="carcinoma/LBC2429-20210422/LBC2429-20210422_900.png" width="2048" height="2048">
+  </image>
+  <image id="394" name="carcinoma/LBC2429-20210422/LBC2429-20210422_90.png" width="2048" height="2048">
+  </image>
+  <image id="393" name="carcinoma/LBC2429-20210422/LBC2429-20210422_899.png" width="2048" height="2048">
+  </image>
+  <image id="392" name="carcinoma/LBC2429-20210422/LBC2429-20210422_898.png" width="2048" height="2048">
+  </image>
+  <image id="391" name="carcinoma/LBC2429-20210422/LBC2429-20210422_897.png" width="2048" height="2048">
+  </image>
+  <image id="390" name="carcinoma/LBC2429-20210422/LBC2429-20210422_896.png" width="2048" height="2048">
+  </image>
+  <image id="389" name="carcinoma/LBC2429-20210422/LBC2429-20210422_895.png" width="2048" height="2048">
+  </image>
+  <image id="388" name="carcinoma/LBC2429-20210422/LBC2429-20210422_894.png" width="2048" height="2048">
+  </image>
+  <image id="387" name="carcinoma/LBC2429-20210422/LBC2429-20210422_893.png" width="2048" height="2048">
+  </image>
+  <image id="386" name="carcinoma/LBC2429-20210422/LBC2429-20210422_892.png" width="2048" height="2048">
+  </image>
+  <image id="385" name="carcinoma/LBC2429-20210422/LBC2429-20210422_88.png" width="2048" height="2048">
+  </image>
+  <image id="384" name="carcinoma/LBC2429-20210422/LBC2429-20210422_879.png" width="2048" height="2048">
+  </image>
+  <image id="383" name="carcinoma/LBC2429-20210422/LBC2429-20210422_871.png" width="2048" height="2048">
+  </image>
+  <image id="382" name="carcinoma/LBC2429-20210422/LBC2429-20210422_870.png" width="2048" height="2048">
+  </image>
+  <image id="381" name="carcinoma/LBC2429-20210422/LBC2429-20210422_87.png" width="2048" height="2048">
+  </image>
+  <image id="380" name="carcinoma/LBC2429-20210422/LBC2429-20210422_867.png" width="2048" height="2048">
+  </image>
+  <image id="379" name="carcinoma/LBC2429-20210422/LBC2429-20210422_866.png" width="2048" height="2048">
+  </image>
+  <image id="378" name="carcinoma/LBC2429-20210422/LBC2429-20210422_865.png" width="2048" height="2048">
+  </image>
+  <image id="377" name="carcinoma/LBC2429-20210422/LBC2429-20210422_864.png" width="2048" height="2048">
+  </image>
+  <image id="376" name="carcinoma/LBC2429-20210422/LBC2429-20210422_863.png" width="2048" height="2048">
+  </image>
+  <image id="375" name="carcinoma/LBC2429-20210422/LBC2429-20210422_862.png" width="2048" height="2048">
+  </image>
+  <image id="374" name="carcinoma/LBC2429-20210422/LBC2429-20210422_860.png" width="2048" height="2048">
+  </image>
+  <image id="373" name="carcinoma/LBC2429-20210422/LBC2429-20210422_859.png" width="2048" height="2048">
+  </image>
+  <image id="372" name="carcinoma/LBC2429-20210422/LBC2429-20210422_858.png" width="2048" height="2048">
+  </image>
+  <image id="371" name="carcinoma/LBC2429-20210422/LBC2429-20210422_857.png" width="2048" height="2048">
+  </image>
+  <image id="370" name="carcinoma/LBC2429-20210422/LBC2429-20210422_856.png" width="2048" height="2048">
+  </image>
+  <image id="369" name="carcinoma/LBC2429-20210422/LBC2429-20210422_855.png" width="2048" height="2048">
+  </image>
+  <image id="368" name="carcinoma/LBC2429-20210422/LBC2429-20210422_854.png" width="2048" height="2048">
+  </image>
+  <image id="367" name="carcinoma/LBC2429-20210422/LBC2429-20210422_853.png" width="2048" height="2048">
+  </image>
+  <image id="366" name="carcinoma/LBC2429-20210422/LBC2429-20210422_852.png" width="2048" height="2048">
+  </image>
+  <image id="365" name="carcinoma/LBC2429-20210422/LBC2429-20210422_851.png" width="2048" height="2048">
+  </image>
+  <image id="364" name="carcinoma/LBC2429-20210422/LBC2429-20210422_850.png" width="2048" height="2048">
+  </image>
+  <image id="363" name="carcinoma/LBC2429-20210422/LBC2429-20210422_849.png" width="2048" height="2048">
+  </image>
+  <image id="362" name="carcinoma/LBC2429-20210422/LBC2429-20210422_835.png" width="2048" height="2048">
+  </image>
+  <image id="361" name="carcinoma/LBC2429-20210422/LBC2429-20210422_83.png" width="2048" height="2048">
+  </image>
+  <image id="360" name="carcinoma/LBC2429-20210422/LBC2429-20210422_828.png" width="2048" height="2048">
+  </image>
+  <image id="359" name="carcinoma/LBC2429-20210422/LBC2429-20210422_821.png" width="2048" height="2048">
+  </image>
+  <image id="358" name="carcinoma/LBC2429-20210422/LBC2429-20210422_820.png" width="2048" height="2048">
+  </image>
+  <image id="357" name="carcinoma/LBC2429-20210422/LBC2429-20210422_82.png" width="2048" height="2048">
+  </image>
+  <image id="356" name="carcinoma/LBC2429-20210422/LBC2429-20210422_819.png" width="2048" height="2048">
+  </image>
+  <image id="355" name="carcinoma/LBC2429-20210422/LBC2429-20210422_818.png" width="2048" height="2048">
+  </image>
+  <image id="354" name="carcinoma/LBC2429-20210422/LBC2429-20210422_817.png" width="2048" height="2048">
+  </image>
+  <image id="353" name="carcinoma/LBC2429-20210422/LBC2429-20210422_816.png" width="2048" height="2048">
+  </image>
+  <image id="352" name="carcinoma/LBC2429-20210422/LBC2429-20210422_815.png" width="2048" height="2048">
+  </image>
+  <image id="351" name="carcinoma/LBC2429-20210422/LBC2429-20210422_814.png" width="2048" height="2048">
+  </image>
+  <image id="350" name="carcinoma/LBC2429-20210422/LBC2429-20210422_812.png" width="2048" height="2048">
+  </image>
+  <image id="349" name="carcinoma/LBC2429-20210422/LBC2429-20210422_811.png" width="2048" height="2048">
+  </image>
+  <image id="348" name="carcinoma/LBC2429-20210422/LBC2429-20210422_810.png" width="2048" height="2048">
+  </image>
+  <image id="347" name="carcinoma/LBC2429-20210422/LBC2429-20210422_809.png" width="2048" height="2048">
+  </image>
+  <image id="346" name="carcinoma/LBC2429-20210422/LBC2429-20210422_808.png" width="2048" height="2048">
+  </image>
+  <image id="345" name="carcinoma/LBC2429-20210422/LBC2429-20210422_807.png" width="2048" height="2048">
+  </image>
+  <image id="344" name="carcinoma/LBC2429-20210422/LBC2429-20210422_806.png" width="2048" height="2048">
+  </image>
+  <image id="343" name="carcinoma/LBC2429-20210422/LBC2429-20210422_805.png" width="2048" height="2048">
+  </image>
+  <image id="342" name="carcinoma/LBC2429-20210422/LBC2429-20210422_791.png" width="2048" height="2048">
+  </image>
+  <image id="341" name="carcinoma/LBC2429-20210422/LBC2429-20210422_782.png" width="2048" height="2048">
+  </image>
+  <image id="340" name="carcinoma/LBC2429-20210422/LBC2429-20210422_777.png" width="2048" height="2048">
+  </image>
+  <image id="339" name="carcinoma/LBC2429-20210422/LBC2429-20210422_776.png" width="2048" height="2048">
+  </image>
+  <image id="338" name="carcinoma/LBC2429-20210422/LBC2429-20210422_775.png" width="2048" height="2048">
+  </image>
+  <image id="337" name="carcinoma/LBC2429-20210422/LBC2429-20210422_774.png" width="2048" height="2048">
+  </image>
+  <image id="336" name="carcinoma/LBC2429-20210422/LBC2429-20210422_773.png" width="2048" height="2048">
+  </image>
+  <image id="335" name="carcinoma/LBC2429-20210422/LBC2429-20210422_772.png" width="2048" height="2048">
+  </image>
+  <image id="334" name="carcinoma/LBC2429-20210422/LBC2429-20210422_771.png" width="2048" height="2048">
+  </image>
+  <image id="333" name="carcinoma/LBC2429-20210422/LBC2429-20210422_770.png" width="2048" height="2048">
+  </image>
+  <image id="332" name="carcinoma/LBC2429-20210422/LBC2429-20210422_769.png" width="2048" height="2048">
+  </image>
+  <image id="331" name="carcinoma/LBC2429-20210422/LBC2429-20210422_768.png" width="2048" height="2048">
+  </image>
+  <image id="330" name="carcinoma/LBC2429-20210422/LBC2429-20210422_767.png" width="2048" height="2048">
+  </image>
+  <image id="329" name="carcinoma/LBC2429-20210422/LBC2429-20210422_766.png" width="2048" height="2048">
+  </image>
+  <image id="328" name="carcinoma/LBC2429-20210422/LBC2429-20210422_765.png" width="2048" height="2048">
+  </image>
+  <image id="327" name="carcinoma/LBC2429-20210422/LBC2429-20210422_763.png" width="2048" height="2048">
+  </image>
+  <image id="326" name="carcinoma/LBC2429-20210422/LBC2429-20210422_747.png" width="2048" height="2048">
+  </image>
+  <image id="325" name="carcinoma/LBC2429-20210422/LBC2429-20210422_737.png" width="2048" height="2048">
+  </image>
+  <image id="324" name="carcinoma/LBC2429-20210422/LBC2429-20210422_731.png" width="2048" height="2048">
+  </image>
+  <image id="323" name="carcinoma/LBC2429-20210422/LBC2429-20210422_730.png" width="2048" height="2048">
+  </image>
+  <image id="322" name="carcinoma/LBC2429-20210422/LBC2429-20210422_729.png" width="2048" height="2048">
+  </image>
+  <image id="321" name="carcinoma/LBC2429-20210422/LBC2429-20210422_728.png" width="2048" height="2048">
+  </image>
+  <image id="320" name="carcinoma/LBC2429-20210422/LBC2429-20210422_727.png" width="2048" height="2048">
+  </image>
+  <image id="319" name="carcinoma/LBC2429-20210422/LBC2429-20210422_726.png" width="2048" height="2048">
+  </image>
+  <image id="318" name="carcinoma/LBC2429-20210422/LBC2429-20210422_725.png" width="2048" height="2048">
+  </image>
+  <image id="317" name="carcinoma/LBC2429-20210422/LBC2429-20210422_724.png" width="2048" height="2048">
+  </image>
+  <image id="316" name="carcinoma/LBC2429-20210422/LBC2429-20210422_723.png" width="2048" height="2048">
+  </image>
+  <image id="315" name="carcinoma/LBC2429-20210422/LBC2429-20210422_722.png" width="2048" height="2048">
+  </image>
+  <image id="314" name="carcinoma/LBC2429-20210422/LBC2429-20210422_719.png" width="2048" height="2048">
+  </image>
+  <image id="313" name="carcinoma/LBC2429-20210422/LBC2429-20210422_717.png" width="2048" height="2048">
+  </image>
+  <image id="312" name="carcinoma/LBC2429-20210422/LBC2429-20210422_714.png" width="2048" height="2048">
+  </image>
+  <image id="311" name="carcinoma/LBC2429-20210422/LBC2429-20210422_703.png" width="2048" height="2048">
+  </image>
+  <image id="310" name="carcinoma/LBC2429-20210422/LBC2429-20210422_697.png" width="2048" height="2048">
+  </image>
+  <image id="309" name="carcinoma/LBC2429-20210422/LBC2429-20210422_694.png" width="2048" height="2048">
+  </image>
+  <image id="308" name="carcinoma/LBC2429-20210422/LBC2429-20210422_692.png" width="2048" height="2048">
+  </image>
+  <image id="307" name="carcinoma/LBC2429-20210422/LBC2429-20210422_691.png" width="2048" height="2048">
+  </image>
+  <image id="306" name="carcinoma/LBC2429-20210422/LBC2429-20210422_689.png" width="2048" height="2048">
+  </image>
+  <image id="305" name="carcinoma/LBC2429-20210422/LBC2429-20210422_688.png" width="2048" height="2048">
+  </image>
+  <image id="304" name="carcinoma/LBC2429-20210422/LBC2429-20210422_687.png" width="2048" height="2048">
+  </image>
+  <image id="303" name="carcinoma/LBC2429-20210422/LBC2429-20210422_679.png" width="2048" height="2048">
+  </image>
+  <image id="302" name="carcinoma/LBC2429-20210422/LBC2429-20210422_676.png" width="2048" height="2048">
+  </image>
+  <image id="301" name="carcinoma/LBC2429-20210422/LBC2429-20210422_673.png" width="2048" height="2048">
+  </image>
+  <image id="300" name="carcinoma/LBC2429-20210422/LBC2429-20210422_670.png" width="2048" height="2048">
+  </image>
+  <image id="299" name="carcinoma/LBC2429-20210422/LBC2429-20210422_669.png" width="2048" height="2048">
+  </image>
+  <image id="298" name="carcinoma/LBC2429-20210422/LBC2429-20210422_668.png" width="2048" height="2048">
+  </image>
+  <image id="297" name="carcinoma/LBC2429-20210422/LBC2429-20210422_660.png" width="2048" height="2048">
+  </image>
+  <image id="296" name="carcinoma/LBC2429-20210422/LBC2429-20210422_659.png" width="2048" height="2048">
+  </image>
+  <image id="295" name="carcinoma/LBC2429-20210422/LBC2429-20210422_655.png" width="2048" height="2048">
+  </image>
+  <image id="294" name="carcinoma/LBC2429-20210422/LBC2429-20210422_653.png" width="2048" height="2048">
+  </image>
+  <image id="293" name="carcinoma/LBC2429-20210422/LBC2429-20210422_646.png" width="2048" height="2048">
+  </image>
+  <image id="292" name="carcinoma/LBC2429-20210422/LBC2429-20210422_644.png" width="2048" height="2048">
+  </image>
+  <image id="291" name="carcinoma/LBC2429-20210422/LBC2429-20210422_643.png" width="2048" height="2048">
+  </image>
+  <image id="290" name="carcinoma/LBC2429-20210422/LBC2429-20210422_639.png" width="2048" height="2048">
+  </image>
+  <image id="289" name="carcinoma/LBC2429-20210422/LBC2429-20210422_635.png" width="2048" height="2048">
+  </image>
+  <image id="288" name="carcinoma/LBC2429-20210422/LBC2429-20210422_633.png" width="2048" height="2048">
+  </image>
+  <image id="287" name="carcinoma/LBC2429-20210422/LBC2429-20210422_629.png" width="2048" height="2048">
+  </image>
+  <image id="286" name="carcinoma/LBC2429-20210422/LBC2429-20210422_625.png" width="2048" height="2048">
+  </image>
+  <image id="285" name="carcinoma/LBC2429-20210422/LBC2429-20210422_624.png" width="2048" height="2048">
+  </image>
+  <image id="284" name="carcinoma/LBC2429-20210422/LBC2429-20210422_616.png" width="2048" height="2048">
+  </image>
+  <image id="283" name="carcinoma/LBC2429-20210422/LBC2429-20210422_615.png" width="2048" height="2048">
+  </image>
+  <image id="282" name="carcinoma/LBC2429-20210422/LBC2429-20210422_608.png" width="2048" height="2048">
+  </image>
+  <image id="281" name="carcinoma/LBC2429-20210422/LBC2429-20210422_606.png" width="2048" height="2048">
+  </image>
+  <image id="280" name="carcinoma/LBC2429-20210422/LBC2429-20210422_602.png" width="2048" height="2048">
+  </image>
+  <image id="279" name="carcinoma/LBC2429-20210422/LBC2429-20210422_600.png" width="2048" height="2048">
+  </image>
+  <image id="278" name="carcinoma/LBC2429-20210422/LBC2429-20210422_599.png" width="2048" height="2048">
+  </image>
+  <image id="277" name="carcinoma/LBC2429-20210422/LBC2429-20210422_597.png" width="2048" height="2048">
+  </image>
+  <image id="276" name="carcinoma/LBC2429-20210422/LBC2429-20210422_593.png" width="2048" height="2048">
+  </image>
+  <image id="275" name="carcinoma/LBC2429-20210422/LBC2429-20210422_592.png" width="2048" height="2048">
+  </image>
+  <image id="274" name="carcinoma/LBC2429-20210422/LBC2429-20210422_591.png" width="2048" height="2048">
+  </image>
+  <image id="273" name="carcinoma/LBC2429-20210422/LBC2429-20210422_572.png" width="2048" height="2048">
+  </image>
+  <image id="272" name="carcinoma/LBC2429-20210422/LBC2429-20210422_571.png" width="2048" height="2048">
+  </image>
+  <image id="271" name="carcinoma/LBC2429-20210422/LBC2429-20210422_564.png" width="2048" height="2048">
+  </image>
+  <image id="270" name="carcinoma/LBC2429-20210422/LBC2429-20210422_562.png" width="2048" height="2048">
+  </image>
+  <image id="269" name="carcinoma/LBC2429-20210422/LBC2429-20210422_561.png" width="2048" height="2048">
+  </image>
+  <image id="268" name="carcinoma/LBC2429-20210422/LBC2429-20210422_558.png" width="2048" height="2048">
+  </image>
+  <image id="267" name="carcinoma/LBC2429-20210422/LBC2429-20210422_557.png" width="2048" height="2048">
+  </image>
+  <image id="266" name="carcinoma/LBC2429-20210422/LBC2429-20210422_554.png" width="2048" height="2048">
+  </image>
+  <image id="265" name="carcinoma/LBC2429-20210422/LBC2429-20210422_548.png" width="2048" height="2048">
+  </image>
+  <image id="264" name="carcinoma/LBC2429-20210422/LBC2429-20210422_547.png" width="2048" height="2048">
+  </image>
+  <image id="263" name="carcinoma/LBC2429-20210422/LBC2429-20210422_545.png" width="2048" height="2048">
+  </image>
+  <image id="262" name="carcinoma/LBC2429-20210422/LBC2429-20210422_538.png" width="2048" height="2048">
+  </image>
+  <image id="261" name="carcinoma/LBC2429-20210422/LBC2429-20210422_528.png" width="2048" height="2048">
+  </image>
+  <image id="260" name="carcinoma/LBC2429-20210422/LBC2429-20210422_527.png" width="2048" height="2048">
+  </image>
+  <image id="259" name="carcinoma/LBC2429-20210422/LBC2429-20210422_522.png" width="2048" height="2048">
+  </image>
+  <image id="258" name="carcinoma/LBC2429-20210422/LBC2429-20210422_521.png" width="2048" height="2048">
+  </image>
+  <image id="257" name="carcinoma/LBC2429-20210422/LBC2429-20210422_518.png" width="2048" height="2048">
+  </image>
+  <image id="256" name="carcinoma/LBC2429-20210422/LBC2429-20210422_517.png" width="2048" height="2048">
+  </image>
+  <image id="255" name="carcinoma/LBC2429-20210422/LBC2429-20210422_516.png" width="2048" height="2048">
+  </image>
+  <image id="254" name="carcinoma/LBC2429-20210422/LBC2429-20210422_515.png" width="2048" height="2048">
+  </image>
+  <image id="253" name="carcinoma/LBC2429-20210422/LBC2429-20210422_514.png" width="2048" height="2048">
+  </image>
+  <image id="252" name="carcinoma/LBC2429-20210422/LBC2429-20210422_510.png" width="2048" height="2048">
+  </image>
+  <image id="251" name="carcinoma/LBC2429-20210422/LBC2429-20210422_51.png" width="2048" height="2048">
+  </image>
+  <image id="250" name="carcinoma/LBC2429-20210422/LBC2429-20210422_506.png" width="2048" height="2048">
+  </image>
+  <image id="249" name="carcinoma/LBC2429-20210422/LBC2429-20210422_502.png" width="2048" height="2048">
+  </image>
+  <image id="248" name="carcinoma/LBC2429-20210422/LBC2429-20210422_501.png" width="2048" height="2048">
+  </image>
+  <image id="247" name="carcinoma/LBC2429-20210422/LBC2429-20210422_50.png" width="2048" height="2048">
+  </image>
+  <image id="246" name="carcinoma/LBC2429-20210422/LBC2429-20210422_5.png" width="2048" height="2048">
+  </image>
+  <image id="245" name="carcinoma/LBC2429-20210422/LBC2429-20210422_497.png" width="2048" height="2048">
+  </image>
+  <image id="244" name="carcinoma/LBC2429-20210422/LBC2429-20210422_49.png" width="2048" height="2048">
+  </image>
+  <image id="243" name="carcinoma/LBC2429-20210422/LBC2429-20210422_484.png" width="2048" height="2048">
+  </image>
+  <image id="242" name="carcinoma/LBC2429-20210422/LBC2429-20210422_483.png" width="2048" height="2048">
+  </image>
+  <image id="241" name="carcinoma/LBC2429-20210422/LBC2429-20210422_48.png" width="2048" height="2048">
+  </image>
+  <image id="240" name="carcinoma/LBC2429-20210422/LBC2429-20210422_475.png" width="2048" height="2048">
+  </image>
+  <image id="239" name="carcinoma/LBC2429-20210422/LBC2429-20210422_474.png" width="2048" height="2048">
+  </image>
+  <image id="238" name="carcinoma/LBC2429-20210422/LBC2429-20210422_473.png" width="2048" height="2048">
+  </image>
+  <image id="237" name="carcinoma/LBC2429-20210422/LBC2429-20210422_472.png" width="2048" height="2048">
+  </image>
+  <image id="236" name="carcinoma/LBC2429-20210422/LBC2429-20210422_470.png" width="2048" height="2048">
+  </image>
+  <image id="235" name="carcinoma/LBC2429-20210422/LBC2429-20210422_47.png" width="2048" height="2048">
+  </image>
+  <image id="234" name="carcinoma/LBC2429-20210422/LBC2429-20210422_469.png" width="2048" height="2048">
+  </image>
+  <image id="233" name="carcinoma/LBC2429-20210422/LBC2429-20210422_468.png" width="2048" height="2048">
+  </image>
+  <image id="232" name="carcinoma/LBC2429-20210422/LBC2429-20210422_465.png" width="2048" height="2048">
+  </image>
+  <image id="231" name="carcinoma/LBC2429-20210422/LBC2429-20210422_463.png" width="2048" height="2048">
+  </image>
+  <image id="230" name="carcinoma/LBC2429-20210422/LBC2429-20210422_462.png" width="2048" height="2048">
+  </image>
+  <image id="229" name="carcinoma/LBC2429-20210422/LBC2429-20210422_458.png" width="2048" height="2048">
+  </image>
+  <image id="228" name="carcinoma/LBC2429-20210422/LBC2429-20210422_457.png" width="2048" height="2048">
+  </image>
+  <image id="227" name="carcinoma/LBC2429-20210422/LBC2429-20210422_448.png" width="2048" height="2048">
+  </image>
+  <image id="226" name="carcinoma/LBC2429-20210422/LBC2429-20210422_440.png" width="2048" height="2048">
+  </image>
+  <image id="225" name="carcinoma/LBC2429-20210422/LBC2429-20210422_44.png" width="2048" height="2048">
+  </image>
+  <image id="224" name="carcinoma/LBC2429-20210422/LBC2429-20210422_439.png" width="2048" height="2048">
+  </image>
+  <image id="116" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1533.png" width="2048" height="2048">
+  </image>
+  <image id="115" name="carcinoma/LBC2429-20210422/LBC2429-20210422_152.png" width="2048" height="2048">
+  </image>
+  <image id="114" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1517.png" width="2048" height="2048">
+  </image>
+  <image id="113" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1515.png" width="2048" height="2048">
+  </image>
+  <image id="112" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1512.png" width="2048" height="2048">
+  </image>
+  <image id="111" name="carcinoma/LBC2429-20210422/LBC2429-20210422_151.png" width="2048" height="2048">
+  </image>
+  <image id="110" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1509.png" width="2048" height="2048">
+  </image>
+  <image id="109" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1508.png" width="2048" height="2048">
+  </image>
+  <image id="108" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1507.png" width="2048" height="2048">
+  </image>
+  <image id="107" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1494.png" width="2048" height="2048">
+  </image>
+  <image id="106" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1481.png" width="2048" height="2048">
+  </image>
+  <image id="105" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1476.png" width="2048" height="2048">
+  </image>
+  <image id="104" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1464.png" width="2048" height="2048">
+  </image>
+  <image id="103" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1450.png" width="2048" height="2048">
+  </image>
+  <image id="102" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1440.png" width="2048" height="2048">
+  </image>
+  <image id="101" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1421.png" width="2048" height="2048">
+  </image>
+  <image id="100" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1420.png" width="2048" height="2048">
+  </image>
+  <image id="99" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1406.png" width="2048" height="2048">
+  </image>
+  <image id="98" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1404.png" width="2048" height="2048">
+  </image>
+  <image id="97" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1402.png" width="2048" height="2048">
+  </image>
+  <image id="96" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1399.png" width="2048" height="2048">
+  </image>
+  <image id="95" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1397.png" width="2048" height="2048">
+  </image>
+  <image id="94" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1396.png" width="2048" height="2048">
+  </image>
+  <image id="93" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1384.png" width="2048" height="2048">
+  </image>
+  <image id="92" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1383.png" width="2048" height="2048">
+  </image>
+  <image id="91" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1373.png" width="2048" height="2048">
+  </image>
+  <image id="90" name="carcinoma/LBC2429-20210422/LBC2429-20210422_137.png" width="2048" height="2048">
+  </image>
+  <image id="89" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1368.png" width="2048" height="2048">
+  </image>
+  <image id="88" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1362.png" width="2048" height="2048">
+  </image>
+  <image id="87" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1358.png" width="2048" height="2048">
+  </image>
+  <image id="86" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1352.png" width="2048" height="2048">
+  </image>
+  <image id="85" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1344.png" width="2048" height="2048">
+  </image>
+  <image id="84" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1330.png" width="2048" height="2048">
+  </image>
+  <image id="83" name="carcinoma/LBC2429-20210422/LBC2429-20210422_133.png" width="2048" height="2048">
+  </image>
+  <image id="82" name="carcinoma/LBC2429-20210422/LBC2429-20210422_132.png" width="2048" height="2048">
+  </image>
+  <image id="81" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1318.png" width="2048" height="2048">
+  </image>
+  <image id="80" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1311.png" width="2048" height="2048">
+  </image>
+  <image id="79" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1310.png" width="2048" height="2048">
+  </image>
+  <image id="78" name="carcinoma/LBC2429-20210422/LBC2429-20210422_131.png" width="2048" height="2048">
+  </image>
+  <image id="77" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1308.png" width="2048" height="2048">
+  </image>
+  <image id="76" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1299.png" width="2048" height="2048">
+  </image>
+  <image id="75" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1295.png" width="2048" height="2048">
+  </image>
+  <image id="74" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1287.png" width="2048" height="2048">
+  </image>
+  <image id="73" name="carcinoma/LBC2429-20210422/LBC2429-20210422_128.png" width="2048" height="2048">
+  </image>
+  <image id="72" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1274.png" width="2048" height="2048">
+  </image>
+  <image id="71" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1273.png" width="2048" height="2048">
+  </image>
+  <image id="70" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1270.png" width="2048" height="2048">
+  </image>
+  <image id="69" name="carcinoma/LBC2429-20210422/LBC2429-20210422_127.png" width="2048" height="2048">
+  </image>
+  <image id="68" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1266.png" width="2048" height="2048">
+  </image>
+  <image id="67" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1264.png" width="2048" height="2048">
+  </image>
+  <image id="66" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1260.png" width="2048" height="2048">
+  </image>
+  <image id="65" name="carcinoma/LBC2429-20210422/LBC2429-20210422_126.png" width="2048" height="2048">
+  </image>
+  <image id="64" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1251.png" width="2048" height="2048">
+  </image>
+  <image id="63" name="carcinoma/LBC2429-20210422/LBC2429-20210422_125.png" width="2048" height="2048">
+  </image>
+  <image id="62" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1248.png" width="2048" height="2048">
+  </image>
+  <image id="61" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1246.png" width="2048" height="2048">
+  </image>
+  <image id="60" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1240.png" width="2048" height="2048">
+  </image>
+  <image id="59" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1239.png" width="2048" height="2048">
+  </image>
+  <image id="58" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1230.png" width="2048" height="2048">
+  </image>
+  <image id="57" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1218.png" width="2048" height="2048">
+  </image>
+  <image id="56" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1217.png" width="2048" height="2048">
+  </image>
+  <image id="55" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1215.png" width="2048" height="2048">
+  </image>
+  <image id="54" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1214.png" width="2048" height="2048">
+  </image>
+  <image id="53" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1211.png" width="2048" height="2048">
+  </image>
+  <image id="52" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1206.png" width="2048" height="2048">
+  </image>
+  <image id="51" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1204.png" width="2048" height="2048">
+  </image>
+  <image id="50" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1203.png" width="2048" height="2048">
+  </image>
+  <image id="49" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1199.png" width="2048" height="2048">
+  </image>
+  <image id="48" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1198.png" width="2048" height="2048">
+  </image>
+  <image id="47" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1197.png" width="2048" height="2048">
+  </image>
+  <image id="46" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1186.png" width="2048" height="2048">
+  </image>
+  <image id="45" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1175.png" width="2048" height="2048">
+  </image>
+  <image id="44" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1171.png" width="2048" height="2048">
+  </image>
+  <image id="43" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1170.png" width="2048" height="2048">
+  </image>
+  <image id="42" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1168.png" width="2048" height="2048">
+  </image>
+  <image id="429" name="carcinoma/LBC2429-20210422/LBC2429-20210422_999.png" width="2048" height="2048">
+    <box label="SC" occluded="0" source="manual" xtl="1482.98" ytl="671.74" xbr="1781.59" ybr="878.28" z_order="0">
+      <attribute name="Description">Invasive squamous cell carcinoma</attribute>
+    </box>
+  </image>
+  <image id="428" name="carcinoma/LBC2429-20210422/LBC2429-20210422_996.png" width="2048" height="2048">
+  </image>
+  <image id="427" name="carcinoma/LBC2429-20210422/LBC2429-20210422_990.png" width="2048" height="2048">
+  </image>
+  <image id="426" name="carcinoma/LBC2429-20210422/LBC2429-20210422_985.png" width="2048" height="2048">
+  </image>
+  <image id="425" name="carcinoma/LBC2429-20210422/LBC2429-20210422_983.png" width="2048" height="2048">
+  </image>
+  <image id="424" name="carcinoma/LBC2429-20210422/LBC2429-20210422_981.png" width="2048" height="2048">
+  </image>
+  <image id="423" name="carcinoma/LBC2429-20210422/LBC2429-20210422_980.png" width="2048" height="2048">
+  </image>
+  <image id="422" name="carcinoma/LBC2429-20210422/LBC2429-20210422_979.png" width="2048" height="2048">
+  </image>
+  <image id="421" name="carcinoma/LBC2429-20210422/LBC2429-20210422_977.png" width="2048" height="2048">
+  </image>
+  <image id="420" name="carcinoma/LBC2429-20210422/LBC2429-20210422_974.png" width="2048" height="2048">
+  </image>
+  <image id="419" name="carcinoma/LBC2429-20210422/LBC2429-20210422_967.png" width="2048" height="2048">
+  </image>
+  <image id="418" name="carcinoma/LBC2429-20210422/LBC2429-20210422_966.png" width="2048" height="2048">
+  </image>
+  <image id="417" name="carcinoma/LBC2429-20210422/LBC2429-20210422_960.png" width="2048" height="2048">
+  </image>
+  <image id="416" name="carcinoma/LBC2429-20210422/LBC2429-20210422_958.png" width="2048" height="2048">
+  </image>
+  <image id="415" name="carcinoma/LBC2429-20210422/LBC2429-20210422_955.png" width="2048" height="2048">
+  </image>
+  <image id="223" name="carcinoma/LBC2429-20210422/LBC2429-20210422_433.png" width="2048" height="2048">
+  </image>
+  <image id="222" name="carcinoma/LBC2429-20210422/LBC2429-20210422_432.png" width="2048" height="2048">
+  </image>
+  <image id="221" name="carcinoma/LBC2429-20210422/LBC2429-20210422_430.png" width="2048" height="2048">
+  </image>
+  <image id="220" name="carcinoma/LBC2429-20210422/LBC2429-20210422_43.png" width="2048" height="2048">
+  </image>
+  <image id="219" name="carcinoma/LBC2429-20210422/LBC2429-20210422_429.png" width="2048" height="2048">
+  </image>
+  <image id="218" name="carcinoma/LBC2429-20210422/LBC2429-20210422_426.png" width="2048" height="2048">
+  </image>
+  <image id="217" name="carcinoma/LBC2429-20210422/LBC2429-20210422_425.png" width="2048" height="2048">
+  </image>
+  <image id="216" name="carcinoma/LBC2429-20210422/LBC2429-20210422_418.png" width="2048" height="2048">
+  </image>
+  <image id="215" name="carcinoma/LBC2429-20210422/LBC2429-20210422_416.png" width="2048" height="2048">
+  </image>
+  <image id="214" name="carcinoma/LBC2429-20210422/LBC2429-20210422_412.png" width="2048" height="2048">
+  </image>
+  <image id="213" name="carcinoma/LBC2429-20210422/LBC2429-20210422_411.png" width="2048" height="2048">
+  </image>
+  <image id="212" name="carcinoma/LBC2429-20210422/LBC2429-20210422_4.png" width="2048" height="2048">
+  </image>
+  <image id="211" name="carcinoma/LBC2429-20210422/LBC2429-20210422_396.png" width="2048" height="2048">
+  </image>
+  <image id="210" name="carcinoma/LBC2429-20210422/LBC2429-20210422_395.png" width="2048" height="2048">
+  </image>
+  <image id="209" name="carcinoma/LBC2429-20210422/LBC2429-20210422_389.png" width="2048" height="2048">
+  </image>
+  <image id="208" name="carcinoma/LBC2429-20210422/LBC2429-20210422_388.png" width="2048" height="2048">
+  </image>
+  <image id="207" name="carcinoma/LBC2429-20210422/LBC2429-20210422_386.png" width="2048" height="2048">
+  </image>
+  <image id="206" name="carcinoma/LBC2429-20210422/LBC2429-20210422_385.png" width="2048" height="2048">
+  </image>
+  <image id="205" name="carcinoma/LBC2429-20210422/LBC2429-20210422_384.png" width="2048" height="2048">
+  </image>
+  <image id="204" name="carcinoma/LBC2429-20210422/LBC2429-20210422_373.png" width="2048" height="2048">
+  </image>
+  <image id="203" name="carcinoma/LBC2429-20210422/LBC2429-20210422_370.png" width="2048" height="2048">
+  </image>
+  <image id="202" name="carcinoma/LBC2429-20210422/LBC2429-20210422_367.png" width="2048" height="2048">
+  </image>
+  <image id="201" name="carcinoma/LBC2429-20210422/LBC2429-20210422_365.png" width="2048" height="2048">
+  </image>
+  <image id="200" name="carcinoma/LBC2429-20210422/LBC2429-20210422_364.png" width="2048" height="2048">
+  </image>
+  <image id="199" name="carcinoma/LBC2429-20210422/LBC2429-20210422_358.png" width="2048" height="2048">
+  </image>
+  <image id="198" name="carcinoma/LBC2429-20210422/LBC2429-20210422_357.png" width="2048" height="2048">
+  </image>
+  <image id="197" name="carcinoma/LBC2429-20210422/LBC2429-20210422_352.png" width="2048" height="2048">
+  </image>
+  <image id="196" name="carcinoma/LBC2429-20210422/LBC2429-20210422_351.png" width="2048" height="2048">
+  </image>
+  <image id="195" name="carcinoma/LBC2429-20210422/LBC2429-20210422_343.png" width="2048" height="2048">
+  </image>
+  <image id="194" name="carcinoma/LBC2429-20210422/LBC2429-20210422_342.png" width="2048" height="2048">
+  </image>
+  <image id="193" name="carcinoma/LBC2429-20210422/LBC2429-20210422_341.png" width="2048" height="2048">
+  </image>
+  <image id="192" name="carcinoma/LBC2429-20210422/LBC2429-20210422_339.png" width="2048" height="2048">
+  </image>
+  <image id="191" name="carcinoma/LBC2429-20210422/LBC2429-20210422_324.png" width="2048" height="2048">
+  </image>
+  <image id="190" name="carcinoma/LBC2429-20210422/LBC2429-20210422_308.png" width="2048" height="2048">
+  </image>
+  <image id="189" name="carcinoma/LBC2429-20210422/LBC2429-20210422_307.png" width="2048" height="2048">
+  </image>
+  <image id="188" name="carcinoma/LBC2429-20210422/LBC2429-20210422_298.png" width="2048" height="2048">
+  </image>
+  <image id="187" name="carcinoma/LBC2429-20210422/LBC2429-20210422_281.png" width="2048" height="2048">
+  </image>
+  <image id="186" name="carcinoma/LBC2429-20210422/LBC2429-20210422_264.png" width="2048" height="2048">
+  </image>
+  <image id="185" name="carcinoma/LBC2429-20210422/LBC2429-20210422_263.png" width="2048" height="2048">
+  </image>
+  <image id="184" name="carcinoma/LBC2429-20210422/LBC2429-20210422_260.png" width="2048" height="2048">
+  </image>
+  <image id="183" name="carcinoma/LBC2429-20210422/LBC2429-20210422_259.png" width="2048" height="2048">
+  </image>
+  <image id="182" name="carcinoma/LBC2429-20210422/LBC2429-20210422_258.png" width="2048" height="2048">
+  </image>
+  <image id="181" name="carcinoma/LBC2429-20210422/LBC2429-20210422_243.png" width="2048" height="2048">
+  </image>
+  <image id="180" name="carcinoma/LBC2429-20210422/LBC2429-20210422_238.png" width="2048" height="2048">
+  </image>
+  <image id="179" name="carcinoma/LBC2429-20210422/LBC2429-20210422_220.png" width="2048" height="2048">
+  </image>
+  <image id="178" name="carcinoma/LBC2429-20210422/LBC2429-20210422_219.png" width="2048" height="2048">
+  </image>
+  <image id="177" name="carcinoma/LBC2429-20210422/LBC2429-20210422_216.png" width="2048" height="2048">
+  </image>
+  <image id="176" name="carcinoma/LBC2429-20210422/LBC2429-20210422_215.png" width="2048" height="2048">
+  </image>
+  <image id="175" name="carcinoma/LBC2429-20210422/LBC2429-20210422_214.png" width="2048" height="2048">
+  </image>
+  <image id="174" name="carcinoma/LBC2429-20210422/LBC2429-20210422_205.png" width="2048" height="2048">
+  </image>
+  <image id="173" name="carcinoma/LBC2429-20210422/LBC2429-20210422_2022.png" width="2048" height="2048">
+  </image>
+  <image id="172" name="carcinoma/LBC2429-20210422/LBC2429-20210422_2020.png" width="2048" height="2048">
+  </image>
+  <image id="171" name="carcinoma/LBC2429-20210422/LBC2429-20210422_2018.png" width="2048" height="2048">
+  </image>
+  <image id="170" name="carcinoma/LBC2429-20210422/LBC2429-20210422_201.png" width="2048" height="2048">
+  </image>
+  <image id="169" name="carcinoma/LBC2429-20210422/LBC2429-20210422_2001.png" width="2048" height="2048">
+  </image>
+  <image id="168" name="carcinoma/LBC2429-20210422/LBC2429-20210422_199.png" width="2048" height="2048">
+  </image>
+  <image id="167" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1984.png" width="2048" height="2048">
+  </image>
+  <image id="166" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1982.png" width="2048" height="2048">
+  </image>
+  <image id="165" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1978.png" width="2048" height="2048">
+  </image>
+  <image id="164" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1977.png" width="2048" height="2048">
+  </image>
+  <image id="163" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1975.png" width="2048" height="2048">
+  </image>
+  <image id="162" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1938.png" width="2048" height="2048">
+  </image>
+  <image id="161" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1937.png" width="2048" height="2048">
+  </image>
+  <image id="160" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1934.png" width="2048" height="2048">
+  </image>
+  <image id="159" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1928.png" width="2048" height="2048">
+  </image>
+  <image id="158" name="carcinoma/LBC2429-20210422/LBC2429-20210422_190.png" width="2048" height="2048">
+  </image>
+  <image id="157" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1892.png" width="2048" height="2048">
+  </image>
+  <image id="156" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1891.png" width="2048" height="2048">
+  </image>
+  <image id="155" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1890.png" width="2048" height="2048">
+  </image>
+  <image id="154" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1889.png" width="2048" height="2048">
+  </image>
+  <image id="153" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1888.png" width="2048" height="2048">
+  </image>
+  <image id="152" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1866.png" width="2048" height="2048">
+  </image>
+  <image id="151" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1865.png" width="2048" height="2048">
+  </image>
+  <image id="150" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1846.png" width="2048" height="2048">
+  </image>
+  <image id="149" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1844.png" width="2048" height="2048">
+  </image>
+  <image id="148" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1817.png" width="2048" height="2048">
+  </image>
+  <image id="147" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1816.png" width="2048" height="2048">
+  </image>
+  <image id="146" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1802.png" width="2048" height="2048">
+  </image>
+  <image id="145" name="carcinoma/LBC2429-20210422/LBC2429-20210422_180.png" width="2048" height="2048">
+  </image>
+  <image id="144" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1773.png" width="2048" height="2048">
+  </image>
+  <image id="143" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1772.png" width="2048" height="2048">
+  </image>
+  <image id="142" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1771.png" width="2048" height="2048">
+  </image>
+  <image id="141" name="carcinoma/LBC2429-20210422/LBC2429-20210422_176.png" width="2048" height="2048">
+  </image>
+  <image id="140" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1758.png" width="2048" height="2048">
+  </image>
+  <image id="139" name="carcinoma/LBC2429-20210422/LBC2429-20210422_175.png" width="2048" height="2048">
+  </image>
+  <image id="138" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1738.png" width="2048" height="2048">
+  </image>
+  <image id="137" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1736.png" width="2048" height="2048">
+  </image>
+  <image id="136" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1733.png" width="2048" height="2048">
+  </image>
+  <image id="135" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1728.png" width="2048" height="2048">
+  </image>
+  <image id="134" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1714.png" width="2048" height="2048">
+  </image>
+  <image id="133" name="carcinoma/LBC2429-20210422/LBC2429-20210422_171.png" width="2048" height="2048">
+  </image>
+  <image id="132" name="carcinoma/LBC2429-20210422/LBC2429-20210422_170.png" width="2048" height="2048">
+  </image>
+  <image id="131" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1670.png" width="2048" height="2048">
+  </image>
+  <image id="130" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1660.png" width="2048" height="2048">
+  </image>
+  <image id="129" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1659.png" width="2048" height="2048">
+  </image>
+  <image id="128" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1638.png" width="2048" height="2048">
+  </image>
+  <image id="127" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1637.png" width="2048" height="2048">
+  </image>
+  <image id="126" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1636.png" width="2048" height="2048">
+  </image>
+  <image id="125" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1626.png" width="2048" height="2048">
+  </image>
+  <image id="124" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1607.png" width="2048" height="2048">
+  </image>
+  <image id="123" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1602.png" width="2048" height="2048">
+  </image>
+  <image id="122" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1582.png" width="2048" height="2048">
+  </image>
+  <image id="121" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1570.png" width="2048" height="2048">
+  </image>
+  <image id="120" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1561.png" width="2048" height="2048">
+  </image>
+  <image id="119" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1558.png" width="2048" height="2048">
+  </image>
+  <image id="118" name="carcinoma/LBC2429-20210422/LBC2429-20210422_154.png" width="2048" height="2048">
+  </image>
+  <image id="117" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1538.png" width="2048" height="2048">
+  </image>
+  <image id="41" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1163.png" width="2048" height="2048">
+  </image>
+  <image id="40" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1158.png" width="2048" height="2048">
+  </image>
+  <image id="39" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1153.png" width="2048" height="2048">
+  </image>
+  <image id="38" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1142.png" width="2048" height="2048">
+  </image>
+  <image id="37" name="carcinoma/LBC2429-20210422/LBC2429-20210422_113.png" width="2048" height="2048">
+  </image>
+  <image id="36" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1128.png" width="2048" height="2048">
+  </image>
+  <image id="35" name="carcinoma/LBC2429-20210422/LBC2429-20210422_112.png" width="2048" height="2048">
+  </image>
+  <image id="34" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1117.png" width="2048" height="2048">
+  </image>
+  <image id="33" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1115.png" width="2048" height="2048">
+  </image>
+  <image id="32" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1109.png" width="2048" height="2048">
+  </image>
+  <image id="31" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1108.png" width="2048" height="2048">
+  </image>
+  <image id="30" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1098.png" width="2048" height="2048">
+  </image>
+  <image id="29" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1081.png" width="2048" height="2048">
+  </image>
+  <image id="28" name="carcinoma/LBC2429-20210422/LBC2429-20210422_108.png" width="2048" height="2048">
+  </image>
+  <image id="27" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1076.png" width="2048" height="2048">
+  </image>
+  <image id="26" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1073.png" width="2048" height="2048">
+  </image>
+  <image id="25" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1072.png" width="2048" height="2048">
+  </image>
+  <image id="24" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1071.png" width="2048" height="2048">
+  </image>
+  <image id="23" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1070.png" width="2048" height="2048">
+  </image>
+  <image id="22" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1068.png" width="2048" height="2048">
+  </image>
+  <image id="21" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1065.png" width="2048" height="2048">
+  </image>
+  <image id="20" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1064.png" width="2048" height="2048">
+  </image>
+  <image id="19" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1063.png" width="2048" height="2048">
+  </image>
+  <image id="18" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1055.png" width="2048" height="2048">
+  </image>
+  <image id="17" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1054.png" width="2048" height="2048">
+  </image>
+  <image id="16" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1047.png" width="2048" height="2048">
+  </image>
+  <image id="15" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1045.png" width="2048" height="2048">
+  </image>
+  <image id="14" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1036.png" width="2048" height="2048">
+  </image>
+  <image id="13" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1033.png" width="2048" height="2048">
+  </image>
+  <image id="12" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1026.png" width="2048" height="2048">
+  </image>
+  <image id="11" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1025.png" width="2048" height="2048">
+  </image>
+  <image id="10" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1024.png" width="2048" height="2048">
+  </image>
+  <image id="9" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1022.png" width="2048" height="2048">
+  </image>
+  <image id="8" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1021.png" width="2048" height="2048">
+  </image>
+  <image id="7" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1011.png" width="2048" height="2048">
+  </image>
+  <image id="6" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1010.png" width="2048" height="2048">
+  </image>
+  <image id="5" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1009.png" width="2048" height="2048">
+  </image>
+  <image id="4" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1008.png" width="2048" height="2048">
+  </image>
+  <image id="3" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1003.png" width="2048" height="2048">
+  </image>
+  <image id="2" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1002.png" width="2048" height="2048">
+  </image>
+  <image id="1" name="carcinoma/LBC2429-20210422/LBC2429-20210422_1001.png" width="2048" height="2048">
+  </image>
+  <image id="0" name="carcinoma/LBC2429-20210422/LBC2429-20210422_0.png" width="2048" height="2048">
+  </image>
+</annotations>
