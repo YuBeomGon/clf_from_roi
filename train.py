@@ -72,6 +72,8 @@ parser.add_argument('--img_size', default=400, type=int, help='input image resol
 parser.add_argument('--num_classes', default=5, type=int, help='number of classes')
 parser.add_argument('--groups', default=3, type=int, help='number of groups of data')
 parser.add_argument('--drop_last', default=False, type=bool, help='drop or not on every end of epoch or groups')
+
+parser.add_argument('--pretrained', default=False, type=bool, help='set True if using pretrained weights')
 parser.add_argument('--saved_dir', default='./saved_models/tunning', type=str, help='directory for model checkpoint')
 parser.add_argument('--from_contra', default='./saved_models/contra', type=str, help='directory for model checkpoint')
 # parser.add_argument('--is_contra', default=False, type=bool, help='supervised contrastive learning or not')
@@ -92,7 +94,6 @@ class PapsClsModel(LightningModule) :
         from_contra : str = './saved_models/contra/',
         groups : int = 3,
         drop_last : bool = False,
-        # is_contra: bool = False,
     ):
         
         super().__init__()
@@ -370,7 +371,7 @@ if __name__ == "__main__":
     model = PapsClsModel(
         data_path=args.data_path,
         arch=args.arch,
-        pretrained=False,
+        pretrained=args.pretrained,
         workers=args.workers,
         lr = args.lr,
         batch_size=args.batch_size,
@@ -378,7 +379,7 @@ if __name__ == "__main__":
         num_classes=args.num_classes,
         groups=args.groups,
         drop_last=args.drop_last,
-        from_contra=args.from_contra)
+    )
     
     path = args.from_contra + '/' + args.arch
     if os.path.isdir(path) and 'paps-contra_best.ckpt' in os.listdir(path) :
